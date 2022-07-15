@@ -1,29 +1,13 @@
+import React from 'react';
 import { NavLink, Link} from "react-router-dom";
 
 const About = () => {
-<>
-    <meta charSet="utf-8" />
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Modern Business - Start Bootstrap Template</title>
-    {/* Favicon*/}
-    <link rel="icon" type="image/x-icon" to="assets/favicon.ico" />
-    {/* Bootstrap icons*/}
-    <link
-        to="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-        rel="stylesheet"
-    />
-    {/* Core theme CSS (includes Bootstrap)*/}
-    <link to="css/styles.css" rel="stylesheet" />
+return <>
     <main className="flex-shrink-0">
         {/* Navigation*/}
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container px-5">
-                <NavLink className="navbar-brand" to="index.html">
+                <NavLink className="navbar-brand" to="/">
                     Start Bootstrap
                 </NavLink>
                 <button
@@ -40,27 +24,27 @@ const About = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="index.html">
+                            <NavLink className="nav-link" to="/">
                                 Home
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="about.html">
+                            <NavLink className="nav-link" to="/about">
                                 About
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="contact.html">
+                            <NavLink className="nav-link" to="/contact">
                                 Contact
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="pricing.html">
+                            <NavLink className="nav-link" to="/pricing">
                                 Pricing
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="faq.html">
+                            <NavLink className="nav-link" to="/faq">
                                 FAQ
                             </NavLink>
                         </li>
@@ -80,12 +64,12 @@ const About = () => {
                                 aria-labelledby="navbarDropdownBlog"
                             >
                                 <li>
-                                    <NavLink className="dropdown-item" to="blog-home.html">
+                                    <NavLink className="dropdown-item" to="/blog-home">
                                         Blog Home
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="dropdown-item" to="blog-post.html">
+                                    <NavLink className="dropdown-item" to="/blog-post">
                                         Blog Post
                                     </NavLink>
                                 </li>
@@ -107,12 +91,12 @@ const About = () => {
                                 aria-labelledby="navbarDropdownPortfolio"
                             >
                                 <li>
-                                    <NavLink className="dropdown-item" to="portfolio-overview.html">
+                                    <NavLink className="dropdown-item" to="/portfolio-overview">
                                         Portfolio Overview
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="dropdown-item" to="portfolio-item.html">
+                                    <NavLink className="dropdown-item" to="/portfolio-item">
                                         Portfolio Item
                                     </NavLink>
                                 </li>

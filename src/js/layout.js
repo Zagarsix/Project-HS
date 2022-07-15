@@ -1,45 +1,59 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import ScrollToTop from "./component/scrollToTop";
 
-import { Home } from "./views/home";
-import { Demo } from "./views/demo";
-import { Single } from "./views/single";
-import injectContext from "./store/appContext";
+import Home from "./component/home";
+import About from "./component/about";
+import Contact from "./component/contact";
+import Pricing from "./component/pricing";
+import Faq from "./component/faq";
+import BlogHome from "./component/blog-home";
+import BlogPost from "./component/blog-post";
+import PortfolioOverview from "./component/portfolio-overview";
+import PortfolioItem from "./component/portfolio-item";
+import NotFound from "./component/NotFound";
 
-import { Navbar } from "./component/navbar";
-import { Footer } from "./component/footer";
+
 
 //create your first component
 const Layout = () => {
-	//the basename is used when your project is published in a subdirectory and not in the root of the domain
-	// you can set the basename on the .env file located at the root of this project, E.g: BASENAME=/react-hello-webapp/
-	const basename = process.env.BASENAME || "";
-
+	
 	return (
 		<div>
-			<BrowserRouter basename={basename}>
-				<ScrollToTop>
-					<Navbar />
+			<BrowserRouter>
 					<Switch>
-						<Route exact path="/">
+						<Route exact path={"/"} >
 							<Home />
 						</Route>
-						<Route exact path="/demo">
-							<Demo />
+						<Route exact path={"/about"} >
+							<About />
 						</Route>
-						<Route exact path="/single/:theid">
-							<Single />
+						<Route exact path={"/contact"} >
+							<Contact />
 						</Route>
-						<Route>
-							<h1>Not found!</h1>
+						<Route exact path={"/pricing"} >
+							<Pricing />
 						</Route>
+						<Route exact path={"/faq"}>
+							<Faq />
+						</Route>
+						<Route exact path={"/blog-home"} >
+							<BlogHome />
+						</Route>
+						<Route exact path={"/blog-post"} >
+							<BlogPost />
+						</Route>
+						<Route exact path={"/portfolio-overview"} >
+							<PortfolioOverview />
+						</Route>
+						<Route exact path={"/portfolio-item"} >
+							<PortfolioItem />
+						</Route>
+						<Route component={NotFound}/>
+							
 					</Switch>
-					<Footer />
-				</ScrollToTop>
 			</BrowserRouter>
 		</div>
 	);
 };
 
-export default injectContext(Layout);
+export default Layout;
