@@ -48,8 +48,7 @@ const Layout = () => {
 						<Route exact path={"/portfolio-item"} >
 							<PortfolioItem />
 						</Route>
-						<Route component={NotFound}/>
-							
+						<Route component={NotFound}/>						
 					</Switch>
 			</BrowserRouter>
 		</div>

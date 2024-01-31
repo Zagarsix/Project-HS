@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink,Link } from "react-router-dom";
+import fotoDany from '../../img/wallpaper.jpg'
 
 const Home = () => {
 return<>
@@ -8,7 +9,7 @@ return<>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container px-5">
         <NavLink className="navbar-brand" to="/">
-          Start Bootstrap
+          Danydent
         </NavLink>
         <button
           className="navbar-toggler"
@@ -23,29 +24,29 @@ return<>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink className="nav-link" to="/">
                 Home
               </NavLink>
-            </li>
+            </li> */}
             <li className="nav-item">
               <NavLink className="nav-link" to="/about">
-                About
+                Dra. Daniela
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact">
-                Contact
+                Contacto
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/pricing">
-                Pricing
+                Precios
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/faq">
-                FAQ
+                Preguntas frecuentes
               </NavLink>
             </li>
             <li className="nav-item dropdown">
@@ -57,7 +58,7 @@ return<>
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Blog
+                Servicios
               </NavLink>
               <ul
                 className="dropdown-menu dropdown-menu-end"
@@ -65,12 +66,12 @@ return<>
               >
                 <li>
                   <NavLink className="dropdown-item" to="/blog-home.html">
-                    Blog Home
+                    Odontología
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/blog-post.html">
-                    Blog Post
+                    Estética facial
                   </NavLink>
                 </li>
               </ul>
@@ -84,7 +85,7 @@ return<>
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Portfolio
+                Promociones
               </NavLink>
               <ul
                 className="dropdown-menu dropdown-menu-end"
@@ -92,12 +93,12 @@ return<>
               >
                 <li>
                   <NavLink className="dropdown-item" to="/portfolio-overview">
-                    Portfolio Overview
+                    Ortodoncia restaurativa
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/portfolio-item">
-                    Portfolio Item
+                    Lifting facial
                   </NavLink>
                 </li>
               </ul>
@@ -108,35 +109,35 @@ return<>
     </nav>
     {/* Header*/}
     <header className="bg-dark py-5">
-      <div className="container px-5">
+      <div className="containerDany px-5">
         <div className="row gx-5 align-items-center justify-content-center">
           <div className="col-lg-8 col-xl-7 col-xxl-6">
             <div className="my-5 text-center text-xl-start">
               <h1 className="display-5 fw-bolder text-white mb-2">
-                A Bootstrap 5 template for modern businesses
+                Clientes más felices
               </h1>
               <p className="lead fw-normal text-white-50 mb-4">
-                Quickly design and customize responsive mobile-first sites with
-                Bootstrap, the world’s most popular front-end open source
-                toolkit!
+              Nuestra misión es crear sonrisas.
+              Recupera tu sonrisa en una semana.
+              También haz que tu rostro sonría y que tu felicidad sea su mejor regalo. 
               </p>
               <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                 <NavLink
                   className="btn btn-primary btn-lg px-4 me-sm-3"
                   to="#features"
                 >
-                  Get Started
+                  Agendar Cita
                 </NavLink>
                 <NavLink className="btn btn-outline-light btn-lg px-4" to="#!">
-                  Learn More
+                  Conocer más...
                 </NavLink>
               </div>
             </div>
           </div>
           <div className="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
             <img
-              className="img-fluid rounded-3 my-5"
-              src="https://dummyimage.com/600x400/343a40/6c757d"
+              className="Dany rounded-3 p-2 m-1"
+              src={fotoDany}
               alt="..."
             />
           </div>
