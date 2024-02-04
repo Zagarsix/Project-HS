@@ -2,22 +2,35 @@
     General Styles
 */
 .bg-dark {
-    background-image: url("https://media.istockphoto.com/id/1151551500/es/v%C3%ADdeo/resoluci%C3%B3n-4k-soft-lines-v%C3%ADdeo-en-stock.jpg?s=640x640&k=20&c=CeI0_cXfCHQY2PESWto_Yh2IxNac60b6jsCbZzpJsAk=");
-    background-color: none;
+    background-image: URL("https://www.xtrafondos.com/wallpapers/3d-abstraccion-morado-7934.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
+.navbar {
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: blueviolet;
+}
+.navbar-nav {
+  filter: opacity(60%);
+}
+.navbar-nav:hover {
+  filter: opacity(100%);
+}
   .navbar-brand{
     font-size:xx-large;
     font-weight: bolder;
     font-style: italic;
     color: blueviolet;
+    text-shadow: 0 0 0.2em blueviolet, 0 0 0.2em blueviolet;
   }
+
 .Dany {
     border-radius: 50%;
     border-style: solid;
+    border-width: 1px;
     border-color: blueviolet;
     width: 450px;
     height: 420px;

@@ -9,7 +9,7 @@ return<>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container px-5">
         <NavLink className="navbar-brand" to="/">
-          Danydent
+          Dra. Dany
         </NavLink>
         <button
           className="navbar-toggler"
