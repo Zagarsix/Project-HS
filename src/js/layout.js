@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+import Navbar from "./component/navbar";
 import Home from "./component/home";
 import About from "./component/about";
 import Contact from "./component/contact";
@@ -11,6 +12,7 @@ import BlogPost from "./component/blog-post";
 import PortfolioOverview from "./component/portfolio-overview";
 import PortfolioItem from "./component/portfolio-item";
 import NotFound from "./component/NotFound";
+import Footer from "./component/footer";
 
 
 
@@ -21,9 +23,10 @@ const Layout = () => {
 		<div>
 			<BrowserRouter>
 					<Switch>
-						<Route exact path={"/"} >
+						<Navbar />
+						{/* <Route exact path={"/"} >
 							<Home />
-						</Route>
+						</Route> */}
 						<Route exact path={"/about"} >
 							<About />
 						</Route>
@@ -48,7 +51,8 @@ const Layout = () => {
 						<Route exact path={"/portfolio-item"} >
 							<PortfolioItem />
 						</Route>
-						<Route component={NotFound}/>						
+						<Route component={NotFound}/>
+						<Footer />						
 					</Switch>
 			</BrowserRouter>
 		</div>
