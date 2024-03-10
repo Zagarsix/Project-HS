@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink, Link } from "react-router-dom";
+import logoCC from "../../img/iconDark.jpg"
 
 const Footer = () => {
     return <>
