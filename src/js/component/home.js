@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import fotoDany from '../../img/wallpaper.jpg'
+
+import fotoDany from "../../img/wallpaper.jpg";
+import tapadurasResina from "../../img/tapaduras-de-resina.jpg";
+import botox from "../../img/Inyección-de-botox.jpg";
+import tuboVale from "../../img/Vale-tubo.jpg"
 
 const Home = () => {
   return <>
@@ -32,16 +36,95 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+            {/* <div className="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
               <img
                 className="Dany rounded-3 p-2 m-1"
                 src={fotoDany}
                 alt="..."
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </header>
+      {/* Carousel*/}
+      <div id="carousel" className="carousel slide col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+              <div className="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide-to={0}
+                  className="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                />
+                <button
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide-to={1}
+                  aria-label="Slide 2"
+                />
+                <button
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide-to={2}
+                  aria-label="Slide 3"
+                />
+                <button
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide-to={3}
+                  aria-label="Slide 4"
+                />
+              </div>
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img src={fotoDany} className="Dany rounded-3 p-2 m-1" alt="..." />
+                  <div className="carousel-caption d-none d-md-block" id="description">
+                    <h5>Mesoterapia con dermapen</h5>
+                    <p>Inyección de vitaminas, ácido hialurónico y coctéles.</p>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img src= {tapadurasResina} className="Dany rounded-3 p-2 m-1" alt="..." />
+                  <div className="carousel-caption d-none d-md-block" id="description">
+                    <h5>Tapaduras blancas</h5>
+                    <p>Cambio de amalgama por tapadura de resina, desde $ 40.000</p>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img src= {botox} className="Dany rounded-3 p-2 m-1" alt="..." />
+                  <div className="carousel-caption d-none d-md-block" id="description">
+                    <h5>Aplicación de bótox</h5>
+                    <p>Aplicación por zonas desde los $ 90.000</p>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img src= {tuboVale} className="Dany rounded-3 p-2 m-1" alt="..." />
+                  <div className="carousel-caption d-none d-md-block" id="description">
+                    <h5>Odontopediatría</h5>
+                    <p>Atención integral para niños desde el primer añito.</p>
+                  </div>
+                </div>
+              </div>
+              <button
+                className="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide="prev"
+              >
+                <span className="carousel-control-prev-icon" aria-hidden="true" />
+                <span className="visually-hidden">Previous</span>
+              </button>
+              <button
+                className="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel"
+                data-bs-slide="next"
+              >
+                <span className="carousel-control-next-icon" aria-hidden="true" />
+                <span className="visually-hidden">Next</span>
+              </button>
+            </div>
       {/* Features section*/}
       <section className="py-5" id="features">
         <div className="container px-5 my-5">
