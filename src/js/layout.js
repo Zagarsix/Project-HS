@@ -18,42 +18,42 @@ import Footer from "./component/footer";
 
 //create your first component
 const Layout = () => {
-	
+
 	return (
 		<div>
 			<BrowserRouter>
-					<Switch>
-						<Navbar />
-						{/* <Route exact path={"/"} >
-							<Home />
-						</Route> */}
-						<Route exact path={"/about"} >
-							<About />
-						</Route>
-						<Route exact path={"/contact"} >
-							<Contact />
-						</Route>
-						<Route exact path={"/pricing"} >
-							<Pricing />
-						</Route>
-						<Route exact path={"/faq"}>
-							<Faq />
-						</Route>
-						<Route exact path={"/blog-home"} >
-							<BlogHome />
-						</Route>
-						<Route exact path={"/blog-post"} >
-							<BlogPost />
-						</Route>
-						<Route exact path={"/portfolio-overview"} >
-							<PortfolioOverview />
-						</Route>
-						<Route exact path={"/portfolio-item"} >
-							<PortfolioItem />
-						</Route>
-						<Route component={NotFound}/>
-						<Footer />						
-					</Switch>
+				<Navbar />
+				<Switch>
+					<Route exact path={"/"} >
+						<Home />
+					</Route>
+					<Route exact path={"/about"} >
+						<About />
+					</Route>
+					<Route exact path={"/contact"} >
+						<Contact />
+					</Route>
+					<Route exact path={"/pricing"} >
+						<Pricing />
+					</Route>
+					<Route exact path={"/faq"}>
+						<Faq />
+					</Route>
+					<Route exact path={"/blog-home"} >
+						<BlogHome />
+					</Route>
+					<Route exact path={"/blog-post"} >
+						<BlogPost />
+					</Route>
+					<Route exact path={"/portfolio-overview"} >
+						<PortfolioOverview />
+					</Route>
+					<Route exact path={"/portfolio-item"} >
+						<PortfolioItem />
+					</Route>
+					<Route component={NotFound} />
+				</Switch>
+				<Footer />
 			</BrowserRouter>
 		</div>
 	);
