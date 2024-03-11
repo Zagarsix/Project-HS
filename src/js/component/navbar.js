@@ -1,12 +1,13 @@
 import React from 'react';
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return <>
         <main className="flex-shrink-0"></main>
         {/* Navigation*/}
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container px-5">
+            {/* <img className="mx-3" src={iconDP} alt="logo-brand" width="120" height="120"></img> */}
                 <NavLink className="navbar-brand" to="/">
                     Dra. Dany
                 </NavLink>

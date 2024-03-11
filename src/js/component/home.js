@@ -43,9 +43,6 @@ const Home = () => {
                 alt="..."
               />
             </div> */}
-          </div>
-        </div>
-      </header>
       {/* Carousel*/}
       <div id="carousel" className="carousel slide col-xl-5 col-xxl-6 d-none d-xl-block text-center">
               <div className="carousel-indicators">
@@ -125,6 +122,9 @@ const Home = () => {
                 <span className="visually-hidden">Next</span>
               </button>
             </div>
+            </div>
+        </div>
+      </header>
       {/* Features section*/}
       <section className="py-5" id="features">
         <div className="container px-5 my-5">

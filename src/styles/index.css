@@ -12,6 +12,7 @@
   border-bottom-style: solid;
   border-width: 1px;
   border-color: blueviolet;
+  background-color: rgb(82, 1, 82);
 }
 .navbar-nav {
   filter: opacity(60%);
@@ -32,7 +33,19 @@
     border-style: solid;
     border-width: 1px;
     border-color: blueviolet;
+    background-size: cover;
+    background-attachment: fixed; 
     width: 450px;
-    height: 420px;
+    height: 460px;
 }
 
+#description{
+  color: black;
+  text-shadow: 0 0 0.2em purple, 0 0 0.2em purple;
+}
+.footer {
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: blueviolet;
+  background-color: rgb(82, 1, 82);
+}

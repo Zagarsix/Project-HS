@@ -5,7 +5,7 @@ import logoCC from "../../img/iconDark.jpg"
 const Footer = () => {
     return <>
         {/* Footer*/}
-        <footer className="bg-dark py-4 mt-auto">
+        <footer className="footer py-4 mt-auto">
             <div className="container px-5">
                 <div className="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div className="col-auto">
@@ -15,7 +15,7 @@ const Footer = () => {
                     </div>
                     <div className='col-auto'>
                         <img className="mx-3" src={logoCC} alt="Zagarsix" width="60" height="50"></img>
-                        <span>&copy; 2024 - Developed with <i className="fa fa-heart text-danger" /> by {""}
+                        <span className='small m-0 text-white'>&copy; 2024 - Developed with <i className="fa fa-heart text-danger" /> by {""}
                             <a href="https://github.com/Zagarsix">Zagarsix</a>
                         </span>
                     </div>
