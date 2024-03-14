@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import iconDP from "../../img/iconDP.jpg"; 
 
 const Navbar = () => {
     return <>
@@ -7,7 +8,7 @@ const Navbar = () => {
         {/* Navigation*/}
         <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container px-5">
-            {/* <img className="mx-3" src={iconDP} alt="logo-brand" width="120" height="120"></img> */}
+            <img className="mx-3" src={iconDP} alt="logo-brand" width="120" height="120"></img>
                 <NavLink className="navbar-brand" to="/">
                     Dra. Dany
                 </NavLink>
@@ -65,12 +66,12 @@ const Navbar = () => {
                                 aria-labelledby="navbarDropdownBlog"
                             >
                                 <li>
-                                    <NavLink className="dropdown-item" to="/blog-home.html">
+                                    <NavLink className="dropdown-item" to="/blog-home">
                                         Odontología
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="dropdown-item" to="/blog-post.html">
+                                    <NavLink className="dropdown-item" to="/blog-post">
                                         Estética facial
                                     </NavLink>
                                 </li>
