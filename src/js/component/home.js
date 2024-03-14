@@ -181,7 +181,7 @@ const Home = () => {
       </section>
       {/* Testimonial section*/}
       <div className="py-5 bg-light">
-        <div className="container px-5 my-5">
+        <div className="container px-5 my-5 text-white">
           <div className="row gx-5 justify-content-center">
             <div className="col-lg-10 col-xl-7">
               <div className="text-center">
