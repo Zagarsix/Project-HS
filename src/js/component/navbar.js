@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import iconDP from "../../img/iconDP.jpg"; 
+import iconDP from "../../img/iconDP2.jpg";
 
 const Navbar = () => {
     return <>
@@ -8,9 +8,8 @@ const Navbar = () => {
         {/* Navigation*/}
         <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container px-5">
-            <img className="mx-3" src={iconDP} alt="logo-brand" width="120" height="120"></img>
                 <NavLink className="navbar-brand" to="/">
-                    Dra. Dany
+                    <img className="mx-3" src={iconDP} alt="logo-brand" width="120" height="100" />
                 </NavLink>
                 <button
                     className="navbar-toggler"
@@ -25,29 +24,14 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                        {/* <li className="nav-item">
-              <NavLink className="nav-link" to="/">
-                Home
-              </NavLink>
-            </li> */}
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/">
+                                Inicio
+                            </NavLink>
+                        </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/about">
-                                Dra. Daniela
-                            </NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/contact">
-                                Contacto
-                            </NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/pricing">
-                                Precios
-                            </NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/faq">
-                                Preguntas frecuentes
+                                Nuestra misión
                             </NavLink>
                         </li>
                         <li className="nav-item dropdown">
@@ -77,6 +61,11 @@ const Navbar = () => {
                                 </li>
                             </ul>
                         </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/pricing">
+                                Precios
+                            </NavLink>
+                        </li>
                         <li className="nav-item dropdown">
                             <NavLink
                                 className="nav-link dropdown-toggle"
@@ -103,6 +92,16 @@ const Navbar = () => {
                                     </NavLink>
                                 </li>
                             </ul>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/faq">
+                                Dra. Dany responde
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to="/contact">
+                                Contacto
+                            </NavLink>
                         </li>
                     </ul>
                 </div>
