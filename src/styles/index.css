@@ -1,6 +1,11 @@
 /* 
     General Styles
 */
+
+.flex-shrink-0{
+  background-image: linear-gradient(90deg,blueviolet,rgb(192, 48, 192), rgb(255, 119, 255));
+}
+
 .bg-dark, .bg-light {
     background-image: URL("https://www.xtrafondos.com/wallpapers/3d-abstraccion-morado-7934.jpg");
     background-position: center center;
@@ -17,34 +22,41 @@
   border-width: 2px;
   border-color: blueviolet;
   background-color: rgb(82, 1, 82);
+  color: white;
 }
-.navbar-nav {
+/* .navbar-nav {
   filter: opacity(100%);
 }
 .navbar-nav:hover {
   filter: opacity(130%);
-}
+} */
 
+/* Logo */
 .navbar-brand{
     transition: all .5s ease-out;
 }
-
 .navbar-brand:hover{
   transition: all .5s ease-in;
   transform: scale(1.2);
   transition-duration: .5s;
 }
 
+/* Name of views */
 .nav-link{
   margin-inline: 7px;
   color: white; 
 }
-.nav-link:hover{
+.nav-link:hover, .dropdown-item:hover{
   filter: brightness(150%);
-  color: blueviolet;
+  color: purple;
   text-shadow: 0 0 0.2em purple;
 }
+.dropdown-item, .dropdown-menu{
+  color:white;
+  background-color: purple;
+}
 
+/* Photos of Carousel */
 .Dany {
     border-radius: 50%;
     border-style: solid;
@@ -55,19 +67,15 @@
     width: 480px;
     height: 460px;
 }
-
 #description{
   color: white;
   text-shadow: 0 0 0.2em purple, 0 0 0.2em purple;
 }
+
+/* Footer */
 .footer {
   border-top-style: solid;
   border-width: 3px;
   border-color: blueviolet;
   background-color: rgba(82, 1, 82);
-  
-}
-
-.flex-shrink-0{
-  background-image: linear-gradient(90deg,blueviolet,rgb(192, 48, 192), rgb(255, 119, 255));
 }

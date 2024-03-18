@@ -4,6 +4,7 @@ import { NavLink,Link } from "react-router-dom";
 const Faq = () => {
 return<>
     {/* Page Content*/}
+    <main className="flex-shrink-0">
     <section className="py-5">
       <div className="container px-5 my-5">
         <div className="text-center mb-5">
@@ -251,6 +252,7 @@ return<>
         </div>
       </div>
     </section>
+    </main>
   {/* Bootstrap core JS*/}
   {/* Core theme JS*/}
 </>

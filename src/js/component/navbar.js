@@ -6,7 +6,7 @@ const Navbar = () => {
     return <>
         <main className="flex-shrink-0"></main>
         {/* Navigation*/}
-        <nav className="navbar navbar-expand-lg navbar-dark">
+        <nav className="navbar navbar-expand-lg">
             <div className="container px-5">
                 <NavLink className="navbar-brand" to="/">
                     <img className="mx-3" src={iconDP} alt="logo-brand" width="120" height="100" />

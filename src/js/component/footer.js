@@ -1,7 +1,8 @@
 import React from 'react';
 import { NavLink, Link } from "react-router-dom";
 import logoCC from "../../img/iconZagarsix.jpg";
-import iconDP from "../../img/iconDP.jpg"
+import iconDP from "../../img/iconDP.jpg";
+import metroLogo from "../../img/metroLogo.png";
 
 const Footer = () => {
     return <>
@@ -35,7 +36,8 @@ const Footer = () => {
                         <div className="m-0 text-white text-center">
                             <img className="mx-1" src={iconDP} alt="logo-brand" width="150" height="150"></img>
                             <p>© Dra. Dany 2024. Todos los derechos reservados.</p>
-                            <p>Metro Pedro de Valdivia, Providencia</p>
+                            <p>Av. Nueva Providencia 1881, Providencia, Santiago, Chile.</p>
+                            <p><img className="mx-0" src={metroLogo} alt="Metro Logo" width="30" height="25"/>Metro Pedro de Valdivia, salida Sur.</p>
                             <NavLink className="link-light small" to="#!">
                                 Política de Privacidad
                             </NavLink>
@@ -47,7 +49,7 @@ const Footer = () => {
                     </div>
                     <div className='col-auto text-center p-3'>
                         <div className='small text-center mt-3 justify-items-end'>
-                            <img className="mx-1" src={logoCC} alt="Zagarsix" width="30" height="25"></img>
+                            
                             <span className='small m-0 text-white'> &copy; 2024 - Developed with <i className="fa fa-heart text-danger" /> by {""}
                                 <a target="_blank" href="https://github.com/Zagarsix">Zagarsix</a>
                             </span>
