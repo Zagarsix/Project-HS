@@ -79,3 +79,11 @@
   border-color: blueviolet;
   background-color: rgba(82, 1, 82);
 }
+
+.btn-primary, .bg-gradient{
+  background-color: purple;
+}
+.btn-primary:hover{
+  background-color: white;
+  color: purple;
+}

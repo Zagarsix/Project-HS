@@ -130,7 +130,7 @@ const Home = () => {
         <div className="container px-5 my-5">
           <div className="row gx-5">
             <div className="col-lg-4 mb-5 mb-lg-0">
-              <h2 className="fw-bolder mb-0">A better way to start building.</h2>
+              <h2 className="fw-bolder mb-0">Marcando la diferencia:</h2>
             </div>
             <div className="col-lg-8">
               <div className="row gx-5 row-cols-1 row-cols-md-2">
@@ -138,7 +138,7 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-collection" />
                   </div>
-                  <h2 className="h5">Featured title</h2>
+                  <h2 className="h5"><i className="fa-solid fa-magnifying-glass-chart"/> Diagnóstico integral</h2>
                   <p className="mb-0">
                     Paragraph of text beneath the heading to explain the heading.
                     Here is just Link bit more text.
@@ -148,7 +148,7 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-building" />
                   </div>
-                  <h2 className="h5">Featured title</h2>
+                  <h2 className="h5"><i className="fa-solid fa-hand-holding-dollar"/> Métodos de pago</h2>
                   <p className="mb-0">
                     Paragraph of text beneath the heading to explain the heading.
                     Here is just Link bit more text.
@@ -158,7 +158,7 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-toggles2" />
                   </div>
-                  <h2 className="h5">Featured title</h2>
+                  <h2 className="h5">Productos de alta gama</h2>
                   <p className="mb-0">
                     Paragraph of text beneath the heading to explain the heading.
                     Here is just Link bit more text.
@@ -168,7 +168,7 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-toggles2" />
                   </div>
-                  <h2 className="h5">Featured title</h2>
+                  <h2 className="h5">Confianza profesional</h2>
                   <p className="mb-0">
                     Paragraph of text beneath the heading to explain the heading.
                     Here is just Link bit more text.
@@ -351,7 +351,7 @@ const Home = () => {
             </div>
           </div>
           {/* Call to action*/}
-          <aside className="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+          <aside className="bg-gradient rounded-3 p-4 p-sm-5 mt-5">
             <div className="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
               <div className="mb-4 mb-xl-0">
                 <div className="fs-3 fw-bold text-white">
