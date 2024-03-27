@@ -30,7 +30,7 @@ const Navbar = () => {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/about">
+                            <NavLink className="nav-link" to="/nuestra-mision">
                                 Nuestra misión
                             </NavLink>
                         </li>
@@ -50,7 +50,7 @@ const Navbar = () => {
                                 aria-labelledby="navbarDropdownBlog"
                             >
                                 <li>
-                                    <NavLink className="dropdown-item" to="/blog-home">
+                                    <NavLink className="dropdown-item" to="/odontologia">
                                         Odontología
                                     </NavLink>
                                 </li>

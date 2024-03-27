@@ -3,11 +3,11 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Navbar from "./component/Navbar";
 import Home from "./component/home";
-import About from "./component/about";
+import NuestraMision from "./component/nuestra-mision";
 import Contact from "./component/contact";
 import Pricing from "./component/pricing";
 import Faq from "./component/faq";
-import BlogHome from "./component/blog-home";
+import Odontologia from "./component/odontologia";
 import BlogPost from "./component/blog-post";
 import PortfolioOverview from "./component/portfolio-overview";
 import PortfolioItem from "./component/portfolio-item";
@@ -27,8 +27,8 @@ const Layout = () => {
 					<Route exact path={"/"} >
 						<Home />
 					</Route>
-					<Route exact path={"/about"} >
-						<About />
+					<Route exact path={"/nuestra-mision"} >
+						<NuestraMision />
 					</Route>
 					<Route exact path={"/contact"} >
 						<Contact />
@@ -39,8 +39,8 @@ const Layout = () => {
 					<Route exact path={"/faq"}>
 						<Faq />
 					</Route>
-					<Route exact path={"/blog-home"} >
-						<BlogHome />
+					<Route exact path={"/odontologia"} >
+						<Odontologia />
 					</Route>
 					<Route exact path={"/blog-post"} >
 						<BlogPost />

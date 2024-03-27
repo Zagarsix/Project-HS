@@ -5,6 +5,7 @@ import fotoDany from "../../img/wallpaper.jpg";
 import tapadurasResina from "../../img/tapaduras-de-resina.jpg";
 import botox from "../../img/Inyección-de-botox.jpg";
 import tuboVale from "../../img/Vale-tubo.jpg"
+import iconDP from "../../img/iconDP2.jpg";
 
 const Home = () => {
   return <>
@@ -16,9 +17,10 @@ const Home = () => {
             <div className="col-lg-8 col-xl-7 col-xxl-6">
               <div className="my-5 text-center text-xl-start">
                 <h1 className="display-5 fw-bolder text-white mb-2">
-                  Clientes más felices
+                  Dra. Dany:<br></br>
+                  Odontología y Estética
                 </h1>
-                <p className="lead fw-normal text-white-50 mb-4">
+                <p className="lead fw-bolder text-white-50 mb-4">
                   Nuestra misión es crear sonrisas.
                   Recupera tu sonrisa en una semana.
                   También haz que tu rostro sonría y que tu felicidad sea su mejor regalo.
@@ -30,7 +32,7 @@ const Home = () => {
                   >
                     Agendar Cita
                   </Link>
-                  <Link className="btn btn-outline-light btn-lg px-4" to="#!">
+                  <Link className="btn btn-outline-light btn-lg px-4" to="/odontologia">
                     Conocer más...
                   </Link>
                 </div>
@@ -44,7 +46,7 @@ const Home = () => {
               />
             </div> */}
       {/* Carousel*/}
-      <div id="carousel" className="carousel slide col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+      <div id="carousel" className="carousel slide col-lg-4 col-xl-5 col-xxl-6 d-xl-block text-center">
               <div className="carousel-indicators">
                 <button
                   type="button"
@@ -72,34 +74,47 @@ const Home = () => {
                   data-bs-slide-to={3}
                   aria-label="Slide 4"
                 />
+                <button
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide-to={4}
+                  aria-label="Slide 5"
+                />
               </div>
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img src={fotoDany} className="Dany rounded-3 p-2 m-1" alt="..." />
+                  <img src={fotoDany} className="Dany rounded-3" alt="mesoterapia: Dra Dany con inyección de vitaminas"/>
                   <div className="carousel-caption d-none d-md-block" id="description">
                     <h5>Mesoterapia con dermapen</h5>
                     <p>Inyección de vitaminas, ácido hialurónico y coctéles.</p>
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <img src= {tapadurasResina} className="Dany rounded-3 p-2 m-1" alt="..." />
+                  <img src= {tapadurasResina} className="Dany rounded-3" alt="tapadura de amalgama v/s tapadura de resina blanca" />
                   <div className="carousel-caption d-none d-md-block" id="description">
                     <h5>Tapaduras blancas</h5>
                     <p>Cambio de amalgama por tapadura de resina, desde $ 40.000</p>
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <img src= {botox} className="Dany rounded-3 p-2 m-1" alt="..." />
+                  <img src= {botox} className="Dany rounded-3" alt="Dra. Dany aplicando bótox a paciente en la frente" />
                   <div className="carousel-caption d-none d-md-block" id="description">
                     <h5>Aplicación de bótox</h5>
                     <p>Aplicación por zonas desde los $ 90.000</p>
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <img src= {tuboVale} className="Dany rounded-3 p-2 m-1" alt="..." />
+                  <img src= {tuboVale} className="Dany rounded-3" alt="Niña feliz mientras es atendida" />
                   <div className="carousel-caption d-none d-md-block" id="description">
                     <h5>Odontopediatría</h5>
                     <p>Atención integral para niños desde el primer añito.</p>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img src= {iconDP} className="Dany rounded-3" alt="logo corporativo" />
+                  <div className="carousel-caption d-none d-md-block" id="description">
+                    <h5>Dra. Dany</h5>
+                    {/* <p>Odontología y Estética facial</p> */}
                   </div>
                 </div>
               </div>
@@ -130,7 +145,7 @@ const Home = () => {
         <div className="container px-5 my-5">
           <div className="row gx-5">
             <div className="col-lg-4 mb-5 mb-lg-0">
-              <h2 className="fw-bolder mb-0">Marcando la diferencia:</h2>
+              <h2 className="fw-bolder text-white mb-0">Marcando la diferencia:</h2>
             </div>
             <div className="col-lg-8">
               <div className="row gx-5 row-cols-1 row-cols-md-2">
@@ -138,7 +153,7 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-collection" />
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-magnifying-glass-chart"/> Diagnóstico integral</h2>
+                  <h2 className="h5 text-white-50"><i className="fa-solid fa-magnifying-glass-chart"/> Diagnóstico integral</h2>
                   <p className="mb-0">
                     Paragraph of text beneath the heading to explain the heading.
                     Here is just Link bit more text.
@@ -148,7 +163,7 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-building" />
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-hand-holding-dollar"/> Métodos de pago</h2>
+                  <h2 className="h5 text-white-50"><i className="fa-solid fa-hand-holding-dollar"/> Métodos de pago</h2>
                   <p className="mb-0">
                     Paragraph of text beneath the heading to explain the heading.
                     Here is just Link bit more text.
@@ -158,7 +173,7 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-toggles2" />
                   </div>
-                  <h2 className="h5">Productos de alta gama</h2>
+                  <h2 className="h5 text-white-50"><i className="fa-solid fa-briefcase-medical"/> Productos de alta gama</h2>
                   <p className="mb-0">
                     Paragraph of text beneath the heading to explain the heading.
                     Here is just Link bit more text.
@@ -168,7 +183,7 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-toggles2" />
                   </div>
-                  <h2 className="h5">Confianza profesional</h2>
+                  <h2 className="h5 text-white-50"><i className="fa-solid fa-user-doctor"/> Confianza profesional</h2>
                   <p className="mb-0">
                     Paragraph of text beneath the heading to explain the heading.
                     Here is just Link bit more text.
