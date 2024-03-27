@@ -4,10 +4,10 @@
 
 /* --Color Palette--
 blueviolet
-rgb(216, 96, 216)
-rgb(240, 155, 240)) */
+rgb(190, 56, 190)
+rgb(247, 100, 247) */
 .flex-shrink-0{
-  background-image: linear-gradient(90deg,blueviolet,rgb(216, 96, 216), rgb(240, 155, 240));
+  background-image: linear-gradient(90deg,blueviolet,rgb(190, 56, 190), rgb(247, 100, 247));
 }
 
 .bg-dark, .bg-light {
@@ -48,11 +48,11 @@ rgb(240, 155, 240)) */
 /* Name of views */
 .nav-link{
   margin-inline: 7px;
-  color: white; 
+  color: white !important; 
 }
 .nav-link:hover, .dropdown-item:hover{
   filter: brightness(150%);
-  color: purple;
+  color: purple !important;
   text-shadow: 0 0 0.2em purple;
 }
 .dropdown-item, .dropdown-menu{
@@ -91,4 +91,13 @@ rgb(240, 155, 240)) */
 .btn-primary:hover{
   background-color: white;
   color: purple;
+}
+
+/* Navbar toggler icon*/
+.navbar-toggler{
+  color: blueviolet;
+  background-color: purple;
+  border-color: rgb(227, 88, 255);
+  border-width: 2px;
+  text-shadow: 0 0 0.2em purple, 0 0 0.2em purple;
 }

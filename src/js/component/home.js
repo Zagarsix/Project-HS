@@ -20,7 +20,7 @@ const Home = () => {
                   Dra. Dany:<br></br>
                   Odontología y Estética
                 </h1>
-                <p className="lead fw-bolder text-white-50 mb-4">
+                <p className="lead fw-bolder text-white mb-4" style={{borderColor:"purple"}}>
                   Nuestra misión es crear sonrisas.
                   Recupera tu sonrisa en una semana.
                   También haz que tu rostro sonría y que tu felicidad sea su mejor regalo.
@@ -45,8 +45,8 @@ const Home = () => {
                 alt="..."
               />
             </div> */}
-      {/* Carousel*/}
-      <div id="carousel" className="carousel slide col-lg-4 col-xl-5 col-xxl-6 d-xl-block text-center">
+            {/* Carousel*/}
+            <div id="carousel" className="carousel slide col-lg-4 col-xl-5 col-xxl-6 d-xl-block text-center">
               <div className="carousel-indicators">
                 <button
                   type="button"
@@ -83,35 +83,35 @@ const Home = () => {
               </div>
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img src={fotoDany} className="Dany rounded-3" alt="mesoterapia: Dra Dany con inyección de vitaminas"/>
+                  <img src={fotoDany} className="Dany rounded-3" alt="mesoterapia: Dra Dany con inyección de vitaminas" />
                   <div className="carousel-caption d-none d-md-block" id="description">
                     <h5>Mesoterapia con dermapen</h5>
                     <p>Inyección de vitaminas, ácido hialurónico y coctéles.</p>
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <img src= {tapadurasResina} className="Dany rounded-3" alt="tapadura de amalgama v/s tapadura de resina blanca" />
+                  <img src={tapadurasResina} className="Dany rounded-3" alt="tapadura de amalgama v/s tapadura de resina blanca" />
                   <div className="carousel-caption d-none d-md-block" id="description">
                     <h5>Tapaduras blancas</h5>
                     <p>Cambio de amalgama por tapadura de resina, desde $ 40.000</p>
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <img src= {botox} className="Dany rounded-3" alt="Dra. Dany aplicando bótox a paciente en la frente" />
+                  <img src={botox} className="Dany rounded-3" alt="Dra. Dany aplicando bótox a paciente en la frente" />
                   <div className="carousel-caption d-none d-md-block" id="description">
                     <h5>Aplicación de bótox</h5>
                     <p>Aplicación por zonas desde los $ 90.000</p>
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <img src= {tuboVale} className="Dany rounded-3" alt="Niña feliz mientras es atendida" />
+                  <img src={tuboVale} className="Dany rounded-3" alt="Niña feliz mientras es atendida" />
                   <div className="carousel-caption d-none d-md-block" id="description">
                     <h5>Odontopediatría</h5>
                     <p>Atención integral para niños desde el primer añito.</p>
                   </div>
                 </div>
                 <div className="carousel-item">
-                  <img src= {iconDP} className="Dany rounded-3" alt="logo corporativo" />
+                  <img src={iconDP} className="Dany rounded-3" alt="logo corporativo" />
                   <div className="carousel-caption d-none d-md-block" id="description">
                     <h5>Dra. Dany</h5>
                     {/* <p>Odontología y Estética facial</p> */}
@@ -137,7 +137,7 @@ const Home = () => {
                 <span className="visually-hidden">Next</span>
               </button>
             </div>
-            </div>
+          </div>
         </div>
       </header>
       {/* Features section*/}
@@ -145,7 +145,8 @@ const Home = () => {
         <div className="container px-5 my-5">
           <div className="row gx-5">
             <div className="col-lg-4 mb-5 mb-lg-0">
-              <h2 className="fw-bolder text-white mb-0">Marcando la diferencia:</h2>
+              <i className="fa-solid fa-ranking-star fa-5x mb-2" style={{color:"purple"}}/>
+              <h2 className="fw-bolder mb-0" style={{color:"purple"}}>Marcando la diferencia:</h2>
             </div>
             <div className="col-lg-8">
               <div className="row gx-5 row-cols-1 row-cols-md-2">
@@ -153,40 +154,41 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-collection" />
                   </div>
-                  <h2 className="h5 text-white-50"><i className="fa-solid fa-magnifying-glass-chart"/> Diagnóstico integral</h2>
+                  <h2 className="h5 text-white-50"><i className="fa-solid fa-magnifying-glass-chart" /> Diagnóstico integral</h2>
                   <p className="mb-0">
-                    Paragraph of text beneath the heading to explain the heading.
-                    Here is just Link bit more text.
+                    Diágnostico realizado con alta precisión, en base a análisis clínico y examen radiológico.<br/>
+                    <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/contacto"> Leer más...</Link>
                   </p>
                 </div>
                 <div className="col mb-5 h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-building" />
                   </div>
-                  <h2 className="h5 text-white-50"><i className="fa-solid fa-hand-holding-dollar"/> Métodos de pago</h2>
+                  <h2 className="h5 text-white-50"><i className="fa-solid fa-hand-holding-dollar" /> Métodos de pago</h2>
                   <p className="mb-0">
-                    Paragraph of text beneath the heading to explain the heading.
-                    Here is just Link bit more text.
+                    Tratamientos al alcance de tu presupuesto, con la asesoría de tu odontólogo.<br/>
+                    Contamos con todo medio de pago: tarjeta de crédito, transferencia y efectivo.<br/>
+                    <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/precios"> Leer más...</Link>
                   </p>
                 </div>
                 <div className="col mb-5 mb-md-0 h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-toggles2" />
                   </div>
-                  <h2 className="h5 text-white-50"><i className="fa-solid fa-briefcase-medical"/> Productos de alta gama</h2>
+                  <h2 className="h5 text-white-50"><i className="fa-solid fa-briefcase-medical" /> Productos de alta gama</h2>
                   <p className="mb-0">
-                    Paragraph of text beneath the heading to explain the heading.
-                    Here is just Link bit more text.
+                    Productos de alta calidad con certificación alemana. Elige siempre lo mejor para ti.<br/>
+                    <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/estetica-facial"> Leer más...</Link>
                   </p>
                 </div>
                 <div className="col h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-toggles2" />
                   </div>
-                  <h2 className="h5 text-white-50"><i className="fa-solid fa-user-doctor"/> Confianza profesional</h2>
+                  <h2 className="h5 text-white-50"><i className="fa-solid fa-user-doctor" /> Confianza profesional</h2>
                   <p className="mb-0">
-                    Paragraph of text beneath the heading to explain the heading.
-                    Here is just Link bit more text.
+                    Paragraph of text beneath the heading to explain the heading.<br/>
+                    <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/nuestra-mision"> Leer más...</Link>
                   </p>
                 </div>
               </div>

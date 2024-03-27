@@ -55,14 +55,14 @@ const Navbar = () => {
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="dropdown-item" to="/blog-post">
+                                    <NavLink className="dropdown-item" to="/estetica-facial">
                                         Estética facial
                                     </NavLink>
                                 </li>
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/pricing">
+                            <NavLink className="nav-link" to="/precios">
                                 Precios
                             </NavLink>
                         </li>
@@ -82,24 +82,24 @@ const Navbar = () => {
                                 aria-labelledby="navbarDropdownPortfolio"
                             >
                                 <li>
-                                    <NavLink className="dropdown-item" to="/portfolio-overview">
+                                    <NavLink className="dropdown-item" to="/promo-odontologia">
                                         Ortodoncia restaurativa
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink className="dropdown-item" to="/portfolio-item">
+                                    <NavLink className="dropdown-item" to="/promo-estetica">
                                         Lifting facial
                                     </NavLink>
                                 </li>
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/faq">
+                            <NavLink className="nav-link" to="/dra-dany-responde">
                                 Dra. Dany responde
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/contact">
+                            <NavLink className="nav-link" to="/contacto">
                                 Contacto
                             </NavLink>
                         </li>
