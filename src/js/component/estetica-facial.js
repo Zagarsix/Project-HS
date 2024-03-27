@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink,Link } from "react-router-dom";
 
-const BlogPost = () => {
+const EsteticaFacial = () => {
 return<>
     <main className="flex-shrink-0">
     {/* Page Content*/}
@@ -184,4 +184,4 @@ return<>
 
 }
 
-export default BlogPost;
+export default EsteticaFacial;

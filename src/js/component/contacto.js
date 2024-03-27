@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink,Link } from "react-router-dom";
 
-const Contact = () => {
+const Contacto = () => {
 return<>
      <main className="flex-shrink-0">
     {/* Page content*/}
@@ -193,4 +193,4 @@ return<>
 
 }
 
-export default Contact;
+export default Contacto;
