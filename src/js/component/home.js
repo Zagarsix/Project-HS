@@ -1,152 +1,107 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import fotoDany from "../../img/wallpaper.jpg";
-import tapadurasResina from "../../img/tapaduras-de-resina.jpg";
-import botox from "../../img/Inyección-de-botox.jpg";
-import tuboVale from "../../img/Vale-tubo.jpg"
-import iconDP from "../../img/iconDP2.jpg";
-
 const Home = () => {
   return <>
     <main className="flex-shrink-0">
       {/* Header*/}
-      <header className="bg-dark py-5">
-        <div className="containerDany px-5">
-          <div className="row gx-5 align-items-center justify-content-center">
-            <div className="col-lg-8 col-xl-7 col-xxl-6">
-              <div className="my-5 text-center text-xl-start">
-                <h1 className="display-5 fw-bolder text-white mb-2">
-                  Dra. Dany:<br></br>
-                  Odontología y Estética
-                </h1>
-                <p className="lead fw-bolder text-white mb-4" style={{borderColor:"purple"}}>
-                  Nuestra misión es crear sonrisas.
-                  Recupera tu sonrisa en una semana.
-                  También haz que tu rostro sonría y que tu felicidad sea su mejor regalo.
-                </p>
-                <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                  <Link
-                    className="btn btn-primary btn-lg px-4 me-sm-3"
-                    to="#features"
-                  >
-                    Agendar Cita
-                  </Link>
-                  <Link className="btn btn-outline-light btn-lg px-4" to="/odontologia">
-                    Conocer más...
-                  </Link>
-                </div>
+      {/* -- Page Header-- */}
+      <header className="masthead" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")' }}>
+        <div className="container position-relative px-4 px-lg-5">
+          <div className="row gx-4 gx-lg-5 justify-content-center">
+            <div className="col-md-10 col-lg-8 col-xl-7">
+              <div className="site-heading">
+                <h1>HomeSchool</h1>
+                <span className="subheading">Project</span>
               </div>
-            </div>
-            {/* <div className="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
-              <img
-                className="Dany rounded-3 p-2 m-1"
-                src={fotoDany}
-                alt="..."
-              />
-            </div> */}
-            {/* Carousel*/}
-            <div id="carousel" className="carousel slide col-lg-4 col-xl-5 col-xxl-6 d-xl-block text-center">
-              <div className="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carousel"
-                  data-bs-slide-to={0}
-                  className="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                />
-                <button
-                  type="button"
-                  data-bs-target="#carousel"
-                  data-bs-slide-to={1}
-                  aria-label="Slide 2"
-                />
-                <button
-                  type="button"
-                  data-bs-target="#carousel"
-                  data-bs-slide-to={2}
-                  aria-label="Slide 3"
-                />
-                <button
-                  type="button"
-                  data-bs-target="#carousel"
-                  data-bs-slide-to={3}
-                  aria-label="Slide 4"
-                />
-                <button
-                  type="button"
-                  data-bs-target="#carousel"
-                  data-bs-slide-to={4}
-                  aria-label="Slide 5"
-                />
-              </div>
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <img src={fotoDany} className="Dany rounded-3" alt="mesoterapia: Dra Dany con inyección de vitaminas" />
-                  <div className="carousel-caption d-none d-md-block" id="description">
-                    <h5>Mesoterapia con dermapen</h5>
-                    <p>Inyección de vitaminas, ácido hialurónico y coctéles.</p>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <img src={tapadurasResina} className="Dany rounded-3" alt="tapadura de amalgama v/s tapadura de resina blanca" />
-                  <div className="carousel-caption d-none d-md-block" id="description">
-                    <h5>Tapaduras blancas</h5>
-                    <p>Cambio de amalgama por tapadura de resina, desde $ 40.000</p>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <img src={botox} className="Dany rounded-3" alt="Dra. Dany aplicando bótox a paciente en la frente" />
-                  <div className="carousel-caption d-none d-md-block" id="description">
-                    <h5>Aplicación de bótox</h5>
-                    <p>Aplicación por zonas desde los $ 90.000</p>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <img src={tuboVale} className="Dany rounded-3" alt="Niña feliz mientras es atendida" />
-                  <div className="carousel-caption d-none d-md-block" id="description">
-                    <h5>Odontopediatría</h5>
-                    <p>Atención integral para niños desde el primer añito.</p>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <img src={iconDP} className="Dany rounded-3" alt="logo corporativo" />
-                  <div className="carousel-caption d-none d-md-block" id="description">
-                    <h5>Dra. Dany</h5>
-                    {/* <p>Odontología y Estética facial</p> */}
-                  </div>
-                </div>
-              </div>
-              <button
-                className="carousel-control-prev"
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide="prev"
-              >
-                <span className="carousel-control-prev-icon" aria-hidden="true" />
-                <span className="visually-hidden">Previous</span>
-              </button>
-              <button
-                className="carousel-control-next"
-                type="button"
-                data-bs-target="#carousel"
-                data-bs-slide="next"
-              >
-                <span className="carousel-control-next-icon" aria-hidden="true" />
-                <span className="visually-hidden">Next</span>
-              </button>
             </div>
           </div>
         </div>
       </header>
+      <>
+      <>
+  {/* About*/}
+  <section className="content-section bg-light" id="about">
+    <div className="container px-4 px-lg-5 text-center">
+      <div className="row gx-4 gx-lg-5 justify-content-center">
+        <div className="col-lg-10">
+          <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+          <p className="lead mb-5">
+            This theme features Link flexible, UX friendly sidebar menu and stock
+            photos from our friends at
+            <Link to="https://unsplash.com/">Unsplash</Link>!
+          </p>
+          <Link className="btn btn-dark btn-xl" to="#services">
+            What We Offer
+          </Link>
+        </div>
+      </div>
+    </div>
+  </section>
+</>
+
+        {/* Services*/}
+        <section
+          className="content-section bg-success text-white text-center"
+          id="services"
+        >
+          <div className="container px-4 px-lg-5">
+            <div className="content-section-heading">
+              <h3 className="text-secondary mb-0">Nos destacamos</h3>
+              <h2 className="mb-5">por ofrecer</h2>
+            </div>
+            <div className="row gx-4 gx-lg-5">
+              <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <span className="service-icon rounded-circle mx-auto mb-3">
+                  <i className="icon-screen-smartphone" />
+                </span>
+                <h4>
+                  <strong>Responsive</strong>
+                </h4>
+                <p className="text-faded mb-0">Looks great on any screen size!</p>
+              </div>
+              <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <span className="service-icon rounded-circle mx-auto mb-3">
+                  <i className="icon-pencil" />
+                </span>
+                <h4>
+                  <strong>Redesigned</strong>
+                </h4>
+                <p className="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
+              </div>
+              <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
+                <span className="service-icon rounded-circle mx-auto mb-3">
+                  <i className="icon-like" />
+                </span>
+                <h4>
+                  <strong>Favorited</strong>
+                </h4>
+                <p className="text-faded mb-0">
+                  Millions of users
+                  <i className="fas fa-heart" />
+                  Start Bootstrap!
+                </p>
+              </div>
+              <div className="col-lg-3 col-md-6">
+                <span className="service-icon rounded-circle mx-auto mb-3">
+                  <i className="icon-mustache" />
+                </span>
+                <h4>
+                  <strong>Question</strong>
+                </h4>
+                <p className="text-faded mb-0">I mustache you Link question...</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </>
       {/* Features section*/}
       <section className="py-5" id="features">
         <div className="container px-5 my-5">
           <div className="row gx-5">
             <div className="col-lg-4 mb-5 mb-lg-0">
-              <i className="fa-solid fa-ranking-star fa-5x mb-2" style={{color:"purple"}}/>
-              <h2 className="fw-bolder mb-0" style={{color:"purple"}}>Marcando la diferencia:</h2>
+              <i className="fa-solid fa-ranking-star fa-5x mb-2" style={{ color: "purple" }} />
+              <h2 className="fw-bolder mb-0" style={{ color: "purple" }}>Marcando la diferencia:</h2>
             </div>
             <div className="col-lg-8">
               <div className="row gx-5 row-cols-1 row-cols-md-2">
@@ -156,7 +111,7 @@ const Home = () => {
                   </div>
                   <h2 className="h5 text-white-50"><i className="fa-solid fa-magnifying-glass-chart" /> Diagnóstico integral</h2>
                   <p className="mb-0">
-                    Diágnostico realizado con alta precisión, en base a análisis clínico y examen radiológico.<br/>
+                    Diágnostico realizado con alta precisión, en base Link análisis clínico y examen radiológico.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/contacto"> Leer más...</Link>
                   </p>
                 </div>
@@ -166,8 +121,8 @@ const Home = () => {
                   </div>
                   <h2 className="h5 text-white-50"><i className="fa-solid fa-hand-holding-dollar" /> Métodos de pago</h2>
                   <p className="mb-0">
-                    Tratamientos al alcance de tu presupuesto, con la asesoría de tu odontólogo.<br/>
-                    Contamos con todo medio de pago: tarjeta de crédito, transferencia y efectivo.<br/>
+                    Tratamientos al alcance de tu presupuesto, con la asesoría de tu odontólogo.<br />
+                    Contamos con todo medio de pago: tarjeta de crédito, transferencia y efectivo.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/precios"> Leer más...</Link>
                   </p>
                 </div>
@@ -177,7 +132,7 @@ const Home = () => {
                   </div>
                   <h2 className="h5 text-white-50"><i className="fa-solid fa-briefcase-medical" /> Productos de alta gama</h2>
                   <p className="mb-0">
-                    Productos de alta calidad con certificación alemana. Elige siempre lo mejor para ti.<br/>
+                    Productos de alta calidad con certificación alemana. Elige siempre lo mejor para ti.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/estetica-facial"> Leer más...</Link>
                   </p>
                 </div>
@@ -187,7 +142,7 @@ const Home = () => {
                   </div>
                   <h2 className="h5 text-white-50"><i className="fa-solid fa-user-doctor" /> Confianza profesional</h2>
                   <p className="mb-0">
-                    Paragraph of text beneath the heading to explain the heading.<br/>
+                    Paragraph of text beneath the heading to explain the heading.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/nuestra-mision"> Leer más...</Link>
                   </p>
                 </div>

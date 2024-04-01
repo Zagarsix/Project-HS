@@ -1,113 +1,51 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import iconDP from "../../img/iconDP2.jpg";
 
 const Navbar = () => {
-    return <>
-        <main className="flex-shrink-0"></main>
-        {/* Navigation*/}
-        <nav className="navbar navbar-expand-lg">
-            <div className="container px-5">
-                <NavLink className="navbar-brand" to="/">
-                    <img className="mx-3" src={iconDP} alt="logo-brand" width="120" height="100" />
-                </NavLink>
-                <button
-                    className="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span className="navbar-toggler-icon" />
-                </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/">
-                                Inicio
-                            </NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/nuestra-mision">
-                                Nuestra misión
-                            </NavLink>
-                        </li>
-                        <li className="nav-item dropdown">
-                            <NavLink
-                                className="nav-link dropdown-toggle"
-                                id="navbarDropdownBlog"
-                                to="#"
-                                role="button"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
-                                Servicios
-                            </NavLink>
-                            <ul
-                                className="dropdown-menu dropdown-menu-end"
-                                aria-labelledby="navbarDropdownBlog"
-                            >
-                                <li>
-                                    <NavLink className="dropdown-item" to="/odontologia">
-                                        Odontología
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink className="dropdown-item" to="/estetica-facial">
-                                        Estética facial
-                                    </NavLink>
-                                </li>
-                            </ul>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/precios">
-                                Precios
-                            </NavLink>
-                        </li>
-                        <li className="nav-item dropdown">
-                            <NavLink
-                                className="nav-link dropdown-toggle"
-                                id="navbarDropdownPortfolio"
-                                to="#"
-                                role="button"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
-                                Promociones
-                            </NavLink>
-                            <ul
-                                className="dropdown-menu dropdown-menu-end"
-                                aria-labelledby="navbarDropdownPortfolio"
-                            >
-                                <li>
-                                    <NavLink className="dropdown-item" to="/promo-odontologia">
-                                        Ortodoncia restaurativa
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink className="dropdown-item" to="/promo-estetica">
-                                        Lifting facial
-                                    </NavLink>
-                                </li>
-                            </ul>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/dra-dany-responde">
-                                Dra. Dany responde
-                            </NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" to="/contacto">
-                                Contacto
-                            </NavLink>
-                        </li>
-                    </ul>
-                </div>
+    return <>{/* Navigation*/}
+    <nav className="navbar navbar-expand-lg navbar-light" id="mainNav">
+        <div className="container px-4 px-lg-5">
+            <NavLink className="navbar-brand" to="index.html">
+                Start Bootstrap
+            </NavLink>
+            <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                Menu
+                <i className="fas fa-bars" />
+            </button>
+            <div className="collapse navbar-collapse" id="navbarResponsive">
+                <ul className="navbar-nav ms-auto py-4 py-lg-0">
+                    <li className="nav-item">
+                        <NavLink className="nav-link px-lg-3 py-3 py-lg-4" to="index.html">
+                            Home
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink className="nav-link px-lg-3 py-3 py-lg-4" to="about.html">
+                            About
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink className="nav-link px-lg-3 py-3 py-lg-4" to="post.html">
+                            Sample Post
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink className="nav-link px-lg-3 py-3 py-lg-4" to="contact.html">
+                            Contact
+                        </NavLink>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <main />
+        </div>
+    </nav>
     </>
 }
 
