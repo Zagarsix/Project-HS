@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink,Link } from "react-router-dom";
 
-const Faq = () => {
+const Blog = () => {
 return<>
     {/* Page Content*/}
     <main className="flex-shrink-0">
@@ -259,4 +259,4 @@ return<>
 
 }
 
-export default Faq;
+export default Blog;

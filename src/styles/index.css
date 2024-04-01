@@ -10799,3 +10799,8 @@ header.masthead .post-heading .meta a {
     font-size: 2.25rem;
   }
 }
+
+.collapse{
+  color: green !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

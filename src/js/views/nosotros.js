@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
-const NuestraMision = () => {
+const Nosotros = () => {
 return <>
     <main className="flex-shrink-0">
         {/* Header*/}
@@ -136,4 +136,4 @@ return <>
 </>
 }
 
-export default NuestraMision;
+export default Nosotros;

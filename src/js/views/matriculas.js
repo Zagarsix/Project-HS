@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink,Link } from "react-router-dom";
 
-const Precios = () => {
+const Matriculas = () => {
 return<>
     <main className="flex-shrink-0">
     {/* Pricing section*/}
@@ -185,4 +185,4 @@ return<>
 
 }
 
-export default Precios;
+export default Matriculas;

@@ -1,13 +1,11 @@
 import React from 'react';
 import { NavLink, Link } from "react-router-dom";
-import logoCC from "../../img/iconZagarsix.jpg";
-import iconDP from "../../img/iconDP.jpg";
 import metroLogo from "../../img/metroLogo.png";
 
 const Footer = () => {
     return <>
         {/* Footer*/}
-        <footer className="footer py-2 mt-auto">
+        <footer className="footer py-2 mt-auto text-black">
             <div className="container px-5">
                 <div className="row align-items-center justify-content-between justify-items-end flex-column flex-sm-row">
                     <div className='col-auto text-center p-3'>
@@ -34,7 +32,7 @@ const Footer = () => {
                     </div>
                     <div className='col-auto'>
                         <div className="m-0 text-white text-center">
-                            <img className="mx-1" src={iconDP} alt="logo-brand" width="150" height="150"></img>
+                            <img className="mx-1" src="" alt="logo-brand" width="150" height="150"></img>
                             <p>© Dra. Dany 2024. Todos los derechos reservados.</p>
                             <p>Av. Nueva Providencia 1881, Providencia, Santiago, Chile.</p>
                             <p><img className="mx-0" src={metroLogo} alt="Metro Logo" width="30" height="25"/>Metro Pedro de Valdivia, salida Sur.</p>

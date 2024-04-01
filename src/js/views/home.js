@@ -6,11 +6,11 @@ const Home = () => {
     <main className="flex-shrink-0">
       {/* Header*/}
       {/* -- Page Header-- */}
-      <header className="masthead" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")' }}>
+      <header className="masthead" style={{ backgroundImage: 'url("https://previews.123rf.com/images/kwanchaichaiudom/kwanchaichaiudom1609/kwanchaichaiudom160900024/65113478-mesa-de-escritorio-de-oficina-con-ordenador-port%C3%A1til-calculadora-smartphone-l%C3%A1piz-y-notebook-flat.jpg")' }}>
         <div className="container position-relative px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-md-10 col-lg-8 col-xl-7">
-              <div className="site-heading">
+              <div className="site-heading" style={{color:"green"}}>
                 <h1>HomeSchool</h1>
                 <span className="subheading">Project</span>
               </div>
@@ -18,83 +18,75 @@ const Home = () => {
           </div>
         </div>
       </header>
-      <>
-      <>
-  {/* About*/}
-  <section className="content-section bg-light" id="about">
-    <div className="container px-4 px-lg-5 text-center">
-      <div className="row gx-4 gx-lg-5 justify-content-center">
-        <div className="col-lg-10">
-          <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-          <p className="lead mb-5">
-            This theme features Link flexible, UX friendly sidebar menu and stock
-            photos from our friends at
-            <Link to="https://unsplash.com/">Unsplash</Link>!
-          </p>
-          <Link className="btn btn-dark btn-xl" to="#services">
-            What We Offer
-          </Link>
-        </div>
-      </div>
-    </div>
-  </section>
-</>
-
-        {/* Services*/}
-        <section
-          className="content-section bg-success text-white text-center"
-          id="services"
-        >
-          <div className="container px-4 px-lg-5">
-            <div className="content-section-heading">
-              <h3 className="text-secondary mb-0">Nos destacamos</h3>
-              <h2 className="mb-5">por ofrecer</h2>
-            </div>
-            <div className="row gx-4 gx-lg-5">
-              <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                <span className="service-icon rounded-circle mx-auto mb-3">
-                  <i className="icon-screen-smartphone" />
-                </span>
-                <h4>
-                  <strong>Responsive</strong>
-                </h4>
-                <p className="text-faded mb-0">Looks great on any screen size!</p>
-              </div>
-              <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                <span className="service-icon rounded-circle mx-auto mb-3">
-                  <i className="icon-pencil" />
-                </span>
-                <h4>
-                  <strong>Redesigned</strong>
-                </h4>
-                <p className="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
-              </div>
-              <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
-                <span className="service-icon rounded-circle mx-auto mb-3">
-                  <i className="icon-like" />
-                </span>
-                <h4>
-                  <strong>Favorited</strong>
-                </h4>
-                <p className="text-faded mb-0">
-                  Millions of users
-                  <i className="fas fa-heart" />
-                  Start Bootstrap!
-                </p>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <span className="service-icon rounded-circle mx-auto mb-3">
-                  <i className="icon-mustache" />
-                </span>
-                <h4>
-                  <strong>Question</strong>
-                </h4>
-                <p className="text-faded mb-0">I mustache you Link question...</p>
-              </div>
+      {/* About*/}
+      <section className="content-section bg-light py-2 py-lg-5 mb-2" id="about">
+        <div className="container px-4 px-lg-5 text-center">
+          <div className="row gx-4 gx-lg-5 justify-content-center">
+            <div className="col-lg-10">
+              <h2>HomeSchool Project es el lugar perfecto para tus próximos pasos!</h2>
+              <p className="lead mb-5">
+                This theme features Link flexible, UX friendly sidebar menu and stock
+                photos from our friends at
+                <Link to="https://unsplash.com/">Unsplash</Link>!
+              </p>
+              <Link className="btn btn-dark btn-xl" to="#services">
+                What We Offer
+              </Link>
             </div>
           </div>
-        </section>
-      </>
+        </div>
+      </section>
+      {/* Services*/}
+      <section className="content-section bg-success text-white text-center" id="services" >
+        <div className="container px-4 px-lg-5">
+          <div className="content-section-heading">
+            <h3 className="text-secondary mb-0">Nos destacamos</h3>
+            <h2 className="mb-5">por ofrecer</h2>
+          </div>
+          <div className="row gx-4 gx-lg-5">
+            <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
+              <span className="service-icon rounded-circle mx-auto mb-3">
+                <i className="icon-screen-smartphone" />
+              </span>
+              <h4>
+                <strong>Responsive</strong>
+              </h4>
+              <p className="text-faded mb-0">Looks great on any screen size!</p>
+            </div>
+            <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
+              <span className="service-icon rounded-circle mx-auto mb-3">
+                <i className="icon-pencil" />
+              </span>
+              <h4>
+                <strong>Redesigned</strong>
+              </h4>
+              <p className="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
+            </div>
+            <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
+              <span className="service-icon rounded-circle mx-auto mb-3">
+                <i className="icon-like" />
+              </span>
+              <h4>
+                <strong>Favorited</strong>
+              </h4>
+              <p className="text-faded mb-0">
+                Millions of users
+                <i className="fas fa-heart" />
+                Start Bootstrap!
+              </p>
+            </div>
+            <div className="col-lg-3 col-md-6">
+              <span className="service-icon rounded-circle mx-auto mb-3">
+                <i className="icon-mustache" />
+              </span>
+              <h4>
+                <strong>Question</strong>
+              </h4>
+              <p className="text-faded mb-0">I mustache you Link question...</p>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Features section*/}
       <section className="py-5" id="features">
         <div className="container px-5 my-5">
