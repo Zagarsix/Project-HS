@@ -19,7 +19,7 @@ const Home = () => {
         </div>
       </header>
       {/* About*/}
-      <section className="content-section bg-light py-2 py-lg-5 mb-2" id="about">
+      <section className="content-section bg-light py-2 py-lg-5 mb-5" id="about">
         <div className="container px-4 px-lg-5 text-center">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-10">

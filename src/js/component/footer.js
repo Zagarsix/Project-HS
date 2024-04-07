@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import metroLogo from "../../img/metroLogo.png";
 
 const Footer = () => {
@@ -31,7 +31,7 @@ const Footer = () => {
                         </span>
                     </div>
                     <div className='col-auto'>
-                        <div className="m-0 text-white text-center">
+                        <div className="m-0 text-black text-center">
                             <img className="mx-1" src="" alt="logo-brand" width="150" height="150"></img>
                             <p>© Dra. Dany 2024. Todos los derechos reservados.</p>
                             <p>Av. Nueva Providencia 1881, Providencia, Santiago, Chile.</p>
@@ -39,7 +39,7 @@ const Footer = () => {
                             <NavLink className="link-light small" to="#!">
                                 Política de Privacidad
                             </NavLink>
-                            <span className="text-white mx-1">·</span>
+                            <span className="text-black mx-1">·</span>
                             <NavLink className="link-light small" to="#!">
                                 Términos y condiciones
                             </NavLink>
@@ -48,7 +48,7 @@ const Footer = () => {
                     <div className='col-auto text-center p-3'>
                         <div className='small text-center mt-3 justify-items-end'>
                             
-                            <span className='small m-0 text-white'> &copy; 2024 - Developed with <i className="fa fa-heart text-danger" /> by {""}
+                            <span className='small m-0 text-black'> &copy; 2024 - Developed with <i className="fa fa-heart text-danger" /> by {""}
                                 <a target="_blank" href="https://github.com/Zagarsix">Zagarsix</a>
                             </span>
                         </div>
