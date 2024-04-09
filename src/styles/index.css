@@ -2752,8 +2752,8 @@ textarea.form-control-lg {
   }
 }
 .btn:hover {
-  color: var(--bs-btn-hover-color);
-  background-color: var(--bs-btn-hover-bg);
+  color: green;
+  background-color: rgb(0, 140, 255) !important;
   border-color: var(--bs-btn-hover-border-color);
 }
 .btn-check + .btn:hover {
@@ -3682,11 +3682,21 @@ textarea.form-control-lg {
   padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: var(--bs-navbar-brand-margin-end);
   font-size: var(--bs-navbar-brand-font-size);
-  color: white;
+  color: var(--bs-navbar-brand-color);
   white-space: nowrap;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
+}
+.navbar-brand{
+  transition: all .5s ease-out;
+  filter: opacity(150%);
+  filter: brightness(100%);
+}
+.navbar-brand:hover{
+transition: all .5s ease-in;
+transform: scale(1.2);
+transition-duration: .5s;
 }
 
 .navbar-nav {
@@ -10598,7 +10608,7 @@ blockquote {
   text-transform: uppercase;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: 800;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
@@ -10684,7 +10694,9 @@ header.masthead:before {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  color: #fff;
+  color: green;
+  text-shadow: 0 0 0.2em rgb(0, 172, 0), 0 0 0.2em green;
+  -webkit-text-stroke: 0.5px black;
 }
 header.masthead .page-heading,
 header.masthead .site-heading {
@@ -10697,11 +10709,14 @@ header.masthead .site-heading .h1 {
 }
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
-  font-size: 1.5rem;
-  font-weight: 300;
+  color: black;
+  font-size: 1.0rem;
+  font-weight: bold;
+  font-style: italic;
   line-height: 1.1;
   display: block;
   margin-top: 0.625rem;
+  -webkit-text-stroke: 0.5px green;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .post-heading h1, header.masthead .post-heading .h1 {

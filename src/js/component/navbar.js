@@ -1,12 +1,13 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import logoHS from "../../img/logoHomeschool.jpg";
 
 const Navbar = () => {
     return <>{/* Navigation*/}
         <nav className="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div className="container px-4 px-lg-5">
                 <NavLink className="navbar-brand" to="/">
-                    Logo HomeSchool
+                <img className="mx-3" src={logoHS} alt="logo-brand" width="150" height="150" />
                 </NavLink>
                 <button
                     className="navbar-toggler"
