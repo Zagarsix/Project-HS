@@ -8,11 +8,11 @@ const Home = () => {
       {/* -- Page Header-- */}
       <header className="masthead" style={{ backgroundImage: 'url("https://previews.123rf.com/images/kwanchaichaiudom/kwanchaichaiudom1609/kwanchaichaiudom160900024/65113478-mesa-de-escritorio-de-oficina-con-ordenador-port%C3%A1til-calculadora-smartphone-l%C3%A1piz-y-notebook-flat.jpg")' }}>
         <div className="container position-relative px-4 px-lg-5">
-          <div className="row gx-4 gx-lg-5 justify-content-center">
+          <div className="row gx-4 gx-lg-5 justify-content-start">
             <div className="col-md-10 col-lg-8 col-xl-7">
-              <div className="site-heading" style={{color:"green"}}>
-                <h1>HomeSchool</h1>
-                <span className="subheading">Project</span>
+              <div className="site-heading">
+                <h1>El Pacto</h1>
+                <span className="subheading">«...Yo hago un pacto con ustedes y les prometo que mi Espíritu y las enseñanzas que les he dado, no se apartarán jamás de ustedes ni de sus hijos...»<br/>Isaías 59:21 </span>
               </div>
             </div>
           </div>
@@ -23,51 +23,50 @@ const Home = () => {
         <div className="container px-4 px-lg-5 text-center">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-10">
-              <h2>HomeSchool Project es el lugar perfecto para tus próximos pasos!</h2>
+            <h2><span style={{color:"green"}}>El Pacto HomeSchool</span> es el lugar perfecto para dar tus próximos pasos!</h2>
               <p className="lead mb-5">
-                This theme features Link flexible, UX friendly sidebar menu and stock
-                photos from our friends at
-                <Link to="https://unsplash.com/">Unsplash</Link>!
+                Experimenta esta nueva modalidad de estudio, y no te quedes sin
+                <Link to="/matriculas"> matricularte!</Link>
               </p>
-              <Link className="btn btn-dark btn-xl" to="#services">
-                What We Offer
+              <Link className="btn btn-xl" to="/contacto" style={{background:"green"}}>
+                Contáctanos!
               </Link>
             </div>
           </div>
         </div>
       </section>
       {/* Services*/}
-      <section className="content-section bg-success text-white text-center" id="services" >
-        <div className="container px-4 px-lg-5">
+      <section className="content-section text-white text-center py-2 py-lg-5 mb-5" id="services" style={{background:"green"}}>
+        <div className="containerServices px-4 px-lg-5 mt-3 mb-4">
           <div className="content-section-heading">
-            <h3 className="text-secondary mb-0">Nos destacamos</h3>
-            <h2 className="mb-5">por ofrecer</h2>
+            <h3 className="text-black mb-0">Marcamos</h3>
+            <h2 className="mb-5">la diferencia:</h2>
           </div>
           <div className="row gx-4 gx-lg-5">
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="icon-screen-smartphone" />
+                <i className="fa-solid fa-book-open fa-2xl"/>
               </span>
               <h4>
-                <strong>Responsive</strong>
+                <strong>Educación personalizada</strong>
               </h4>
               <p className="text-faded mb-0">Looks great on any screen size!</p>
             </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="icon-pencil" />
+                <i className="fa-solid fa-cross fa-2xl" />
               </span>
               <h4>
-                <strong>Redesigned</strong>
+                <strong>Valores y principios cristianos</strong>
               </h4>
               <p className="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
             </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="icon-like" />
+                <i className="fa-solid fa-hands-holding-child fa-2xl" />
               </span>
               <h4>
-                <strong>Favorited</strong>
+                <strong>Formación integral</strong>
               </h4>
               <p className="text-faded mb-0">
                 Millions of users
@@ -77,10 +76,10 @@ const Home = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="icon-mustache" />
+                <i className="fa-solid fa-hand-holding-dollar fa-2xl" />
               </span>
               <h4>
-                <strong>Question</strong>
+                <strong>Precios asequibles</strong>
               </h4>
               <p className="text-faded mb-0">I mustache you Link question...</p>
             </div>
