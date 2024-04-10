@@ -7929,8 +7929,9 @@ transition-duration: .5s;
   --bs-bg-opacity: 1;
 }
 
-.bg-gradient {
+.bg-gradient, .badge {
   background-image: var(--bs-gradient) !important;
+  background-color: green;
 }
 
 .user-select-all {
@@ -10665,12 +10666,6 @@ blockquote {
   }
 }
 
-.footer {
-  padding-top: 3rem;
-  color: black;
-  padding-bottom: 3rem;
-}
-
 header.masthead {
   position: relative;
   margin-bottom: 3rem;
@@ -10700,17 +10695,18 @@ header.masthead .site-heading {
 }
 header.masthead .page-heading,
 header.masthead .site-heading {
-  text-align: center;
+  text-align: start;
 }
 header.masthead .page-heading h1, header.masthead .page-heading .h1,
 header.masthead .site-heading h1,
 header.masthead .site-heading .h1 {
   font-size: 3rem;
+  display: inline-flex;
 }
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
   color: black;
-  font-size: 1.0rem;
+  font-size: 0.95rem;
   font-weight: bold;
   font-style: italic;
   line-height: 1.1;
@@ -10804,4 +10800,22 @@ header.masthead .post-heading .meta a {
   .post-preview > a > .post-title {
     font-size: 2.25rem;
   }
+}
+
+.service-icon {
+  background-color: #fff;
+  color: #1D809F;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  padding-top: 3rem;
+  color: white;
+  background-color: black;
+  padding-bottom: 3rem;
 }

@@ -6,13 +6,13 @@ const Home = () => {
     <main className="flex-shrink-0">
       {/* Header*/}
       {/* -- Page Header-- */}
-      <header className="masthead" style={{ backgroundImage: 'url("https://previews.123rf.com/images/kwanchaichaiudom/kwanchaichaiudom1609/kwanchaichaiudom160900024/65113478-mesa-de-escritorio-de-oficina-con-ordenador-port%C3%A1til-calculadora-smartphone-l%C3%A1piz-y-notebook-flat.jpg")' }}>
+      <header className="masthead" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")' }}>
         <div className="container position-relative px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-start">
             <div className="col-md-10 col-lg-8 col-xl-7">
               <div className="site-heading">
-                <h1>El Pacto</h1>
-                <span className="subheading">«...Yo hago un pacto con ustedes y les prometo que mi Espíritu y las enseñanzas que les he dado, no se apartarán jamás de ustedes ni de sus hijos...»<br/>Isaías 59:21 </span>
+                <h1><h3 style={{ fontStyle: "italic" }}>Homeschool&ensp; </h3> El Pacto</h1>
+                <span className="subheading">«...Yo hago un pacto con ustedes y les prometo que mi Espíritu y las enseñanzas que les he dado, no se apartarán jamás de ustedes ni de sus hijos...»<br />- Isaías 59:21 </span>
               </div>
             </div>
           </div>
@@ -23,12 +23,12 @@ const Home = () => {
         <div className="container px-4 px-lg-5 text-center">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-10">
-            <h2><span style={{color:"green"}}>El Pacto HomeSchool</span> es el lugar perfecto para dar tus próximos pasos!</h2>
+              <h2><span style={{ color: "green" }}>El Pacto HomeSchool</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
               <p className="lead mb-5">
-                Experimenta esta nueva modalidad de estudio, y no te quedes sin
-                <Link to="/matriculas"> matricularte!</Link>
+                Experimenta esta nueva modalidad de estudio híbrida. Clases online y talleres presenciales. No los dejes sin su&nbsp;
+                <Link to="/matriculas">matrícula!</Link>
               </p>
-              <Link className="btn btn-xl" to="/contacto" style={{background:"green"}}>
+              <Link className="btn btn-xl" to="/contacto" style={{ background: "green" }}>
                 Contáctanos!
               </Link>
             </div>
@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </section>
       {/* Services*/}
-      <section className="content-section text-white text-center py-2 py-lg-5 mb-5" id="services" style={{background:"green"}}>
+      <section className="content-section text-white text-center py-2 py-lg-5 mb-5" id="services" style={{ background: "green" }}>
         <div className="containerServices px-4 px-lg-5 mt-3 mb-4">
           <div className="content-section-heading">
             <h3 className="text-black mb-0">Marcamos</h3>
@@ -45,7 +45,7 @@ const Home = () => {
           <div className="row gx-4 gx-lg-5">
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="fa-solid fa-book-open fa-2xl"/>
+                <i className="fa-solid fa-book-open fa-2xl" />
               </span>
               <h4>
                 <strong>Educación personalizada</strong>
@@ -69,9 +69,8 @@ const Home = () => {
                 <strong>Formación integral</strong>
               </h4>
               <p className="text-faded mb-0">
-                Millions of users
-                <i className="fas fa-heart" />
-                Start Bootstrap!
+                Cada vez más los padres prefieren comenzar con
+                <i className="fas fa-heart" /> HomeSchool El Pacto!
               </p>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -81,7 +80,7 @@ const Home = () => {
               <h4>
                 <strong>Precios asequibles</strong>
               </h4>
-              <p className="text-faded mb-0">I mustache you Link question...</p>
+              <p className="text-faded mb-0">Facilidades de pago. Tarjetas de crédito, débito y efectivo.</p>
             </div>
           </div>
         </div>
@@ -91,8 +90,8 @@ const Home = () => {
         <div className="container px-5 my-5">
           <div className="row gx-5">
             <div className="col-lg-4 mb-5 mb-lg-0">
-              <i className="fa-solid fa-ranking-star fa-5x mb-2" style={{ color: "purple" }} />
-              <h2 className="fw-bolder mb-0" style={{ color: "purple" }}>Marcando la diferencia:</h2>
+              <i className="fa-solid fa-ranking-star fa-5x mb-2" style={{ color: "green" }} />
+              <h2 className="fw-bolder mb-0" style={{ color: "green" }}>Marcando la diferencia:</h2>
             </div>
             <div className="col-lg-8">
               <div className="row gx-5 row-cols-1 row-cols-md-2">
@@ -100,9 +99,9 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-collection" />
                   </div>
-                  <h2 className="h5 text-white-50"><i className="fa-solid fa-magnifying-glass-chart" /> Diagnóstico integral</h2>
+                  <h2 className="h5"><i className="fa-solid fa-magnifying-glass-chart" /> Desarrollo focalizado</h2>
                   <p className="mb-0">
-                    Diágnostico realizado con alta precisión, en base Link análisis clínico y examen radiológico.<br />
+                    Clases online y presencial. Contempla los contenidos  y malla curricular del Mineduc.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/contacto"> Leer más...</Link>
                   </p>
                 </div>
@@ -110,31 +109,30 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-building" />
                   </div>
-                  <h2 className="h5 text-white-50"><i className="fa-solid fa-hand-holding-dollar" /> Métodos de pago</h2>
+                  <h2 className="h5"><i className="fa-solid fa-hand-holding-dollar" /> Métodos de pago</h2>
                   <p className="mb-0">
-                    Tratamientos al alcance de tu presupuesto, con la asesoría de tu odontólogo.<br />
                     Contamos con todo medio de pago: tarjeta de crédito, transferencia y efectivo.<br />
-                    <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/precios"> Leer más...</Link>
+                    <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/matriculas"> Leer más...</Link>
                   </p>
                 </div>
                 <div className="col mb-5 mb-md-0 h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-toggles2" />
                   </div>
-                  <h2 className="h5 text-white-50"><i className="fa-solid fa-briefcase-medical" /> Productos de alta gama</h2>
+                  <h2 className="h5"><i className="fa-solid fa-briefcase-medical" /> Docencia de alto nivel</h2>
                   <p className="mb-0">
-                    Productos de alta calidad con certificación alemana. Elige siempre lo mejor para ti.<br />
-                    <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/estetica-facial"> Leer más...</Link>
+                    Lorem ipsum bla bla bla bla bla vbla bla<br />
+                    <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/nosotros"> Leer más...</Link>
                   </p>
                 </div>
                 <div className="col h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     <i className="bi bi-toggles2" />
                   </div>
-                  <h2 className="h5 text-white-50"><i className="fa-solid fa-user-doctor" /> Confianza profesional</h2>
+                  <h2 className="h5"><i className="fa-solid fa-user-doctor" /> Talleres complementarios</h2>
                   <p className="mb-0">
                     Paragraph of text beneath the heading to explain the heading.<br />
-                    <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/nuestra-mision"> Leer más...</Link>
+                    <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/blog"> Leer más...</Link>
                   </p>
                 </div>
               </div>
@@ -143,26 +141,25 @@ const Home = () => {
         </div>
       </section>
       {/* Testimonial section*/}
-      <div className="py-5 bg-light">
-        <div className="container px-5 my-5 text-white">
+      <div className="py-2" style={{ background: "green" }}>
+        <div className="container px-5 my-3 text-white">
           <div className="row gx-5 justify-content-center">
             <div className="col-lg-10 col-xl-7">
               <div className="text-center">
                 <div className="fs-4 mb-4 fst-italic">
-                  "Working with Start Bootstrap templates has saved me tons of
-                  development time when building new projects! Starting with Link
-                  Bootstrap template just makes things easier!"
+                  "Trabajando con Homeschool El Pacto ha sido de bendición para el desarrollo de....
+                  resto de palabras que no ha dicho, pero que podrá decir, para sacar adelante este Proyecto!"
                 </div>
                 <div className="d-flex align-items-center justify-content-center">
                   <img
                     className="rounded-circle me-3"
-                    src="https://dummyimage.com/40x40/ced4da/6c757d"
+                    src="https://dummyimage.com/100x100/595659/000a91"
                     alt="..."
                   />
                   <div className="fw-bold">
-                    Tom Ato
+                    Isabel Fernández
                     <span className="fw-bold text-primary mx-1">/</span>
-                    CEO, Pomodoro
+                    Apóstol MCA
                   </div>
                 </div>
               </div>
@@ -176,7 +173,7 @@ const Home = () => {
           <div className="row gx-5 justify-content-center">
             <div className="col-lg-8 col-xl-6">
               <div className="text-center">
-                <h2 className="fw-bolder">From our blog</h2>
+                <h2 className="fw-bolder" style={{ color: "green" }}>--- De nuestro Blog ---</h2>
                 <p className="lead fw-normal mb-5">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
                   fugit ratione dicta mollitia. Officiis ad.
@@ -193,7 +190,7 @@ const Home = () => {
                   alt="..."
                 />
                 <div className="card-body p-4">
-                  <div className="badge bg-primary bg-gradient rounded-pill mb-2">
+                  <div className="badge bg-gradient rounded-pill mb-2">
                     News
                   </div>
                   <Link
@@ -234,7 +231,7 @@ const Home = () => {
                   alt="..."
                 />
                 <div className="card-body p-4">
-                  <div className="badge bg-primary bg-gradient rounded-pill mb-2">
+                  <div className="badge bg-gradient rounded-pill mb-2">
                     Media
                   </div>
                   <Link
@@ -276,7 +273,7 @@ const Home = () => {
                   alt="..."
                 />
                 <div className="card-body p-4">
-                  <div className="badge bg-primary bg-gradient rounded-pill mb-2">
+                  <div className="badge bg-gradient rounded-pill mb-2">
                     News
                   </div>
                   <Link
@@ -318,10 +315,10 @@ const Home = () => {
             <div className="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
               <div className="mb-4 mb-xl-0">
                 <div className="fs-3 fw-bold text-white">
-                  New products, delivered to you.
+                  Si necesitas mayor información, escríbenos.
                 </div>
-                <div className="text-white-50">
-                  Sign up for our newsletter for the latest updates.
+                <div className="fs-5 text-white-50">
+                  Suscríbete para estar al día con nuestras noticias.
                 </div>
               </div>
               <div className="ms-xl-4">
@@ -329,7 +326,7 @@ const Home = () => {
                   <input
                     className="form-control"
                     type="text"
-                    placeholder="Email address..."
+                    placeholder="Ingresa tu email"
                     aria-label="Email address..."
                     aria-describedby="button-newsletter"
                   />
@@ -338,11 +335,11 @@ const Home = () => {
                     id="button-newsletter"
                     type="button"
                   >
-                    Sign up
+                    Suscríbete!
                   </button>
                 </div>
-                <div className="small text-white-50">
-                  We care about privacy, and will never share your data.
+                <div className="fs-6 text-white-50">
+                Nos preocupamos por la privacidad y nunca compartiremos tus datos.
                 </div>
               </div>
             </div>
