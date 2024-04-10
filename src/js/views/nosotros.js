@@ -5,7 +5,7 @@ const Nosotros = () => {
 return <>
     <main className="flex-shrink-0">
         {/* Header*/}
-        <header className="py-5">
+        <header className="py-5" style={{ backgroundImage: 'url("https://previews.123rf.com/images/kwanchaichaiudom/kwanchaichaiudom1609/kwanchaichaiudom160900024/65113478-mesa-de-escritorio-de-oficina-con-ordenador-port%C3%A1til-calculadora-smartphone-l%C3%A1piz-y-notebook-flat.jpg")' }}>
             <div className="container px-5">
                 <div className="row justify-content-center">
                     <div className="col-lg-8 col-xxl-6">
