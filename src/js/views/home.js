@@ -19,12 +19,12 @@ const Home = () => {
         </div>
       </header>
       {/* About*/}
-      <section className="content-section bg-light py-2 py-lg-5 mb-5" id="about">
+      <section className="content-section bg-light py-1 py-lg-4 mb-5" id="about">
         <div className="container px-4 px-lg-5 text-center">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-10">
               <h2><span style={{ color: "green" }}>El Pacto HomeSchool</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
-              <p className="lead mb-5">
+              <p className="lead mb-3">
                 Experimenta esta nueva modalidad de estudio híbrida. Clases online y talleres presenciales. No los dejes sin su&nbsp;
                 <Link to="/matriculas">matrícula!</Link>
               </p>
@@ -36,8 +36,8 @@ const Home = () => {
         </div>
       </section>
       {/* Services*/}
-      <section className="content-section text-white text-center py-2 py-lg-5 mb-5" id="services" style={{ background: "green" }}>
-        <div className="containerServices px-4 px-lg-5 mt-3 mb-4">
+      <section className="content-section text-white text-center py-1 py-lg-5 mb-2" id="services" style={{ background: "green" }}>
+        <div className="containerServices px-4 px-lg-5 mt-1 mb-2">
           <div className="content-section-heading">
             <h3 className="text-black mb-0">Marcamos</h3>
             <h2 className="mb-5">la diferencia:</h2>
@@ -86,7 +86,7 @@ const Home = () => {
         </div>
       </section>
       {/* Features section*/}
-      <section className="py-5" id="features">
+      <section className="py-3" id="features">
         <div className="container px-5 my-5">
           <div className="row gx-5">
             <div className="col-lg-4 mb-5 mb-lg-0">
@@ -168,7 +168,7 @@ const Home = () => {
         </div>
       </div>
       {/* Blog preview section*/}
-      <section className="py-5">
+      <section className="py-3">
         <div className="container px-5 my-5">
           <div className="row gx-5 justify-content-center">
             <div className="col-lg-8 col-xl-6">
@@ -311,7 +311,7 @@ const Home = () => {
             </div>
           </div>
           {/* Call to action*/}
-          <aside className="bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+          <aside className="bg-gradient rounded-3 p-4 p-sm-5 mt-4">
             <div className="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
               <div className="mb-4 mb-xl-0">
                 <div className="fs-3 fw-bold text-white">
