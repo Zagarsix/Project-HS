@@ -1,15 +1,18 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+import pencil from "../../img/lapices-bg.jpg";
+import chave from "../../img/Ap-Isabel.jpg";
+
 const Home = () => {
   return <>
     <main className="flex-shrink-0">
       {/* Header*/}
       {/* -- Page Header-- */}
-      <header className="masthead" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")' }}>
+      <header className="masthead" style={{ backgroundImage: `url(${pencil})`}}>
         <div className="container position-relative px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-start">
-            <div className="col-md-10 col-lg-8 col-xl-7">
+            <div className="col-md-12 col-lg-8 col-xl-10">
               <div className="site-heading">
                 <h1><h3 style={{ fontStyle: "italic" }}>Homeschool&ensp; </h3> El Pacto</h1>
                 <span className="subheading">«...Yo hago un pacto con ustedes y les prometo que mi Espíritu y las enseñanzas que les he dado, no se apartarán jamás de ustedes ni de sus hijos...»<br />- Isaías 59:21 </span>
@@ -153,8 +156,10 @@ const Home = () => {
                 <div className="d-flex align-items-center justify-content-center">
                   <img
                     className="rounded-circle me-3"
-                    src="https://dummyimage.com/100x100/595659/000a91"
-                    alt="..."
+                    src={chave}
+                    alt="Apóstol Isabel riendo"
+                    width="120"
+                    height="120"
                   />
                   <div className="fw-bold">
                     Isabel Fernández
