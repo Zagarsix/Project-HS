@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 
 import pencil from "../../img/lapices-bg.jpg";
 import chave from "../../img/Ap-Isabel.jpg";
+import children from "../../img/childrenSchool.jpg";
+import notebook from "../../img/about-bg.jpg";
+import parents from "../../img/ParentsAndChildren.jpg";
+
 
 const Home = () => {
   return <>
@@ -191,7 +195,7 @@ const Home = () => {
               <div className="card h-100 shadow border-0">
                 <img
                   className="card-img-top"
-                  src="https://dummyimage.com/600x350/ced4da/6c757d"
+                  src={children}
                   alt="..."
                 />
                 <div className="card-body p-4">
@@ -232,7 +236,7 @@ const Home = () => {
               <div className="card h-100 shadow border-0">
                 <img
                   className="card-img-top"
-                  src="https://dummyimage.com/600x350/adb5bd/495057"
+                  src={notebook}
                   alt="..."
                 />
                 <div className="card-body p-4">
@@ -274,7 +278,7 @@ const Home = () => {
               <div className="card h-100 shadow border-0">
                 <img
                   className="card-img-top"
-                  src="https://dummyimage.com/600x350/6c757d/343a40"
+                  src={parents}
                   alt="..."
                 />
                 <div className="card-body p-4">
