@@ -19,7 +19,7 @@ const Nosotros = () => {
                                 <p className="lead fw-normal text-black mb-5">
                                     Entregando una educación personalizada para niños y jóvenes, bajo valores, principios y conceptos cristianos; dando apoyo a las familias en el proceso de aprendizaje de sus hijos. Contemplando los niveles desde enseñanza pre-básica a media, a través de una plataforma online y talleres presenciales.
                                 </p>
-                                <NavLink className="btn btn-lg" to="#scroll-target" style={{ background: "green" }}>
+                                <NavLink className="btn btn-xl" to="#scroll-target" style={{ background: "green" }}>
                                     Lee nuestra historia
                                 </NavLink>
                             </div>
