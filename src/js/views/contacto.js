@@ -1,9 +1,30 @@
 import React from 'react';
-import { NavLink,Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import contact from "../../img/contact-bg.jpg";
 
 const Contacto = () => {
 return<>
      <main className="flex-shrink-0">
+      {/* Header*/}
+    <header className="masthead" style={{ backgroundImage: `url(${contact})` }}>
+      <div className="container position-relative px-5 px-lg-3">
+        <div className="row gx-4 gx-lg-5 justify-content-around">
+          <div className="col-md-12 col-lg-11 col-xl-10">
+            <div className="text-center my-2">
+              <h1 className="site-heading fw-bolder mb-1">
+                Más cerca de ti
+              </h1>
+              <p className="lead fw-normal text-black mb-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
+                numquam libero molestiae et fugit cupiditate, quibusdam expedita,
+                maiores eaque quisquam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     {/* Page content*/}
     <section className="py-5">
       <div className="container px-5">
@@ -13,12 +34,12 @@ return<>
             <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
               <i className="bi bi-envelope" />
             </div>
-            <h1 className="fw-bolder">Get in touch</h1>
+            <h1 className="fw-bolder">Contáctanos</h1>
             <p className="lead fw-normal text-muted mb-0">
-              We'd love to hear from you
+              Nos encantaría escucharte
             </p>
           </div>
-          <div className="row gx-5 justify-content-center">
+          <div className="row gx-5 justify-content-center" >
             <div className="col-lg-8 col-xl-6">
               {/* * * * * * * * * * * * * * * **/}
               {/* * * SB Forms Contact Form * **/}
@@ -27,7 +48,7 @@ return<>
               {/* To make this form functional, sign up at*/}
               {/* https://startbootstrap.com/solution/contact-forms*/}
               {/* to get an API token!*/}
-              <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+              <form id="contactForm" data-sb-form-api-token="API_TOKEN" >
                 {/* Name input*/}
                 <div className="form-floating mb-3">
                   <input
@@ -37,7 +58,7 @@ return<>
                     placeholder="Enter your name..."
                     data-sb-validations="required"
                   />
-                  <label htmlFor="name">Full name</label>
+                  <label htmlFor="name">Nombre completo</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="name:required"
@@ -54,7 +75,7 @@ return<>
                     placeholder="name@example.com"
                     data-sb-validations="required,email"
                   />
-                  <label htmlFor="email">Email address</label>
+                  <label htmlFor="email">Email</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="email:required"
@@ -77,7 +98,7 @@ return<>
                     placeholder="(123) 456-7890"
                     data-sb-validations="required"
                   />
-                  <label htmlFor="phone">Phone number</label>
+                  <label htmlFor="phone">Número de contacto</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="phone:required"
@@ -96,7 +117,7 @@ return<>
                     data-sb-validations="required"
                     defaultValue={""}
                   />
-                  <label htmlFor="message">Message</label>
+                  <label htmlFor="message">Mensaje</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="message:required"
@@ -130,11 +151,11 @@ return<>
                 {/* Submit Button*/}
                 <div className="d-grid">
                   <button
-                    className="btn btn-primary btn-lg disabled"
+                    className="btn btn-lg"
                     id="submitButton"
                     type="submit"
                   >
-                    Submit
+                    Enviar
                   </button>
                 </div>
               </form>
