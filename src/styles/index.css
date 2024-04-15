@@ -10690,7 +10690,6 @@ header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
   color: green;
-  text-shadow: 0 0 0.2em rgb(0, 172, 0), 0 0 0.2em green;
   -webkit-text-stroke: 0.5px black;
 }
 header.masthead .page-heading,
@@ -10742,6 +10741,7 @@ header.masthead .post-heading .meta a {
   header.masthead {
     padding-top: 12.5rem;
     padding-bottom: 12.5rem;
+    max-height:550px;
   }
   header.masthead .page-heading h1, header.masthead .page-heading .h1,
   header.masthead .site-heading h1,
