@@ -10689,7 +10689,8 @@ header.masthead:before {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  color: green;
+  color: purple;
+  box-shadow: 0 0 0 green;
   -webkit-text-stroke: 0.5px black;
 }
 header.masthead .page-heading,
@@ -10704,14 +10705,15 @@ header.masthead .site-heading .h1 {
 }
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
-  color: black;
-  font-size: 0.95rem;
+  color: purple;
+  font-size: 1.5rem;
+  text-shadow: 0 0 0.2em purple;
   font-weight: bold;
   font-style: italic;
   line-height: 1.1;
   display: block;
   margin-top: 0.625rem;
-  -webkit-text-stroke: 0.5px green;
+  -webkit-text-stroke: 0.5px purple;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .post-heading h1, header.masthead .post-heading .h1 {
