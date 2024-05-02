@@ -18,7 +18,7 @@ const Home = () => {
           <div className="row gx-4 gx-lg-5 justify-content-start">
             <div className="col-md-12 col-lg-8 col-xl-10">
               <div className="site-heading">
-                <h1><h3 style={{ fontStyle: "italic" }}>Homeschool&ensp; </h3> El Pacto</h1>
+                <h1><span style={{ fontStyle: "italic", fontSize:"30px" }}>Homeschool&ensp; </span> El Pacto</h1>
                 <span className="subheading">«...Yo hago un pacto con ustedes y les prometo que mi Espíritu y las enseñanzas que les he dado, no se apartarán jamás de ustedes ni de sus hijos...»<br />- Isaías 59:21 </span>
               </div>
             </div>
@@ -30,7 +30,7 @@ const Home = () => {
         <div className="container px-4 px-lg-5 text-center">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-10">
-              <h2><span style={{ color: "green" }}>El Pacto HomeSchool</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
+              <h2><span style={{ color: "#7554c2" }}>El Pacto HomeSchool</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
               <p className="lead mb-3">
                 Experimenta esta nueva modalidad de estudio híbrida. Clases online y talleres presenciales. No los dejes sin su&nbsp;
                 <Link to="/matriculas">matrícula!</Link>
@@ -43,7 +43,7 @@ const Home = () => {
         </div>
       </section>
       {/* Services*/}
-      <section className="content-section text-white text-center py-1 py-lg-5 mb-2" id="services" style={{ background: "green" }}>
+      <section className="content-section text-white text-center py-1 py-lg-5 mb-2" id="services">
         <div className="containerServices px-4 px-lg-5 mt-1 mb-2">
           <div className="content-section-heading">
             <h3 className="text-black mb-0">Marcamos</h3>

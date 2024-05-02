@@ -2233,7 +2233,7 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(0, 133, 161, 0.25);
 }
 .form-check-input:checked {
-  background-color: #0085A1;
+  background-color: #a10099;
   border-color: #0085A1;
 }
 .form-check-input:checked[type=checkbox] {
@@ -3549,7 +3549,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: green !important;
+  color: #7554c2 !important;
   text-decoration: underline solid 2px;
 }
 .nav-link.disabled {
@@ -4314,7 +4314,7 @@ transition-duration: .5s;
   --bs-breadcrumb-margin-bottom: 1rem;
   --bs-breadcrumb-bg: ;
   --bs-breadcrumb-border-radius: ;
-  --bs-breadcrumb-divider-color: #6c757d;
+  --bs-breadcrumb-divider-color: #7554c2;
   --bs-breadcrumb-item-padding-x: 0.5rem;
   --bs-breadcrumb-item-active-color: #6c757d;
   display: flex;
@@ -10689,9 +10689,9 @@ header.masthead:before {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  color: purple;
-  box-shadow: 0 0 0 green;
-  -webkit-text-stroke: 0.5px black;
+  color: #7554c2;
+  box-shadow: 0 0 0 #7554c2;
+  /* -webkit-text-stroke: 0.5px black; */
 }
 header.masthead .page-heading,
 header.masthead .site-heading {
@@ -10705,15 +10705,15 @@ header.masthead .site-heading .h1 {
 }
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
-  color: purple;
+  color: #737391;
   font-size: 1.5rem;
-  text-shadow: 0 0 0.2em purple;
+  /* text-shadow: 0 0 0.2em purple; */
   font-weight: bold;
   font-style: italic;
   line-height: 1.1;
   display: block;
   margin-top: 0.625rem;
-  -webkit-text-stroke: 0.5px purple;
+  /* -webkit-text-stroke: 0.5px purple; */
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .post-heading h1, header.masthead .post-heading .h1 {
@@ -10813,6 +10813,10 @@ header.masthead .post-heading .meta a {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+#services{
+  background-image: linear-gradient(90deg,#7554c2, #b4b4b4,#d88cd4);
 }
 
 .footer {
