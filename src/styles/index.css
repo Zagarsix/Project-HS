@@ -1809,7 +1809,7 @@ progress {
   --bs-table-bg: #cce7ec;
   --bs-table-border-color: #b8d0d4;
   --bs-table-striped-bg: #c2dbe0;
-  --bs-table-striped-color: #000;
+  --bs-table-striped-color: #000000;
   --bs-table-active-bg: #b8d0d4;
   --bs-table-active-color: #000;
   --bs-table-hover-bg: #bdd6da;
@@ -2671,7 +2671,7 @@ textarea.form-control-lg {
 }
 
 .was-validated .form-select:invalid, .form-select.is-invalid {
-  border-color: #dc3545;
+  border-color: #002792
 }
 .was-validated .form-select:invalid:not([multiple]):not([size]), .was-validated .form-select:invalid:not([multiple])[size="1"], .form-select.is-invalid:not([multiple]):not([size]), .form-select.is-invalid:not([multiple])[size="1"] {
   padding-right: 4.125rem;
@@ -2752,8 +2752,8 @@ textarea.form-control-lg {
   }
 }
 .btn:hover {
-  color: green;
-  background-color: rgb(0, 140, 255) !important;
+  color: white;
+  background-color: #131c96 !important;
   border-color: var(--bs-btn-hover-border-color);
 }
 .btn-check + .btn:hover {
@@ -3549,7 +3549,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #7554c2 !important;
+  color: #38d338 !important;
   text-decoration: underline solid 2px;
 }
 .nav-link.disabled {
@@ -7931,7 +7931,7 @@ transition-duration: .5s;
 
 .bg-gradient, .badge {
   background-image: var(--bs-gradient) !important;
-  background-color: green;
+  background-color: #131c96;
 }
 
 .user-select-all {
@@ -10689,7 +10689,7 @@ header.masthead:before {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  color: #7554c2;
+  color: #D300F6;
   box-shadow: 0 0 0 #7554c2;
   /* -webkit-text-stroke: 0.5px black; */
 }
@@ -10705,7 +10705,7 @@ header.masthead .site-heading .h1 {
 }
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
-  color: #737391;
+  color: #0032F6;
   font-size: 1.5rem;
   /* text-shadow: 0 0 0.2em purple; */
   font-weight: bold;
@@ -10815,8 +10815,8 @@ header.masthead .post-heading .meta a {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-#services{
-  background-image: linear-gradient(90deg,#7554c2, #b4b4b4,#d88cd4);
+#services, #testimonial, #callToAction, #cardPricing, #contacto{
+  background-image: linear-gradient(45deg,#1d2161, #131c96, #38d338);
 }
 
 .footer {
@@ -10824,4 +10824,26 @@ header.masthead .post-heading .meta a {
   color: white;
   background-color: black;
   padding-bottom: 3rem;
+}
+
+/*Palette colors
+#1d2161
+#131c96
+#38d338
+
+split-complementary
+#F6EC00 yellow
+#0032F6 blue
+#D300F6 purple
+
+triadic
+#2A03FE
+#FEAC03
+#AFFE03
+
+gradient: #7554c2, #b4b4b4,#d88cd4
+*/
+
+#notFound{
+  margin-top: 200px;
 }
