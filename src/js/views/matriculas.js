@@ -16,7 +16,7 @@ const Matriculas = () => {
                   Matrículas 2024
                 </h1>
                 <p className="lead fw-normal text-black mb-1">
-                  Entregando una educación personalizada para niños y jóvenes, bajo valores, principios y conceptos cristianos; dando apoyo a las familias en el proceso de aprendizaje de sus hijos. Contemplando los niveles desde enseñanza pre-básica a media, a través de una plataforma online y talleres presenciales.
+                  Para comenzar un nuevo año, con una nueva jornada de estudios!!! 
                 </p>
               </div>
             </div>
@@ -27,47 +27,47 @@ const Matriculas = () => {
       <section className="bg-light py-5">
         <div className="container px-5 my-5">
           <div className="text-center mb-5">
-            <h1 className="fw-bolder" style={{color:"green"}}>--- Aranceles 2024 ---</h1>
+            <h1 className="fw-bolder" style={{color:"#131c96"}}>--- Aranceles 2024 ---</h1>
             <p className="lead fw-normal text-muted mb-0">
               Desde enseñanza pre-básica a media 
             </p>
           </div>
-          <div className="row gx-5 justify-content-center">
+          <div className="row gx-5 justify-content-center" id="cardPricing">
             {/* Pricing card free*/}
             <div className="col-lg-6 col-xl-4">
               <div className="card mb-5 mb-xl-0">
                 <div className="card-body p-5">
                   <div className="small text-uppercase fw-bold text-muted">
-                    Free
+                    Matrícula
                   </div>
                   <div className="mb-3">
-                    <span className="display-4 fw-bold">$0</span>
-                    <span className="text-muted">/ mo.</span>
+                    <span className="display-4 fw-bold">$ 45.000</span>
+                    <span className="text-muted">/ anual</span>
                   </div>
                   <ul className="list-unstyled mb-4">
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                      <strong>1 users</strong>
+                      <strong>10 alumnos máximo</strong>
                     </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                      5GB storage
+                      Clases sincrónicas
                     </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                      Unlimited public projects
+                      Acceso ilimitado
                     </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                      Community access
+                      Acceso a retroalimentación
                     </li>
                     <li className="mb-2 text-muted">
                       <i className="bi bi-x" />
-                      Unlimited private projects
+                      Mentorías 1 a 1
                     </li>
                     <li className="mb-2 text-muted">
                       <i className="bi bi-x" />
-                      Dedicated support
+                      Lorem ipsum
                     </li>
                     <li className="mb-2 text-muted">
                       <i className="bi bi-x" />
@@ -79,8 +79,8 @@ const Matriculas = () => {
                     </li>
                   </ul>
                   <div className="d-grid">
-                    <NavLink className="btn btn-xl" style={{ background: "green" }} to="#!">
-                      Choose plan
+                    <NavLink className="btn btn-xl" style={{ background: "#131c96" }} to="#!">
+                      Pagar
                     </NavLink>
                   </div>
                 </div>
@@ -92,11 +92,11 @@ const Matriculas = () => {
                 <div className="card-body p-5">
                   <div className="small text-uppercase fw-bold">
                     <i className="bi bi-star-fill text-warning" />
-                    Pro
+                    Mensualidad
                   </div>
                   <div className="mb-3">
-                    <span className="display-4 fw-bold">$9</span>
-                    <span className="text-muted">/ mo.</span>
+                    <span className="display-4 fw-bold">$ 70.000</span>
+                    <span className="text-muted">/ </span>
                   </div>
                   <ul className="list-unstyled mb-4">
                     <li className="mb-2">
@@ -133,7 +133,7 @@ const Matriculas = () => {
                     </li>
                   </ul>
                   <div className="d-grid">
-                    <NavLink className="btn btn-xl" style={{ background: "green" }} to="#!">
+                    <NavLink className="btn btn-xl" style={{ background: "#131c96" }} to="#!">
                       Choose plan
                     </NavLink>
                   </div>
@@ -187,7 +187,7 @@ const Matriculas = () => {
                     </li>
                   </ul>
                   <div className="d-grid">
-                    <NavLink className="btn btn-xl" style={{ background: "green" }} to="#!">
+                    <NavLink className="btn btn-xl" style={{ background: "#131c96" }} to="#!">
                       Choose plan
                     </NavLink>
                   </div>
