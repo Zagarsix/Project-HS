@@ -19,7 +19,7 @@ const Nosotros = () => {
                                 <p className="lead fw-normal text-black mb-5">
                                     Entregando una educación personalizada para niños y jóvenes, bajo valores, principios y conceptos cristianos; dando apoyo a las familias en el proceso de aprendizaje de sus hijos. Contemplando los niveles desde enseñanza pre-básica a media, a través de una plataforma online y talleres presenciales.
                                 </p>
-                                <NavLink className="btn btn-xl" to="#scroll-target" style={{ background: "green" }}>
+                                <NavLink className="btn btn-xl" to="#scroll-target" style={{ background: "#131c96" }}>
                                     Lee nuestra historia
                                 </NavLink>
                             </div>
@@ -39,7 +39,7 @@ const Nosotros = () => {
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder" style={{color:"green"}}>Visión</h2>
+                            <h2 className="fw-bolder" style={{color:"#131c96"}}>Visión</h2>
                             <p className="lead fw-normal text-muted mb-0">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                                 est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
@@ -62,7 +62,7 @@ const Nosotros = () => {
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder" style={{color:"green"}}>Desarrollo &amp; más allá</h2>
+                            <h2 className="fw-bolder" style={{color:"#131c96"}}>Desarrollo &amp; más allá</h2>
                             <p className="lead fw-normal text-muted mb-0">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                                 est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
@@ -77,7 +77,7 @@ const Nosotros = () => {
             <section className="py-5 bg-light">
                 <div className="container px-5 my-5">
                     <div className="text-center">
-                        <h2 className="fw-bolder" style={{color:"green"}}>--- Nuestro equipo ---</h2>
+                        <h2 className="fw-bolder" style={{color:"#131c96"}}>--- Nuestro equipo ---</h2>
                         <p className="lead fw-normal text-muted mb-5">
                             Dedicados a la calidad &amp; el éxito
                         </p>
