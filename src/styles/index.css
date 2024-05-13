@@ -10847,3 +10847,36 @@ gradient: #7554c2, #b4b4b4,#d88cd4
 #notFound{
   margin-top: 200px;
 }
+
+#buttonWame{
+  display: inline-flex;
+  justify-content: end;
+  justify-self: end;
+}
+
+/* .tooltipWame{
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  user-select: none;
+
+  box-shadow: 0 0 10px #000;
+  padding: .5rem 1 rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+
+  top:50%;
+  left: 52%;
+  color:#000;
+  background-color: green;
+
+  opacity: 0;
+  transition: var(--bs-tooltip-opacity) .3s ease;
+}
+
+.tooltipWame:hover{
+  position: relative;
+  opacity: 1;
+} */
+
+

@@ -10,7 +10,7 @@ import Matriculas from "./views/matriculas";
 import Blog from "./views/blog";
 import Contacto from "./views/contacto";
 import NotFound from "./views/NotFound";
-
+import ButtonWame from "./component/buttonWame";
 
 
 
@@ -39,6 +39,7 @@ const Layout = () => {
 					</Route>
 					<Route component={NotFound} />
 				</Switch>
+				<ButtonWame/>
 				<Footer />
 			</BrowserRouter>
 		</div>
