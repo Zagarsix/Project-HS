@@ -10852,10 +10852,18 @@ gradient: #7554c2, #b4b4b4,#d88cd4
   display: inline-flex;
   justify-content: end;
   justify-self: end;
+  margin-left: 10.5rem;
 }
 
-/* .tooltipWame{
-  position: absolute;
+.Wame:hover{
+  filter: brightness(150%);
+  transition: all .5s ease-in;
+  transform: scale(1.2);
+  transition-duration: .5s;
+}
+
+.tooltipWame{
+  position: relative;
   z-index: 1;
   pointer-events: none;
   user-select: none;
@@ -10865,18 +10873,21 @@ gradient: #7554c2, #b4b4b4,#d88cd4
   font-size: 1.2rem;
   border-radius: 8px;
 
-  top:50%;
-  left: 52%;
+  top:100%;
+  right: 5%;
   color:#000;
   background-color: green;
 
   opacity: 0;
-  transition: var(--bs-tooltip-opacity) .3s ease;
+  transition: all .3s ease-out;
 }
 
 .tooltipWame:hover{
   position: relative;
   opacity: 1;
-} */
+  transition: all .5s ease-in;
+  transform: scale(1.2);
+  transition-duration: .5s;
+}
 
 

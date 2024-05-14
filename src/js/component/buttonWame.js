@@ -6,8 +6,8 @@ const ButtonWame = () => {
     <div className='container fixed-bottom p-1 my-1' id="buttonWame">
       <span className='m-auto mx-0'>
         <a className='text-white' target="_blank" href="https://wa.me/56973655180/">
-          <img className="p-0" src={contact} alt="logo-brand" width="80" height="80" />
-          {/* <span className='tooltipWame'>¿Necesitas ayuda?</span> */}
+          <span className='tooltipWame'>¿Necesitas ayuda?</span>
+          <img className="Wame p-0" src={contact} alt="logo-brand" width="75" height="75" />
         </a>
       </span>
     </div>
