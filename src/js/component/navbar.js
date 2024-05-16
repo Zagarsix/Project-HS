@@ -13,7 +13,7 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-light" id="mainNav">
                 <div className="container px-4 px-lg-5">
-                    <NavLink className="navbar-brand" to="/">
+                    <NavLink className="navbar-brand" to="/" onClick={handleNavCollapse}>
                         <img className="mx-3" src={logoHS} alt="logo-brand" width="220" height="120" />
                     </NavLink>
                     <button
