@@ -12701,18 +12701,19 @@ gradient: #7554c2, #b4b4b4,#d88cd4
     width: 30px;
     height: 30px;
   }
-  
-.tooltip-container .tooltip-text {
-  width: 80px;
-  font-size: 16px;
-  padding: 2px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 180%;
-  left: 20%;
-  margin-left: -40px;
-}
-.fixed-button-container {
-  right: 25px;
-}
+
+  .tooltip-container .tooltip-text {
+    width: 80px;
+    font-size: 16px;
+    padding: 2px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 180%;
+    left: 20%;
+    margin-left: -40px;
+  }
+
+  .fixed-button-container {
+    right: 25px;
+  }
 }
