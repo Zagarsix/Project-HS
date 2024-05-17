@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Navbar from "./component/navbar";
 import Footer from "./component/footer";
+import ButtonWame from "./component/buttonWame";
+import ScrollToTopButton from "./component/buttonScrollToTop";
 
 import Home from "./views/home";
 import Nosotros from "./views/nosotros";
@@ -10,9 +12,6 @@ import Matriculas from "./views/matriculas";
 import Blog from "./views/blog";
 import Contacto from "./views/contacto";
 import NotFound from "./views/NotFound";
-import ButtonWame from "./component/buttonWame";
-
-
 
 //create your first component
 const Layout = () => {
@@ -40,6 +39,7 @@ const Layout = () => {
 					<Route component={NotFound} />
 				</Switch>
 				<ButtonWame/>
+				<ScrollToTopButton/>
 				<Footer />
 			</BrowserRouter>
 		</div>

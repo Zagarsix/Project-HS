@@ -12482,6 +12482,7 @@ header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
   color: #0032F6;
   font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
   /* text-shadow: 0 0 0.2em purple; */
   font-weight: bold;
   font-style: italic;
@@ -12635,9 +12636,9 @@ split-complementary
 #D300F6 purple
 
 triadic
-#2A03FE
-#FEAC03
-#AFFE03
+#2A03FE celeste
+#FEAC03 morado
+#AFFE03 amarillo
 
 gradient: #7554c2, #b4b4b4,#d88cd4
 */
@@ -12647,10 +12648,10 @@ gradient: #7554c2, #b4b4b4,#d88cd4
 }
 
 .Wame:hover {
-  filter: brightness(120%);
+  filter: brightness(135%);
   transition: all .5s ease-in;
   transform: scale(1.1);
-  transition-duration: .5s;
+  transition-duration: .3s;
 }
 
 .fixed-button-container {
@@ -12688,7 +12689,7 @@ gradient: #7554c2, #b4b4b4,#d88cd4
   left: 20%;
   margin-left: -50px;
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.5s;
 }
 
 .tooltip-container:hover .tooltip-text {
@@ -12716,4 +12717,25 @@ gradient: #7554c2, #b4b4b4,#d88cd4
   .fixed-button-container {
     right: 25px;
   }
+}
+
+.scroll-to-top-button-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px; /* Change to right if you prefer */
+  z-index: 100;
+}
+
+.scroll-to-top-button {
+  background-color: #acaf00; /* Color similar al botón de contacto */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.scroll-to-top-button:hover {
+  filter: brightness(150%);
 }
