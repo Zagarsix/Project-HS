@@ -11,22 +11,22 @@ const Footer = () => {
                     <div className='col-12 col-sm-auto text-center p-3'>
                         <span className='m-2'>
                             <a className='text-white' target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/daniela-pacheco-araya-716a32264/">
-                                <i className="fa-brands fa-facebook-f fa-bounce fa-2xl" style={{ color: "blue" }}></i>
+                                <i className="fa-brands fa-facebook-f fa-fade fa-2xl" style={{ color: "blue" }}></i>
                             </a>
                         </span>
                         <span className='m-2'>
                             <a className='text-white' target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/danydent_odontoesthetic/">
-                                <i className="fa-brands fa-instagram fa-bounce fa-2xl" style={{ color: "pink" }}></i>
+                                <i className="fa-brands fa-instagram fa-fade fa-2xl" style={{ color: "pink" }}></i>
                             </a>
                         </span>
                         <span className='m-2'>
                             <a className='text-white' target="_blank" rel="noopener noreferrer" href="https://wa.me/56973655180/">
-                                <i className="fa-brands fa-whatsapp fa-bounce fa-2xl " style={{ color: "green" }}></i>
+                                <i className="fa-brands fa-whatsapp fa-fade fa-2xl " style={{ color: "green" }}></i>
                             </a>
                         </span>
                         <span className='m-2'>
                             <a className='text-white' target="_blank" rel="noopener noreferrer" href="mailto:dany.pacheco.a@gmail.com">
-                                <i className="fa-regular fa-envelope fa-bounce fa-2xl" style={{ color: "red" }}></i>
+                                <i className="fa-regular fa-envelope fa-fade fa-2xl" style={{ color: "red" }}></i>
                             </a>
                         </span>
                     </div>
