@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { Typewriter } from 'react-simple-typewriter';
 
 import pencil from "../../img/lapices-bg.jpg";
 import chave from "../../img/Ap-Isabel.jpg";
@@ -13,12 +14,13 @@ const Home = () => {
     <main className="flex-shrink-0">
       {/* Header*/}
       {/* -- Page Header-- */}
-      <header className="masthead" style={{ backgroundImage: `url(${pencil})`}}>
+      <header className="masthead" style={{ backgroundImage: `url(${pencil})` }}>
         <div className="container position-relative px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-start">
             <div className="col-md-12 col-lg-8 col-xl-10">
               <div className="site-heading">
-                <h1><span style={{ fontStyle: "italic", fontSize:"30px" }}>Homeschool&ensp; </span> El Pacto</h1>
+                <h1><span style={{ fontStyle: "italic", fontSize: "30px" }}>Homeschool&ensp; </span> El Pacto</h1>
+                {/* <h1 className='display-3' id="specialName"><Typewriter loop cursor delaySpeed={2500} words={['Claudio Candia', 'Zagarsix']} /></h1> */}
                 <span className="subheading">«...Yo hago un pacto con ustedes y les prometo que mi Espíritu y las enseñanzas que les he dado, no se apartarán jamás de ustedes ni de sus hijos...»<br />- Isaías 59:21 </span>
               </div>
             </div>
@@ -104,9 +106,9 @@ const Home = () => {
               <div className="row gx-5 row-cols-1 row-cols-md-2">
                 <div className="col mb-5 h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
-                    <i className="bi bi-collection" />
+                    {/* <i className="bi bi-collection" /> */}
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-magnifying-glass-chart fa-2xl" style={{ color: "#38d338" }}/> Desarrollo focalizado</h2>
+                  <h2 className="h5"><i className="fa-solid fa-magnifying-glass-chart fa-2xl" style={{ color: "#38d338" }} /> Desarrollo focalizado</h2>
                   <p className="mb-0">
                     Clases online y presencial. Contempla los contenidos  y malla curricular del Mineduc.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/contacto"> Leer más...</Link>
@@ -114,7 +116,7 @@ const Home = () => {
                 </div>
                 <div className="col mb-5 h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
-                    <i className="bi bi-building" />
+                    {/* <i className="bi bi-building" /> */}
                   </div>
                   <h2 className="h5"><i className="fa-solid fa-hand-holding-dollar fa-2xl" style={{ color: "#38d338" }} /> Métodos de pago</h2>
                   <p className="mb-0">
@@ -124,7 +126,7 @@ const Home = () => {
                 </div>
                 <div className="col mb-5 mb-md-0 h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
-                    <i className="bi bi-toggles2" />
+                    {/* <i className="bi bi-toggles2" /> */}
                   </div>
                   <h2 className="h5"><i className="fa-solid fa-briefcase-medical fa-2xl" style={{ color: "#38d338" }} /> Docencia de alto nivel</h2>
                   <p className="mb-0">
@@ -134,7 +136,6 @@ const Home = () => {
                 </div>
                 <div className="col h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
-                    <i className="bi bi-toggles2" />
                   </div>
                   <h2 className="h5"><i className="fa-solid fa-user-doctor fa-2xl" style={{ color: "#45d65d" }} /> Talleres complementarios</h2>
                   <p className="mb-0">
@@ -348,7 +349,7 @@ const Home = () => {
                   </button>
                 </div>
                 <div className="fs-6 text-white-50">
-                Nos preocupamos por la privacidad y nunca compartiremos tus datos.
+                  Nos preocupamos por la privacidad y nunca compartiremos tus datos.
                 </div>
               </div>
             </div>

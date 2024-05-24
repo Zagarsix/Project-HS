@@ -12647,6 +12647,7 @@ gradient: #7554c2, #b4b4b4,#d88cd4
   margin-top: 200px;
 }
 
+/* Button Whatsapp*/
 .Wame:hover {
   filter: brightness(135%);
   transition: all .5s ease-in;
@@ -12719,6 +12720,7 @@ gradient: #7554c2, #b4b4b4,#d88cd4
   }
 }
 
+/* Button scroll to top*/
 .scroll-to-top-button-container {
   position: fixed;
   bottom: 20px;
