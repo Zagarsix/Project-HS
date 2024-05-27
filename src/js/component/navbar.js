@@ -13,7 +13,7 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-light" id="mainNav">
                 <div className="container px-4 px-lg-5">
-                    <NavLink className="navbar-brand" to="/" onClick={handleNavCollapse}>
+                    <NavLink className="navbar-brand" to="/" onClick={() => setIsNavCollapsed(true)}>
                         <img className="mx-3" src={logoHS} alt="logo-brand" width="220" height="120" />
                     </NavLink>
                     <button
@@ -26,7 +26,15 @@ const Navbar = () => {
                         aria-label="Toggle navigation"
                         onClick={handleNavCollapse}
                     >
-                        <i className="fas fa-bars" />
+                        {isNavCollapsed ? (
+                            <>
+                                <i className="fas fa-bars" />
+                            </>
+                        ) : (
+                            <>
+                                <i className="fas fa-times" />
+                            </>
+                        )}
                     </button>
                     <div className={`${navCollapseClass} navbar-collapse`} id="navbarResponsive">
                         <ul className="navbar-nav ms-auto py-4 py-lg-0">
