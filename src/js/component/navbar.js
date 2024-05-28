@@ -28,11 +28,11 @@ const Navbar = () => {
                     >
                         {isNavCollapsed ? (
                             <>
-                                <i className="fas fa-bars" />
+                                <i className="fas fa-bars fa-2xl" />
                             </>
                         ) : (
                             <>
-                                <i className="fas fa-times" />
+                                <i className="fas fa-times fa-2xl" />
                             </>
                         )}
                     </button>

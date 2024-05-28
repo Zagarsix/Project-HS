@@ -55,7 +55,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
-  --bs-border-width: 1px;
+  --bs-border-width: 2px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
   --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
@@ -4226,7 +4226,7 @@ fieldset:disabled .btn {
 
 .navbar-brand {
   transition: all .5s ease-out;
-  filter: opacity(150%);
+  filter: opacity(100%);
   filter: brightness(100%);
 }
 
@@ -4252,7 +4252,7 @@ fieldset:disabled .btn {
 
 .navbar-nav .show>.nav-link,
 .navbar-nav .nav-link.active {
-  color: var(--bs-navbar-active-color);
+  color: #38d338;
 }
 
 .navbar-nav .dropdown-menu {
@@ -4281,9 +4281,9 @@ fieldset:disabled .btn {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
-  color: var(--bs-navbar-color);
-  background-color: transparent;
-  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  color: green;
+  background-color: transparent !important;
+  border: var(--bs-border-width) solid green;
   transition: var(--bs-navbar-toggler-transition);
 }
 
@@ -12345,8 +12345,8 @@ blockquote {
   left: 0;
   right: 0;
   z-index: 1030;
-  border-bottom: 1px solid #dee2e6;
-  background-color: #aaabad;
+  border-bottom: 2px solid #dee2e6;
+  background-color: rgba(0, 0, 0, 0.5);
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -12374,23 +12374,23 @@ blockquote {
     background: transparent;
   }
 
-  #mainNav .navbar-brand {
+  /* #mainNav .navbar-brand {
     color: #aaabad;
   }
 
   #mainNav .navbar-brand:focus,
   #mainNav .navbar-brand:hover {
     color: rgba(255, 255, 255, 0.8);
-  }
+  } */
 
   #mainNav .navbar-nav>li.nav-item>a.nav-link {
     color: #fff;
   }
 
-  #mainNav .navbar-nav>li.nav-item>a.nav-link:focus,
+  /* #mainNav .navbar-nav>li.nav-item>a.nav-link:focus,
   #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
     color: rgba(255, 255, 255, 0.8);
-  }
+  } */
 }
 
 @media (min-width: 992px) {
@@ -12398,8 +12398,8 @@ blockquote {
     transition: background-color 0.2s;
     /* Force Hardware Acceleration in WebKit */
     transform: translate3d(0, 0, 0);
-    /* -webkit-backface-visibility: hidden; */
-    /* backface-visibility: hidden; */
+    -webkit-backface-visibility: visible; 
+    backface-visibility: visible;
   }
 
   #mainNav.is-fixed {
@@ -12411,9 +12411,9 @@ blockquote {
     background-color: rgba(255, 255, 255, 0.9);
   }
 
-  #mainNav.is-fixed .navbar-brand {
+  /* #mainNav.is-fixed .navbar-brand {
     color: #212529;
-  }
+  } */
 
   #mainNav.is-fixed .navbar-brand:focus,
   #mainNav.is-fixed .navbar-brand:hover {
@@ -12426,7 +12426,7 @@ blockquote {
 
   #mainNav.is-fixed .navbar-nav>li.nav-item>a:focus,
   #mainNav.is-fixed .navbar-nav>li.nav-item>a:hover {
-    color: #0085A1;
+    color: red;
   }
 
   #mainNav.is-visible {
