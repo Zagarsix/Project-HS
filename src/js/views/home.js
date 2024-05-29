@@ -19,14 +19,13 @@ const Home = () => {
           <div className="row gx-4 gx-lg-5 justify-content-start">
             <div className="col-md-12 col-lg-8 col-xl-10">
               <div className="site-heading">
-                <h1 id="specialName">EL PACTO &nbsp;
-                  <span style={{ fontStyle: "italic", color:"blue", fontWeight:"normal"}}>
+                <h1 id="specialName">EL PACTO &nbsp;</h1>
+                  <h2 style={{ fontStyle: "italic", color:"blue", fontWeight:"normal"}}>
                     <Typewriter  
                     words={['te cuida', 'te enseña', 'te educa', 'te guía!']} 
                     loop cursor delaySpeed={2000}
-                    typeSpeed={150}
-                    deleteSpeed={100}
-                    /></span></h1>
+                    cursorStyle='|'
+                    /></h2>
                 <span className="subheading">«...Yo hago un pacto con ustedes y les prometo que mi Espíritu y las enseñanzas que les he dado, no se apartarán jamás de ustedes ni de sus hijos...»<br />- Isaías 59:21 </span>
               </div>
             </div>
