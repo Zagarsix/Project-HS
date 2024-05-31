@@ -17,16 +17,16 @@ const Home = () => {
       <header className="masthead" style={{ backgroundImage: `url(${pencil})` }}>
         <div className="container position-relative px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-start">
-            <div className="col-md-12 col-lg-8 col-xl-10">
+            <div className="col-md-12 col-lg-12 col-xl-10">
               <div className="site-heading">
                 <h1 id="specialName">EL PACTO &nbsp;</h1>
-                  <h2 style={{ fontStyle: "italic", color:"blue", fontWeight:"normal"}}>
-                    <Typewriter  
-                    words={['te cuida', 'te enseña', 'te educa', 'te guía!']} 
+                <h2 className="subtittle" style={{ fontStyle: "italic", color: "blue", fontWeight: "normal"}}>
+                  <Typewriter
+                    words={['te cuida!', 'te enseña!', 'te educa!', 'te guía!']}
                     loop cursor delaySpeed={2000}
                     cursorStyle='|'
-                    /></h2>
-                <span className="subheading">«...Yo hago un pacto con ustedes y les prometo que mi Espíritu y las enseñanzas que les he dado, no se apartarán jamás de ustedes ni de sus hijos...»<br />- Isaías 59:21 </span>
+                  /></h2>
+                <span className="subheading col-12">«...Yo hago un pacto con ustedes y les prometo que mi Espíritu y las enseñanzas que les he dado, no se apartarán jamás de ustedes ni de sus hijos...»<br />- Isaías 59:21 </span>
               </div>
             </div>
           </div>
