@@ -145,7 +145,7 @@ h2,
 
   h2,
   .h2 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
@@ -521,6 +521,10 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+}
+
+.lead-header{
+  visibility: hidden;
 }
 
 .display-1 {
@@ -12438,6 +12442,13 @@ blockquote {
     /* if the user changes the scrolling direction, we show the header */
     transform: translate3d(0, 100%, 0);
   }
+  header.masthead .site-heading .subheading {
+    margin-top: 1rem;
+  }
+  .subtittle{
+    font-size: 5rem;
+    margin-left: 25rem;
+  }
 }
 
 header.masthead {
@@ -12482,13 +12493,14 @@ header.masthead .site-heading h1,
 header.masthead .site-heading .h1 {
   font-size: 3rem;
   display: inline-flex;
-  width: max-content;
+  /* width: max-content; */
 }
 
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
   color: bisque;
-  font-size: 1.1rem;
+  padding: .5rem;
+  font-size: 1.2rem;
   background-color: rgba(17, 0, 0, 0.4);
   border-radius: 3px;
   /* text-shadow: 0 0 0.2em purple; */
@@ -12528,6 +12540,47 @@ header.masthead .post-heading .meta {
 
 header.masthead .post-heading .meta a {
   color: #fff;
+}
+
+@media (min-width: 375px) and (max-width: 484px) {
+  header.masthead .site-heading .subheading {
+    margin-top: 3rem;
+    font-size: 1.0rem;
+  }
+  .subtittle{
+    font-size: 2.5rem;
+    margin-left: 8.5rem;
+  }
+}
+
+@media (min-width: 485px) and (max-width: 512px) {
+  header.masthead .site-heading .subheading {
+    margin-top: 3rem;
+  }
+  .subtittle{
+    font-size: 3rem;
+    margin-left: 13rem;
+  }
+}
+
+@media (min-width: 513px) and (max-width: 767px) {
+  header.masthead .site-heading .subheading {
+    margin-top: 3rem;
+  }
+  .subtittle{
+    font-size: 3rem;
+    margin-left: 15rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header.masthead .site-heading .subheading {
+    margin-top: 4rem;
+  }
+  .subtittle{
+    font-size: 3rem;
+    margin-left: 15rem;
+  }
 }
 
 @media (min-width: 992px) {
