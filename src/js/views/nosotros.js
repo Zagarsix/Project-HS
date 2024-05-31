@@ -16,12 +16,15 @@ const Nosotros = () => {
                                 <h1 className="site-heading fw-bolder mb-1">
                                     Nuestra misión es entregar una formación académica de calidad para todos
                                 </h1>
-                                <p className="lead fw-normal text-black mb-5">
-                                    Entregando una educación personalizada para niños y jóvenes, bajo valores, principios y conceptos cristianos; dando apoyo a las familias en el proceso de aprendizaje de sus hijos. Contemplando los niveles desde enseñanza pre-básica a media, a través de una plataforma online y talleres presenciales.
+                                <p className="lead-header fw-normal text-black mb-5">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                                    est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
+                                    numquam libero molestiae et fugit cupiditate, quibusdam expedita,
+                                    maiores eaque quisquam.
                                 </p>
-                                <NavLink className="btn btn-xl" to="#scroll-target" style={{ background: "#131c96" }}>
+                                {/* <NavLink className="btn btn-xl py-2 my-2" to="#scroll-target" style={{ background: "#131c96" }}>
                                     Lee nuestra historia
-                                </NavLink>
+                                </NavLink> */}
                             </div>
                         </div>
                     </div>
@@ -39,12 +42,9 @@ const Nosotros = () => {
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder" style={{color:"#131c96"}}>Visión</h2>
+                            <h2 className="fw-bolder" style={{ color: "#131c96" }}>Visión</h2>
                             <p className="lead fw-normal text-muted mb-0">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                                est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
-                                numquam libero molestiae et fugit cupiditate, quibusdam expedita,
-                                maiores eaque quisquam.
+                                Entregando una educación personalizada para niños y jóvenes, bajo valores, principios y conceptos cristianos; dando apoyo a las familias en el proceso de aprendizaje de sus hijos. Contemplando los niveles desde enseñanza pre-básica a media, a través de una plataforma online y talleres presenciales.
                             </p>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ const Nosotros = () => {
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder" style={{color:"#131c96"}}>Desarrollo &amp; más allá</h2>
+                            <h2 className="fw-bolder" style={{ color: "#131c96" }}>Desarrollo &amp; más allá</h2>
                             <p className="lead fw-normal text-muted mb-0">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                                 est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
@@ -77,7 +77,7 @@ const Nosotros = () => {
             <section className="py-5 bg-light">
                 <div className="container px-5 my-5">
                     <div className="text-center">
-                        <h2 className="fw-bolder" style={{color:"#131c96"}}>--- Nuestro equipo ---</h2>
+                        <h2 className="fw-bolder" style={{ color: "#131c96" }}>--- Nuestro equipo ---</h2>
                         <p className="lead fw-normal text-muted mb-5">
                             Dedicados a la calidad &amp; el éxito
                         </p>

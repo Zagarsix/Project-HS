@@ -14,7 +14,7 @@ return<>
               <h1 className="site-heading fw-bolder mb-1">
                 Más cerca de ti
               </h1>
-              <p className="lead fw-normal text-black mb-1">
+              <p className="lead-header fw-normal text-black mb-1">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                 est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
                 numquam libero molestiae et fugit cupiditate, quibusdam expedita,

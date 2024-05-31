@@ -15,8 +15,11 @@ const Matriculas = () => {
                 <h1 className="site-heading fw-bolder mb-1">
                   Matrículas 2024
                 </h1>
-                <p className="lead fw-normal text-black mb-1">
-                  Para comenzar un nuevo año, con una nueva jornada de estudios!!! 
+                <p className="lead-header fw-normal text-black mb-1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
+                numquam libero molestiae et fugit cupiditate, quibusdam expedita,
+                maiores eaque quisquam.
                 </p>
               </div>
             </div>
@@ -31,6 +34,9 @@ const Matriculas = () => {
             <p className="lead fw-normal text-muted mb-0">
               Desde enseñanza pre-básica a media 
             </p>
+            <p className="lead fw-normal text-black mb-1">
+                  Para comenzar un nuevo año, con una nueva jornada de estudios!!! 
+                </p>
           </div>
           <div className="row gx-5 justify-content-center p-4 rounded-4" id="cardPricing">
             {/* Pricing card free*/}
