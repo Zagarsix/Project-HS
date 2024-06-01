@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
-import logoHS from "../../img/Elpacto-bg34.png";
+import logoHS from "../../img/elpactoTest.png";
 
 const Navbar = () => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
