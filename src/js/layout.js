@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Navbar from "./component/navbar";
@@ -15,11 +15,16 @@ import NotFound from "./views/NotFound";
 
 //create your first component
 const Layout = () => {
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+	const handleMenuToggle = (isNavCollapsed) => {
+		setIsMenuOpen(!isNavCollapsed);
+	};
 
 	return (
-		<div>
+		<div className={isMenuOpen ? 'menu-open' : ''}>
 			<BrowserRouter>
-				<Navbar />
+				<Navbar onMenuToggle={handleMenuToggle}/>
 				<Switch>
 					<Route exact path={"/"} >
 						<Home />

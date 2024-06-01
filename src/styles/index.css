@@ -37,7 +37,7 @@ triadic {
 }
 gradientTest{
   color: #7554c2, #b4b4b4,#d88cd4;
-  background-color: rgba(69, 71, 187, 0.541);
+  background-color: rgba(48, 48, 90, 0.541);
 }
 
 :root {
@@ -4214,7 +4214,7 @@ fieldset:disabled .btn {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: bisque;
+  --bs-navbar-color: #2d8e00;
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
@@ -4295,7 +4295,7 @@ fieldset:disabled .btn {
 
 .navbar-nav .show>.nav-link,
 .navbar-nav .nav-link.active {
-  color: #38d338;
+  color: #2d8e00;
 }
 
 .navbar-nav .dropdown-menu {
@@ -4324,9 +4324,9 @@ fieldset:disabled .btn {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
-  color: green;
+  color: #2d8e00;
   background-color: transparent !important;
-  border: var(--bs-border-width) solid green;
+  border: var(--bs-border-width) solid #2d8e00;
   transition: var(--bs-navbar-toggler-transition);
 }
 
@@ -12393,7 +12393,7 @@ blockquote {
   right: 0;
   z-index: 1030;
   border-bottom: 2px solid #00128e;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.2);
   max-height: 460px;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -12542,7 +12542,7 @@ header.masthead .site-heading .subheading {
   color: bisque;
   padding: .5rem;
   font-size: 1.2rem;
-  background-color: rgba(69, 71, 187, 0.541);
+  background-color: rgba(48, 48, 90, 0.541);
   border-radius: 3px;
   /* text-shadow: 0 0 0.2em purple; */
   font-weight: normal;
@@ -12848,4 +12848,8 @@ gradient: #7554c2, #b4b4b4,#d88cd4
 
 .scroll-to-top-button:hover {
   filter: brightness(150%);
+}
+
+.menu-open header {
+  filter: blur(0.3rem);
 }
