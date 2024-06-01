@@ -1,11 +1,41 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import logoHS from "../../img/elpactoTest.png";
 
-const Navbar = () => {
+const Navbar = ({ onMenuToggle }) => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+    const [isMobileView, setIsMobileView] = useState(window.innerWidth < 992);
 
-    const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+    const handleNavCollapse = () => {
+        if (isMobileView) {
+            const newNavCollapsed = !isNavCollapsed;
+            setIsNavCollapsed(newNavCollapsed);
+            onMenuToggle(newNavCollapsed);
+        }
+    };
+
+    const handleLogoClick = () => {
+        setIsNavCollapsed(true);
+        if (isMobileView) {
+            onMenuToggle(true);
+        }
+    };
+
+    useEffect(() => {
+        const handleResize = () => {
+            const isMobile = window.innerWidth < 992;
+            setIsMobileView(isMobile);
+            if (!isMobile) {
+                setIsNavCollapsed(true);
+                onMenuToggle(true);
+            }
+        };
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, [onMenuToggle]);
 
     const navCollapseClass = isNavCollapsed ? 'collapse' : '';
 
@@ -13,7 +43,7 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-light" id="mainNav">
                 <div className="container px-4 px-lg-5">
-                    <NavLink className="navbar-brand" to="/" onClick={() => setIsNavCollapsed(true)}>
+                    <NavLink className="navbar-brand" to="/" onClick={handleLogoClick}>
                         <img className="mx-3" src={logoHS} alt="logo-brand" width="220" height="120" />
                     </NavLink>
                     <button
