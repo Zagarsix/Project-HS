@@ -1,6 +1,44 @@
 /* 
     General Styles
 */
+/*Palette colors
+#1d2161
+#131c96
+#38d338
+
+split-complementary
+#F6EC00 yellow
+#0032F6 blue
+#D300F6 purple
+
+triadic
+#00128e azul
+#8e2600 naranjo
+#2d8e00 verde
+
+gradient: #7554c2, #b4b4b4,#d88cd4
+*/
+gradient {
+  color: #1d2161;
+  color: #131c96;
+  color: #38d338;
+}
+
+splitcomplementary {
+  color: #F6EC00;
+  color: #0032F6;
+  color: #D300F6;
+}
+
+triadic {
+  color: #00128e;
+  color: #8e2600;
+  color: #2d8e00;
+}
+gradientTest{
+  color: #7554c2, #b4b4b4,#d88cd4;
+  background-color: rgba(69, 71, 187, 0.541);
+}
 
 :root {
   --bs-blue: #0d6efd;
@@ -3195,7 +3233,7 @@ textarea.form-control.is-invalid {
 
 .btn:hover {
   color: white;
-  background-color: green !important;
+  background-color: #2d8e00 !important;
   border-color: var(--bs-btn-hover-border-color);
 }
 
@@ -4325,9 +4363,10 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 576px) {
-  .site-heading{
+  .site-heading {
     display: block !important;
   }
+
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -8892,7 +8931,7 @@ fieldset:disabled .btn {
 .bg-gradient,
 .badge {
   background-image: var(--bs-gradient) !important;
-  background-color: #131c96;
+  background-color: #00128e;
 }
 
 .user-select-all {
@@ -12353,7 +12392,7 @@ blockquote {
   left: 0;
   right: 0;
   z-index: 1030;
-  border-bottom: 2px solid #dee2e6;
+  border-bottom: 2px solid #00128e;
   background-color: rgba(0, 0, 0, 0.6);
   max-height: 460px;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -12393,7 +12432,7 @@ blockquote {
   } */
 
   #mainNav .navbar-nav>li.nav-item>a.nav-link {
-    color: #fff;
+    color: #2d8e00;
   }
 
   /* #mainNav .navbar-nav>li.nav-item>a.nav-link:focus,
@@ -12407,7 +12446,7 @@ blockquote {
     transition: background-color 0.2s;
     /* Force Hardware Acceleration in WebKit */
     transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: visible; 
+    -webkit-backface-visibility: visible;
     backface-visibility: visible;
   }
 
@@ -12442,10 +12481,12 @@ blockquote {
     /* if the user changes the scrolling direction, we show the header */
     transform: translate3d(0, 100%, 0);
   }
+
   header.masthead .site-heading .subheading {
     margin-top: 1rem;
   }
-  .subtittle{
+
+  .subtittle {
     font-size: 5rem;
     margin-left: 25rem;
   }
@@ -12477,8 +12518,8 @@ header.masthead:before {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  color: green;
-  box-shadow: 0 0 0 #7554c2;
+  color: #00128e;
+  box-shadow: 0 0 0 red;
   /* -webkit-text-stroke: 0.5px black; */
 }
 
@@ -12501,11 +12542,11 @@ header.masthead .site-heading .subheading {
   color: bisque;
   padding: .5rem;
   font-size: 1.2rem;
-  background-color: rgba(17, 0, 0, 0.4);
+  background-color: rgba(69, 71, 187, 0.541);
   border-radius: 3px;
   /* text-shadow: 0 0 0.2em purple; */
   font-weight: normal;
-  font-style: italic;
+  font-style: italic;   
   line-height: 1.0;
   display: block;
   margin-top: 7rem;
@@ -12547,7 +12588,8 @@ header.masthead .post-heading .meta a {
     margin-top: 3rem;
     font-size: 1.0rem;
   }
-  .subtittle{
+
+  .subtittle {
     font-size: 2.5rem;
     margin-left: 8.5rem;
   }
@@ -12557,7 +12599,8 @@ header.masthead .post-heading .meta a {
   header.masthead .site-heading .subheading {
     margin-top: 3rem;
   }
-  .subtittle{
+
+  .subtittle {
     font-size: 3rem;
     margin-left: 13rem;
   }
@@ -12567,7 +12610,8 @@ header.masthead .post-heading .meta a {
   header.masthead .site-heading .subheading {
     margin-top: 3rem;
   }
-  .subtittle{
+
+  .subtittle {
     font-size: 3rem;
     margin-left: 15rem;
   }
@@ -12577,7 +12621,8 @@ header.masthead .post-heading .meta a {
   header.masthead .site-heading .subheading {
     margin-top: 4rem;
   }
-  .subtittle{
+
+  .subtittle {
     font-size: 3rem;
     margin-left: 15rem;
   }
@@ -12676,7 +12721,7 @@ header.masthead .post-heading .meta a {
 #callToAction,
 #cardPricing,
 #contacto {
-  background-image: linear-gradient(45deg, #1d2161, #131c96, #38d338);
+  background-image: linear-gradient(145deg, #2d8e00, #00128e, #8e2600);
 }
 
 .footer {
@@ -12697,9 +12742,9 @@ split-complementary
 #D300F6 purple
 
 triadic
-#2A03FE celeste
-#FEAC03 morado
-#AFFE03 amarillo
+#00128e azul
+#8e2600 naranjo
+#2d8e00 verde
 
 gradient: #7554c2, #b4b4b4,#d88cd4
 */
@@ -12739,7 +12784,7 @@ gradient: #7554c2, #b4b4b4,#d88cd4
 .tooltip-container .tooltip-text {
   visibility: hidden;
   width: 100px;
-  background-color: #0ea137;
+  background-color: #2d8e00;
   color: #ffffff;
   text-align: center;
   border-radius: 5px;
@@ -12785,13 +12830,15 @@ gradient: #7554c2, #b4b4b4,#d88cd4
 .scroll-to-top-button-container {
   position: fixed;
   bottom: 20px;
-  left: 20px; /* Change to right if you prefer */
+  left: 20px;
+  /* Change to right if you prefer */
   z-index: 100;
 }
 
 .scroll-to-top-button {
-  background-color: #acaf00; /* Color similar al botón de contacto */
-  color: #fff;
+  background-color: #00128e;
+  /* Color similar al botón de contacto */
+  color: bisque;
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
