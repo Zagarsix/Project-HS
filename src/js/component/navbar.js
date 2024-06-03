@@ -58,7 +58,7 @@ const Navbar = ({ onMenuToggle }) => {
                     >
                         {isNavCollapsed ? (
                             <>
-                               Menú <i className="fas fa-bars fa-2xl" />
+                                <i className="fas fa-bars fa-2xl" />
                             </>
                         ) : (
                             <>

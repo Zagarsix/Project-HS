@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter';
 
 import pencil from "../../img/ApplesBooksPencils.jpg";
-import chave from "../../img/Ap-Isabel.jpg";
+import chave from "../../img/Chave.jpg";
 import children from "../../img/childrenSchool.jpg";
 import notebook from "../../img/about-bg.jpg";
 import parents from "../../img/ParentsAndChildren.jpg";

@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import apple from "../../img/ApplesBooksPencils.jpg";
+import apple from "../../img/rayasLapices.jpg";
 
 const Blog = () => {
   return <>

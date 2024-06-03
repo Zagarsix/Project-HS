@@ -13,7 +13,7 @@ const Matriculas = () => {
             <div className="col-md-12 col-lg-11 col-xl-10">
               <div className="text-center my-2">
                 <h1 className="site-heading fw-bolder mb-1">
-                  Matrículas 2024
+                  Admisión 2025
                 </h1>
                 <p className="lead-header fw-normal text-black mb-1">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
@@ -30,7 +30,7 @@ const Matriculas = () => {
       <section className="bg-light py-5">
         <div className="container px-5 my-5">
           <div className="text-center mb-5">
-            <h1 className="fw-bolder" style={{color:"#131c96"}}>--- Aranceles 2024 ---</h1>
+            <h1 className="fw-bolder" style={{color:"#131c96"}}>--- Aranceles ---</h1>
             <p className="lead fw-normal text-muted mb-0">
               Desde enseñanza pre-básica a media 
             </p>
