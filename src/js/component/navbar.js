@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
-import logoHS from "../../img/elpactoTest.png";
+import logoHS from "../../img/logoTest.png";
 
 const Navbar = ({ onMenuToggle }) => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -58,7 +58,7 @@ const Navbar = ({ onMenuToggle }) => {
                     >
                         {isNavCollapsed ? (
                             <>
-                                <i className="fas fa-bars fa-2xl" />
+                               Menú <i className="fas fa-bars fa-2xl" />
                             </>
                         ) : (
                             <>
