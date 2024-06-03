@@ -1,8 +1,15 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+
 import homeBG from "../../img/home-bg.jpg";
 import elpactoV2 from "../../img/Elpacto-V3.png";
 import desarrollo from "../../img/blog-bg.jpg";
+import dany from "../../img/Danieleichon.jpg";
+import claudio from "../../img/Claudieichon.jpg";
+import nicole from "../../img/Nicoleichon.jpg";
+import solange from "../../img/Solangeichon.jpg";
+import sandra from "../../img/Sandreichon.jpg";
+import michelle from "../../img/Michelleichon2.jpg";
 
 const Nosotros = () => {
     return <>
@@ -14,7 +21,7 @@ const Nosotros = () => {
                         <div className="col-md-12 col-lg-11 col-xl-10">
                             <div className="text-center my-2">
                                 <h1 className="site-heading fw-bolder mb-1">
-                                    Nuestra misión es entregar una formación académica de calidad para todos
+                                    ¿Qué es El Pacto HomeSchool?
                                 </h1>
                                 <p className="lead-header fw-normal text-black mb-5">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
@@ -42,7 +49,7 @@ const Nosotros = () => {
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder" style={{ color: "#131c96" }}>Visión</h2>
+                            <h2 className="fw-bolder" style={{ color: "#00128e" }}>Visión</h2>
                             <p className="lead fw-normal text-muted mb-0">
                                 Entregando una educación personalizada para niños y jóvenes, bajo valores, principios y conceptos cristianos; dando apoyo a las familias en el proceso de aprendizaje de sus hijos. Contemplando los niveles desde enseñanza pre-básica a media, a través de una plataforma online y talleres presenciales.
                             </p>
@@ -62,7 +69,7 @@ const Nosotros = () => {
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder" style={{ color: "#131c96" }}>Desarrollo &amp; más allá</h2>
+                            <h2 className="fw-bolder" style={{ color: "#00128e" }}>Desarrollo &amp; más allá</h2>
                             <p className="lead fw-normal text-muted mb-0">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                                 est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
@@ -87,10 +94,10 @@ const Nosotros = () => {
                             <div className="text-center">
                                 <img
                                     className="img-fluid rounded-circle mb-4 px-4"
-                                    src="https://dummyimage.com/150x150/ced4da/6c757d"
+                                    src={dany}
                                     alt="..."
                                 />
-                                <h5 className="fw-bolder">Ibbie Eckart</h5>
+                                <h5 className="fw-bolder">Daniela Pacheco</h5>
                                 <div className="fst-italic text-muted">Founder &amp; CEO</div>
                             </div>
                         </div>
@@ -98,21 +105,32 @@ const Nosotros = () => {
                             <div className="text-center">
                                 <img
                                     className="img-fluid rounded-circle mb-4 px-4"
-                                    src="https://dummyimage.com/150x150/ced4da/6c757d"
+                                    src={claudio}
                                     alt="..."
                                 />
-                                <h5 className="fw-bolder">Arden Vasek</h5>
-                                <div className="fst-italic text-muted">CFO</div>
+                                <h5 className="fw-bolder">Claudio Candia</h5>
+                                <div className="fst-italic text-muted">Webmaster, developer &amp; designer</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-5 mb-sm-0">
                             <div className="text-center">
                                 <img
                                     className="img-fluid rounded-circle mb-4 px-4"
-                                    src="https://dummyimage.com/150x150/ced4da/6c757d"
+                                    src={nicole}
                                     alt="..."
                                 />
-                                <h5 className="fw-bolder">Toribio Nerthus</h5>
+                                <h5 className="fw-bolder">Nicole Jorquera</h5>
+                                <div className="fst-italic text-muted">UTP Chief</div>
+                            </div>
+                        </div>
+                        <div className="col mb-5">
+                            <div className="text-center">
+                                <img
+                                    className="img-fluid rounded-circle mb-4 px-4"
+                                    src={solange}
+                                    alt="..."
+                                />
+                                <h5 className="fw-bolder">Solange González</h5>
                                 <div className="fst-italic text-muted">Operations Manager</div>
                             </div>
                         </div>
@@ -120,11 +138,22 @@ const Nosotros = () => {
                             <div className="text-center">
                                 <img
                                     className="img-fluid rounded-circle mb-4 px-4"
-                                    src="https://dummyimage.com/150x150/ced4da/6c757d"
+                                    src={sandra}
                                     alt="..."
                                 />
-                                <h5 className="fw-bolder">Malvina Cilla</h5>
-                                <div className="fst-italic text-muted">CTO</div>
+                                <h5 className="fw-bolder">Sandra Panguinao</h5>
+                                <div className="fst-italic text-muted">Workshop manager</div>
+                            </div>
+                        </div>
+                        <div className="col mb-5">
+                            <div className="text-center">
+                                <img
+                                    className="img-fluid rounded-circle mb-4 px-4"
+                                    src={michelle}
+                                    alt="..."
+                                />
+                                <h5 className="fw-bolder">Michelle Zapata</h5>
+                                <div className="fst-italic text-muted">PIE Manager</div>
                             </div>
                         </div>
                     </div>
