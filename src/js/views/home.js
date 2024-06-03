@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter';
 
-import pencil from "../../img/lapices-bg.jpg";
+import pencil from "../../img/ApplesBooksPencils.jpg";
 import chave from "../../img/Ap-Isabel.jpg";
 import children from "../../img/childrenSchool.jpg";
 import notebook from "../../img/about-bg.jpg";

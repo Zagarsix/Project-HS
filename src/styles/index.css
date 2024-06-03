@@ -16,6 +16,12 @@ triadic
 #8e2600 naranjo
 #2d8e00 verde
 
+mainNav
+nav-link
+nav-link:hover
+navbar
+nav-item
+
 gradient: #7554c2, #b4b4b4,#d88cd4
 */
 gradient {
@@ -4214,7 +4220,7 @@ fieldset:disabled .btn {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: #2d8e00;
+  --bs-navbar-color: bisque;
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
@@ -12410,9 +12416,9 @@ blockquote {
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link {
-  font-size: 0.9rem;
-  font-weight: 800;
-  letter-spacing: 0.0625em;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
@@ -12432,7 +12438,9 @@ blockquote {
   } */
 
   #mainNav .navbar-nav>li.nav-item>a.nav-link {
-    color: #2d8e00;
+    color: bisque;
+    background: rgb(48, 48, 90, 0.541);
+    border-radius: 5px;
   }
 
   /* #mainNav .navbar-nav>li.nav-item>a.nav-link:focus,
@@ -12836,7 +12844,7 @@ gradient: #7554c2, #b4b4b4,#d88cd4
 }
 
 .scroll-to-top-button {
-  background-color: #00128e;
+  background-color: #8e2600;
   /* Color similar al botón de contacto */
   color: bisque;
   padding: 10px 15px;
