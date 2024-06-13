@@ -37,13 +37,22 @@ splitcomplementary {
 }
 
 triadic {
-  color: #00128e;
-  color: #8e2600;
+  color: #009999;
+  color: #b90e0a;
   color: #2d8e00;
 }
+
+palette colorMind {
+  color: #21AEB8;
+  color: #90D0D3;
+  color: #E3D7D2;
+  color: #736057;
+  color: #3A3A3D;
+}
+
 gradientTest{
   color: #7554c2, #b4b4b4,#d88cd4;
-  background-color: rgba(48, 48, 90, 0.541);
+  background-color: rgba(30, 30, 43, 0.541);
 }
 
 :root {
@@ -90,7 +99,7 @@ gradientTest{
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: Lora, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
@@ -162,8 +171,8 @@ h1,
 .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 800;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
   line-height: 1.2;
 }
 
@@ -564,7 +573,7 @@ progress {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .lead-header{
@@ -3237,16 +3246,19 @@ textarea.form-control.is-invalid {
   }
 }
 
-.btn:hover {
-  color: white;
-  background-color: #2d8e00 !important;
-  border-color: var(--bs-btn-hover-border-color);
+.btn {
+  color: #01257d !important;
+  background-color: #00ffff !important;
 }
+
+.btn:hover {
+  color: bisque !important;
+  background-color: #01257d !important;
+  }
 
 .btn-check+.btn:hover {
   color: var(--bs-btn-color);
   background-color: var(--bs-btn-bg);
-  border-color: var(--bs-btn-border-color);
 }
 
 .btn:focus-visible {
@@ -4117,7 +4129,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #38d338 !important;
+  color: #00FFFF !important;
   text-decoration: underline solid 2px;
 }
 
@@ -4301,7 +4313,7 @@ fieldset:disabled .btn {
 
 .navbar-nav .show>.nav-link,
 .navbar-nav .nav-link.active {
-  color: #2d8e00;
+  color: #00ffff;
 }
 
 .navbar-nav .dropdown-menu {
@@ -4330,9 +4342,9 @@ fieldset:disabled .btn {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
-  color: #2d8e00;
+  color: #00FFFF;
   background-color: transparent !important;
-  border: var(--bs-border-width) solid #2d8e00;
+  border: var(--bs-border-width) solid #00abe4;
   transition: var(--bs-navbar-toggler-transition);
 }
 
@@ -12398,7 +12410,7 @@ blockquote {
   left: 0;
   right: 0;
   z-index: 1030;
-  border-bottom: 2px solid #00128e;
+  border-bottom: 2px solid #00abe4;
   background-color: rgba(0, 0, 0, 0.2);
   max-height: 460px;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -12416,7 +12428,7 @@ blockquote {
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -12439,7 +12451,7 @@ blockquote {
 
   #mainNav .navbar-nav>li.nav-item>a.nav-link {
     color: bisque;
-    background: rgb(48, 48, 90, 0.541);
+    background: rgb(48, 48, 90, 0.4);
     border-radius: 5px;
   }
 
@@ -12496,7 +12508,7 @@ blockquote {
 
   .subtittle {
     font-size: 5rem;
-    margin-left: 25rem;
+    margin-left: 12rem;
   }
 }
 
@@ -12519,14 +12531,15 @@ header.masthead:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #212529;
-  opacity: 0.3;
+  background-color: rgba(0, 0, 100, 0.8);
+  opacity: 0.5;
 }
 
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  color: #00128e;
+  z-index: 3;
+  color: bisque;
   box-shadow: 0 0 0 red;
   /* -webkit-text-stroke: 0.5px black; */
 }

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter';
 
 import pencil from "../../img/ApplesBooksPencils.jpg";
-import chave from "../../img/Chave.jpg";
+import chave from "../../img/Ap-Isabel.jpg";
 import children from "../../img/childrenSchool.jpg";
 import notebook from "../../img/about-bg.jpg";
 import parents from "../../img/ParentsAndChildren.jpg";
@@ -19,8 +19,8 @@ const Home = () => {
           <div className="row gx-4 gx-lg-5 justify-content-start">
             <div className="col-md-12 col-lg-12 col-xl-10">
               <div className="site-heading">
-                <h1 id="specialName">EL PACTO &nbsp;</h1>
-                <h2 className="subtittle" style={{ fontStyle: "italic", color: "#2d8e00", fontWeight: "normal"}}>
+                <h1 id="specialName">Alianza &nbsp;</h1>
+                <h2 className="subtittle" style={{ fontStyle: "italic", color: "#00FFFF", fontWeight: "bold"}}>
                   <Typewriter
                     words={['te cuida!', 'te enseña!', 'te educa!', 'te guía!']}
                     loop cursor delaySpeed={2000}
@@ -37,12 +37,12 @@ const Home = () => {
         <div className="container px-4 px-lg-5 text-center">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-10">
-              <h2><span style={{ color: "#00128e" }}>El Pacto HomeSchool</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
+              <h2><span style={{ color: "#01257d" }}>El Pacto HomeSchool</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
               <p className="lead mb-3">
                 Experimenta esta nueva modalidad de estudio híbrida. Clases online y talleres presenciales. No los dejes sin su&nbsp;
                 <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/matriculas">matrícula!</Link>
               </p>
-              <Link className="btn btn-xl" to="/contacto" style={{ background: "#8e2600" }}>
+              <Link className="btn btn-xl" to="/contacto" style={{ background: "#00ffff", color:"#01257d"}}>
                 Contáctanos!
               </Link>
             </div>
