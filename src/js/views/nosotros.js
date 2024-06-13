@@ -156,6 +156,28 @@ const Nosotros = () => {
                                 <div className="fst-italic text-muted">PIE Manager</div>
                             </div>
                         </div>
+                        <div className="col mb-5">
+                            <div className="text-center">
+                                <img
+                                    className="img-fluid rounded-circle mb-4 px-4"
+                                    src={claudio}
+                                    alt="..."
+                                />
+                                <h5 className="fw-bolder">Sahian Candia</h5>
+                                <div className="fst-italic text-muted">Social media manager</div>
+                            </div>
+                        </div>
+                        <div className="col mb-5">
+                            <div className="text-center">
+                                <img
+                                    className="img-fluid rounded-circle mb-4 px-4"
+                                    src={michelle}
+                                    alt="..."
+                                />
+                                <h5 className="fw-bolder">Daniela Córdova</h5>
+                                <div className="fst-italic text-muted">Administrative advisor</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
