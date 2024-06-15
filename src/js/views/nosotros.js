@@ -1,15 +1,17 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
-import homeBG from "../../img/home-bg.jpg";
+import homeBG from "../../img/about-bg.jpg";
 import elpactoV2 from "../../img/Elpacto-V3.png";
 import desarrollo from "../../img/blog-bg.jpg";
 import dany from "../../img/Danieleichon.jpg";
 import claudio from "../../img/Claudieichon.jpg";
 import nicole from "../../img/Nicoleichon.jpg";
-import solange from "../../img/Solangeichon.jpg";
+import solange from "../../img/Solangeichon2.jpg";
 import sandra from "../../img/Sandreichon.jpg";
-import michelle from "../../img/Michelleichon2.jpg";
+import michelle from "../../img/Michelleichon.jpg";
+import sahian from "../../img/Sahianeichon.jpg";
+import daniC from "../../img/Cordoveichon.jpg";
 
 const Nosotros = () => {
     return <>
@@ -21,7 +23,7 @@ const Nosotros = () => {
                         <div className="col-md-12 col-lg-11 col-xl-10">
                             <div className="text-center my-2">
                                 <h1 className="site-heading fw-bolder mb-1">
-                                    ¿Qué es El Pacto HomeSchool?
+                                    ¿Qué es Academia Virtual Alianza?
                                 </h1>
                                 <p className="lead-header fw-normal text-black mb-5">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
@@ -49,7 +51,7 @@ const Nosotros = () => {
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder" style={{ color: "#00128e" }}>Visión</h2>
+                            <h2 className="fw-bolder"><span style={{color:"#01257d"}}>Visión</span><span style={{color:"#00ffff"}}> &amp; Misión</span></h2>
                             <p className="lead fw-normal text-muted mb-0">
                                 Entregando una educación personalizada para niños y jóvenes, bajo valores, principios y conceptos cristianos; dando apoyo a las familias en el proceso de aprendizaje de sus hijos. Contemplando los niveles desde enseñanza pre-básica a media, a través de una plataforma online y talleres presenciales.
                             </p>
@@ -95,7 +97,7 @@ const Nosotros = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-4 px-4"
                                     src={dany}
-                                    alt="..."
+                                    alt="Dany"
                                 />
                                 <h5 className="fw-bolder">Daniela Pacheco</h5>
                                 <div className="fst-italic text-muted">Founder &amp; CEO</div>
@@ -106,7 +108,7 @@ const Nosotros = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-4 px-4"
                                     src={claudio}
-                                    alt="..."
+                                    alt="Claudio"
                                 />
                                 <h5 className="fw-bolder">Claudio Candia</h5>
                                 <div className="fst-italic text-muted">Webmaster, developer &amp; designer</div>
@@ -117,7 +119,7 @@ const Nosotros = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-4 px-4"
                                     src={nicole}
-                                    alt="..."
+                                    alt="Nicole"
                                 />
                                 <h5 className="fw-bolder">Nicole Jorquera</h5>
                                 <div className="fst-italic text-muted">UTP Chief</div>
@@ -128,7 +130,7 @@ const Nosotros = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-4 px-4"
                                     src={solange}
-                                    alt="..."
+                                    alt="Solange"
                                 />
                                 <h5 className="fw-bolder">Solange González</h5>
                                 <div className="fst-italic text-muted">Operations Manager</div>
@@ -139,7 +141,7 @@ const Nosotros = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-4 px-4"
                                     src={sandra}
-                                    alt="..."
+                                    alt="Sandra"
                                 />
                                 <h5 className="fw-bolder">Sandra Panguinao</h5>
                                 <div className="fst-italic text-muted">Workshop manager</div>
@@ -150,7 +152,7 @@ const Nosotros = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-4 px-4"
                                     src={michelle}
-                                    alt="..."
+                                    alt="Michelle"
                                 />
                                 <h5 className="fw-bolder">Michelle Zapata</h5>
                                 <div className="fst-italic text-muted">PIE Manager</div>
@@ -160,8 +162,8 @@ const Nosotros = () => {
                             <div className="text-center">
                                 <img
                                     className="img-fluid rounded-circle mb-4 px-4"
-                                    src={claudio}
-                                    alt="..."
+                                    src={sahian}
+                                    alt="Sahian"
                                 />
                                 <h5 className="fw-bolder">Sahian Candia</h5>
                                 <div className="fst-italic text-muted">Social media manager</div>
@@ -171,8 +173,8 @@ const Nosotros = () => {
                             <div className="text-center">
                                 <img
                                     className="img-fluid rounded-circle mb-4 px-4"
-                                    src={michelle}
-                                    alt="..."
+                                    src={daniC}
+                                    alt="Dani C."
                                 />
                                 <h5 className="fw-bolder">Daniela Córdova</h5>
                                 <div className="fst-italic text-muted">Administrative advisor</div>
