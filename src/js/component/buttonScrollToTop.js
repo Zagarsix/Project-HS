@@ -25,7 +25,7 @@ const ScrollToTopButton = () => {
     <div className="scroll-to-top-button-container">
       {showButton && (
         <button className="scroll-to-top-button" onClick={onScrollTop}>
-          <i className="fa-solid fa-chevron-up fa-fade"></i>
+          <i className="fa-solid fa-angles-up fa-fade"></i>
         </button>
       )}
     </div>
