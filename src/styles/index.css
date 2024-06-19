@@ -52,7 +52,7 @@ palette colorMind {
 
 gradientTest{
   color: #7554c2, #b4b4b4,#d88cd4;
-  background-color: rgba(30, 30, 43, 0.541);
+  background-color: rgba(22, 22, 190, 0.541);
 }
 
 :root {
@@ -3247,12 +3247,12 @@ textarea.form-control.is-invalid {
 }
 
 .btn {
-  color: #01257d !important;
-  background-color: #00ffff !important;
+  color: white !important;
+  background-color: #0085a1 !important;
 }
 
 .btn:hover {
-  color: bisque !important;
+  color: white !important;
   background-color: #01257d !important;
   }
 
@@ -4129,7 +4129,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #00FFFF !important;
+  color: #ff6600 !important;
   text-decoration: underline solid 2px;
 }
 
@@ -4313,7 +4313,7 @@ fieldset:disabled .btn {
 
 .navbar-nav .show>.nav-link,
 .navbar-nav .nav-link.active {
-  color: #00ffff;
+  color: bisque;
 }
 
 .navbar-nav .dropdown-menu {
@@ -4342,9 +4342,9 @@ fieldset:disabled .btn {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
-  color: #00FFFF;
+  color: #0085a1;
   background-color: transparent !important;
-  border: var(--bs-border-width) solid #00abe4;
+  border: var(--bs-border-width) solid #00acd0;
   transition: var(--bs-navbar-toggler-transition);
 }
 
@@ -8949,7 +8949,7 @@ fieldset:disabled .btn {
 .bg-gradient,
 .badge {
   background-image: var(--bs-gradient) !important;
-  background-color: #00128e;
+  background-color: #01257d;
 }
 
 .user-select-all {
@@ -12410,7 +12410,7 @@ blockquote {
   left: 0;
   right: 0;
   z-index: 1030;
-  border-bottom: 2px solid #00abe4;
+  border-bottom: 2px solid #0085a1;
   background-color: rgba(0, 0, 0, 0.2);
   max-height: 460px;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -12450,7 +12450,7 @@ blockquote {
   } */
 
   #mainNav .navbar-nav>li.nav-item>a.nav-link {
-    color: bisque;
+    color: white;
     background: rgb(48, 48, 90, 0.4);
     border-radius: 5px;
   }
@@ -12531,15 +12531,16 @@ header.masthead:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 100, 0.8);
-  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0.7;
 }
 
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
   z-index: 3;
-  color: bisque;
+  color:#01257d;
+  font-weight: bold;
   box-shadow: 0 0 0 red;
   /* -webkit-text-stroke: 0.5px black; */
 }
@@ -12560,10 +12561,10 @@ header.masthead .site-heading .h1 {
 
 header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
-  color: bisque;
+  color: white;
   padding: .5rem;
   font-size: 1.2rem;
-  background-color: rgba(48, 48, 90, 0.541);
+  background-color: rgba(48, 48, 100, 0.6);
   border-radius: 3px;
   /* text-shadow: 0 0 0.2em purple; */
   font-weight: normal;
@@ -12727,14 +12728,14 @@ header.masthead .post-heading .meta a {
 }
 
 .service-icon {
-  background-color: #fff;
-  color: #1D809F;
+  background-color: transparent;
+  color: #00acd0;
   height: 7rem;
   width: 7rem;
   display: block;
   line-height: 7.5rem;
   font-size: 2.25rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
 #services,
@@ -12742,7 +12743,7 @@ header.masthead .post-heading .meta a {
 #callToAction,
 #cardPricing,
 #contacto {
-  background-image: linear-gradient(145deg, #2d8e00, #00128e, #8e2600);
+  background-image: linear-gradient(30deg, #1b265C, #01257d, #ff6600);
 }
 
 .footer {
@@ -12751,24 +12752,6 @@ header.masthead .post-heading .meta a {
   background-color: black;
   padding-bottom: 3rem;
 }
-
-/*Palette colors
-#1d2161
-#131c96
-#38d338
-
-split-complementary
-#F6EC00 yellow
-#0032F6 blue
-#D300F6 purple
-
-triadic
-#00128e azul
-#8e2600 naranjo
-#2d8e00 verde
-
-gradient: #7554c2, #b4b4b4,#d88cd4
-*/
 
 #notFound {
   margin-top: 200px;
@@ -12857,14 +12840,15 @@ gradient: #7554c2, #b4b4b4,#d88cd4
 }
 
 .scroll-to-top-button {
-  background-color: #8e2600;
+  background-color: #ff6600;
   /* Color similar al botón de contacto */
-  color: bisque;
+  color: #01257d;
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
+  filter: opacity(90%);
 }
 
 .scroll-to-top-button:hover {

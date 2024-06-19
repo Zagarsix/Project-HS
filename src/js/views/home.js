@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter';
 
-import pencil from "../../img/ApplesBooksPencils.jpg";
-import chave from "../../img/Ap-Isabel.jpg";
+import pencil from "../../img/home-bg.jpg";
+import chave from "../../img/Chave.jpg";
 import children from "../../img/childrenSchool.jpg";
 import notebook from "../../img/about-bg.jpg";
 import parents from "../../img/ParentsAndChildren.jpg";
@@ -19,8 +19,8 @@ const Home = () => {
           <div className="row gx-4 gx-lg-5 justify-content-start">
             <div className="col-md-12 col-lg-12 col-xl-10">
               <div className="site-heading">
-                <h1 id="specialName">Alianza &nbsp;</h1>
-                <h2 className="subtittle" style={{ fontStyle: "italic", color: "#00FFFF", fontWeight: "bold"}}>
+                <h1 id="specialName" style={{fontWeight:"bolder"}}>ALIANZA &nbsp;</h1>
+                <h2 className="subtittle" style={{ fontStyle: "italic", color: "#ff6600", fontWeight: "bold"}}>
                   <Typewriter
                     words={['te cuida!', 'te enseña!', 'te educa!', 'te guía!']}
                     loop cursor delaySpeed={2000}
@@ -37,12 +37,12 @@ const Home = () => {
         <div className="container px-4 px-lg-5 text-center">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-10">
-              <h2><span style={{ color: "#01257d" }}>El Pacto HomeSchool</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
+              <h2><span style={{ color: "#ff6600" }}>Colegio Virtual</span><span style={{ fontWeight:"bolder", color:"#01257d" }}> Alianza</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
               <p className="lead mb-3">
                 Experimenta esta nueva modalidad de estudio híbrida. Clases online y talleres presenciales. No los dejes sin su&nbsp;
                 <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/matriculas">matrícula!</Link>
               </p>
-              <Link className="btn btn-xl" to="/contacto" style={{ background: "#00ffff", color:"#01257d"}}>
+              <Link className="btn btn-xl" to="/contacto">
                 Contáctanos!
               </Link>
             </div>
@@ -54,9 +54,9 @@ const Home = () => {
         <div className="containerServices px-4 px-lg-5 mt-1 mb-2">
           <div className="content-section-heading">
             <h3 className="mb-0">Aquí</h3>
-            <h2 className="mb-5" style={{ color: "#2d8e00" }}>encontrarás:</h2>
+            <h2 className="mb-5" style={{ color: "#ff6600" }}>encontrarás:</h2>
           </div>
-          <div className="row gx-4 gx-lg-5">
+          <div className="row gx-4 gx-lg-5" style={{color:"#00acd0"}}>
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
                 <i className="fa-solid fa-book-open fa-2xl" />
@@ -64,7 +64,7 @@ const Home = () => {
               <h4>
                 <strong>Educación personalizada</strong>
               </h4>
-              <p className="text-faded mb-0">Looks great on any screen size!</p>
+              {/* <p className="text-faded mb-0">Looks great on any screen size!</p> */}
             </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
@@ -73,7 +73,7 @@ const Home = () => {
               <h4>
                 <strong>Valores y principios cristianos</strong>
               </h4>
-              <p className="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
+              {/* <p className="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p> */}
             </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
@@ -82,10 +82,10 @@ const Home = () => {
               <h4>
                 <strong>Formación integral</strong>
               </h4>
-              <p className="text-faded mb-0">
+              {/* <p className="text-faded mb-0">
                 Cada vez más los padres prefieren comenzar con
                 <i className="fas fa-heart" /> HomeSchool El Pacto!
-              </p>
+              </p> */}
             </div>
             <div className="col-lg-3 col-md-6">
               <span className="service-icon rounded-circle mx-auto mb-3">
@@ -94,7 +94,7 @@ const Home = () => {
               <h4>
                 <strong>Precios asequibles</strong>
               </h4>
-              <p className="text-faded mb-0">Facilidades de pago. Tarjetas de crédito, débito y efectivo.</p>
+              {/* <p className="text-faded mb-0">Facilidades de pago. Tarjetas de crédito, débito y efectivo.</p> */}
             </div>
           </div>
         </div>
@@ -104,8 +104,8 @@ const Home = () => {
         <div className="container px-5 my-5">
           <div className="row gx-5">
             <div className="col-lg-4 mb-5 mb-lg-0">
-              <i className="fa-solid fa-ranking-star fa-5x mb-2" style={{ color: "#2d8e00" }} />
-              <h2 className="fw-bolder mb-0" style={{ color: "#00128e" }}>Marcando la diferencia:</h2>
+              <i className="fa-solid fa-ranking-star fa-5x mb-2" style={{ color: "#ff6600" }} />
+              <h2 className="fw-bolder mb-0" style={{ color: "#01257d" }}>Marcando la diferencia:</h2>
             </div>
             <div className="col-lg-8">
               <div className="row gx-5 row-cols-1 row-cols-md-2">
@@ -113,17 +113,17 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     {/* <i className="bi bi-collection" /> */}
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-magnifying-glass-chart fa-2xl" style={{ color: "#2d8e00" }} /> Desarrollo focalizado</h2>
+                  <h2 className="h5"><i className="fa-solid fa-magnifying-glass-chart fa-2xl" style={{ color: "#0085a1" }} /> Desarrollo focalizado</h2>
                   <p className="mb-0">
                     Clases online y presencial. Contempla los contenidos  y malla curricular del Mineduc.<br />
-                    <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/contacto"> Leer más...</Link>
+                    <Link className='link-info link-offset-2 link-underline-opacity-75 link-underline-opacity-100-hover' to="/contacto"> Leer más...</Link>
                   </p>
                 </div>
                 <div className="col mb-5 h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     {/* <i className="bi bi-building" /> */}
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-hand-holding-dollar fa-2xl" style={{ color: "#2d8e00" }} /> Métodos de pago</h2>
+                  <h2 className="h5"><i className="fa-solid fa-hand-holding-dollar fa-2xl" style={{ color: "#0085a1" }} /> Métodos de pago</h2>
                   <p className="mb-0">
                     Contamos con todo medio de pago: tarjeta de crédito, transferencia y efectivo.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/matriculas"> Leer más...</Link>
@@ -133,7 +133,7 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     {/* <i className="bi bi-toggles2" /> */}
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-briefcase-medical fa-2xl" style={{ color: "#2d8e00" }} /> Docencia de alto nivel</h2>
+                  <h2 className="h5"><i className="fa-solid fa-briefcase-medical fa-2xl" style={{ color: "#0085a1" }} /> Docencia de alto nivel</h2>
                   <p className="mb-0">
                     Lorem ipsum bla bla bla bla bla vbla bla<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/nosotros"> Leer más...</Link>
@@ -142,7 +142,7 @@ const Home = () => {
                 <div className="col h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-user-doctor fa-2xl" style={{ color: "#2d8e00" }} /> Talleres complementarios</h2>
+                  <h2 className="h5"><i className="fa-solid fa-user-doctor fa-2xl" style={{ color: "#0085a1" }} /> Talleres complementarios</h2>
                   <p className="mb-0">
                     Paragraph of text beneath the heading to explain the heading.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/blog"> Leer más...</Link>
@@ -188,7 +188,7 @@ const Home = () => {
           <div className="row gx-5 justify-content-center">
             <div className="col-lg-8 col-xl-6">
               <div className="text-center">
-                <h2 className="fw-bolder" style={{ color: "#00128e" }}>--- De nuestro Blog ---</h2>
+                <h2 className="fw-bolder" style={{ color: "#01257d" }}>--- De nuestro Blog ---</h2>
                 <p className="lead fw-normal mb-5">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
                   fugit ratione dicta mollitia. Officiis ad.
