@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter';
 
-import pencil from "../../img/home-bg.jpg";
+import pencil from "../../img/ApplesBooksPencils.jpg";
 import chave from "../../img/Chave.jpg";
 import children from "../../img/childrenSchool.jpg";
 import notebook from "../../img/about-bg.jpg";
@@ -19,10 +19,10 @@ const Home = () => {
           <div className="row gx-4 gx-lg-5 justify-content-start">
             <div className="col-md-12 col-lg-12 col-xl-10">
               <div className="site-heading">
-                <h1 id="specialName" style={{fontWeight:"bolder"}}>ALIANZA &nbsp;</h1>
-                <h2 className="subtittle" style={{ fontStyle: "italic", color: "#ff6600", fontWeight: "bold"}}>
+                <h1 id="specialName" style={{fontWeight:"bolder", color:"white"}}>Educación &nbsp;</h1>
+                <h2 className="subtittle" style={{color: "white", fontWeight: "bold", fontStyle:"italic"}}>
                   <Typewriter
-                    words={['te cuida!', 'te enseña!', 'te educa!', 'te guía!']}
+                    words={['online!', 'cristiana!', 'personalizada!', 'flexible!','innovadora!','de calidad!']}
                     loop cursor delaySpeed={2000}
                     cursorStyle='|'
                   /></h2>
@@ -37,7 +37,7 @@ const Home = () => {
         <div className="container px-4 px-lg-5 text-center">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-10">
-              <h2><span style={{ color: "#ff6600" }}>Colegio Virtual</span><span style={{ fontWeight:"bolder", color:"#01257d" }}> Alianza</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
+              <h2><span style={{ color: "#ff8800" }}>Colegio Virtual</span><span style={{ fontWeight:"bolder", color:"#0e408f" }}> Alianza</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
               <p className="lead mb-3">
                 Experimenta esta nueva modalidad de estudio híbrida. Clases online y talleres presenciales. No los dejes sin su&nbsp;
                 <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/matriculas">matrícula!</Link>

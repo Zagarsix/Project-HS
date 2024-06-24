@@ -1,39 +1,30 @@
 /* 
     General Styles
 */
-/*Palette colors
-#1d2161
-#131c96
-#38d338
+/*Palette colors:
 
 split-complementary
-#F6EC00 yellow
-#0032F6 blue
-#D300F6 purple
-
-triadic
-#00128e azul
-#8e2600 naranjo
-#2d8e00 verde
+#0e408f azul/ #0055ff azul claro
+#ff6600 naranjo/ #ff8800 naranjo claro
+#3dfffb celeste
 
 mainNav
 nav-link
 nav-link:hover
 navbar
 nav-item
-
-gradient: #7554c2, #b4b4b4,#d88cd4
 */
+
 gradient {
-  color: #1d2161;
+  color: #c0e7e9;
   color: #131c96;
   color: #38d338;
 }
 
 splitcomplementary {
-  color: #F6EC00;
-  color: #0032F6;
-  color: #D300F6;
+  color: #0E408F;
+  color: #FF8800;
+  color: #3DFFFB;
 }
 
 triadic {
@@ -42,17 +33,9 @@ triadic {
   color: #2d8e00;
 }
 
-palette colorMind {
-  color: #21AEB8;
-  color: #90D0D3;
-  color: #E3D7D2;
-  color: #736057;
-  color: #3A3A3D;
-}
-
 gradientTest{
   color: #7554c2, #b4b4b4,#d88cd4;
-  background-color: rgba(22, 22, 190, 0.541);
+  background-color: rgba(48, 48, 100, 0.5);
 }
 
 :root {
@@ -524,10 +507,10 @@ legend+* {
   height: auto;
 }
 
-[type=search] {
+/* [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
-}
+} */
 
 /* rtl:raw:
 [type="tel"],
@@ -545,10 +528,10 @@ legend+* {
   padding: 0;
 }
 
-::file-selector-button {
+/* ::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
-}
+} */
 
 output {
   display: inline-block;
@@ -577,7 +560,12 @@ progress {
 }
 
 .lead-header{
-  visibility: hidden;
+  color: white;
+  padding: 1rem;
+  margin-top: 5rem;
+  font-size: .8rem;
+  background-color: rgba(48, 48, 100, 0.4);
+  border-radius: 3rem;
 }
 
 .display-1 {
@@ -3248,12 +3236,13 @@ textarea.form-control.is-invalid {
 
 .btn {
   color: white !important;
-  background-color: #0085a1 !important;
+  background-color: #ff8800 !important;
+  border-radius: 5rem;
 }
 
 .btn:hover {
   color: white !important;
-  background-color: #01257d !important;
+  background-color: #ff6600 !important;
   }
 
 .btn-check+.btn:hover {
@@ -4129,7 +4118,8 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #ff6600 !important;
+  color: #ff8800 !important;
+  padding: 5px;
   text-decoration: underline solid 2px;
 }
 
@@ -4232,7 +4222,7 @@ fieldset:disabled .btn {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: bisque;
+  --bs-navbar-color: white;
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
@@ -4288,13 +4278,18 @@ fieldset:disabled .btn {
 .navbar-brand {
   transition: all .5s ease-out;
   filter: opacity(100%);
-  filter: brightness(100%);
+  border-radius: 5rem;
 }
 
 .navbar-brand:hover {
   transition: all .5s ease-in;
   transform: scale(1.2);
   transition-duration: .5s;
+  filter: brightness(150%);
+}
+
+.logoBrand{
+  border-radius: 10px;
 }
 
 .navbar-nav {
@@ -4342,9 +4337,9 @@ fieldset:disabled .btn {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
-  color: #0085a1;
-  background-color: transparent !important;
-  border: var(--bs-border-width) solid #00acd0;
+  color: #3dfffb;
+  background-color: #0055ff !important;
+  border: var(--bs-border-width) solid #0055ff;
   transition: var(--bs-navbar-toggler-transition);
 }
 
@@ -12410,9 +12405,9 @@ blockquote {
   left: 0;
   right: 0;
   z-index: 1030;
-  border-bottom: 2px solid #0085a1;
-  background-color: rgba(0, 0, 0, 0.2);
-  max-height: 460px;
+  border-bottom: 2px solid #0055ff;
+  background-color: rgba(48, 48, 100, 0.4);
+  max-height: 460;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -12428,7 +12423,7 @@ blockquote {
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link {
-  font-size: 1.0rem;
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -12436,8 +12431,8 @@ blockquote {
 
 @media (min-width: 992px) {
   #mainNav {
-    border-bottom: 1px solid transparent;
-    background: transparent;
+    border-bottom: transparent;
+    background-color: transparent;
   }
 
   /* #mainNav .navbar-brand {
@@ -12451,8 +12446,9 @@ blockquote {
 
   #mainNav .navbar-nav>li.nav-item>a.nav-link {
     color: white;
-    background: rgb(48, 48, 90, 0.4);
-    border-radius: 5px;
+    background: rgb(48, 48, 100, 0.5);
+    text-shadow: 0 0 0.2em #ff6600;
+    border-radius: 5rem;
   }
 
   /* #mainNav .navbar-nav>li.nav-item>a.nav-link:focus,
@@ -12507,8 +12503,8 @@ blockquote {
   }
 
   .subtittle {
-    font-size: 5rem;
-    margin-left: 12rem;
+    font-size: 4.5rem;
+    margin-left: 5rem;
   }
 }
 
@@ -12531,16 +12527,17 @@ header.masthead:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: .6;
 }
 
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
   z-index: 3;
-  color:#01257d;
-  font-weight: bold;
+  color: #0e408f;
+  font-weight: 600;
+  text-shadow: 0 0 0.2em #0e408f;
   box-shadow: 0 0 0 red;
   /* -webkit-text-stroke: 0.5px black; */
 }
@@ -12564,9 +12561,9 @@ header.masthead .site-heading .subheading {
   color: white;
   padding: .5rem;
   font-size: 1.2rem;
-  background-color: rgba(48, 48, 100, 0.6);
-  border-radius: 3px;
-  /* text-shadow: 0 0 0.2em purple; */
+  background-color: rgba(48, 48, 100, 0.5);
+  border-radius: 1rem;
+  text-shadow: 0 0 0.2em #ff8800;
   font-weight: normal;
   font-style: italic;   
   line-height: 1.0;
@@ -12606,14 +12603,23 @@ header.masthead .post-heading .meta a {
 }
 
 @media (min-width: 375px) and (max-width: 484px) {
+  .logoBrand{
+  width: 180px;
+  height: 80px;
+  }
+  
   header.masthead .site-heading .subheading {
     margin-top: 3rem;
-    font-size: 1.0rem;
+    font-size: 0.8rem;
+  }
+
+  header.masthead .site-heading{
+    font-size: larger;
   }
 
   .subtittle {
     font-size: 2.5rem;
-    margin-left: 8.5rem;
+    margin-left: 5.5rem;
   }
 }
 
@@ -12661,7 +12667,7 @@ header.masthead .post-heading .meta a {
   header.masthead .page-heading .h1,
   header.masthead .site-heading h1,
   header.masthead .site-heading .h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   header.masthead .post-heading h1,
@@ -12743,13 +12749,13 @@ header.masthead .post-heading .meta a {
 #callToAction,
 #cardPricing,
 #contacto {
-  background-image: linear-gradient(30deg, #1b265C, #01257d, #ff6600);
+  background-image: linear-gradient(135deg, #1b265C, #01257d, #1616be8a);
 }
 
 .footer {
   padding-top: 3rem;
   color: white;
-  background-color: black;
+  background-color: #000145;
   padding-bottom: 3rem;
 }
 
@@ -12856,5 +12862,5 @@ header.masthead .post-heading .meta a {
 }
 
 .menu-open header {
-  filter: blur(0.3rem);
+  filter: blur(.5rem);
 }
