@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
-import logoHS from "../../img/logo-final.png";
+import logoHS from "../../img/pixelup.jpg";
 
 const Navbar = ({ onMenuToggle }) => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -44,7 +44,7 @@ const Navbar = ({ onMenuToggle }) => {
             <nav className="navbar navbar-expand-lg navbar-light" id="mainNav">
                 <div className="container px-4 px-lg-5">
                     <NavLink className="navbar-brand" to="/" onClick={handleLogoClick}>
-                        <img className="mx-3" src={logoHS} alt="logo-brand" width="240" height="100" />
+                        <img className="logoBrand mx-3" src={logoHS} alt="logo-brand" width="240" height="100" />
                     </NavLink>
                     <button
                         className="navbar-toggler"
