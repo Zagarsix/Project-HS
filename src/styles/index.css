@@ -563,7 +563,7 @@ progress {
   color: white;
   padding: 1rem;
   margin-top: 5rem;
-  font-size: .8rem;
+  font-size: 1.2rem;
   background-color: rgba(48, 48, 100, 0.4);
   border-radius: 3rem;
 }
@@ -12523,7 +12523,7 @@ blockquote {
   }
 
   .subtittle {
-    font-size: 4.5rem;
+    font-size: 4rem;
     margin-left: 5rem;
   }
 }
@@ -12622,64 +12622,96 @@ header.masthead .post-heading .meta a {
   color: #fff;
 }
 
-@media (min-width: 375px) and (max-width: 484px) {
+@media (min-width: 375px) and (max-width: 449px) {
   .logoBrand{
   width: 180px;
   height: 80px;
   }
   
   header.masthead .site-heading .subheading {
-    margin-top: 3.5rem;
-    font-size: 1.2rem;
+    margin-top: 3.8rem;
+    font-size: 1.0rem;
   }
 
   header.masthead .site-heading{
     font-size: larger;
   }
 
-  .subtittle {
-    font-size: 2.5rem;
-    margin-left: 5.5rem;
+  header.masthead {
+    padding-top: 10.5rem;
   }
+
+  .subtittle {
+    font-size: 2.6rem;
+    margin-left: 3rem;
+  }
+
+  .lead-header{
+    margin-top: 5rem;
+    font-size: 0.9rem;
+    border-radius: 5rem;
+  }  
 }
 
-@media (min-width: 485px) and (max-width: 512px) {
+@media (min-width: 450px) and (max-width: 512px) {
   header.masthead .site-heading .subheading {
-    margin-top: 2rem;
-    font-size: 0.9rem;
+    margin-top: 3.9rem;
+    font-size: 1.1rem;
   }
 
   .subtittle {
     font-size: 3rem;
     margin-left: 5rem;
   }
+
+  .lead-header{
+    margin-top: 4rem;
+    font-size: 0.9rem;
+    border-radius: 5rem;
+  }
+  
 }
 
 @media (min-width: 513px) and (max-width: 767px) {
   header.masthead .site-heading .subheading {
-    margin-top: 3rem;
+    margin-top: 4rem;
+    font-size: 1.1rem;
   }
 
   .subtittle {
     font-size: 3rem;
-    margin-left: 15rem;
+    margin-left: 5rem;
+  }
+
+  .lead-header{
+    margin-top: 4rem;
+    font-size: 1.0rem;
+    border-radius: 5rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   header.masthead .site-heading .subheading {
-    margin-top: 4rem;
+    margin-top: 4.8rem;
+    font-size: 1.2rem;
   }
 
   .subtittle {
     font-size: 3rem;
-    margin-left: 15rem;
+    margin-left: 5rem;
   }
+
+  .lead-header{
+    margin-top: 4rem;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+  }
+  
 }
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: 12.5rem;
+    padding-top: 12rem;
     padding-bottom: 12.5rem;
     max-height: 600px;
   }
@@ -12697,7 +12729,7 @@ header.masthead .post-heading .meta a {
   }
 
   header.masthead .post-heading .subheading {
-    font-size: 1.875rem;
+    font-size: 3rem;
   }
 }
 
@@ -12755,8 +12787,8 @@ header.masthead .post-heading .meta a {
 }
 
 .service-icon {
-  background-color: #0e408f;
-  color: #3dfffb;
+  background-color: white;
+  color: #0e408f;
   height: 6rem;
   width: 6rem;
   display: block;
@@ -12765,12 +12797,16 @@ header.masthead .post-heading .meta a {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.6);
 }
 
+.service-icon:hover{
+  filter:brightness(150%);
+}
+
 #services,
 #testimonial,
 #callToAction,
 #cardPricing,
 #contacto {
-  background-image: linear-gradient(75deg, #000145, #01257d, #0e408f);
+  background-image: linear-gradient(75deg, #000145, #000263, #0e408f);
 }
 
 .footer {

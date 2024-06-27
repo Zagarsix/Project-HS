@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter';
 
 import pencil from "../../img/ApplesBooksPencils.jpg";
-import chave from "../../img/Chave.jpg";
+import chave from "../../img/chave3.jpg";
 import children from "../../img/childrenSchool.jpg";
 import notebook from "../../img/about-bg.jpg";
 import parents from "../../img/ParentsAndChildren.jpg";
@@ -37,64 +37,67 @@ const Home = () => {
         <div className="container px-4 px-lg-5 text-center">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-10">
-              <h2><span style={{ color: "#ff8800" }}>Colegio Virtual</span><span style={{ fontWeight:"bolder", color:"#0e408f" }}> Alianza</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
-              <p className="lead mb-3">
-                Experimenta esta nueva modalidad de estudio híbrida. Clases online y talleres presenciales. No los dejes sin su&nbsp;
+              <h3><span style={{ color: "#ff8800" }}>Colegio Virtual</span><span style={{ fontWeight:"bolder", color:"#0e408f" }}> Alianza</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h3>
+              <p className="lead mb-2">
+                Experimenta esta nueva modalidad de estudio <strong>b-learning:</strong> clases online y talleres presenciales. No los dejes sin su&nbsp;
                 <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/matriculas">matrícula!</Link>
               </p>
-              <Link className="btn btn-xl" to="/contacto">
+              <Link className="btn btn-xl m-2" to="/contacto">
                 Contáctanos!
+              </Link>
+              <Link className="btn btn-xl m-2" id="buttonSec" to="/nosotros">
+                Conoce de nosotros {'>'}
               </Link>
             </div>
           </div>
         </div>
       </section>
       {/* Services*/}
-      <section className="content-section text-white text-center py-1 py-lg-5 mb-2" id="services">
-        <div className="containerServices px-4 px-lg-5 mt-1 mb-2">
-          <div className="content-section-heading">
-            <h3 className="mb-0">Aquí</h3>
-            <h2 className="mb-5" style={{ color: "#ff6600" }}>encontrarás:</h2>
+      <section className="content-section text-white text-center py-1 py-lg-3 mb-2" id="services">
+        <div className="containerServices px-4 px-lg-3 mt-2 mb-0">
+          <div className="content-section-heading mb-5">
+            <h2 className="mb-2">Bienvenidos a
+            <span className="mb-1" style={{ color: "#ff6600" }}> Alianza</span></h2>
+            <p> Somos la alternativa ideal a la educación tradicional. Ofrecemos un enfoque innovador basado en la modalidad de Homeschooling, diseñado para brindar una experiencia educativa flexible, personalizada y en armonía con las necesidades de nuestros estudiantes y sus familias.</p>
           </div>
-          <div className="row gx-4 gx-lg-5" style={{color:"#00acd0"}}>
+          <div className="row gx-4 gx-lg-5 mt-5" style={{color:"#3dfffb"}}>
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="fa-solid fa-book-open fa-2xl" />
+                <i className="fa-solid fa-id-card fa-2xl" />
               </span>
               <h4>
-                <strong>Educación personalizada</strong>
+                <span>Atención Personalizada</span>
               </h4>
-              {/* <p className="text-faded mb-0">Looks great on any screen size!</p> */}
+              <p className="text-white-50 mb-0">Cada estudiante recibe una educación adaptada a sus necesidades y capacidades, asegurando un aprendizaje efectivo y significativo.</p>
             </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="fa-solid fa-cross fa-2xl" />
+                <i className="fa-solid fa-book-bible fa-2xl" />
               </span>
               <h4>
-                <strong>Valores y principios cristianos</strong>
+                <span>Valores y Principios Cristianos</span>
               </h4>
-              {/* <p className="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p> */}
+              <p className="text-white-50 mb-0">Creemos que una educación completa debe abarcar tanto el desarrollo intelectual como el moral, preparando a nuestros alumnos para ser ciudadanos responsables y éticos.</p>
             </div>
-            <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
                 <i className="fa-solid fa-hands-holding-child fa-2xl" />
               </span>
               <h4>
-                <strong>Formación integral</strong>
+                <span>Formación Integral</span>
               </h4>
-              {/* <p className="text-faded mb-0">
-                Cada vez más los padres prefieren comenzar con
-                <i className="fas fa-heart" /> HomeSchool El Pacto!
-              </p> */}
+              <p className="text-white-50 mb-0">
+              Más tiempo para explorar intereses personales y desarrollar habilidades en áreas como deportes, arte y otras actividades extracurriculares.
+              </p>
             </div>
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="fa-solid fa-hand-holding-dollar fa-2xl" />
+                <i className="fa-solid fa-people-roof fa-2xl" />
               </span>
               <h4>
-                <strong>Precios asequibles</strong>
+                <span>Entorno Familiar</span>
               </h4>
-              {/* <p className="text-faded mb-0">Facilidades de pago. Tarjetas de crédito, débito y efectivo.</p> */}
+              <p className="text-white-50 mb-0">Fomentamos un entorno de aprendizaje seguro y confortable en el hogar, permitiendo una mayor participación de la familia en el proceso educativo.</p>
             </div>
           </div>
         </div>
@@ -104,8 +107,8 @@ const Home = () => {
         <div className="container px-5 my-5">
           <div className="row gx-5">
             <div className="col-lg-4 mb-5 mb-lg-0">
-              <i className="fa-solid fa-ranking-star fa-5x mb-2" style={{ color: "#ff6600" }} />
-              <h2 className="fw-bolder mb-0" style={{ color: "#01257d" }}>Marcando la diferencia:</h2>
+              <i className="fa-solid fa-ranking-star fa-5x mb-2" style={{ color: "#ff8800" }} />
+              <h2 className="fw-bolder mb-0" style={{ color: "#0e408f" }}>Marcando la diferencia:</h2>
             </div>
             <div className="col-lg-8">
               <div className="row gx-5 row-cols-1 row-cols-md-2">
@@ -113,9 +116,9 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     {/* <i className="bi bi-collection" /> */}
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-magnifying-glass-chart fa-2xl" style={{ color: "#0085a1" }} /> Desarrollo focalizado</h2>
+                  <h2 className="h5"><i className="fa-solid fa-magnifying-glass-chart fa-2xl" style={{ color: "#3dfffb" }} /> Innovación pedagógica</h2>
                   <p className="mb-0">
-                    Clases online y presencial. Contempla los contenidos  y malla curricular del Mineduc.<br />
+                    Utilizamos las últimas tecnologías y metodologías educativas para ofrecer una experiencia de aprendizaje dinámica e interactiva.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-75 link-underline-opacity-100-hover' to="/contacto"> Leer más...</Link>
                   </p>
                 </div>
@@ -135,7 +138,7 @@ const Home = () => {
                   </div>
                   <h2 className="h5"><i className="fa-solid fa-briefcase-medical fa-2xl" style={{ color: "#0085a1" }} /> Docencia de alto nivel</h2>
                   <p className="mb-0">
-                    Lorem ipsum bla bla bla bla bla vbla bla<br />
+                  Clases online y presencial. Contempla los contenidos  y malla curricular del Mineduc.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/nosotros"> Leer más...</Link>
                   </p>
                 </div>
@@ -171,7 +174,7 @@ const Home = () => {
                     width="120"
                     height="120"
                   />
-                  <div className="text-muted fw-bold">
+                  <div className="text-white-50 fw-bold">
                     Isabel Fernández
                     <span className="fw-bold text-primary mx-1">/</span>
                     Apóstol MCA
