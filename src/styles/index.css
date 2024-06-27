@@ -156,7 +156,7 @@ h1,
   margin-bottom: 0.5rem;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.0;
 }
 
 h1,
@@ -168,7 +168,7 @@ h1,
 
   h1,
   .h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -200,14 +200,14 @@ h3,
 
 h4,
 .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.2rem + 0.3vw);
 }
 
 @media (min-width: 1200px) {
 
   h4,
   .h4 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -3238,12 +3238,26 @@ textarea.form-control.is-invalid {
   color: white !important;
   background-color: #ff8800 !important;
   border-radius: 5rem;
+  margin-left: 1rem;
 }
 
 .btn:hover {
-  color: white !important;
+  color: bisque !important;
   background-color: #ff6600 !important;
+  border-color: #0e408f !important;
   }
+
+#buttonSec{
+  color: #FF8800 !important;
+  background-color: transparent !important;
+  border-color: #FF8800 !important;
+}
+
+#buttonSec:hover{
+  color: white !important;
+  background-color: #FF8800 !important;
+  border-color: #FF8800 !important;
+}
 
 .btn-check+.btn:hover {
   color: var(--bs-btn-color);
@@ -4119,7 +4133,7 @@ fieldset:disabled .btn {
 .nav-link:hover,
 .nav-link:focus {
   color: #ff8800 !important;
-  padding: 5px;
+  padding: 10px;
   text-decoration: underline solid 2px;
 }
 
@@ -4278,20 +4292,23 @@ fieldset:disabled .btn {
 .navbar-brand {
   transition: all .5s ease-out;
   filter: opacity(100%);
-  border-radius: 5rem;
 }
 
 .navbar-brand:hover {
   transition: all .5s ease-in;
   transform: scale(1.2);
   transition-duration: .5s;
-  filter: brightness(150%);
+  filter: brightness(130%);
 }
 
 .logoBrand{
   border-radius: 10px;
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.4);
 }
 
+.logoBrand:hover{
+  box-shadow: 7px 7px 10px 3px rgba(0, 0, 0, 0.4);
+}
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
@@ -4308,7 +4325,7 @@ fieldset:disabled .btn {
 
 .navbar-nav .show>.nav-link,
 .navbar-nav .nav-link.active {
-  color: bisque;
+  color: white;
 }
 
 .navbar-nav .dropdown-menu {
@@ -4338,8 +4355,8 @@ fieldset:disabled .btn {
   font-size: var(--bs-navbar-toggler-font-size);
   line-height: 1;
   color: #3dfffb;
-  background-color: #0055ff !important;
-  border: var(--bs-border-width) solid #0055ff;
+  background-color: transparent !important;
+  border: var(--bs-border-width) solid #0e408f;
   transition: var(--bs-navbar-toggler-transition);
 }
 
@@ -12367,11 +12384,14 @@ hr {
 }
 
 p {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 p a {
   text-decoration: underline;
+}
+.text-white-50{
+font-size: smaller;
 }
 
 blockquote {
@@ -12405,7 +12425,7 @@ blockquote {
   left: 0;
   right: 0;
   z-index: 1030;
-  border-bottom: 2px solid #0055ff;
+  border-bottom: 2px solid #0e408f;
   background-color: rgba(48, 48, 100, 0.4);
   max-height: 460;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -12560,15 +12580,15 @@ header.masthead .page-heading .subheading,
 header.masthead .site-heading .subheading {
   color: white;
   padding: .5rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   background-color: rgba(48, 48, 100, 0.5);
   border-radius: 1rem;
   text-shadow: 0 0 0.2em #ff8800;
   font-weight: normal;
   font-style: italic;   
-  line-height: 1.0;
+  line-height: 1.2;
   display: block;
-  margin-top: 7rem;
+  margin-top: 9rem;
   /* -webkit-text-stroke: 0.5px purple; */
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -12609,8 +12629,8 @@ header.masthead .post-heading .meta a {
   }
   
   header.masthead .site-heading .subheading {
-    margin-top: 3rem;
-    font-size: 0.8rem;
+    margin-top: 3.5rem;
+    font-size: 1.2rem;
   }
 
   header.masthead .site-heading{
@@ -12625,12 +12645,13 @@ header.masthead .post-heading .meta a {
 
 @media (min-width: 485px) and (max-width: 512px) {
   header.masthead .site-heading .subheading {
-    margin-top: 3rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
   }
 
   .subtittle {
     font-size: 3rem;
-    margin-left: 13rem;
+    margin-left: 5rem;
   }
 }
 
@@ -12734,14 +12755,14 @@ header.masthead .post-heading .meta a {
 }
 
 .service-icon {
-  background-color: transparent;
-  color: #00acd0;
-  height: 7rem;
-  width: 7rem;
+  background-color: #0e408f;
+  color: #3dfffb;
+  height: 6rem;
+  width: 6rem;
   display: block;
-  line-height: 7.5rem;
-  font-size: 2.25rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.4);
+  line-height: 6rem;
+  font-size: 2.0rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.6);
 }
 
 #services,
@@ -12749,7 +12770,7 @@ header.masthead .post-heading .meta a {
 #callToAction,
 #cardPricing,
 #contacto {
-  background-image: linear-gradient(135deg, #1b265C, #01257d, #1616be8a);
+  background-image: linear-gradient(75deg, #000145, #01257d, #0e408f);
 }
 
 .footer {
@@ -12848,7 +12869,7 @@ header.masthead .post-heading .meta a {
 .scroll-to-top-button {
   background-color: #ff6600;
   /* Color similar al botón de contacto */
-  color: #01257d;
+  color: white;
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
