@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import metroLogo from "../../img/metroLogo.png";
-import iconoHS from "../../img/ElpactoDarkicon.png"
+import iconoHS from "../../img/logo-fondo-oscuro.png"
 
 const Footer = () => {
     return (
@@ -32,7 +32,7 @@ const Footer = () => {
                     </div>
                     <div className='col-12 col-sm-auto p-2 m-2 text-center'>
                         <div className="text-white">
-                            <img className="mx-1" src={iconoHS} alt="logo-brand" width="120" height="100" />
+                            <img className="mx-1" src={iconoHS} alt="logo-brand" width="180" height="80" />
                             <p>© El Pacto Homeschool 2024. Todos los derechos reservados.</p>
                             <p>Curacaví, Estación Central, Santiago, Chile.</p>
                             <p><img className="mx-0" src={metroLogo} alt="Metro Logo" width="30" height="25" /> Metro Las Rejas</p>
