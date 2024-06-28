@@ -562,10 +562,10 @@ progress {
 .lead-header{
   color: white;
   padding: 1rem;
-  margin-top: 5rem;
+  margin-top: 1rem;
   font-size: 1.2rem;
   background-color: rgba(48, 48, 100, 0.4);
-  border-radius: 3rem;
+  border-radius: 1rem;
 }
 
 .display-1 {
@@ -12647,9 +12647,9 @@ header.masthead .post-heading .meta a {
   }
 
   .lead-header{
-    margin-top: 5rem;
-    font-size: 0.9rem;
-    border-radius: 5rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    border-radius: 1rem;
   }  
 }
 
@@ -12665,9 +12665,9 @@ header.masthead .post-heading .meta a {
   }
 
   .lead-header{
-    margin-top: 4rem;
-    font-size: 0.9rem;
-    border-radius: 5rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    border-radius: 1rem;
   }
   
 }
@@ -12684,9 +12684,9 @@ header.masthead .post-heading .meta a {
   }
 
   .lead-header{
-    margin-top: 4rem;
-    font-size: 1.0rem;
-    border-radius: 5rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    border-radius: 1rem;
   }
 }
 
@@ -12702,9 +12702,9 @@ header.masthead .post-heading .meta a {
   }
 
   .lead-header{
-    margin-top: 4rem;
-    font-size: 1.2rem;
-    border-radius: 5rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
   }
   
 }

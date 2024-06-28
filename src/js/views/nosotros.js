@@ -1,9 +1,10 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
-import homeBG from "../../img/about-bg.jpg";
-import elpactoV2 from "../../img/Elpacto-V3.png";
+import homeBG from "../../img/lapices-bg.jpg";
+import alianzaCV from "../../img/logo-vision-mision.png";
 import desarrollo from "../../img/blog-bg.jpg";
+import valores from "../../img/logo-valores.png";
 import dany from "../../img/Danieleichon.jpg";
 import claudio from "../../img/Claudieichon.jpg";
 import nicole from "../../img/Nicoleichon.jpg";
@@ -23,13 +24,10 @@ const Nosotros = () => {
                         <div className="col-md-12 col-lg-11 col-xl-10">
                             <div className="text-center my-2">
                                 <h1 className="site-heading fw-bolder mb-1">
-                                    ¿Qué es Academia Virtual Alianza?
+                                    <span>¿Quiénes</span> <span style={{ color: "#ff6600" }}> somos?</span>
                                 </h1>
-                                <p className="lead-header fw-normal text-black mb-5">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                                    est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
-                                    numquam libero molestiae et fugit cupiditate, quibusdam expedita,
-                                    maiores eaque quisquam.
+                                <p className="lead-header mb-5">
+                                    <strong>Colegio Virtual Alianza</strong> está conformado por un equipo de <strong>profesionales especialistas en educación online</strong>, capacitados para brindar un aprendizaje interactivo y efectivo a través de plataformas digitales, garantizando una educación de calidad, acorde a las necesidades del mundo moderno y en un entorno que fomenta tanto el conocimiento como el crecimiento personal.
                                 </p>
                                 {/* <NavLink className="btn btn-xl py-2 my-2" to="#scroll-target" style={{ background: "#131c96" }}>
                                     Lee nuestra historia
@@ -46,14 +44,15 @@ const Nosotros = () => {
                         <div className="col-lg-6">
                             <img
                                 className="img-fluid rounded mb-5 mb-lg-0"
-                                src={elpactoV2}
+                                src={alianzaCV}
                                 alt="..."
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder"><span style={{color:"#01257d"}}>Visión</span><span style={{color:"#00ffff"}}> &amp; Misión</span></h2>
+                            <h2 className="fw-bolder" style={{ color: "#0e408f", borderRadius: "5rem" }}><span >Visión </span><span style={{ color: "#3dfffb", background: "rgb(0, 0, 90, 0.5)", borderRadius: "5rem", padding: "5px" }}> &amp; Misión</span></h2>
                             <p className="lead fw-normal text-muted mb-0">
-                                Entregando una educación personalizada para niños y jóvenes, bajo valores, principios y conceptos cristianos; dando apoyo a las familias en el proceso de aprendizaje de sus hijos. Contemplando los niveles desde enseñanza pre-básica a media, a través de una plataforma online y talleres presenciales.
+                                <strong>Visión: </strong>Ser reconocidos como un referente en educación a distancia, destacándonos por la excelencia académica, la innovación pedagógica y el compromiso con el desarrollo integral de nuestros estudiantes. Aspiramos a formar individuos críticos, creativos y con valores sólidos, preparados para enfrentar los desafíos del mundo contemporáneo.
+                                <p><strong>Misión: </strong>Entregar una educación integral y personalizada para niños y jóvenes, bajo valores, principios y conceptos cristianos; fomentando un aprendizaje activo, participativo y significativo. Nos comprometemos a acompañar a nuestros estudiantes en su proceso de aprendizaje, respetando sus ritmos y estilos, y promoviendo el desarrollo de sus capacidades y talentos.</p>
                             </p>
                         </div>
                     </div>
@@ -71,12 +70,33 @@ const Nosotros = () => {
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder" style={{ color: "#00128e" }}>Desarrollo &amp; más allá</h2>
+                            <h2 className="fw-bolder" style={{ color: "#0e408f" }}>Desarrollo <span style={{ color: "#3dfffb", background: "rgb(0, 0, 90, 0.5)", borderRadius: "5rem", padding: "5px" }}>&amp; más allá</span></h2>
+                            <p className="lead fw-normal text-muted mb-0">Nuestro compromiso es ofrecer un entorno educativo <strong>flexible y personalizado </strong>que se adapte a las necesidades individuales de cada estudiante, promoviendo el desarrollo integral y el amor por el aprendizaje.
+                                Contemplando los niveles <strong>desde enseñanza pre-básica a media</strong>, a través de una plataforma <strong>online y talleres presenciales.</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* About section three*/}
+            <section className="py-5 bg-light" id="scroll-target">
+                <div className="container px-5 my-5">
+                    <div className="row gx-5 align-items-center">
+                        <div className="col-lg-6">
+                            <img
+                                className="img-fluid rounded mb-5 mb-lg-0"
+                                src={valores}
+                                alt="..."
+                            />
+                        </div>
+                        <div className="col-lg-6">
+                            <h2 className="fw-bolder" style={{ color: "#0e408f", borderRadius: "5rem" }}><span >Nuestros </span><span style={{ color: "#3dfffb", background: "rgb(0, 0, 90, 0.5)", borderRadius: "5rem", padding: "5px" }}> Valores</span></h2>
                             <p className="lead fw-normal text-muted mb-0">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                                est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
-                                numquam libero molestiae et fugit cupiditate, quibusdam expedita,
-                                maiores eaque quisquam.
+                                <strong>Excelencia Académica: </strong>Nos esforzamos por ofrecer una educación de alta calidad, basada en programas académicos rigurosos y actualizados.
+                                <p><strong>Innovación Pedagógica: </strong>Implementamos metodologías de enseñanza innovadoras que fomentan el pensamiento crítico y creativo.</p>
+                                <p><strong>Personalización del Aprendizaje: </strong>Adaptamos nuestros programas educativos a las necesidades individuales de cada estudiante, reconociendo y valorando su diversidad.</p>
+                                <p><strong>Compromiso y Responsabilidad: </strong>Nos comprometemos con el éxito académico y personal de nuestros estudiantes, promoviendo una cultura de responsabilidad y ética.</p>
+                                <p><strong>Formación Integral: </strong>Fomentamos el desarrollo de competencias académicas, sociales y emocionales, preparando a nuestros estudiantes para ser ciudadanos responsables y comprometidos.</p>
                             </p>
                         </div>
                     </div>
