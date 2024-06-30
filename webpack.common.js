@@ -40,7 +40,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        favicon: 'iconoHS.jpg',
+        favicon: 'alianzaCV.png',
         template: 'template.html'
     }),
     new Dotenv({ safe: true, systemvars: true })
