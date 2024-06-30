@@ -607,7 +607,7 @@ progress {
 .display-4 {
   font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 @media (min-width: 1200px) {
@@ -12814,6 +12814,7 @@ header.masthead .post-heading .meta a {
   color: white;
   background-color: #000145;
   padding-bottom: 3rem;
+  border-top: solid 3px #0e408f;
 }
 
 #notFound {
