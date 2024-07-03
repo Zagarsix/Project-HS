@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 
-import logoHS from "../../img/logo-final.png";
+import logoHS from "../../img/logo-cva.png";
 
 const Navbar = ({ onMenuToggle }) => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
