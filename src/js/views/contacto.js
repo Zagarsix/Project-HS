@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import contact from "../../img/contact-bg.jpg";
+import contact from "../../img/contact-center2.jpg";
 
 const Contacto = () => {
 return<>
@@ -12,13 +12,11 @@ return<>
           <div className="col-md-12 col-lg-11 col-xl-10">
             <div className="text-center my-2">
               <h1 className="site-heading fw-bolder mb-1">
-                Más cerca de ti
+              <span>Más cerca</span> <span style={{ color: "#ff6600" }}> de ti</span>
               </h1>
-              <p className="lead-header fw-normal text-black mb-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
-                numquam libero molestiae et fugit cupiditate, quibusdam expedita,
-                maiores eaque quisquam.
+              <p className="lead-header mb-5">
+               Si tienes dudas o consultas, contáctanos por cualquiera de nuestros medios de atención. <br></br>
+               Horario de atención: Lunes a Viernes de 09:00 a  18:00 hrs.
               </p>
             </div>
           </div>
@@ -34,20 +32,13 @@ return<>
             <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
               {/* <i className="bi bi-envelope" /> */}
             </div>
-            <h1 className="fw-bolder">Contáctanos</h1>
+            <h1 className="fw-bolder" style={{color:"#ff8800"}}>Contáctanos</h1>
             <p className="lead fw-normal text-muted mb-0">
               Nos encantaría escucharte
             </p>
           </div>
           <div className="row gx-5 justify-content-center" >
             <div className="col-lg-8 col-xl-6">
-              {/* * * * * * * * * * * * * * * **/}
-              {/* * * SB Forms Contact Form * **/}
-              {/* * * * * * * * * * * * * * * **/}
-              {/* This form is pre-integrated with SB Forms.*/}
-              {/* To make this form functional, sign up at*/}
-              {/* https://startbootstrap.com/solution/contact-forms*/}
-              {/* to get an API token!*/}
               <form id="contactForm" data-sb-form-api-token="API_TOKEN" >
                 {/* Name input*/}
                 <div className="form-floating mb-3">
