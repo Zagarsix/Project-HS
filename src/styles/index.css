@@ -7480,7 +7480,7 @@ fieldset:disabled .btn {
 
 .link-light:hover,
 .link-light:focus {
-  color: #f9fafb !important;
+  color: #3dfffb !important;
 }
 
 .link-dark {
@@ -8961,7 +8961,7 @@ fieldset:disabled .btn {
 .bg-gradient,
 .badge {
   background-image: var(--bs-gradient) !important;
-  background-color: #01257d;
+  background-color: #0e408f;
 }
 
 .user-select-all {
@@ -12451,8 +12451,8 @@ blockquote {
 
 @media (min-width: 992px) {
   #mainNav {
-    border-bottom: transparent;
-    background-color: transparent;
+    border-bottom: solid 1px #0e408f;
+    background-color: rgba(48, 48, 100, 0.4);;
   }
 
   /* #mainNav .navbar-brand {
@@ -12466,7 +12466,7 @@ blockquote {
 
   #mainNav .navbar-nav>li.nav-item>a.nav-link {
     color: white;
-    background: rgb(48, 48, 100, 0.5);
+    background: transparent;
     text-shadow: 0 0 0.2em #ff6600;
     border-radius: 5rem;
   }
@@ -12809,12 +12809,51 @@ header.masthead .post-heading .meta a {
   background-image: linear-gradient(75deg, #000145, #000263, #0e408f);
 }
 
+/* Footer */
 .footer {
-  padding-top: 3rem;
+  padding: .1rem 1rem 1rem 1rem;
   color: white;
   background-color: #000145;
-  padding-bottom: 3rem;
   border-top: solid 3px #0e408f;
+  line-height: 0.5rem;
+  font-size: 1.0rem;
+}
+
+.footer .lema {
+  font-style: italic;
+  line-height: 1.2rem;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer .fa-2xl{
+  font-size: 3rem;
+}
+
+ .footer .down {
+  font-size: .8rem;
+  line-height: .1rem;
+ }
+
+ .footer .developer {
+  color: grey;
+ }
+
+ .footer .developer:hover {
+color: #3dfffb; 
+}
+@media (max-width: 768px) {
+  .footer .order-1 {
+    order: 1;
+  }
+  .footer .order-2 {
+    order: 2;
+  }
+  .footer .order-3 {
+    order: 3;
+  }
 }
 
 #notFound {
