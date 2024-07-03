@@ -14,7 +14,7 @@ const NotFound = () => {
                 <h2 className="h5 m-3"><i className="fa-regular fa-face-surprise fa-2x" /> ¡Ups! ¿Te has equivocado de enlace?</h2>
                 <p className="fw-bolder m-3">
                     No hemos encontrado la página que estás buscando.<br />
-                    Intenta volver al inicio de HomeSchool El Pacto.<br />
+                    Intenta volver al inicio de Colegio Virtual Alianza.<br />
                 </p>
                 <Link className='link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover fw-bolder p-2 m-2' to="/">
                     <i className="fa-solid fa-book-open-reader fa-3x"></i> Inicio</Link>
