@@ -5,7 +5,7 @@ const ButtonWame = () => {
   return (
     <div className="fixed-button-container">
       <div className="tooltip-container">
-        <a className="fixed-button" target="_blank" rel="noopener noreferrer" href="https://wa.me/56973655180/">
+        <a className="fixed-button" target="_blank" rel="noopener noreferrer" href="https://wa.me/56928484497/">
           <img
             className='Wame'
             src={contact}
