@@ -2,16 +2,16 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 
 import homeBG from "../../img/lapices-bg.jpg";
-import alianzaCV from "../../img/logo-vision-mision.png";
+import logoVyM from "../../img/logo-valores.png";
 import desarrollo from "../../img/blog-bg.jpg";
-import valores from "../../img/logo-valores.png";
-import dany from "../../img/Danieleichon.jpg";
-import claudio from "../../img/Claudieichon.jpg";
+import valores from "../../img/logo-vision-mision.png";
+import dany from "../../img/DanyP.png";
+import claudio from "../../img/Claudio.png";
 import nicole from "../../img/Nicoleichon.jpg";
-import solange from "../../img/Solangeichon2.jpg";
-import sandra from "../../img/Sandreichon.jpg";
-import michelle from "../../img/Michelleichon.jpg";
-import sahian from "../../img/Sahianeichon.jpg";
+import solange from "../../img/Solange.png";
+import sandra from "../../img/Sandra.png";
+import michelle from "../../img/Michelle.png";
+import sahian from "../../img/Sahian.png";
 import daniC from "../../img/Cordoveichon.jpg";
 
 const Nosotros = () => {
@@ -44,7 +44,7 @@ const Nosotros = () => {
                         <div className="col-lg-6">
                             <img
                                 className="img-fluid rounded mb-5 mb-lg-0"
-                                src={alianzaCV}
+                                src={logoVyM}
                                 alt="..."
                             />
                         </div>
@@ -106,16 +106,16 @@ const Nosotros = () => {
             <section className="py-5 bg-light">
                 <div className="container px-5 my-5">
                     <div className="text-center">
-                        <h2 className="fw-bolder" style={{ color: "#131c96" }}>--- Nuestro equipo ---</h2>
+                        <h2 className="fw-bolder" style={{ color: "#0e408f" }}>--- Nuestro equipo ---</h2>
                         <p className="lead fw-normal text-muted mb-5">
                             Dedicados a la calidad &amp; el éxito
                         </p>
                     </div>
                     <div className="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
-                        <div className="col mb-5 mb-5 mb-xl-0">
+                        <div className="col mb-5 mb-xl-5">
                             <div className="text-center">
                                 <img
-                                    className="img-fluid rounded-circle mb-4 px-4"
+                                    className="img-fluid rounded-circle mb-2 px-2"
                                     src={dany}
                                     alt="Dany"
                                 />
@@ -123,10 +123,10 @@ const Nosotros = () => {
                                 <div className="fst-italic text-muted">Founder &amp; CEO</div>
                             </div>
                         </div>
-                        <div className="col mb-5 mb-5 mb-xl-0">
+                        <div className="col mb-5 mb-xl-5">
                             <div className="text-center">
                                 <img
-                                    className="img-fluid rounded-circle mb-4 px-4"
+                                    className="img-fluid rounded-circle mb-2 px-2"
                                     src={claudio}
                                     alt="Claudio"
                                 />
@@ -134,10 +134,10 @@ const Nosotros = () => {
                                 <div className="fst-italic text-muted">Webmaster, developer &amp; designer</div>
                             </div>
                         </div>
-                        <div className="col mb-5 mb-5 mb-sm-0">
+                        <div className="col mb-5 mb-xl-5">
                             <div className="text-center">
                                 <img
-                                    className="img-fluid rounded-circle mb-4 px-4"
+                                    className="img-fluid rounded-circle mb-2 px-2"
                                     src={nicole}
                                     alt="Nicole"
                                 />
@@ -145,10 +145,10 @@ const Nosotros = () => {
                                 <div className="fst-italic text-muted">UTP Chief</div>
                             </div>
                         </div>
-                        <div className="col mb-5">
+                        <div className="col mb-5 mb-xl-5">
                             <div className="text-center">
                                 <img
-                                    className="img-fluid rounded-circle mb-4 px-4"
+                                    className="img-fluid rounded-circle mb-2 px-2"
                                     src={solange}
                                     alt="Solange"
                                 />
@@ -156,10 +156,10 @@ const Nosotros = () => {
                                 <div className="fst-italic text-muted">Operations Manager</div>
                             </div>
                         </div>
-                        <div className="col mb-5">
+                        <div className="col mb-5 mb-xl-5">
                             <div className="text-center">
                                 <img
-                                    className="img-fluid rounded-circle mb-4 px-4"
+                                    className="img-fluid rounded-circle mb-2 px-2"
                                     src={sandra}
                                     alt="Sandra"
                                 />
@@ -167,10 +167,10 @@ const Nosotros = () => {
                                 <div className="fst-italic text-muted">Workshop manager</div>
                             </div>
                         </div>
-                        <div className="col mb-5">
+                        <div className="col mb-5 mb-xl-5">
                             <div className="text-center">
                                 <img
-                                    className="img-fluid rounded-circle mb-4 px-4"
+                                    className="img-fluid rounded-circle mb-2 px-2"
                                     src={michelle}
                                     alt="Michelle"
                                 />
@@ -178,10 +178,10 @@ const Nosotros = () => {
                                 <div className="fst-italic text-muted">PIE Manager</div>
                             </div>
                         </div>
-                        <div className="col mb-5">
+                        <div className="col mb-5 mb-xl-5">
                             <div className="text-center">
                                 <img
-                                    className="img-fluid rounded-circle mb-4 px-4"
+                                    className="img-fluid rounded-circle mb-2 px-2"
                                     src={sahian}
                                     alt="Sahian"
                                 />
@@ -189,10 +189,10 @@ const Nosotros = () => {
                                 <div className="fst-italic text-muted">Social media manager</div>
                             </div>
                         </div>
-                        <div className="col mb-5">
+                        <div className="col mb-5 mb-xl-5">
                             <div className="text-center">
                                 <img
-                                    className="img-fluid rounded-circle mb-4 px-4"
+                                    className="img-fluid rounded-circle mb-2 px-2"
                                     src={daniC}
                                     alt="Dani C."
                                 />
