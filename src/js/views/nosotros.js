@@ -7,12 +7,10 @@ import desarrollo from "../../img/blog-bg.jpg";
 import valores from "../../img/logo-vision-mision.png";
 import dany from "../../img/DanyP.png";
 import claudio from "../../img/Claudio.png";
-import nicole from "../../img/Nicoleichon.jpg";
 import solange from "../../img/Solange.png";
 import sandra from "../../img/Sandra.png";
 import michelle from "../../img/Michelle.png";
 import sahian from "../../img/Sayita.jpg";
-import daniC from "../../img/Cordoveichon.jpg";
 
 const Nosotros = () => {
     return <>
