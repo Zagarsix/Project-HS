@@ -60,7 +60,7 @@ const Matriculas = () => {
                     </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                      Acceso ilimitado
+                      Accede al descuento por <strong>matrícula familiar</strong>
                     </li>
                     {/* <li className="mb-2">
                       <i className="bi bi-check text-primary" />
