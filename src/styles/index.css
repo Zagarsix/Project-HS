@@ -3,39 +3,29 @@
 */
 /*Palette colors:
 
-split-complementary
-#0e408f azul/ #0055ff azul claro
-#ff6600 naranjo/ #ff8800 naranjo claro
-#3dfffb celeste
-
 mainNav
 nav-link
 nav-link:hover
 navbar
 nav-item
+.form-floating>.form-control,
+.form-floating>.form-control-plaintext 
 */
 
 gradient {
-  color: #c0e7e9;
-  color: #131c96;
-  color: #38d338;
+  /* 75deg */
+  color: #000145;
+  color: #000263;
+  color: #0e408f;
 }
 
+/* #0e408f azul/ #0055ff azul claro
+   #ff6600 naranjo/ #ff8800 naranjo claro
+   #3dfffb celeste*/
 splitcomplementary {
   color: #0E408F;
   color: #FF8800;
   color: #3DFFFB;
-}
-
-triadic {
-  color: #009999;
-  color: #b90e0a;
-  color: #2d8e00;
-}
-
-gradientTest{
-  color: #7554c2, #b4b4b4,#d88cd4;
-  background-color: rgba(48, 48, 100, 0.5);
 }
 
 :root {
@@ -2845,7 +2835,7 @@ textarea.form-control-lg {
 
 .form-floating>.form-control,
 .form-floating>.form-control-plaintext {
-  padding: 1.25rem 0;
+  padding: 1.25rem;
 }
 
 .form-floating>.form-control::-moz-placeholder,
@@ -3239,7 +3229,7 @@ textarea.form-control.is-invalid {
   color: white !important;
   background-color: #ff8800 !important;
   border-radius: 5rem;
-  margin-left: 1rem;
+  font-family: "Nunito", sans-serif;
 }
 
 .btn:hover {
@@ -12709,6 +12699,12 @@ header.masthead .post-heading .meta a {
     border-radius: 1rem;
   }
   
+}
+
+@media (max-width: 750px) {
+.containerCard, .containerCard .h5, .containerCard>p{
+  font-size: .9rem;
+}
 }
 
 @media (min-width: 992px) {

@@ -42,12 +42,14 @@ const Contacto = () => {
               </div>
               <div className="row gx-5 justify-content-start" >
                 <div className="content-header">
-                  <form id="contactForm" data-sb-form-api-token="API_TOKEN" >
+                  <form id="contactForm" action="https://formsubmit.co/650866f78ea67582239a4619b35866dd" method="POST">
+                  <input type="hidden" name="_next" value="https://project-hs.vercel.app/contacto"/>
                     {/* Name input*/}
                     <div className="form-floating mb-3">
                       <input
                         className="form-control"
                         id="name"
+                        name='name'
                         type="text"
                         placeholder="Enter your name..."
                         data-sb-validations="required"
@@ -63,6 +65,7 @@ const Contacto = () => {
                       <input
                         className="form-control"
                         id="email"
+                        name='email'
                         type="email"
                         placeholder="name@example.com"
                         data-sb-validations="required,email"
@@ -82,6 +85,7 @@ const Contacto = () => {
                       <input
                         className="form-control"
                         id="phone"
+                        name='phone'
                         type="tel"
                         placeholder="(123) 456-7890"
                         data-sb-validations="required"
@@ -97,6 +101,7 @@ const Contacto = () => {
                       <textarea
                         className="form-control"
                         id="message"
+                        name='mensaje'
                         type="text"
                         placeholder="Enter your message here..."
                         style={{ height: "10rem" }}
@@ -107,23 +112,6 @@ const Contacto = () => {
                       <div className="invalid-feedback"
                         data-sb-feedback="message:required">
                         A message is required.
-                      </div>
-                    </div>
-                    {/* Submit success message*/}
-                    <div className="d-none" id="submitSuccessMessage">
-                      <div className="text-center mb-3">
-                        <div className="fw-bolder">Form submission successful!</div>
-                        To activate this form, sign up at
-                        <br />
-                        <NavLink to="https://startbootstrap.com/solution/contact-forms">
-                          https://startbootstrap.com/solution/contact-forms
-                        </NavLink>
-                      </div>
-                    </div>
-                    {/* Submit error message*/}
-                    <div className="d-none" id="submitErrorMessage">
-                      <div className="text-center text-danger mb-3">
-                        Error sending message!
                       </div>
                     </div>
                     {/* Submit Button*/}
@@ -152,8 +140,8 @@ const Contacto = () => {
           </div>
         </div>
         {/* Contact cards*/}
-        <div className="container px-5">
-          <div className="row gx-5 px-md-5 px-4 row-cols-2 row-cols-lg-4 py-5">
+        <div className="containerCard px-4">
+          <div className="row gx-5 px-md-4 px-2 row-cols-2 row-cols-lg-4 py-5">
             <div className="col mb-5">
               <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                 <i className="bi bi-chat-dots px-1 mx-1" />
@@ -169,7 +157,7 @@ const Contacto = () => {
               </div>
               <div className="h5">Ó puedes llamarnos</div>
               <p className="text-muted mb-0">
-                Llámanos de lunes a viernes, entre 09:00 y 18:00 hrs. Al +569 28484497.
+                Llámanos de lunes a viernes, entre 09:00 y 18:00 hrs, al +569 28484497.
               </p>
             </div>
             <div className="col">
