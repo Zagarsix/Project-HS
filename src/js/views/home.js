@@ -57,7 +57,7 @@ const Home = () => {
         <div className="containerServices px-4 px-lg-3 mt-2 mb-0">
           <div className="content-section-heading mb-5">
             <h2 className="mb-2">Bienvenidos a
-            <span className="mb-1" style={{ color: "#ff6600" }}> Alianza</span></h2>
+            <span className="mb-1" style={{ color: "#ff8800" }}> Alianza</span></h2>
             <p> Somos la alternativa ideal a la educación tradicional. Ofrecemos un enfoque innovador basado en la modalidad de Homeschooling, diseñado para brindar una experiencia educativa flexible, personalizada y en armonía con las necesidades de nuestros estudiantes y sus familias.</p>
           </div>
           <div className="row gx-4 gx-lg-5 mt-5" style={{color:"#3dfffb"}}>
@@ -116,7 +116,7 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     {/* <i className="bi bi-collection" /> */}
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-magnifying-glass-chart fa-2xl" style={{ color: "#3dfffb" }} /> Innovación pedagógica</h2>
+                  <h2 className="h5"><i className="fa-solid fa-magnifying-glass-chart fa-2xl" style={{ color: "#0e408f" }} /> Innovación pedagógica</h2>
                   <p className="mb-0">
                     Utilizamos las últimas tecnologías y metodologías educativas para ofrecer una experiencia de aprendizaje dinámica e interactiva.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-75 link-underline-opacity-100-hover' to="/contacto"> Leer más...</Link>
@@ -126,7 +126,7 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     {/* <i className="bi bi-building" /> */}
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-hand-holding-dollar fa-2xl" style={{ color: "#0085a1" }} /> Métodos de pago</h2>
+                  <h2 className="h5"><i className="fa-solid fa-hand-holding-dollar fa-2xl" style={{ color: "#0e408f" }} /> Métodos de pago</h2>
                   <p className="mb-0">
                     Contamos con todo medio de pago: tarjeta de crédito, transferencia y efectivo.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/matriculas"> Leer más...</Link>
@@ -136,7 +136,7 @@ const Home = () => {
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                     {/* <i className="bi bi-toggles2" /> */}
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-briefcase-medical fa-2xl" style={{ color: "#0085a1" }} /> Docencia de alto nivel</h2>
+                  <h2 className="h5"><i className="fa-solid fa-briefcase-medical fa-2xl" style={{ color: "#0e408f" }} /> Docencia de alto nivel</h2>
                   <p className="mb-0">
                   Clases online y presencial. Contempla los contenidos  y malla curricular del Mineduc.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/nosotros"> Leer más...</Link>
@@ -145,7 +145,7 @@ const Home = () => {
                 <div className="col h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-user-doctor fa-2xl" style={{ color: "#0085a1" }} /> Talleres complementarios</h2>
+                  <h2 className="h5"><i className="fa-solid fa-user-doctor fa-2xl" style={{ color: "#0e408f" }} /> Talleres complementarios</h2>
                   <p className="mb-0">
                     Paragraph of text beneath the heading to explain the heading.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/blog"> Leer más...</Link>
@@ -162,7 +162,47 @@ const Home = () => {
           <div className="row gx-5 justify-content-center">
             <div className="col-lg-10 col-xl-7">
               <div className="text-center">
-                <div className="fs-4 mb-4 fst-italic">
+                <div className="fs-6 mb-4 fst-italic">
+                  "Trabajando con Homeschool El Pacto ha sido de bendición para el desarrollo de....
+                  resto de palabras que no ha dicho, pero que podrá decir, para sacar adelante este Proyecto!"
+                </div>
+                <div className="d-flex align-items-center justify-content-center">
+                  <img
+                    className="rounded-circle me-3"
+                    src={chave}
+                    alt="Apóstol Isabel riendo"
+                    width="120"
+                    height="120"
+                  />
+                  <div className="text-white-50 fw-bold">
+                    Isabel Fernández
+                    <span className="fw-bold text-primary mx-1">/</span>
+                    Apóstol MCA
+                  </div>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="fs-6 mb-4 fst-italic">
+                  "Trabajando con Homeschool El Pacto ha sido de bendición para el desarrollo de....
+                  resto de palabras que no ha dicho, pero que podrá decir, para sacar adelante este Proyecto!"
+                </div>
+                <div className="d-flex align-items-center justify-content-center">
+                  <img
+                    className="rounded-circle me-3"
+                    src={chave}
+                    alt="Apóstol Isabel riendo"
+                    width="120"
+                    height="120"
+                  />
+                  <div className="text-white-50 fw-bold">
+                    Isabel Fernández
+                    <span className="fw-bold text-primary mx-1">/</span>
+                    Apóstol MCA
+                  </div>
+                </div>
+              </div>
+              <div className="text-center">
+                <div className="fs-6 mb-4 fst-italic">
                   "Trabajando con Homeschool El Pacto ha sido de bendición para el desarrollo de....
                   resto de palabras que no ha dicho, pero que podrá decir, para sacar adelante este Proyecto!"
                 </div>
@@ -191,7 +231,7 @@ const Home = () => {
           <div className="row gx-5 justify-content-center">
             <div className="col-lg-8 col-xl-6">
               <div className="text-center">
-                <h2 className="fw-bolder" style={{ color: "#01257d" }}>--- De nuestro Blog ---</h2>
+                <h2 className="fw-bolder" style={{ color: "#0e408f" }}>--- De nuestro Blog ---</h2>
                 <p className="lead fw-normal mb-5">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
                   fugit ratione dicta mollitia. Officiis ad.
