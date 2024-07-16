@@ -40,10 +40,9 @@ const Contacto = () => {
                   Nos encantaría escucharte
                 </p>
               </div>
-              <div className="row gx-5 justify-content-start" >
+              <div className="row gx-5 justify-content-start">
                 <div className="content-header">
                   <form id="contactForm" action="https://formsubmit.co/650866f78ea67582239a4619b35866dd" method="POST">
-                  <input type="hidden" name="_next" value="https://project-hs.vercel.app/contacto"/>
                     {/* Name input*/}
                     <div className="form-floating mb-3">
                       <input
@@ -51,13 +50,13 @@ const Contacto = () => {
                         id="name"
                         name='name'
                         type="text"
-                        placeholder="Enter your name..."
+                        placeholder="Ingresa tu nombre..."
                         data-sb-validations="required"
                       />
-                      <label htmlFor="name">Nombre completo</label>
+                      <label htmlFor="name">Nombre</label>
                       <div className="invalid-feedback"
                         data-sb-feedback="name:required">
-                        A name is required.
+                        Este campo es obligatorio
                       </div>
                     </div>
                     {/* Email address input*/}
@@ -67,17 +66,17 @@ const Contacto = () => {
                         id="email"
                         name='email'
                         type="email"
-                        placeholder="name@example.com"
+                        placeholder="tucorreo@email.com"
                         data-sb-validations="required,email"
                       />
                       <label htmlFor="email">Email</label>
                       <div className="invalid-feedback"
                         data-sb-feedback="email:required">
-                        An email is required.
+                        Este campo es obligatorio
                       </div>
                       <div className="invalid-feedback"
                         data-sb-feedback="email:email">
-                        Email is not valid.
+                        El email no es válido
                       </div>
                     </div>
                     {/* Phone number input*/}
@@ -87,13 +86,13 @@ const Contacto = () => {
                         id="phone"
                         name='phone'
                         type="tel"
-                        placeholder="(123) 456-7890"
+                        placeholder="(123)-45678900"
                         data-sb-validations="required"
                       />
                       <label htmlFor="phone">Número de contacto</label>
                       <div className="invalid-feedback"
                         data-sb-feedback="phone:required">
-                        A phone number is required.
+                        Este campo es obligatorio
                       </div>
                     </div>
                     {/* Message input*/}
@@ -103,7 +102,7 @@ const Contacto = () => {
                         id="message"
                         name='mensaje'
                         type="text"
-                        placeholder="Enter your message here..."
+                        placeholder="Escribe tu mensaje aquí..."
                         style={{ height: "10rem" }}
                         data-sb-validations="required"
                       // defaultValue={""}
@@ -111,7 +110,7 @@ const Contacto = () => {
                       <label htmlFor="message">Mensaje</label>
                       <div className="invalid-feedback"
                         data-sb-feedback="message:required">
-                        A message is required.
+                        Este campo es obligatorio
                       </div>
                     </div>
                     {/* Submit Button*/}
@@ -122,6 +121,11 @@ const Contacto = () => {
                         Enviar
                       </button>
                     </div>
+                    <input type="hidden" name="_next" value="https://project-hs.vercel.app/contacto"/>
+                    <input type="hidden" name="_template" value="table"/>
+                    <input type="hidden" name="_subject" value="Sé parte de la familia CVA"/>
+                    <input type="hidden" name="_autoresponse" value="Agradecemos tu interés en Colegio Virtual Alianza. Nos comunicaremos contigo lo antes posible. ¡Que tengas un excelente día!"/>
+                    <input type="hidden" name="_cc" value="superprofevirtual.adm@gmail.com"/>
                   </form>
                 </div>
               </div>
