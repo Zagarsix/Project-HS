@@ -42,7 +42,7 @@ const Contacto = () => {
               </div>
               <div className="row gx-5 justify-content-start">
                 <div className="content-header">
-                  <form id="contactForm" action="https://formsubmit.co/650866f78ea67582239a4619b35866dd" method="POST">
+                  <form id="contactForm" action="https://formsubmit.co/colegiovirtualalianza.adm@gmail.com" method="POST">
                     {/* Name input*/}
                     <div className="form-floating mb-3">
                       <input
@@ -121,7 +121,7 @@ const Contacto = () => {
                         Enviar
                       </button>
                     </div>
-                    <input type="hidden" name="_next" value="https://project-hs.vercel.app/contacto"/>
+                    <input type="hidden" name="_next" value="https://colegiovirtualalianza.vercel.app/contacto"/>
                     <input type="hidden" name="_template" value="table"/>
                     <input type="hidden" name="_subject" value="Sé parte de la familia CVA"/>
                     <input type="hidden" name="_autoresponse" value="Agradecemos tu interés en Colegio Virtual Alianza. Nos comunicaremos contigo lo antes posible. ¡Que tengas un excelente día!"/>
