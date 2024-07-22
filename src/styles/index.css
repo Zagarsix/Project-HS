@@ -12826,13 +12826,30 @@ header.masthead .post-heading .meta a {
   text-decoration: none;
 }
 
-.footer .fa-2xl{
-  font-size: 3rem;
+.footer .space-facebook, .space-instagram, .space-tiktok{
+  background-color: #343a40;
+  font-size: 33px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display:inline-block;
+}
+
+.space-facebook:hover {
+background-color: blue;
+}
+
+.space-instagram:hover{
+  background-image: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+
+.space-tiktok:hover{
+background-color: black;
 }
 
  .footer .down {
   font-size: .8rem;
-  line-height: .1rem;
+  line-height: .8rem;
  }
 
  .footer .developer {
@@ -12856,6 +12873,7 @@ color: #3dfffb;
 
 #notFound {
   margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 /* Button Whatsapp*/
