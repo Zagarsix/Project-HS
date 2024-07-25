@@ -11,13 +11,10 @@ const Blog = () => {
           <div className="col-md-12 col-lg-11 col-xl-10">
             <div className="text-center my-2">
               <h1 className="site-heading fw-bolder mb-1">
-                Nuestro Blog
+              <span>Centro</span> <span style={{ color: "#ff6600" }}> de ayuda</span>
               </h1>
-              <p className="lead-header fw-normal text-black mb-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                est, ut esse NavLink labore aliquam beatae expedita. Blanditiis impedit
-                numquam libero molestiae et fugit cupiditate, quibusdam expedita,
-                maiores eaque quisquam.
+              <p className="lead-header mb-5">
+              Esta sección está diseñada para abordar las preocupaciones, dudas y consultas comunes de los padres y estudiantes interesados en esta modalidad educativa.
               </p>
             </div>
           </div>
@@ -29,8 +26,8 @@ const Blog = () => {
       <section className="py-5">
         <div className="container px-5 my-5">
           <div className="text-center mb-5">
-            <h1 className="fw-bolder">El Pacto responde</h1>
-            <p className="lead fw-normal text-muted mb-0">¿Cómo te podemos ayudar?</p>
+            <h1 className="fw-bolder" style={{ color: "#ff8800" }}>Alianza responde</h1>
+            <p className="lead fw-normal text-muted mb-0" >¿Cómo te podemos ayudar?</p>
           </div>
           <div className="row gx-5">
             <div className="col-xl-8">
@@ -250,7 +247,7 @@ const Blog = () => {
                       <p className="text-muted mb-4">
                         Escríbenos a
                         <br />
-                        <NavLink to="#!">soporte@elpactohs.cl</NavLink>
+                        <NavLink to="#!">colegiovirtualalianza.adm@gmail.com</NavLink>
                       </p>
                       <div className="h6 fw-bolder">Síguenos</div>
                       <NavLink className="fs-5 px-2 link-dark" to="#!">
@@ -260,7 +257,7 @@ const Blog = () => {
                         <i className="fa-brands fa-square-instagram" style={{ color: "purple" }}/>
                       </NavLink>
                       <NavLink className="fs-5 px-2 link-dark" to="#!">
-                        <i className="fa-brands fa-linkedin" style={{ color: "teal" }}/>
+                        <i className="fa-brands fa-tiktok" style={{ color: "black" }}/>
                       </NavLink>
                       <NavLink className="fs-5 px-2 link-dark" to="#!">
                         <i className="fa-brands fa-youtube" style={{ color: "red" }}/>
