@@ -4289,7 +4289,7 @@ fieldset:disabled .btn {
   transition: all .5s ease-in;
   transform: scale(1.2);
   transition-duration: .5s;
-  filter: brightness(130%);
+  filter: brightness(110%);
 }
 
 .logoBrand{
@@ -12976,4 +12976,69 @@ color: #3dfffb;
 
 .menu-open header {
   filter: blur(.5rem);
+}
+
+/*Testimonial Carousel*/
+.testimonial {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-top: calc(8rem + 57px);
+  padding-bottom: 8rem;
+  background: no-repeat center center;
+  background-color: rgba(0, 90, 100, 0.1);
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.testimonial:before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: .7;
+}
+
+.testimonial-card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  flex: 1 0 30%;
+  max-width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+.testimonial-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  margin: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    flex: 1 0 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonial-card {
+    flex: 1 0 90%;
+    max-width: 90%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+  width: 10%;
+  margin: 10px;
+}
 }

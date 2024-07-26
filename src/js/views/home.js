@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter';
 
 import pencil from "../../img/ApplesBooksPencils.jpg";
-import chave from "../../img/chave3.jpg";
 import children from "../../img/childrenSchool.jpg";
 import notebook from "../../img/about-bg.jpg";
 import parents from "../../img/ParentsAndChildren.jpg";
@@ -164,7 +163,7 @@ const Home = () => {
         </div>
       </section>
       {/* Testimonial section*/}
-      <div className="py-2" id="testimonial">
+      <div className="testimonial py-5" id="testimonial" style={{ backgroundImage: `url(${pencil})` }}>
         <div className="container px-5 my-3 text-black">
           <TestimonialCarousel />
         </div>

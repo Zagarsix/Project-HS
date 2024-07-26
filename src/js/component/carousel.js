@@ -1,7 +1,9 @@
 import React from 'react';
 
+import url1 from "../../img/Claudio.png"
+
 const testimonials = [
-  { name: 'Juan Pérez', message: 'Este colegio ha cambiado la vida de mis hijos para mejor.', role: 'Padre de familia' },
+  { name: 'Juan Pérez', message: 'Este colegio ha cambiado la vida de mis hijos para mejor.', role: 'Padre de familia', image: url1},
   { name: 'María Gómez', message: 'El enfoque personalizado ha permitido que mi hijo aprenda a su propio ritmo.', role: 'Madre de familia' },
   { name: 'Luis Rodríguez', message: 'Los profesores están siempre disponibles y son muy profesionales.', role: 'Padre de familia' },
   { name: 'Ana López', message: 'Las clases virtuales son interactivas y muy bien estructuradas.', role: 'Madre de familia' },
@@ -21,10 +23,11 @@ const TestimonialCarousel = () => {
       <div className="carousel-inner">
         {groupedTestimonials.map((group, index) => (
           <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
-            <div className="d-flex justify-content-around">
+            <div className="d-flex flex-wrap justify-content-around">
               {group.map((testimonial, idx) => (
-                <div key={idx} className="testimonial-card p-3 m-2" style={{ backgroundColor: '#f8f9fa', borderRadius: '10px', flex: '1', maxWidth: '30%' }}>
-                  <p>{testimonial.message}</p>
+                <div key={idx} className="testimonial-card p-1 m-2">
+                  <p className='mb-3'>{testimonial.message}</p>
+                  <img src={testimonial.image} alt={testimonial.name} className="rounded-circle mb-3"/>
                   <p><strong>{testimonial.name}</strong></p>
                   <p>{testimonial.role}</p>
                 </div>
