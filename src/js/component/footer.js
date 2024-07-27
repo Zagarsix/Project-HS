@@ -40,7 +40,7 @@ const Footer = () => {
                             </a>
                         </span>
                         <span className='m-2'>
-                            <a className='text-white' target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/alianza.homeschool/">
+                            <a className='text-white' target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/colegiovirtual.alianza/">
                             <div className='space-instagram'>
                             <i className="fa-brands fa-instagram mt-2"></i>
                             </div>
