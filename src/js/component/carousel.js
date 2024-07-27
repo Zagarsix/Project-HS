@@ -1,14 +1,19 @@
 import React from 'react';
 
-import url1 from "../../img/Claudio.png"
+import dad1 from "../../img/dad1.jpg";
+import dad2 from "../../img/dad2.jpg";
+import dad3 from "../../img/dad3.jpg";
+import mom1 from "../../img/mom1.jpg";
+import mom2 from "../../img/mom2.jpg";
+import mom3 from "../../img/mom3.jpg";
 
 const testimonials = [
-  { name: 'Juan Pérez', message: 'Este colegio ha cambiado la vida de mis hijos para mejor.', role: 'Padre de familia', image: url1},
-  { name: 'María Gómez', message: 'El enfoque personalizado ha permitido que mi hijo aprenda a su propio ritmo.', role: 'Madre de familia' },
-  { name: 'Luis Rodríguez', message: 'Los profesores están siempre disponibles y son muy profesionales.', role: 'Padre de familia' },
-  { name: 'Ana López', message: 'Las clases virtuales son interactivas y muy bien estructuradas.', role: 'Madre de familia' },
-  { name: 'Carlos Fernández', message: 'Mis hijos disfrutan aprendiendo desde casa con los recursos que proporciona el colegio.', role: 'Padre de familia' },
-  { name: 'Sofía Martínez', message: 'El programa educativo es excelente y se adapta a las necesidades de cada estudiante.', role: 'Madre de familia' }
+  { name: 'Juan Inostroza', message: 'Este colegio ha cambiado la vida de mis hijos para mejor.', role: 'Padre de familia', image: dad1 },
+  { name: 'María Gómez', message: 'El enfoque personalizado ha permitido que mi hijo aprenda a su propio ritmo.', role: 'Madre de familia', image: mom1 },
+  { name: 'Luis Rodríguez', message: 'Los profesores están siempre disponibles y son muy profesionales.', role: 'Padre de familia', image: dad2 },
+  { name: 'Ana López', message: 'Las clases virtuales son interactivas y muy bien estructuradas.', role: 'Madre de familia',image: mom2 },
+  { name: 'Carlos Fernández', message: 'Mis hijos disfrutan aprendiendo desde casa con los recursos que proporciona el colegio.', role: 'Padre de familia', image: dad3 },
+  { name: 'Sofía Martínez', message: 'El programa educativo es excelente y se adapta a las necesidades de cada estudiante.', role: 'Madre de familia', image: mom3 }
 ];
 
 const TestimonialCarousel = () => {
@@ -20,16 +25,20 @@ const TestimonialCarousel = () => {
 
   return (
     <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel">
+      <h1 className="text-center mb-5" style={{ color: "#ff8800" }}>Testimonios</h1>
       <div className="carousel-inner">
         {groupedTestimonials.map((group, index) => (
           <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
             <div className="d-flex flex-wrap justify-content-around">
               {group.map((testimonial, idx) => (
                 <div key={idx} className="testimonial-card p-1 m-2">
-                  <p className='mb-3'>{testimonial.message}</p>
-                  <img src={testimonial.image} alt={testimonial.name} className="rounded-circle mb-3"/>
-                  <p><strong>{testimonial.name}</strong></p>
-                  <p>{testimonial.role}</p>
+                  <p className='fs-4 mb-5 fst-italic'>"{testimonial.message}"</p>
+                  <div className='fs-6 d-flex align-item-center justify-content-center'>
+                    <img src={testimonial.image} alt={testimonial.name} className="rounded-circle mb-3" />
+                    <div className='fw-bold'>{testimonial.name}
+                      <span className='fw-bold text-primary mx-1'>/{testimonial.role}</span>
+                    </div>
+                  </div>
                 </div>
               ))}
             </div>
