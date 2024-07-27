@@ -4,9 +4,11 @@ import { Typewriter } from 'react-simple-typewriter';
 
 import pencil from "../../img/ApplesBooksPencils.jpg";
 import children from "../../img/childrenSchool.jpg";
-import notebook from "../../img/about-bg.jpg";
-import parents from "../../img/ParentsAndChildren.jpg";
+import parents2 from "../../img/parents-and-children2.jpg";
+import family3 from "../../img/family3.jpg";
 import social from "../../img/social-media.png";
+
+import family from "../../img/happy-family.jpg";
 import TestimonialCarousel from "../component/carousel";
 
 
@@ -163,7 +165,7 @@ const Home = () => {
         </div>
       </section>
       {/* Testimonial section*/}
-      <div className="testimonial py-5" id="testimonial" style={{ backgroundImage: `url(${pencil})` }}>
+      <div className="testimonial py-5" id="testimonial" style={{ backgroundImage: `url(${family})` }}>
         <div className="container px-5 my-3 text-black">
           <TestimonialCarousel />
         </div>
@@ -187,7 +189,7 @@ const Home = () => {
               <div className="card h-100 shadow border-0">
                 <img
                   className="card-img-top"
-                  src={children}
+                  src={parents2}
                   alt="niños viendo un notebook"
                 />
                 <div className="card-body p-4">
@@ -228,7 +230,7 @@ const Home = () => {
               <div className="card h-100 shadow border-0">
                 <img
                   className="card-img-top"
-                  src={notebook}
+                  src={children}
                   alt="manoa en un notebook"
                 />
                 <div className="card-body p-4">
@@ -270,7 +272,7 @@ const Home = () => {
               <div className="card h-100 shadow border-0">
                 <img
                   className="card-img-top"
-                  src={parents}
+                  src={family3}
                   alt="papá y mamá estudiando con su hijo"
                 />
                 <div className="card-body p-4">

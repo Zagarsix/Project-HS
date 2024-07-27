@@ -12985,7 +12985,7 @@ color: #3dfffb;
   padding-top: calc(8rem + 57px);
   padding-bottom: 8rem;
   background: no-repeat center center;
-  background-color: rgba(0, 90, 100, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   background-size: cover;
   background-attachment: scroll;
 }
@@ -12993,8 +12993,18 @@ color: #3dfffb;
 .testimonial:before {
   content: "";
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.9);
-  opacity: .7;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 25, 100, 0.8);
+  z-index: 1;
+}
+
+.testimonial .container {
+  position: relative;
+  z-index: 2;
+  color: white;
 }
 
 .testimonial-card {
@@ -13015,12 +13025,13 @@ color: #3dfffb;
 .carousel-control-prev,
 .carousel-control-next {
   width: 5%;
-  margin: 10px;
+  margin: 0.5rem;
+  margin-top: 8rem;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: black;
+  background-color: #ff6600;
   border-radius: 50%;
 }
 
