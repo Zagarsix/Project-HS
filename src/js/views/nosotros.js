@@ -10,7 +10,8 @@ import claudio from "../../img/Claudio.png";
 import solange from "../../img/Solange.png";
 import sandra from "../../img/Sandra.png";
 import michelle from "../../img/Michelle.png";
-import sahian from "../../img/Sayita.jpg";
+import sahian from "../../img/Sayita.png";
+import daniC from "../../img/DaniC.png";
 
 const Nosotros = () => {
     return <>
@@ -188,7 +189,7 @@ const Nosotros = () => {
                                 <div className="fst-italic text-muted">Social media manager</div>
                             </div>
                         </div>
-                        {/* <div className="col mb-5 mb-xl-5">
+                        <div className="col mb-5 mb-xl-5">
                             <div className="text-center">
                                 <img
                                     className="img-fluid rounded-circle mb-2 px-2"
@@ -198,7 +199,7 @@ const Nosotros = () => {
                                 <h5 className="fw-bolder">Daniela Córdova</h5>
                                 <div className="fst-italic text-muted">Administrative advisor</div>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </section>
