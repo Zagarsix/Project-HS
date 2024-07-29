@@ -33,7 +33,7 @@ const Footer = () => {
                     <div className='col-12 col-md-4 text-center p-1 mb-4 mt-4 order-3 order-md-2'>
                     <h4 className='mb-3'>Síguenos</h4>
                         <span className='m-2'>
-                            <a className='text-white' target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=61562070452384">
+                            <a className='text-white' target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=61562958972239&mibextid=ZbWKwL">
                             <div className='space-facebook'>
                             <i className="fa-brands fa-facebook-f mt-2"></i>
                             </div>
