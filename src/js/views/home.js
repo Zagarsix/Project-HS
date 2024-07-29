@@ -3,14 +3,12 @@ import { Link } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter';
 
 import pencil from "../../img/ApplesBooksPencils.jpg";
-import children from "../../img/childrenSchool.jpg";
-import parents2 from "../../img/parents-and-children2.jpg";
-import family3 from "../../img/family3.jpg";
 import social from "../../img/social-media.png";
-
 import family from "../../img/happy-family.jpg";
 import TestimonialCarousel from "../component/carousel";
-
+import parents2 from "../../img/parents-and-children2.jpg";
+import children from "../../img/childrenSchool.jpg";
+import family3 from "../../img/family1.jpg";
 
 const Home = () => {
   return <>
@@ -165,8 +163,9 @@ const Home = () => {
         </div>
       </section>
       {/* Testimonial section*/}
-      <div className="testimonial py-5" id="testimonial" style={{ backgroundImage: `url(${family})` }}>
-        <div className="container px-5 my-3 text-black">
+      <div className="testimonial" id="testimonial" style={{ backgroundImage: `url(${family})` }}>
+        <div className="container px-2 my-5 text-black">
+        <h1 className="text-center mb-5" style={{ color: "#ff8800" }}>Testimonios</h1>
           <TestimonialCarousel />
         </div>
       </div>
