@@ -6,6 +6,7 @@ import pencil from "../../img/ApplesBooksPencils.jpg";
 import social from "../../img/social-media.png";
 import family from "../../img/happy-family.jpg";
 import TestimonialCarousel from "../component/carousel";
+import FlexCards from '../component/servicesSection';
 import parents2 from "../../img/parents-and-children2.jpg";
 import children from "../../img/childrenSchool.jpg";
 import family3 from "../../img/family1.jpg";
@@ -38,7 +39,7 @@ const Home = () => {
         <div className="container px-4 px-lg-5 text-center">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-10">
-              <h3><span style={{ color: "#ff8800" }}>Colegio Virtual</span><span style={{ fontWeight: "bolder", color: "#0e408f" }}> Alianza</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h3>
+              <h2><span style={{ color: "#ff8800" }}>Colegio Virtual</span><span style={{ fontWeight: "bolder", color: "#0e408f" }}> Alianza</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
               <p className="lead mb-2">
                 Experimenta esta nueva modalidad de estudio <strong>b-learning:</strong> clases online y talleres presenciales. No los dejes sin su&nbsp;
                 <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/matriculas">matrícula!</Link>
@@ -53,13 +54,13 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* Services*/}
+      {/* Features*/}
       <section className="content-section text-white text-center py-1 py-lg-3 mb-2" id="services">
         <div className="containerServices px-4 px-lg-3 mt-2 mb-0">
           <div className="content-section-heading mb-5">
             <h2 className="mb-2">Bienvenidos a
               <span className="mb-1" style={{ color: "#ff8800" }}> Alianza</span></h2>
-            <p> Somos la alternativa ideal a la educación tradicional. Ofrecemos un enfoque innovador basado en la modalidad de Homeschooling, diseñado para brindar una experiencia educativa flexible, personalizada y en armonía con las necesidades de nuestros estudiantes y sus familias.</p>
+            <p style={{ fontSize: "1.1rem" }}> <strong>Somos la alternativa ideal a la educación tradicional.</strong> Ofrecemos un enfoque innovador basado en la modalidad de <strong>Homeschooling</strong>, diseñado para brindar una experiencia educativa flexible, personalizada y acorde a las necesidades de nuestros estudiantes y sus familias.</p>
           </div>
           <div className="row gx-4 gx-lg-5 mt-5" style={{ color: "#3dfffb" }}>
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -69,16 +70,16 @@ const Home = () => {
               <h4>
                 <span>Atención Personalizada</span>
               </h4>
-              <p className="text-white-50 mb-0">Cada estudiante recibe una educación adaptada a sus necesidades y capacidades, asegurando un aprendizaje efectivo y significativo.</p>
+              <p className="text-white-50 mb-0" style={{ fontSize: "1rem" }}>Cada estudiante recibe una educación adaptada a sus necesidades y capacidades.</p> {/*asegurando un aprendizaje efectivo y significativo.</p> */}
             </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
                 <i className="fa-solid fa-book-bible fa-2xl" />
               </span>
               <h4>
-                <span>Valores y Principios Cristianos</span>
+                <span>Valores Cristianos</span>
               </h4>
-              <p className="text-white-50 mb-0">Creemos que una educación completa debe abarcar tanto el desarrollo intelectual como el moral, preparando a nuestros alumnos para ser ciudadanos responsables y éticos.</p>
+              <p className="text-white-50 mb-0" style={{ fontSize: "1rem" }}>Creemos que una educación completa debe abarcar tanto el desarrollo intelectual, como el moral y espiritual. </p>{/* preparando a nuestros alumnos para ser ciudadanos responsables y éticos.*/}
             </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
@@ -87,8 +88,8 @@ const Home = () => {
               <h4>
                 <span>Formación Integral</span>
               </h4>
-              <p className="text-white-50 mb-0">
-                Más tiempo para explorar intereses personales y desarrollar habilidades en áreas como deportes, arte y otras actividades extracurriculares.
+              <p className="text-white-50 mb-0" style={{ fontSize: "1rem" }}>
+                Más tiempo para desarrollar habilidades en áreas como deportes, artes y otras actividades extracurriculares.
               </p>
             </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -98,13 +99,13 @@ const Home = () => {
               <h4>
                 <span>Entorno Familiar</span>
               </h4>
-              <p className="text-white-50 mb-0">Fomentamos un entorno de aprendizaje seguro y confortable en el hogar, permitiendo una mayor participación de la familia en el proceso educativo.</p>
+              <p className="text-white-50 mb-0" style={{ fontSize: "1rem" }}>Fomentamos un entorno de aprendizaje seguro y confortable en el hogar, permitiendo una mayor participación de la familia en el proceso educativo.</p>
             </div>
           </div>
         </div>
       </section>
-      {/* Features section*/}
-      <section className="py-3" id="features">
+      {/* Services*/}
+      {/* <section className="py-3" id="features">
         <div className="container px-5 my-5">
           <div className="row gx-5">
             <div className="col-lg-4 mb-5 mb-lg-0">
@@ -120,17 +121,17 @@ const Home = () => {
               <div className="row gx-5 row-cols-1 row-cols-md-2">
                 <div className="col mb-5 h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
-                    {/* <i className="bi bi-collection" /> */}
+                    <i className="bi bi-collection" />
                   </div>
                   <h2 className="h5"><i className="fa-solid fa-magnifying-glass-chart fa-2xl p-1 m-1" style={{ color: "#0e408f" }} /> Innovación pedagógica</h2>
                   <p className="mb-0">
                     Utilizamos las últimas tecnologías y metodologías educativas para ofrecer una experiencia de aprendizaje dinámica e interactiva.<br />
-                    <Link className='link-info link-offset-2 link-underline-opacity-75 link-underline-opacity-100-hover' to="/contacto"> Leer más...</Link>
+                    <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/contacto"> Leer más...</Link>
                   </p>
                 </div>
                 <div className="col mb-5 h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
-                    {/* <i className="bi bi-building" /> */}
+                    <i className="bi bi-building" />
                   </div>
                   <h2 className="h5"><i className="fa-solid fa-hand-holding-dollar fa-2xl p-1 m-1" style={{ color: "#0e408f" }} /> Métodos de pago</h2>
                   <p className="mb-0">
@@ -140,7 +141,7 @@ const Home = () => {
                 </div>
                 <div className="col mb-5 mb-md-0 h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
-                    {/* <i className="bi bi-toggles2" /> */}
+                    <i className="bi bi-toggles2" />
                   </div>
                   <h2 className="h5"><i className="fa-solid fa-briefcase-medical fa-2xl p-1 m-1" style={{ color: "#0e408f" }} /> Docencia de alto nivel</h2>
                   <p className="mb-0">
@@ -151,7 +152,7 @@ const Home = () => {
                 <div className="col h-100">
                   <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                   </div>
-                  <h2 className="h5"><i className="fa-solid fa-user-doctor fa-2xl p-1 m-1" style={{ color: "#0e408f" }} /> Talleres complementarios</h2>
+                  <h2 className="h5"><i className="fa-solid fa-user-doctor fa-2xl p-1 m-1" style={{ color: "#0e408f" }} /> Talleres</h2>
                   <p className="mb-0">
                     Paragraph of text beneath the heading to explain the heading.<br />
                     <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/blog"> Leer más...</Link>
@@ -161,14 +162,32 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section> */}
+      <section className="py-5 my-5" id="features">
+        <div className="container px-5 my-5">
+          <div className="row gx-5">
+            <div className="col-lg-4 mb-5 mb-lg-0">
+              <img
+                className="img-fluid mb-2 px-2"
+                width="250"
+                height="250"
+                src={social}
+                alt="ilustración social media"
+              />
+            </div>
+            <div className="col-lg-8">
+              <FlexCards />
+            </div>
+          </div>
+        </div>
       </section>
       {/* Testimonial section*/}
-      <div className="testimonial" id="testimonial" style={{ backgroundImage: `url(${family})` }}>
+      <section className="testimonial" id="testimonial" style={{ backgroundImage: `url(${family})` }}>
         <div className="container px-2 my-5 text-black">
-        <h1 className="text-center mb-5" style={{ color: "#ff8800" }}>Testimonios</h1>
+          <h1 className="text-center mb-5" style={{ color: "#ff8800" }}>Testimonios</h1>
           <TestimonialCarousel />
         </div>
-      </div>
+      </section>
       {/* Blog preview section*/}
       <section className="py-3">
         <div className="container px-5 my-5">
