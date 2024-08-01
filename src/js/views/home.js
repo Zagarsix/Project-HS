@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter';
 
 import pencil from "../../img/ApplesBooksPencils.jpg";
-import social from "../../img/social-media.png";
+import trofeo from "../../img/trofeo.png";
 import family from "../../img/happy-family.jpg";
 import TestimonialCarousel from "../component/carousel";
 import FlexCards from '../component/servicesSection';
@@ -55,7 +55,7 @@ const Home = () => {
         </div>
       </section>
       {/* Features*/}
-      <section className="content-section text-white text-center py-1 py-lg-3 mb-2" id="services">
+      <section className="content-section text-white text-center py-1 py-lg-3 mb-2" id="features">
         <div className="containerServices px-4 px-lg-3 mt-2 mb-0">
           <div className="content-section-heading mb-5">
             <h2 className="mb-2">Bienvenidos a
@@ -105,6 +105,26 @@ const Home = () => {
         </div>
       </section>
       {/* Services*/}
+      <section className="py-2 my-3" id="services">
+        <div className="container px-2 my-5">
+          <div className="row gx-5">
+            <div className="col-lg-3 text-center mb-5 mb-lg-0">
+              <h2 className="mb-2" style={{ color: "#ff8800" }}>Ventajas de elegir
+                <span className="mb-1" style={{ color: "#0e408f" }}> Alianza</span></h2>
+              <img
+                className="img-fluid p-1 mb-2 mt-5"
+                width="260"
+                height="260"
+                src={trofeo}
+                alt="ilustración social media"
+              />
+            </div>
+            <div className="col-lg-9 col-md-10 col-xs-10">
+              <FlexCards />
+            </div>
+          </div>
+        </div>
+      </section>
       {/* <section className="py-3" id="features">
         <div className="container px-5 my-5">
           <div className="row gx-5">
@@ -163,27 +183,9 @@ const Home = () => {
           </div>
         </div>
       </section> */}
-      <section className="py-5 my-5" id="features">
-        <div className="container px-5 my-5">
-          <div className="row gx-5">
-            <div className="col-lg-4 mb-5 mb-lg-0">
-              <img
-                className="img-fluid mb-2 px-2"
-                width="250"
-                height="250"
-                src={social}
-                alt="ilustración social media"
-              />
-            </div>
-            <div className="col-lg-8">
-              <FlexCards />
-            </div>
-          </div>
-        </div>
-      </section>
       {/* Testimonial section*/}
       <section className="testimonial" id="testimonial" style={{ backgroundImage: `url(${family})` }}>
-        <div className="container px-2 my-5 text-black">
+        <div className="container px-1 my-2 text-black">
           <h1 className="text-center mb-5" style={{ color: "#ff8800" }}>Testimonios</h1>
           <TestimonialCarousel />
         </div>
@@ -368,8 +370,6 @@ const Home = () => {
         </div>
       </section>
     </main>
-    {/* Bootstrap core JS*/}
-    {/* Core theme JS*/}
   </>
 }
 
