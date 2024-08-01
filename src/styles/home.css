@@ -1,58 +1,206 @@
 .wrapper {
-width: 100%;
-height: 100vh;
-display: flex;
-align-items: center;
-justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
 }
 
-.containerX{
-    height: 500px;
+.containerX {
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
 }
 
 .cardX {
-    width: 80px;
+    width: 60px;
+    height: 500px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
     overflow: hidden;
     border-radius: 2rem;
-    margin: 0 10px;
+    margin: 10px;
     display: flex;
     align-items: flex-end;
-    transition: .6s cubic-bezier(.28, -0.03,0,.99);
+    transition: .6s cubic-bezier(.28, -0.03, 0, .99);
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
 }
 
-.cardX > .row {
+.cardX>.row {
     color: white;
     display: flex;
     flex-wrap: nowrap;
 }
 
-.cardX > .row > .icon {
-    background: #223;
+.cardX>.row>.icon {
+    background: #ff6600;
     color: white;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 16px;
 }
 
-.cardX > .row > .description {
+.cardX>.row>.description {
     display: flex;
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
     height: 100px;
     width: 500px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.description p {
+    color: #000145;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2rem;
+    line-height: 1.1rem;
+}
+
+.description h4 {
+    text-transform: uppercase;
+    line-height: .2rem;
+    color: black;
+    font-weight: bold;
+}
+
+input {
+    display: none;
+}
+
+input:checked+label {
+    width: 550px;
+}
+
+input:checked+label .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+/* @media (min-width: 375px) and (max-width: 449px) {
+    .containerX {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: start;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 512px) {
+
+}
+
+@media (min-width: 513px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+} */
+/* @media (max-width: 768px) {
+    .cardX {
+        width: 50px;
+        height: 400px;
+        margin: 8px;
+    }
+
+    .cardX>.row>.icon {
+        height: 30px;
+        width: 30px;
+        margin: 18px;
+    }
+
+    input:checked+label {
+        width: 350px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cardX {
+        width: 40px;
+        height: 200px;
+        margin: 5px;
+    }
+
+    .cardX>.row>.icon {
+        height: 25px;
+        width: 25px;
+        margin: 19px;
+    }
+
+    input:checked+label {
+        width: 200px;
+    }
+} */
+
+/* ----Configuration smartphone--------
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.containerX {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.cardX {
+    width: 500px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 5px;
+    display: flex;
+    align-items: flex-start;
+    transition: .6s cubic-bezier(.28, -0.03, 0, .99);
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+}
+
+.cardX>.row {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.cardX>.row>.icon {
+    background: #223;
+    color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+.cardX>.row>.description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+    width: 400px;
     opacity: 0;
     transform: translateY(30px);
     transition-delay: .3s;
@@ -77,11 +225,11 @@ input {
     display: none;
 }
 
-input:checked + label {
-    width: 600px;
+input:checked+label {
+    height: 400px;
 }
 
-input:checked + label .description {
+input:checked+label .description {
     opacity: 1 !important;
     transform: translateY(0) !important;
-}
+} */
