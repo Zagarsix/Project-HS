@@ -26,7 +26,7 @@ const Nosotros = () => {
                                     <span>¿Quiénes</span> <span style={{ color: "#ff6600" }}> somos?</span>
                                 </h1>
                                 <p className="lead-header mb-5">
-                                    <strong>Colegio Virtual Alianza</strong> está conformado por un equipo de <strong>profesionales especialistas en educación online</strong>, capacitados para brindar un aprendizaje interactivo y efectivo a través de plataformas digitales, garantizando una educación de calidad, acorde a las necesidades del mundo moderno y en un entorno que fomenta tanto el conocimiento como el crecimiento personal.
+                                    <strong>Colegio Virtual Alianza</strong> está conformado por un equipo de <strong>profesionales especialistas en educación online</strong>, capacitados para brindar un aprendizaje interactivo y efectivo a través de <strong>plataformas digitales</strong>, garantizando una educación de calidad, acorde a las necesidades del mundo moderno y en un entorno que fomenta tanto el conocimiento como el crecimiento personal.
                                 </p>
                                 {/* <NavLink className="btn btn-xl py-2 my-2" to="#scroll-target" style={{ background: "#131c96" }}>
                                     Lee nuestra historia
@@ -44,7 +44,7 @@ const Nosotros = () => {
                             <img
                                 className="img-fluid rounded mb-5 mb-lg-0"
                                 src={logoVyM}
-                                alt="..."
+                                alt="logo visión y misión"
                             />
                         </div>
                         <div className="col-lg-6">
@@ -65,7 +65,7 @@ const Nosotros = () => {
                             <img
                                 className="img-fluid rounded mb-5 mb-lg-0"
                                 src={desarrollo}
-                                alt="..."
+                                alt="desarrollo integral"
                             />
                         </div>
                         <div className="col-lg-6">
@@ -85,7 +85,7 @@ const Nosotros = () => {
                             <img
                                 className="img-fluid rounded mb-5 mb-lg-0"
                                 src={valores}
-                                alt="..."
+                                alt="valores homeschool"
                             />
                         </div>
                         <div className="col-lg-6">
@@ -115,12 +115,12 @@ const Nosotros = () => {
                             <img
                                 className="img-fluid rounded-circle mb-2 px-2"
                                 src={dany}
-                                alt="Dany"
+                                alt="Dany Pacheco riendo"
                             />
                             <div className="text-center">
 
                                 <h5 className="fw-bolder">Daniela Pacheco</h5>
-                                <div className="fst-italic text-muted">Founder &amp; CEO</div>
+                                <div className="fst-italic text-muted">Coordinadora General</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -128,10 +128,10 @@ const Nosotros = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-2 px-2"
                                     src={claudio}
-                                    alt="Claudio"
+                                    alt="Claudio Candia riendo"
                                 />
                                 <h5 className="fw-bolder">Claudio Candia</h5>
-                                <div className="fst-italic text-muted">Webmaster, developer &amp; designer</div>
+                                <div className="fst-italic text-muted">Webmaster, desarrollador &amp; diseñador</div>
                             </div>
                         </div>
                         {/* <div className="col mb-5 mb-xl-5">
@@ -150,10 +150,10 @@ const Nosotros = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-2 px-2"
                                     src={solange}
-                                    alt="Solange"
+                                    alt="Solange González riendo"
                                 />
                                 <h5 className="fw-bolder">Solange González</h5>
-                                <div className="fst-italic text-muted">Operations Manager</div>
+                                <div className="fst-italic text-muted">Jefa de Operaciones</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -161,10 +161,10 @@ const Nosotros = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-2 px-2"
                                     src={sandra}
-                                    alt="Sandra"
+                                    alt="Sandra Panguinao riendo"
                                 />
                                 <h5 className="fw-bolder">Sandra Panguinao</h5>
-                                <div className="fst-italic text-muted">Workshop manager</div>
+                                <div className="fst-italic text-muted">Jefa de talleres</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -172,10 +172,10 @@ const Nosotros = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-2 px-2"
                                     src={michelle}
-                                    alt="Michelle"
+                                    alt="Michelle Zapata riendo"
                                 />
                                 <h5 className="fw-bolder">Michelle Zapata</h5>
-                                <div className="fst-italic text-muted">PIE Manager</div>
+                                <div className="fst-italic text-muted">Jefa Unidad de Apoyo N.E.E.</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -183,10 +183,10 @@ const Nosotros = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-2 px-2"
                                     src={sahian}
-                                    alt="Sahian"
+                                    alt="Sahian candia riendo"
                                 />
                                 <h5 className="fw-bolder">Sahian Candia</h5>
-                                <div className="fst-italic text-muted">Social media manager</div>
+                                <div className="fst-italic text-muted">Encargada Redes Sociales</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -194,18 +194,16 @@ const Nosotros = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-2 px-2"
                                     src={daniC}
-                                    alt="Dani C."
+                                    alt="Dani Córdova riendo"
                                 />
                                 <h5 className="fw-bolder">Daniela Córdova</h5>
-                                <div className="fst-italic text-muted">Administrative advisor</div>
+                                <div className="fst-italic text-muted">Asistente administrativo</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
-        {/* Bootstrap core JS*/}
-        {/* Core theme JS*/}
     </>
 }
 
