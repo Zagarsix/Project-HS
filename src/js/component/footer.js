@@ -16,11 +16,11 @@ const Footer = () => {
                     </div>
                     {/*Contacto*/}
                     <div className='col-12 col-md-4 text-start p-1 mb-4 order-2 order-md-3'>
-                        <h4>Contacto</h4>
-                        <p>colegiovirtualalianza.adm@gmail.com</p>
-                        <p>+569 28484497</p>
+                        <h4 className='mb-3'>Contacto</h4>
+                        <a className='text-white' target="_blank" rel="noopener noreferrer" href="mailto:colegiovirtualalianza.adm@gmail.com">colegiovirtualalianza.adm@gmail.com</a>
+                        <p><a className='text-white' target='_blank' rel='noopener noreferrer' href='tel:+56928484497'>+569 28484497</a></p>
                         <p>Providencia, Santiago, Chile.</p>
-                        <p><img className="mx-0" src={metroLogo} alt="Metro Logo" width="30" height="25" /> Metro Pedro de Valdivia</p>
+                        <p>Metro Pedro de Valdivia <img className="mx-0" src={metroLogo} alt="Metro Logo" width="24" height="20" /></p>
                         <NavLink className="link-light small" to="#!">
                             Política de Privacidad
                         </NavLink>
