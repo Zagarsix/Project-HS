@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import contact from "../../img/contact-center2.jpg";
 import social from "../../img/social-media.png"
@@ -18,7 +18,7 @@ const Contacto = () => {
                 </h1>
                 <p className="lead-header mb-5">
                   Si tienes dudas o consultas, contáctanos por cualquiera de nuestros medios de atención. <br></br>
-                  Horario de atención: Lunes a Viernes de 09:00 a  18:00 hrs.
+                  <strong>Horario de atención:</strong> Lunes a Viernes de 09:00 a  18:00 hrs.
                 </p>
               </div>
             </div>
@@ -36,9 +36,7 @@ const Contacto = () => {
                   {/* <i className="bi bi-envelope" /> */}
                 </div>
                 <h1 className="fw-bolder" style={{ color: "#ff8800" }}>Contáctanos</h1>
-                <p className="lead fw-normal text-muted mb-0">
-                  Nos encantaría escucharte
-                </p>
+                <p className="lead fw-normal text-muted mb-0">Nos encantaría ayudarte</p>
               </div>
               <div className="row gx-5 justify-content-start">
                 <div className="content-header">
@@ -52,6 +50,7 @@ const Contacto = () => {
                         type="text"
                         placeholder="Ingresa tu nombre..."
                         data-sb-validations="required"
+                        autoComplete='given-name'
                       />
                       <label htmlFor="name">Nombre</label>
                       <div className="invalid-feedback"
@@ -68,6 +67,7 @@ const Contacto = () => {
                         type="email"
                         placeholder="tucorreo@email.com"
                         data-sb-validations="required,email"
+                        autoComplete='off'
                       />
                       <label htmlFor="email">Email</label>
                       <div className="invalid-feedback"
@@ -121,11 +121,11 @@ const Contacto = () => {
                         Enviar
                       </button>
                     </div>
-                    <input type="hidden" name="_next" value="https://colegiovirtualalianza.vercel.app/contacto"/>
-                    <input type="hidden" name="_template" value="table"/>
-                    <input type="hidden" name="_subject" value="Sé parte de la familia CVA"/>
-                    <input type="hidden" name="_autoresponse" value="Agradecemos tu interés en Colegio Virtual Alianza. Nos comunicaremos contigo lo antes posible. ¡Que tengas un excelente día!"/>
-                    <input type="hidden" name="_cc" value="superprofevirtual.adm@gmail.com"/>
+                    <input type="hidden" name="_next" value="https://colegiovirtualalianza.vercel.app/contacto" />
+                    <input type="hidden" name="_template" value="table" />
+                    <input type="hidden" name="_subject" value="Sé parte de la familia CVA" />
+                    <input type="hidden" name="_autoresponse" value="Agradecemos tu interés en Colegio Virtual Alianza. Nos comunicaremos contigo lo antes posible. ¡Que tengas un excelente día!" />
+                    <input type="hidden" name="_cc" value="superprofevirtual.adm@gmail.com" />
                   </form>
                 </div>
               </div>
@@ -152,7 +152,7 @@ const Contacto = () => {
               </div>
               <div className="h5 mb-2">Escríbenos</div>
               <p className="text-muted mb-0">
-                Chatea en vivo con uno de nuestros especialistas del área de soporte.
+                <a className="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" target="_blank" rel="noopener noreferrer" href="https://wa.me/56928484497/">Chatea en vivo</a> con uno de nuestros especialistas del área de soporte.
               </p>
             </div>
             <div className="col mb-5">
@@ -161,7 +161,7 @@ const Contacto = () => {
               </div>
               <div className="h5">Ó puedes llamarnos</div>
               <p className="text-muted mb-0">
-                Llámanos de lunes a viernes, entre 09:00 y 18:00 hrs, al +569 28484497.
+                Llámanos de lunes a viernes, entre 09:00 y 18:00 hrs, al <a className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' target='_blank' rel='noopener noreferrer' href='tel:+56928484497'>+569 28484497</a>.
               </p>
             </div>
             <div className="col">
@@ -180,6 +180,7 @@ const Contacto = () => {
               <div className="h5">Centro de apoyo</div>
               <p className="text-muted mb-0">
                 Explora la sección de preguntas frecuentes y encuentra la solución a tus dudas.
+                <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/blog"> Leer más <i className="fa-solid fa-arrow-up-right-from-square"></i></Link>
               </p>
             </div>
           </div>
