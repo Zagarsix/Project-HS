@@ -10,6 +10,7 @@ import FlexCards from '../component/servicesSection';
 import parents2 from "../../img/parents-and-children2.jpg";
 import children from "../../img/childrenSchool.jpg";
 import family3 from "../../img/family1.jpg";
+import temporal from "../../img/DanyP.png";
 
 const Home = () => {
   return <>
@@ -39,7 +40,7 @@ const Home = () => {
         <div className="container px-4 px-lg-5 text-center">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-10">
-              <h2><span style={{ color: "#ff8800" }}>Colegio Virtual</span><span style={{ fontWeight: "bolder", color: "#0e408f" }}> Alianza</span> es el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
+              <h2>Bienvenidos a <span style={{ color: "#ff8800" }}>Colegio Virtual</span><span style={{ fontWeight: "bolder", color: "#0e408f" }}> Alianza:</span> el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
               <p className="lead mb-2">
                 Experimenta esta nueva modalidad de estudio <strong>b-learning:</strong> clases online y talleres presenciales. No los dejes sin su&nbsp;
                 <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/matriculas">matrícula!</Link>
@@ -58,7 +59,7 @@ const Home = () => {
       <section className="content-section text-white text-center py-1 py-lg-3 mb-2" id="features">
         <div className="containerServices px-4 px-lg-3 mt-2 mb-0">
           <div className="content-section-heading mb-5">
-            <h2 className="mb-2">Bienvenidos a
+            <h2 className="mb-2">Ventajas de elegir
               <span className="mb-1" style={{ color: "#ff8800" }}> Alianza</span></h2>
             <p style={{ fontSize: "1.1rem" }}> <strong>Somos la alternativa ideal a la educación tradicional.</strong> Ofrecemos un enfoque innovador basado en la modalidad de <strong>Homeschooling</strong>, diseñado para brindar una experiencia educativa flexible, personalizada y acorde a las necesidades de nuestros estudiantes y sus familias.</p>
           </div>
@@ -109,8 +110,8 @@ const Home = () => {
         <div className="container px-2 my-5">
           <div className="row gx-5">
             <div className="col-lg-3 text-center mb-5 mb-lg-0">
-              <h2 className="mb-2" style={{ color: "#ff8800" }}>Ventajas de elegir
-                <span className="mb-1" style={{ color: "#0e408f" }}> Alianza</span></h2>
+              <h2 className="mb-2" style={{ color: "#ff8800" }}>En Alianza
+                <span className="mb-1" style={{ color: "#0e408f" }}> marcamos la diferencia</span></h2>
               <img
                 className="img-fluid p-1 mb-2 mt-5"
                 width="260"
@@ -198,15 +199,14 @@ const Home = () => {
               <div className="text-center">
                 <h2 className="fw-bolder" style={{ color: "#0e408f" }}>--- De nuestro Blog ---</h2>
                 <p className="lead fw-normal mb-5">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-                  fugit ratione dicta mollitia. Officiis ad.
+                  ¡Entérate de las últimas noticias de Alianza!
                 </p>
               </div>
             </div>
           </div>
           <div className="row gx-5">
-            <div className="col-lg-4 mb-5">
-              <div className="card h-100 shadow border-0">
+            {/*1*/}<div className="col-lg-4 mb-5">
+              <div className="card h-100 shadow border-1">
                 <img
                   className="card-img-top"
                   src={parents2}
@@ -220,7 +220,7 @@ const Home = () => {
                     className="text-decoration-none link-dark stretched-link"
                     to="#!"
                   >
-                    <h5 className="card-title mb-3">Blog post title</h5>
+                    <h5 className="card-title mb-3">¿Porqué elegir educar en casa?</h5>
                   </Link>
                   <p className="card-text mb-0">
                     Some quick example text to build on the card title and make up
@@ -232,7 +232,9 @@ const Home = () => {
                     <div className="d-flex align-items-center">
                       <img
                         className="rounded-circle me-3"
-                        src="https://dummyimage.com/40x40/ced4da/6c757d"
+                        src={temporal}
+                        width="40"
+                        height="40"
                         alt="..."
                       />
                       <div className="small">
@@ -246,8 +248,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 mb-5">
-              <div className="card h-100 shadow border-0">
+            {/*2*/}<div className="col-lg-4 mb-5">
+              <div className="card h-100 shadow border-1">
                 <img
                   className="card-img-top"
                   src={children}
@@ -261,7 +263,7 @@ const Home = () => {
                     className="text-decoration-none link-dark stretched-link"
                     to="#!"
                   >
-                    <h5 className="card-title mb-3">Another blog post title</h5>
+                    <h5 className="card-title mb-3">¿Qué es la modalidad Homeschooling?</h5>
                   </Link>
                   <p className="card-text mb-0">
                     This text is Link bit longer to illustrate the adaptive height of
@@ -274,7 +276,9 @@ const Home = () => {
                     <div className="d-flex align-items-center">
                       <img
                         className="rounded-circle me-3"
-                        src="https://dummyimage.com/40x40/ced4da/6c757d"
+                        src={temporal}
+                        width="40"
+                        height="40"
                         alt="..."
                       />
                       <div className="small">
@@ -288,8 +292,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 mb-5">
-              <div className="card h-100 shadow border-0">
+            {/*3*/}<div className="col-lg-4 mb-5">
+              <div className="card h-100 shadow border-1">
                 <img
                   className="card-img-top"
                   src={family3}
@@ -304,8 +308,7 @@ const Home = () => {
                     to="#!"
                   >
                     <h5 className="card-title mb-3">
-                      The last blog post title is Link little bit longer than the
-                      others
+                     La educación en Chile: ¿tradicional ó virtual?
                     </h5>
                   </Link>
                   <p className="card-text mb-0">
@@ -318,7 +321,9 @@ const Home = () => {
                     <div className="d-flex align-items-center">
                       <img
                         className="rounded-circle me-3"
-                        src="https://dummyimage.com/40x40/ced4da/6c757d"
+                        src={temporal}
+                        width="40"
+                        height="40"
                         alt="..."
                       />
                       <div className="small">
@@ -344,7 +349,7 @@ const Home = () => {
                   Suscríbete para estar al día con nuestras noticias.
                 </div>
               </div>
-              <div className="ms-xl-4">
+              <div className="subscription ms-xl-4">
                 <div className="input-group mb-2">
                   <input
                     className="form-control"
@@ -352,6 +357,7 @@ const Home = () => {
                     placeholder="Ingresa tu email"
                     aria-label="Email address..."
                     aria-describedby="button-newsletter"
+                    id="email-subscription"
                   />
                   <button
                     className="btn btn-outline-light"
