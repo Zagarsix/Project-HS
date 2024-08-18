@@ -333,14 +333,14 @@ const Blog = () => {
                   >
                     <div className="accordion-body">
                       <strong>Los estudiantes reciben </strong>
-                      Los estudiantes reciben una guía detallada con las lecturas recomendadas y actividades complementarias para realizar en casa. Además, se organizan sesiones virtuales para discutir los libros y realizar actividades de comprensión lectora.
+                      una guía detallada con las lecturas recomendadas y actividades complementarias para realizar en casa. Además, se organizan sesiones virtuales para discutir los libros y realizar actividades de comprensión lectora.
                     </div>
                   </div>
                 </div>
               </div>
               {/* FAQ Accordion 3*/}
               <h3 className="fw-bolder mb-3">Apoyo Psicopedagógico</h3>
-              <div className="accordion mb-5 mb-xl-0" id="accordionExample2">
+              <div className="accordion mb-5 mb-xl-0" id="accordionExample3">
                 <div className="accordion-item">
                   <h3 className="accordion-header" id="headingOne">
                     <button
@@ -351,7 +351,7 @@ const Blog = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      1. ¿Qué es el Plan que se imparte en Alianza?
+                      1. ¿En Alianza ofrecemos apoyo psicopedagógico?
                     </button>
                   </h3>
                   <div
@@ -361,8 +361,8 @@ const Blog = () => {
                     data-bs-parent="#accordionExample2"
                   >
                     <div className="accordion-body">
-                      <strong>Es un programa integral</strong>
-                      diseñado para fomentar el hábito de la lectura y mejorar la comprensión lectora de nuestros estudiantes. Está compuesto por una selección de libros recomendados para cada nivel educativo, alineados con los objetivos curriculares del Ministerio de Educación.
+                      <strong>Sí, contamos con un equipo </strong>
+                      de psicopedagogos que brindan apoyo personalizado a los estudiantes que lo necesiten. Este servicio está disponible tanto para los alumnos con dificultades de aprendizaje como para aquellos que deseen potenciar sus habilidades.
                     </div>
                   </div>
                 </div>
@@ -376,7 +376,7 @@ const Blog = () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      2. ¿Cómo se eligen los libros del Plan Lector?
+                      2. ¿Cómo se accede al apoyo psicopedagógico?
                     </button>
                   </h3>
                   <div
@@ -386,8 +386,8 @@ const Blog = () => {
                     data-bs-parent="#accordionExample2"
                   >
                     <div className="accordion-body">
-                      <strong>Los libros son seleccionados </strong>
-                       por un equipo de especialistas en educación y literatura, teniendo en cuenta la edad, intereses y nivel de comprensión de los estudiantes. También se consideran las recomendaciones del Ministerio de Educación y otros organismos educativos.
+                      <strong>Los padres pueden </strong>
+                      solicitar una evaluación psicopedagógica a través de nuestra plataforma online. Luego de la evaluación inicial, se diseñará un plan de apoyo personalizado y se programarán sesiones de seguimiento.
                     </div>
                   </div>
                 </div>
@@ -401,7 +401,7 @@ const Blog = () => {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      3. ¿Cómo se implementa el Plan Lector en la modalidad de Homeschool?
+                      3. ¿Las sesiones de apoyo psicopedagógico son presenciales o virtuales?
                     </button>
                   </h3>
                   <div
@@ -411,15 +411,15 @@ const Blog = () => {
                     data-bs-parent="#accordionExample2"
                   >
                     <div className="accordion-body">
-                      <strong>Los estudiantes reciben </strong>
-                      Los estudiantes reciben una guía detallada con las lecturas recomendadas y actividades complementarias para realizar en casa. Además, se organizan sesiones virtuales para discutir los libros y realizar actividades de comprensión lectora.
+                      <strong>Las sesiones pueden </strong>
+                      ser virtuales o presenciales, dependiendo de la necesidad y disponibilidad de las familias. Nuestro objetivo es brindar la mayor flexibilidad posible para adaptarnos a las circunstancias de cada estudiante.
                     </div>
                   </div>
                 </div>
               </div>
               {/* FAQ Accordion 4*/}
               <h3 className="fw-bolder mb-3">Talleres extracurriculares</h3>
-              <div className="accordion mb-5 mb-xl-0" id="accordionExample2">
+              <div className="accordion mb-5 mb-xl-0" id="accordionExample4">
                 <div className="accordion-item">
                   <h3 className="accordion-header" id="headingOne">
                     <button
@@ -430,7 +430,7 @@ const Blog = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      1. ¿Qué es el Plan que se imparte en Alianza?
+                      1. ¿Qué tipo de talleres extracurriculares ofrecemos?
                     </button>
                   </h3>
                   <div
@@ -440,8 +440,8 @@ const Blog = () => {
                     data-bs-parent="#accordionExample2"
                   >
                     <div className="accordion-body">
-                      <strong>Es un programa integral</strong>
-                      diseñado para fomentar el hábito de la lectura y mejorar la comprensión lectora de nuestros estudiantes. Está compuesto por una selección de libros recomendados para cada nivel educativo, alineados con los objetivos curriculares del Ministerio de Educación.
+                      <strong>Ofrecemos una variedad </strong>
+                      de talleres extracurriculares que incluyen actividades deportivas, artísticas, tecnológicas y de desarrollo personal. Estos talleres están diseñados para complementar la formación académica y fomentar el desarrollo integral de los estudiantes.
                     </div>
                   </div>
                 </div>
@@ -455,7 +455,7 @@ const Blog = () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      2. ¿Cómo se eligen los libros del Plan Lector?
+                      2. ¿Los talleres son presenciales o virtuales?
                     </button>
                   </h3>
                   <div
@@ -465,8 +465,8 @@ const Blog = () => {
                     data-bs-parent="#accordionExample2"
                   >
                     <div className="accordion-body">
-                      <strong>Los libros son seleccionados </strong>
-                       por un equipo de especialistas en educación y literatura, teniendo en cuenta la edad, intereses y nivel de comprensión de los estudiantes. También se consideran las recomendaciones del Ministerio de Educación y otros organismos educativos.
+                      <strong>Aunque la mayoría de nuestras actividades </strong>
+                      educativas son virtuales, los talleres extracurriculares se realizan de manera presencial para promover la interacción social y el aprendizaje práctico.
                     </div>
                   </div>
                 </div>
@@ -480,7 +480,7 @@ const Blog = () => {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      3. ¿Cómo se implementa el Plan Lector en la modalidad de Homeschool?
+                      3. ¿Cómo puedo inscribir a mi hijo en los talleres?
                     </button>
                   </h3>
                   <div
@@ -490,15 +490,15 @@ const Blog = () => {
                     data-bs-parent="#accordionExample2"
                   >
                     <div className="accordion-body">
-                      <strong>Los estudiantes reciben </strong>
-                      Los estudiantes reciben una guía detallada con las lecturas recomendadas y actividades complementarias para realizar en casa. Además, se organizan sesiones virtuales para discutir los libros y realizar actividades de comprensión lectora.
+                      <strong>La inscripción se realiza </strong>
+                      a través de nuestra plataforma online, donde podrás encontrar la lista de talleres disponibles, horarios y requisitos. También ofrecemos orientación personalizada para ayudarte a elegir las actividades más adecuadas para tu hijo.
                     </div>
                   </div>
                 </div>
               </div>
               {/* FAQ Accordion 5*/}
               <h3 className="fw-bolder mb-3">Cita con coordinadora académica</h3>
-              <div className="accordion mb-5 mb-xl-0" id="accordionExample2">
+              <div className="accordion mb-5 mb-xl-0" id="accordionExample5">
                 <div className="accordion-item">
                   <h3 className="accordion-header" id="headingOne">
                     <button
@@ -509,7 +509,7 @@ const Blog = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      1. ¿Qué es el Plan que se imparte en Alianza?
+                      1. ¿Puedo agendar una cita con la coordinadora académica de forma online?
                     </button>
                   </h3>
                   <div
@@ -519,8 +519,8 @@ const Blog = () => {
                     data-bs-parent="#accordionExample2"
                   >
                     <div className="accordion-body">
-                      <strong>Es un programa integral</strong>
-                      diseñado para fomentar el hábito de la lectura y mejorar la comprensión lectora de nuestros estudiantes. Está compuesto por una selección de libros recomendados para cada nivel educativo, alineados con los objetivos curriculares del Ministerio de Educación.
+                      <strong>Sí, ofrecemos la posibilidad </strong>
+                      de agendar citas con la coordinadora académica vía online. Esta es una excelente oportunidad para discutir el progreso académico de tu hijo, resolver dudas y recibir orientación personalizada.
                     </div>
                   </div>
                 </div>
@@ -534,7 +534,7 @@ const Blog = () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      2. ¿Cómo se eligen los libros del Plan Lector?
+                      2. ¿Cómo puedo agendar una cita con la coordinadora académica?
                     </button>
                   </h3>
                   <div
@@ -544,8 +544,8 @@ const Blog = () => {
                     data-bs-parent="#accordionExample2"
                   >
                     <div className="accordion-body">
-                      <strong>Los libros son seleccionados </strong>
-                       por un equipo de especialistas en educación y literatura, teniendo en cuenta la edad, intereses y nivel de comprensión de los estudiantes. También se consideran las recomendaciones del Ministerio de Educación y otros organismos educativos.
+                      <strong>Puedes agendar </strong>
+                     una cita a través de nuestra plataforma online. Solo necesitas seleccionar una fecha y hora disponibles, y recibirás un enlace para la reunión virtual.
                     </div>
                   </div>
                 </div>
@@ -559,7 +559,7 @@ const Blog = () => {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      3. ¿Cómo se implementa el Plan Lector en la modalidad de Homeschool?
+                      3. ¿Qué temas se pueden tratar en una cita con la coordinadora académica?
                     </button>
                   </h3>
                   <div
@@ -569,8 +569,8 @@ const Blog = () => {
                     data-bs-parent="#accordionExample2"
                   >
                     <div className="accordion-body">
-                      <strong>Los estudiantes reciben </strong>
-                      Los estudiantes reciben una guía detallada con las lecturas recomendadas y actividades complementarias para realizar en casa. Además, se organizan sesiones virtuales para discutir los libros y realizar actividades de comprensión lectora.
+                      <strong>Durante la cita, </strong>
+                      puedes discutir el rendimiento académico de tu hijo, estrategias de estudio, adaptación a la modalidad de Homeschool, y cualquier otra preocupación o consulta que puedas tener sobre su educación.
                     </div>
                   </div>
                 </div>
