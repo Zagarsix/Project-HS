@@ -25,9 +25,9 @@ const Home = () => {
                 <h1 id="specialName" style={{ fontWeight: "bolder", color: "white" }}>Educación &nbsp;</h1>
                 <h2 className="subtittle" style={{ color: "white", fontWeight: "bold", fontStyle: "italic" }}>
                   <Typewriter
-                    words={['online!', 'cristiana!', 'personalizada!', 'flexible!', 'innovadora!', 'de calidad!']}
-                    loop cursor delaySpeed={2000}
-                    cursorStyle='|'
+                    words={['online', 'cristiana', 'personalizada', 'flexible', 'innovadora', 'de calidad']}
+                    loop cursor delaySpeed={1500} typeSpeed={100} deleteSpeed={50}
+                    cursorStyle='!'
                   /></h2>
                 <span className="subheading col-12">«...Yo hago un pacto con ustedes y les prometo que mi Espíritu y las enseñanzas que les he dado, no se apartarán jamás de ustedes ni de sus hijos...»<br />- Isaías 59:21 </span>
               </div>
@@ -56,9 +56,10 @@ const Home = () => {
         </div>
       </section>
       {/* Features*/}
-      <section className="content-section text-white text-center py-1 py-lg-3 mb-2" id="features">
-        <div className="containerServices px-4 px-lg-3 mt-2 mb-0">
-          <div className="content-section-heading mb-5">
+      <section className="content-section text-white text-center py-3 py-lg-3 mb-2" id="features">
+        <div className="wave-bg"></div>
+        <div className="containerFeatures px-5 px-lg-5 mt-5 mb-5">
+          <div className="content-section-heading mb-2">
             <h2 className="mb-2">Ventajas de elegir
               <span className="mb-1" style={{ color: "#ff8800" }}> Alianza</span></h2>
             <p style={{ fontSize: "1.1rem" }}> <strong>Somos la alternativa ideal a la educación tradicional.</strong> Ofrecemos un enfoque innovador basado en la modalidad de <strong>Homeschooling</strong>, diseñado para brindar una experiencia educativa flexible, personalizada y acorde a las necesidades de nuestros estudiantes y sus familias.</p>
@@ -197,7 +198,7 @@ const Home = () => {
           <div className="row gx-5 justify-content-center">
             <div className="col-lg-8 col-xl-6">
               <div className="text-center">
-                <h2 className="fw-bolder" style={{ color: "#0e408f" }}>--- De nuestro Blog ---</h2>
+                <h2 className="fw-bolder" style={{ color: "#0e408f" }}> De nuestro Blog </h2>
                 <p className="lead fw-normal mb-5">
                   ¡Entérate de las últimas noticias de Alianza!
                 </p>
@@ -308,7 +309,7 @@ const Home = () => {
                     to="#!"
                   >
                     <h5 className="card-title mb-3">
-                     La educación en Chile: ¿tradicional ó virtual?
+                      La educación en Chile: ¿tradicional ó virtual?
                     </h5>
                   </Link>
                   <p className="card-text mb-0">
