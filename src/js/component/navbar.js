@@ -69,11 +69,11 @@ const Navbar = ({ onMenuToggle }) => {
                     </button>
                     <div className={`${navCollapseClass} navbar-collapse`} id="navbarResponsive">
                         <ul className="navbar-nav ms-auto py-4 py-lg-0">
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <NavLink className="nav-link px-lg-3 py-3 py-lg-4" to="/" onClick={handleNavCollapse}>
                                     Inicio
                                 </NavLink>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <NavLink className="nav-link px-lg-3 py-3 py-lg-4" to="/nosotros" onClick={handleNavCollapse}>
                                     Nosotros
@@ -86,13 +86,19 @@ const Navbar = ({ onMenuToggle }) => {
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link px-lg-3 py-3 py-lg-4" to="/blog" onClick={handleNavCollapse}>
-                                    Blog
+                                    Soporte
                                 </NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link px-lg-3 py-3 py-lg-4" to="/contacto" onClick={handleNavCollapse}>
                                     Contacto
                                 </NavLink>
+                            </li>
+                            <li className="nav-item">
+                                {/* <a className="nav-link px-lg-3 py-3 py-lg-4" onClick={handleNavCollapse}>
+                                    <button className='btn btn-xl'><a className='text-white' target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@colegio_virtual_alianza">AULA VIRTUAL</a></button>
+                                </a> */}
+                                <a className="btn px-lg-3 py-3 py-lg-4" id="buttonAula" onClick={handleLogoClick} target="_blank" rel='noopener noreferrer' href="https://github.com/Zagarsix">Aula Virtual</a>
                             </li>
                         </ul>
                     </div>
