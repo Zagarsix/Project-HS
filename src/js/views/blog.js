@@ -23,7 +23,7 @@ const Blog = () => {
     </header>
     {/* Page Content*/}
     <main className="flex-shrink-0">
-      <section className="py-2">
+      <section className="py-2" style={{paddingBottom:"100px", marginBottom:"100px"}}>
         <div className="container px-5 my-3">
           <div className="text-center mb-5">
             <h1 className="fw-bolder" style={{ color: "#0e408f" }}>Alianza responde</h1>
@@ -35,7 +35,7 @@ const Blog = () => {
               <h3 className="fw-bolder mb-3">Preguntas frecuentes</h3> {/*Aranceles &amp; facturación */}
               <div className="accordion mb-5" id="accordionExample1">
                 <div className="accordion-item">
-                  <h4 className="accordion-header" id="headingOne">
+                  <h3 className="accordion-header" id="headingOne">
                     <button
                       className="accordion-button"
                       type="button"
@@ -46,7 +46,7 @@ const Blog = () => {
                     >
                       1. ¿Qué es el homeschooling?
                     </button>
-                  </h4>
+                  </h3>
                   <div
                     className="accordion-collapse collapse show"
                     id="collapseA"
@@ -261,7 +261,7 @@ const Blog = () => {
               </div>
               {/* FAQ Accordion 2*/}
               <h3 className="fw-bolder mb-3">Plan Lector</h3>
-              <div className="accordion mb-5 mb-xl-0" id="accordionExample2">
+              <div className="accordion mb-5" id="accordionExample2">
                 <div className="accordion-item">
                   <h3 className="accordion-header" id="headingOne">
                     <button
@@ -340,25 +340,25 @@ const Blog = () => {
               </div>
               {/* FAQ Accordion 3*/}
               <h3 className="fw-bolder mb-3">Apoyo Psicopedagógico</h3>
-              <div className="accordion mb-5 mb-xl-0" id="accordionExample3">
+              <div className="accordion mb-5" id="accordionExample3">
                 <div className="accordion-item">
                   <h3 className="accordion-header" id="headingOne">
                     <button
                       className="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
+                      data-bs-target="#collapse1"
                       aria-expanded="true"
-                      aria-controls="collapseOne"
+                      aria-controls="collapse1"
                     >
                       1. ¿En Alianza ofrecemos apoyo psicopedagógico?
                     </button>
                   </h3>
                   <div
                     className="accordion-collapse collapse show"
-                    id="collapseOne"
+                    id="collapse1"
                     aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample2"
+                    data-bs-parent="#accordionExample3"
                   >
                     <div className="accordion-body">
                       <strong>Sí, contamos con un equipo </strong>
@@ -372,18 +372,18 @@ const Blog = () => {
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
+                      data-bs-target="#collapse2"
                       aria-expanded="false"
-                      aria-controls="collapseTwo"
+                      aria-controls="collapse2"
                     >
                       2. ¿Cómo se accede al apoyo psicopedagógico?
                     </button>
                   </h3>
                   <div
                     className="accordion-collapse collapse"
-                    id="collapseTwo"
+                    id="collapse2"
                     aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample2"
+                    data-bs-parent="#accordionExample3"
                   >
                     <div className="accordion-body">
                       <strong>Los padres pueden </strong>
@@ -397,18 +397,18 @@ const Blog = () => {
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
+                      data-bs-target="#collapse3"
                       aria-expanded="false"
-                      aria-controls="collapseThree"
+                      aria-controls="collapse3"
                     >
                       3. ¿Las sesiones de apoyo psicopedagógico son presenciales o virtuales?
                     </button>
                   </h3>
                   <div
                     className="accordion-collapse collapse"
-                    id="collapseThree"
+                    id="collapse3"
                     aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample2"
+                    data-bs-parent="#accordionExample3"
                   >
                     <div className="accordion-body">
                       <strong>Las sesiones pueden </strong>
@@ -419,25 +419,25 @@ const Blog = () => {
               </div>
               {/* FAQ Accordion 4*/}
               <h3 className="fw-bolder mb-3">Talleres extracurriculares</h3>
-              <div className="accordion mb-5 mb-xl-0" id="accordionExample4">
+              <div className="accordion mb-5" id="accordionExample4">
                 <div className="accordion-item">
                   <h3 className="accordion-header" id="headingOne">
                     <button
                       className="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
+                      data-bs-target="#collapseUno"
                       aria-expanded="true"
-                      aria-controls="collapseOne"
+                      aria-controls="collapseUno"
                     >
                       1. ¿Qué tipo de talleres extracurriculares ofrecemos?
                     </button>
                   </h3>
                   <div
                     className="accordion-collapse collapse show"
-                    id="collapseOne"
+                    id="collapseUno"
                     aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample2"
+                    data-bs-parent="#accordionExample4"
                   >
                     <div className="accordion-body">
                       <strong>Ofrecemos una variedad </strong>
@@ -451,18 +451,18 @@ const Blog = () => {
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
+                      data-bs-target="#collapseDos"
                       aria-expanded="false"
-                      aria-controls="collapseTwo"
+                      aria-controls="collapseDos"
                     >
                       2. ¿Los talleres son presenciales o virtuales?
                     </button>
                   </h3>
                   <div
                     className="accordion-collapse collapse"
-                    id="collapseTwo"
+                    id="collapseDos"
                     aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample2"
+                    data-bs-parent="#accordionExample4"
                   >
                     <div className="accordion-body">
                       <strong>Aunque la mayoría de nuestras actividades </strong>
@@ -476,18 +476,18 @@ const Blog = () => {
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
+                      data-bs-target="#collapseTres"
                       aria-expanded="false"
-                      aria-controls="collapseThree"
+                      aria-controls="collapseTres"
                     >
                       3. ¿Cómo puedo inscribir a mi hijo en los talleres?
                     </button>
                   </h3>
                   <div
                     className="accordion-collapse collapse"
-                    id="collapseThree"
+                    id="collapseTres"
                     aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample2"
+                    data-bs-parent="#accordionExample4"
                   >
                     <div className="accordion-body">
                       <strong>La inscripción se realiza </strong>
@@ -498,25 +498,25 @@ const Blog = () => {
               </div>
               {/* FAQ Accordion 5*/}
               <h3 className="fw-bolder mb-3">Cita con coordinadora académica</h3>
-              <div className="accordion mb-5 mb-xl-0" id="accordionExample5">
+              <div className="accordion mb-5" id="accordionExample5">
                 <div className="accordion-item">
                   <h3 className="accordion-header" id="headingOne">
                     <button
                       className="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
+                      data-bs-target="#collapse11"
                       aria-expanded="true"
-                      aria-controls="collapseOne"
+                      aria-controls="collapse11"
                     >
                       1. ¿Puedo agendar una cita con la coordinadora académica de forma online?
                     </button>
                   </h3>
                   <div
                     className="accordion-collapse collapse show"
-                    id="collapseOne"
+                    id="collapse11"
                     aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample2"
+                    data-bs-parent="#accordionExample5"
                   >
                     <div className="accordion-body">
                       <strong>Sí, ofrecemos la posibilidad </strong>
@@ -530,18 +530,18 @@ const Blog = () => {
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
+                      data-bs-target="#collapse22"
                       aria-expanded="false"
-                      aria-controls="collapseTwo"
+                      aria-controls="collapse22"
                     >
                       2. ¿Cómo puedo agendar una cita con la coordinadora académica?
                     </button>
                   </h3>
                   <div
                     className="accordion-collapse collapse"
-                    id="collapseTwo"
+                    id="collapse22"
                     aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample2"
+                    data-bs-parent="#accordionExample5"
                   >
                     <div className="accordion-body">
                       <strong>Puedes agendar </strong>
@@ -555,18 +555,18 @@ const Blog = () => {
                       className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
+                      data-bs-target="#collapse33"
                       aria-expanded="false"
-                      aria-controls="collapseThree"
+                      aria-controls="collapse33"
                     >
                       3. ¿Qué temas se pueden tratar en una cita con la coordinadora académica?
                     </button>
                   </h3>
                   <div
                     className="accordion-collapse collapse"
-                    id="collapseThree"
+                    id="collapse33"
                     aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample2"
+                    data-bs-parent="#accordionExample5"
                   >
                     <div className="accordion-body">
                       <strong>Durante la cita, </strong>
