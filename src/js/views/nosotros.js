@@ -7,6 +7,7 @@ import desarrollo from "../../img/blog-bg.jpg";
 import valores from "../../img/logo-vision-mision.png";
 import dany from "../../img/DanyP.png";
 import claudio from "../../img/Claudio.png";
+import mitzi from "../../img/Mitzi.png";
 import solange from "../../img/Solange.png";
 import sandra from "../../img/Sandra.png";
 import michelle from "../../img/Michelle.png";
@@ -37,7 +38,7 @@ const Nosotros = () => {
                 </div>
             </header>
             {/* About section one*/}
-            <section className="py-5 bg-light" id="scroll-target">
+            <section className="py-3 bg-light" id="scroll-target">
                 <div className="container px-5 my-5">
                     <div className="row gx-5 align-items-center">
                         <div className="col-lg-6">
@@ -134,17 +135,17 @@ const Nosotros = () => {
                                 <div className="fst-italic text-muted">Webmaster, desarrollador &amp; diseñador</div>
                             </div>
                         </div>
-                        {/* <div className="col mb-5 mb-xl-5">
+                        <div className="col mb-5 mb-xl-5">
                             <div className="text-center">
                                 <img
                                     className="img-fluid rounded-circle mb-2 px-2"
-                                    src={nicole}
-                                    alt="Nicole"
+                                    src={mitzi}
+                                    alt="Mitzi"
                                 />
-                                <h5 className="fw-bolder">Nicole Jorquera</h5>
-                                <div className="fst-italic text-muted">UTP Chief</div>
+                                <h5 className="fw-bolder">Mitzi Gardel</h5>
+                                <div className="fst-italic text-muted">Psicopedagoga</div>
                             </div>
-                        </div> */}
+                        </div>
                         <div className="col mb-5 mb-xl-5">
                             <div className="text-center">
                                 <img
