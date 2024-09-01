@@ -17,10 +17,10 @@ const Footer = () => {
                     {/*Contacto*/}
                     <div className='col-12 col-md-4 text-start p-1 mb-4 order-2 order-md-3'>
                         <h4 className='mb-3'>Contacto</h4>
-                        <a className='text-white' target="_blank" rel="noopener noreferrer" href="mailto:colegiovirtualalianza.adm@gmail.com">colegiovirtualalianza.adm@gmail.com</a>
-                        <p><a className='text-white' target='_blank' rel='noopener noreferrer' href='tel:+56928484497'>+569 28484497</a></p>
                         <p>Providencia, Santiago, Chile.</p>
-                        <p>Metro Pedro de Valdivia <img className="mx-0" src={metroLogo} alt="Metro Logo" width="24" height="20" /></p>
+                        <p>Metro Pedro de Valdivia</p>
+                        <a className='text-white' target="_blank" rel="noopener noreferrer" href="mailto:colegiovirtualalianza.adm@gmail.com"><strong>Correo:</strong> <span>colegiovirtualalianza.adm@gmail.com</span></a>
+                        <p><a className='text-white' target='_blank' rel='noopener noreferrer' href='tel:+56928484497'><strong>Teléfono:</strong><span> +569 28484497</span></a></p>
                         <NavLink className="link-light small" to="#!">
                             Política de Privacidad
                         </NavLink>
@@ -31,26 +31,26 @@ const Footer = () => {
                     </div>
                     {/*Redes sociales*/}
                     <div className='col-12 col-md-4 text-center p-1 mb-4 mt-4 order-3 order-md-2'>
-                    <h4 className='mb-3'>Síguenos</h4>
+                        <h4 className='mb-3'>Síguenos</h4>
                         <span className='m-2'>
                             <a className='text-white' target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=61562958972239&mibextid=ZbWKwL">
-                            <div className='space-facebook'>
-                            <i className="fa-brands fa-facebook-f mt-2"></i>
-                            </div>
+                                <div className='space-facebook'>
+                                    <i className="fa-brands fa-facebook-f mt-2"></i>
+                                </div>
                             </a>
                         </span>
                         <span className='m-2'>
                             <a className='text-white' target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/colegiovirtual.alianza/">
-                            <div className='space-instagram'>
-                            <i className="fa-brands fa-instagram mt-2"></i>
-                            </div>
+                                <div className='space-instagram'>
+                                    <i className="fa-brands fa-instagram mt-2"></i>
+                                </div>
                             </a>
                         </span>
                         <span className='m-2'>
                             <a className='text-white' target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@colegio_virtual_alianza">
-                            <div className='space-tiktok'>
-                            <i className="fa-brands fa-tiktok mt-2"></i>
-                            </div>
+                                <div className='space-tiktok'>
+                                    <i className="fa-brands fa-tiktok mt-2"></i>
+                                </div>
                             </a>
                         </span>
                     </div>
