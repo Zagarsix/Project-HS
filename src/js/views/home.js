@@ -351,23 +351,30 @@ const Home = () => {
                 </div>
               </div>
               <div className="subscription ms-xl-4">
-                <div className="input-group mb-2">
-                  <input
-                    className="form-control"
-                    type="text"
-                    placeholder="Ingresa tu email"
-                    aria-label="Email address..."
-                    aria-describedby="button-newsletter"
-                    id="email-subscription"
-                  />
-                  <button
-                    className="btn btn-outline-light"
-                    id="button-newsletter"
-                    type="button"
-                  >
-                    Suscríbete!
-                  </button>
-                </div>
+                <form id="subscriptionForm" action="https://formsubmit.co/colegiovirtualalianza.adm@gmail.com" method="POST">
+                  <div className="input-group mb-2">
+                    <input
+                      className="form-control"
+                      type="text"
+                      placeholder="Ingresa tu email"
+                      aria-label="Email address..."
+                      aria-describedby="button-newsletter"
+                      id="email-subscription"
+                    />
+                    <button
+                      className="btn btn-outline-light"
+                      id="button-newsletter"
+                      type="submit"
+                    >
+                      Suscríbete!
+                    </button>
+                  </div>
+                  <input type="hidden" name="_next" value="https://colegiovirtualalianza.vercel.app/" />
+                  <input type="hidden" name="_template" value="table" />
+                  <input type="hidden" name="_subject" value="Sé parte de la familia CVA" />
+                  <input type="hidden" name="_autoresponse" value="Agradecemos tu interés en Colegio Virtual Alianza. Nos comunicaremos contigo lo antes posible. ¡Que tengas un excelente día!" />
+                  <input type="hidden" name="_cc" value="superprofevirtual.adm@gmail.com" />
+                </form>
                 <div className="fs-6 text-white-50">
                   Nos preocupamos por la privacidad y nunca compartiremos tus datos.
                 </div>
