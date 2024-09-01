@@ -1,18 +1,18 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 
-import homeBG from "../../img/lapices-bg.jpg";
+import homeBG from "../../img/bg-section/lapices-bg.jpg";
 import logoVyM from "../../img/logo-valores.png";
 import desarrollo from "../../img/blog-bg.jpg";
 import valores from "../../img/logo-vision-mision.png";
-import dany from "../../img/DanyP.png";
-import claudio from "../../img/Claudio.png";
-import mitzi from "../../img/Mitzi.png";
-import solange from "../../img/Solange.png";
-import sandra from "../../img/Sandra.png";
-import michelle from "../../img/Michelle.png";
-import sahian from "../../img/Sayita.png";
-import daniC from "../../img/DaniC.png";
+import dany from "../../img/team/DanyP.png";
+import claudio from "../../img/team/Claudio.png";
+import mitzi from "../../img/team/Mitzi.png";
+import solange from "../../img/team/Solange.png";
+import sandra from "../../img/team/Sandra.png";
+import michelle from "../../img/team/Michelle.png";
+import sahian from "../../img/team/Sayita.png";
+import daniC from "../../img/team/DaniC.png";
 
 const Nosotros = () => {
     return <>
@@ -50,10 +50,11 @@ const Nosotros = () => {
                         </div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder" style={{ color: "#0e408f", borderRadius: "5rem" }}><span >Visión </span><span style={{ color: "#3dfffb", background: "rgb(0, 0, 90, 0.5)", borderRadius: "5rem", padding: "5px" }}> &amp; Misión</span></h2>
-                            <p className="lead fw-normal text-muted mb-0">
-                                <strong>Visión: </strong>Ser reconocidos como un referente en educación a distancia, destacándonos por la excelencia académica, la innovación pedagógica y el compromiso con el desarrollo integral de nuestros estudiantes. Aspiramos a formar individuos críticos, creativos y con valores sólidos, preparados para enfrentar los desafíos del mundo contemporáneo.
-                                <p><strong>Misión: </strong>Entregar una educación integral y personalizada para niños y jóvenes, bajo valores, principios y conceptos cristianos; fomentando un aprendizaje activo, participativo y significativo. Nos comprometemos a acompañar a nuestros estudiantes en su proceso de aprendizaje, respetando sus ritmos y estilos, y promoviendo el desarrollo de sus capacidades y talentos.</p>
-                            </p>
+                            <div className="lead fw-normal text-muted mb-0">
+                                <p><strong>Visión: </strong>Ser reconocidos como un referente en educación a distancia, destacándonos por la excelencia académica, la innovación pedagógica y el compromiso con el desarrollo integral de nuestros estudiantes. Aspiramos a formar individuos críticos, creativos y con valores sólidos, preparados para enfrentar los desafíos del mundo contemporáneo.</p>
+                                <p><strong>Misión: </strong>Entregar una educación integral y personalizada para niños y jóvenes, bajo valores, principios y conceptos cristianos; fomentando un aprendizaje activo, participativo y significativo. Nos comprometemos a acompañar a nuestros estudiantes en su proceso de aprendizaje, respetando sus ritmos y estilos, y promoviendo el desarrollo de sus capacidades y talentos.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -71,8 +72,7 @@ const Nosotros = () => {
                         </div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder" style={{ color: "#0e408f" }}>Desarrollo <span style={{ color: "#3dfffb", background: "rgb(0, 0, 90, 0.5)", borderRadius: "5rem", padding: "5px" }}>&amp; más allá</span></h2>
-                            <p className="lead fw-normal text-muted mb-0">Nuestro compromiso es ofrecer un entorno educativo <strong>flexible y personalizado </strong>que se adapte a las necesidades individuales de cada estudiante, promoviendo el desarrollo integral y el amor por el aprendizaje.
-                                Contemplando los niveles <strong>desde enseñanza pre-básica a media</strong>, a través de una plataforma <strong>online y talleres presenciales.</strong>
+                            <p className="lead fw-normal text-muted mb-0">Nuestro compromiso es ofrecer un entorno educativo <strong>flexible y personalizado </strong>que se adapte a las necesidades individuales de cada estudiante, promoviendo el desarrollo integral y el amor por el aprendizaje. <br></br>Contemplando los niveles <strong>desde enseñanza pre-básica a media</strong>, a través de una plataforma <strong>online y talleres presenciales.</strong>
                             </p>
                         </div>
                     </div>
@@ -91,13 +91,13 @@ const Nosotros = () => {
                         </div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder" style={{ color: "#0e408f", borderRadius: "5rem" }}><span >Nuestros </span><span style={{ color: "#3dfffb", background: "rgb(0, 0, 90, 0.5)", borderRadius: "5rem", padding: "5px" }}> Valores</span></h2>
-                            <p className="lead fw-normal text-muted mb-0">
-                                <strong>Excelencia Académica: </strong>Nos esforzamos por ofrecer una educación de alta calidad, basada en programas académicos rigurosos y actualizados.
+                            <div className="lead fw-normal text-muted mb-0">
+                                <p><strong>Excelencia Académica: </strong>Nos esforzamos por ofrecer una educación de alta calidad, basada en programas académicos rigurosos y actualizados.</p>
                                 <p><strong>Innovación Pedagógica: </strong>Implementamos metodologías de enseñanza innovadoras que fomentan el pensamiento crítico y creativo.</p>
                                 <p><strong>Personalización del Aprendizaje: </strong>Adaptamos nuestros programas educativos a las necesidades individuales de cada estudiante, reconociendo y valorando su diversidad.</p>
                                 <p><strong>Compromiso y Responsabilidad: </strong>Nos comprometemos con el éxito académico y personal de nuestros estudiantes, promoviendo una cultura de responsabilidad y ética.</p>
                                 <p><strong>Formación Integral: </strong>Fomentamos el desarrollo de competencias académicas, sociales y emocionales, preparando a nuestros estudiantes para ser ciudadanos responsables y comprometidos.</p>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
