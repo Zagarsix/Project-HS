@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import metroLogo from "../../img/metroLogo.png";
-import logoDark from "../../img/logo-fondo-oscuro.png"
+import logoDark from "../../img/logo-cva-dark.png"
 
 const Footer = () => {
     return (
@@ -58,7 +58,7 @@ const Footer = () => {
                 <div className='down col-12 col-xs-12 text-center py-2'>
                     <span>© Colegio Virtual Alianza 2024.</span><span> Todos los derechos reservados.</span>
                     <p className='text-white'>Developed with <i className="fa fa-heart text-danger" /> by{" "}
-                        <a className="developer" target="_blank" href="https://github.com/Zagarsix">Zagarsix</a>
+                        <a className="developer" target="_blank" rel='noopener noreferrer' href="https://github.com/Zagarsix">Zagarsix</a>
                     </p>
                 </div>
             </div>

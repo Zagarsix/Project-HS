@@ -1,11 +1,11 @@
 import React from 'react';
 
-import dad1 from "../../img/dad1.jpg";
-import dad2 from "../../img/dad2.jpg";
-import dad3 from "../../img/dad3.jpg";
-import mom1 from "../../img/mom1.jpg";
-import mom2 from "../../img/mom2.jpg";
-import mom3 from "../../img/mom3.jpg";
+import dad1 from "../../img/testimonials/dad1.jpg";
+import dad2 from "../../img/testimonials/dad2.jpg";
+import dad3 from "../../img/testimonials/dad3.jpg";
+import mom1 from "../../img/testimonials/mom1.jpg";
+import mom2 from "../../img/testimonials/mom2.jpg";
+import mom3 from "../../img/testimonials/mom3.jpg";
 
 const testimonials = [
   { name: 'Juan Inostroza', message: 'Sinceramente, este colegio ha cambiado la vida de mis hijos para mejor.', role: 'Padre de familia', image: dad1 },

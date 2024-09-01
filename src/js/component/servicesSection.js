@@ -1,12 +1,12 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+
 import "../../styles/home.css";
-import s1 from "../../img/servicio1-paes.jpg";
-import s2 from "../../img/servicio2-ingles.png";
-import s3 from "../../img/servicio3-reforzamiento.png";
-import s4 from "../../img/servicio4-necesidades.png";
-import s5 from "../../img/servicio5-fonoaudio.png";
-import s6 from "../../img/servicio6-telemedicina.png"; 
+import s1 from "../../img/services/servicio1-paes.jpg";
+import s2 from "../../img/services/servicio2-ingles.png";
+import s3 from "../../img/services/servicio3-reforzamiento.png";
+import s4 from "../../img/services/servicio4-necesidades.png";
+import s5 from "../../img/services/servicio5-fonoaudio.png";
+import s6 from "../../img/services/servicio6-telemedicina.png"; 
 
 const FlexCards = () => {
   return <>

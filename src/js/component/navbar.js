@@ -98,7 +98,7 @@ const Navbar = ({ onMenuToggle }) => {
                                 {/* <a className="nav-link px-lg-3 py-3 py-lg-4" onClick={handleNavCollapse}>
                                     <button className='btn btn-xl'><a className='text-white' target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@colegio_virtual_alianza">AULA VIRTUAL</a></button>
                                 </a> */}
-                                <a className="btn px-lg-3 py-3 py-lg-4" id="buttonAula" onClick={handleLogoClick} target="_blank" rel='noopener noreferrer' href="https://github.com/Zagarsix">Aula Virtual</a>
+                                <a className="btn px-lg-3 py-3 py-lg-4" id="buttonAula" onClick={handleLogoClick} target="_blank" rel='noopener noreferrer' href="/">Aula Virtual</a>
                             </li>
                         </ul>
                     </div>
