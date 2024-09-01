@@ -2,15 +2,15 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { Typewriter } from 'react-simple-typewriter';
 
-import pencil from "../../img/ApplesBooksPencils.jpg";
+import pencil from "../../img/bg-section/ApplesBooksPencils.jpg";
 import trofeo from "../../img/trofeo.png";
 import family from "../../img/happy-family.jpg";
 import TestimonialCarousel from "../component/carousel";
 import FlexCards from '../component/servicesSection';
-import parents2 from "../../img/parents-and-children2.jpg";
-import children from "../../img/childrenSchool.jpg";
-import family3 from "../../img/family1.jpg";
-import temporal from "../../img/DanyP.png";
+import parents2 from "../../img/blog/parents-and-children2.jpg";
+import children from "../../img/blog/childrenSchool.jpg";
+import family3 from "../../img/blog/family1.jpg";
+import temporal from "../../img/team/DanyP.png";
 
 const Home = () => {
   return <>
@@ -355,11 +355,14 @@ const Home = () => {
                   <div className="input-group mb-2">
                     <input
                       className="form-control"
-                      type="text"
+                      type="email"
+                      name='email'
+                      id="email-subscription"
                       placeholder="Ingresa tu email"
                       aria-label="Email address..."
                       aria-describedby="button-newsletter"
-                      id="email-subscription"
+                      data-sb-validations="required,email"
+                      autoComplete='off'
                     />
                     <button
                       className="btn btn-outline-light"
