@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import contact from "../../img/contact-center2.jpg";
+import contact from "../../img/bg-section/contact-center2.jpg";
 import social from "../../img/social-media.png"
 
 const Contacto = () => {
@@ -88,6 +88,7 @@ const Contacto = () => {
                         type="tel"
                         placeholder="(123)-45678900"
                         data-sb-validations="required"
+                        autoComplete='off'
                       />
                       <label htmlFor="phone">Número de contacto</label>
                       <div className="invalid-feedback"
