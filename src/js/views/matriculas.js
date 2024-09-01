@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavLink, Link } from "react-router-dom";
-import matricula from "../../img/home-bg.jpg"
+import { NavLink } from "react-router-dom";
+import matricula from "../../img/bg-section/home-bg.jpg"
 
 const Matriculas = () => {
   return <>
@@ -18,7 +18,7 @@ const Matriculas = () => {
                 <p className="lead-header mb-5">
                <strong>Modalidad de estudio b-learning: </strong>clases virtuales con una duración de 1 hora pedagógica. Y a la vez, se contemplan talleres presenciales con que el alumno puede complementar su formación.
                <br></br>
-               Horario: de 09:00 a 14:00 hrs.
+               <strong>Horario recomendado: de 09:00 a 14:00 hrs.</strong>
                 </p>
               </div>
             </div>
@@ -29,7 +29,7 @@ const Matriculas = () => {
       <section className="bg-light py-1 mb-5">
         <div className="container px-5 px-lg-1 my-5">
           <div className="text-center mb-5">
-            <h1 className="fw-bolder" style={{color:"#0e408f"}}>--- Aranceles ---</h1>
+            <h1 className="fw-bolder" style={{color:"#0e408f"}}>Aranceles</h1>
             <p className="lead fw-normal text-muted mb-0">
               Desde enseñanza pre-básica a básica completa 
             </p>
