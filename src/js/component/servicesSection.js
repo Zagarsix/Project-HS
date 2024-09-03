@@ -42,7 +42,7 @@ const FlexCards = () => {
               <div className='icon'>3</div>
               <div className='description'>
                 <h4> Reforzamiento</h4>
-                <p>Apoyo escolar, éxito total. Clases de reforzamkiento en todos los niveles.</p>
+                <p>Apoyo escolar, éxito total. Clases de reforzamiento en todos los niveles.</p>
               </div>
             </div>
           </label>

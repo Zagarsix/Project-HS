@@ -27,7 +27,7 @@
     align-items: flex-end;
     transition: .6s cubic-bezier(.28, -0.03, 0, .99);
     box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
-    
+
 }
 
 .cardX>.row {
@@ -37,8 +37,8 @@
 }
 
 .cardX>.row>.icon {
-    background: #ff6600;
-    color: white;
+    background: #ff8800;
+    color: #000145;
     border-radius: 50%;
     height: 40px;
     width: 40px;
@@ -63,17 +63,19 @@
 }
 
 .description p {
-    color: black;
+    color: #000145;
     padding: 5px;
     margin: 5px;
     font-size: 1.2rem;
     line-height: 1.1rem;
+    background-color: rgba(235, 141, 34, 0.5);
+    border-radius: 5px;
 }
 
 .description h4 {
     text-transform: uppercase;
     line-height: .2rem;
-    color: black;
+    color: #000145;
     font-weight: bold;
 }
 
