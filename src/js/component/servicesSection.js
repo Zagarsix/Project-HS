@@ -31,7 +31,7 @@ const FlexCards = () => {
               <div className='icon'>2</div>
               <div className='description'>
                 <h4> Clases de Inglés</h4>
-                <p>lorem ipsum dolor sit ame volunpatu,m presmakene enin quaus</p>
+                <p>Tu camino al inglés empieza aquí. Desde 1° básico.</p>
               </div>
             </div>
           </label>
@@ -42,7 +42,7 @@ const FlexCards = () => {
               <div className='icon'>3</div>
               <div className='description'>
                 <h4> Reforzamiento</h4>
-                <p>lorem ipsum dolor sit ame volunpatu,m presmakene enin quaus</p>
+                <p>Apoyo escolar, éxito total. Clases de reforzamkiento en todos los niveles.</p>
               </div>
             </div>
           </label>
@@ -75,7 +75,7 @@ const FlexCards = () => {
               <div className='icon'>6</div>
               <div className='description'>
                 <h4> Telemedicina</h4>
-                <p>lorem ipsum dolor sit ame volunpatu,m presmakene enin quaus</p>
+                <p>Bienestar escolar a un clic, al alcance de tu familia.</p>
               </div>
             </div>
           </label>
