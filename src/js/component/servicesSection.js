@@ -41,7 +41,7 @@ const FlexCards = () => {
             <div className='row'>
               <div className='icon'>3</div>
               <div className='description'>
-                <h4> Clases de reforzamiento</h4>
+                <h4> Reforzamiento</h4>
                 <p>lorem ipsum dolor sit ame volunpatu,m presmakene enin quaus</p>
               </div>
             </div>

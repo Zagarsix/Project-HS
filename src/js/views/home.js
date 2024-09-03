@@ -58,7 +58,7 @@ const Home = () => {
       {/* Features*/}
       <section className="content-section text-white text-center py-3 py-lg-3 mb-2" id="features">
         <div className="wave-bg"></div>
-        <div className="containerFeatures px-5 px-lg-5 mt-5 mb-5">
+        <div className="container px-4 px-lg-5 mt-5 mb-5" id="container-features">
           <div className="content-section-heading mb-2">
             <h2 className="mb-2">Ventajas de elegir
               <span className="mb-1" style={{ color: "#ff8800" }}> Alianza</span></h2>
@@ -108,7 +108,7 @@ const Home = () => {
       </section>
       {/* Services*/}
       <section className="py-2 my-3" id="services">
-        <div className="container px-2 my-5">
+        <div className="container px-4 px-lg-5 my-5">
           <div className="row gx-5">
             <div className="col-lg-3 text-center mb-5 mb-lg-0">
               <h2 className="mb-2" style={{ color: "#ff8800" }}>En Alianza
@@ -116,12 +116,12 @@ const Home = () => {
               <img
                 className="img-fluid p-1 mb-2 mt-5"
                 width="260"
-                height="260"
+                height="300"
                 src={trofeo}
                 alt="ilustración social media"
               />
             </div>
-            <div className="col-lg-9 col-md-10 col-xs-10">
+            <div className="col-lg-9 col-md-12 col-xs-12">
               <FlexCards />
             </div>
           </div>
@@ -187,14 +187,14 @@ const Home = () => {
       </section> */}
       {/* Testimonial section*/}
       <section className="testimonial" id="testimonial" style={{ backgroundImage: `url(${family})` }}>
-        <div className="container px-1 my-2 text-black">
+        <div className="container px-4 px-lg-5 my-5 text-black">
           <h1 className="text-center mb-5" style={{ color: "#ff8800" }}>Testimonios</h1>
           <TestimonialCarousel />
         </div>
       </section>
       {/* Blog preview section*/}
       <section className="py-3">
-        <div className="container px-5 my-5">
+        <div className="container px-4 px-lg-5 my-5">
           <div className="row gx-5 justify-content-center">
             <div className="col-lg-8 col-xl-6">
               <div className="text-center">
