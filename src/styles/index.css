@@ -12458,7 +12458,7 @@ blockquote {
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -12597,7 +12597,7 @@ header.masthead .site-heading .subheading {
   color: white;
   padding: .5rem;
   font-size: 1.3rem;
-  background-color: rgba(48, 48, 100, 0.5);
+  background-color: rgba(48, 48, 100, 0.4);
   border-radius: 1rem;
   text-shadow: 0 0 0.2em #ff8800;
   font-weight: normal;
