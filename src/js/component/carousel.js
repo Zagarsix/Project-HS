@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import dad1 from "../../img/testimonials/dad1.jpg";
 import dad2 from "../../img/testimonials/dad2.jpg";
@@ -17,18 +17,34 @@ const testimonials = [
 ];
 
 const TestimonialCarousel = () => {
-  // Split testimonials into groups of 3
-  const groupedTestimonials = [];
-  for (let i = 0; i < testimonials.length; i += 3) {
-    groupedTestimonials.push(testimonials.slice(i, i + 3));
-  }
+  const [groupedTestimonials, setGroupedTestimonials] = useState([]);
+
+  // Detectar el tamaño de la pantalla y agrupar los testimonios en consecuencia
+  useEffect(() => {
+    const handleResize = () => {
+      const isMobile = window.innerWidth <= 576;
+      const groups = [];
+      const groupSize = isMobile ? 1 : 3; // Mostrar 1 tarjeta en móvil y 3 en escritorio
+      
+      for (let i = 0; i < testimonials.length; i += groupSize) {
+        groups.push(testimonials.slice(i, i + groupSize));
+      }
+
+      setGroupedTestimonials(groups);
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         {groupedTestimonials.map((group, index) => (
           <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
-            <div className="d-flex flex-wrap justify-content-around">
+            <div className="d-flex flex-wrap justify-content-center">
               {group.map((testimonial, idx) => (
                 <div key={idx} className="testimonial-card px-1 mx-1">
                   <p className='fs-4 mb-5 fst-italic'>"{testimonial.message}"</p>
