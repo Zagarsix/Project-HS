@@ -13139,6 +13139,11 @@ header.masthead .post-heading .meta a {
   }
 }
 
+/*Admission section*/
+#admission:before {
+  background-color: rgba(0, 1, 100, 0.8);
+}
+
 @media (min-width: 580px) {
   .subscription {
     font-size: 1.3rem;
