@@ -3250,20 +3250,20 @@ textarea.form-control.is-invalid {
   border-color: #FF8800 !important;
 }
 
-#buttonAula{
-border-radius: 10px !important;
-background: transparent !important;
-border-color: #ff8800 !important;
-color: #ff8800 !important;
-padding: 0.1rem 0.2rem;
-margin-top: 0.5rem;
-align-items: center;
-line-height: 0.5;
-height: 50px;
-width: 170px;
-font-size: 1.2rem;
-text-decoration: none;
-text-transform: none !important;
+#buttonAula {
+  border-radius: 10px !important;
+  background: transparent !important;
+  border-color: #ff8800 !important;
+  color: #ff8800 !important;
+  padding: 0.1rem 0.2rem;
+  margin-top: 0.5rem;
+  align-items: center;
+  line-height: 0.5;
+  height: 50px;
+  width: 170px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-transform: none !important;
 }
 
 #buttonAula:hover {
@@ -12845,11 +12845,14 @@ header.masthead .post-heading .meta a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(60deg, #000145, #000263, #0e408f); /* Fondo principal */
-  z-index: -1; /* Asegura que esté detrás del contenido */
+  background: linear-gradient(60deg, #000145, #000263, #0e408f);
+  /* Fondo principal */
+  z-index: -1;
+  /* Asegura que esté detrás del contenido */
 }
 
-.wave-bg::before, .wave-bg::after {
+.wave-bg::before,
+.wave-bg::after {
   content: "";
   position: absolute;
   left: 0;
@@ -12861,18 +12864,21 @@ header.masthead .post-heading .meta a {
 }
 
 .wave-bg::before {
-  top: 0; /* Onda superior */
-  transform: rotate(180deg) scaleX(-4); /* Rotación para invertir la onda */
+  top: 0;
+  /* Onda superior */
+  transform: rotate(180deg) scaleX(-4);
+  /* Rotación para invertir la onda */
 }
 
 .wave-bg::after {
-  bottom: 0; /* Onda inferior */
+  bottom: 0;
+  /* Onda inferior */
   transform: rotateY(45deg) scaleX(-4);
 }
 
 #container-features {
-position: relative;
-z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 /* Footer */
@@ -13070,7 +13076,7 @@ z-index: 1;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 1, 100, 0.65);
+  background-color: rgba(0, 1, 100, 0.7);
   z-index: 1;
 }
 
@@ -13112,22 +13118,44 @@ z-index: 1;
 @media (min-width: 577px) and (max-width: 1199px) {
   .testimonial-card {
     flex: 1 0 45%;
-    max-width: 45%;
+    max-width: 70%;
     height: auto;
   }
 }
-@media (min-width: 513px) and (max-width: 767px){
 
-}
+@media (min-width: 513px) and (max-width: 767px) {}
+
 @media (max-width: 576px) {
   .testimonial-card {
-    flex: 1 0 90%;
-    max-width: 90%;
+    flex: 1 0 95%;
+    max-width: 100%;
+    height: 280px;
   }
 
   .carousel-control-prev,
   .carousel-control-next {
     width: 10%;
     margin: 10px;
+  }
+}
+
+@media (min-width: 580px) {
+  .subscription {
+    font-size: 1.3rem;
+  }
+
+  .privacity {
+    font-size: .9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .subscription {
+    margin-top: 50px;
+    font-size: 1.1rem;
+  }
+
+  .privacity {
+    font-size: .8rem;
   }
 }
