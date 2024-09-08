@@ -2,9 +2,9 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 
 import homeBG from "../../img/bg-section/lapices-bg.jpg";
-import logoVyM from "../../img/logo-valores.png";
-import desarrollo from "../../img/blog-bg.jpg";
-import valores from "../../img/logo-vision-mision.png";
+import logoVyM from "../../img/logo-v-m.jpg";
+import desarrollo from "../../img/logo-d-i.jpg";
+import valores from "../../img/logo-valores.jpg";
 import dany from "../../img/team/DanyP.png";
 import claudio from "../../img/team/Claudio.png";
 import mitzi from "../../img/team/Mitzi.png";
@@ -43,7 +43,7 @@ const Nosotros = () => {
                     <div className="row gx-5 align-items-center">
                         <div className="col-lg-6">
                             <img
-                                className="img-fluid rounded mb-5 mb-lg-0"
+                                className="img-fluid rounded mb-5 mb-lg-0 shadow border-5"
                                 src={logoVyM}
                                 alt="logo visión y misión"
                             />
@@ -65,7 +65,7 @@ const Nosotros = () => {
                     <div className="row gx-5 align-items-center">
                         <div className="col-lg-6 order-first order-lg-last">
                             <img
-                                className="img-fluid rounded mb-5 mb-lg-0"
+                                className="img-fluid rounded mb-5 mb-lg-0 shadow border-5"
                                 src={desarrollo}
                                 alt="desarrollo integral"
                             />
@@ -84,7 +84,7 @@ const Nosotros = () => {
                     <div className="row gx-5 align-items-center">
                         <div className="col-lg-6">
                             <img
-                                className="img-fluid rounded mb-5 mb-lg-0"
+                                className="img-fluid rounded mb-5 mb-lg-0 shadow border-5"
                                 src={valores}
                                 alt="valores homeschool"
                             />
@@ -106,7 +106,7 @@ const Nosotros = () => {
             <section className="py-5 bg-light">
                 <div className="container px-5 my-5">
                     <div className="text-center">
-                        <h2 className="fw-bolder" style={{ color: "#0e408f" }}>--- Nuestro equipo ---</h2>
+                        <h1 className="fw-bolder" style={{ color: "#0e408f" }}>Nuestro equipo</h1>
                         <p className="lead fw-normal text-muted mb-5">
                             Dedicados a la calidad &amp; el éxito
                         </p>

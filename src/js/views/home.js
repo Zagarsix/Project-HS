@@ -8,8 +8,8 @@ import family from "../../img/happy-family.jpg";
 import TestimonialCarousel from "../component/carousel";
 import FlexCards from '../component/servicesSection';
 import parents2 from "../../img/blog/parents-and-children2.jpg";
-import children from "../../img/blog/childrenSchool.jpg";
-import family3 from "../../img/blog/family1.jpg";
+import children from "../../img/blog/modalidad-hs.jpg";
+import family1 from "../../img/blog/family1.jpg";
 import temporal from "../../img/team/DanyP.png";
 import admision from "../../img/bg-section/home-bg.jpg"
 
@@ -212,7 +212,7 @@ const Home = () => {
                 <img
                   className="card-img-top"
                   src={parents2}
-                  alt="niños viendo un notebook"
+                  alt="padres e hijos viendo un notebook"
                 />
                 <div className="card-body p-4">
                   <div className="badge bg-gradient rounded-pill mb-2">
@@ -255,7 +255,7 @@ const Home = () => {
                 <img
                   className="card-img-top"
                   src={children}
-                  alt="manoa en un notebook"
+                  alt="manos en un notebook"
                 />
                 <div className="card-body p-4">
                   <div className="badge bg-gradient rounded-pill mb-2">
@@ -298,8 +298,8 @@ const Home = () => {
               <div className="card h-100 shadow border-1">
                 <img
                   className="card-img-top"
-                  src={family3}
-                  alt="papá y mamá estudiando con su hijo"
+                  src={family1}
+                  alt="familia completa riendo"
                 />
                 <div className="card-body p-4">
                   <div className="badge bg-gradient rounded-pill mb-2">
