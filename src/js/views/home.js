@@ -187,10 +187,63 @@ const Home = () => {
         </div>
       </section> */}
       {/* Testimonial section*/}
-      <section className="testimonial" id="testimonial" style={{ backgroundImage: `url(${family})` }}>
+      {/* <section className="testimonial" id="testimonial" style={{ backgroundImage: `url(${family})` }}>
         <div className="container px-4 px-lg-5 my-5 text-black">
           <h1 className="text-center mb-5" style={{ color: "#ff8800" }}>Testimonios</h1>
           <TestimonialCarousel />
+        </div>
+      </section> */}
+
+      {/* Admission section */}
+      <section className="testimonial" id="admission" style={{ backgroundImage: `url(${admision})` }}>
+        <div className="container px-4 px-lg-5 my-5 text-black">
+          <h1 className="text-start mb-3" style={{ color: "#ff8800" }}>Admisión 2025</h1>
+          <div className="d-flex align-items-center justify-content-between flex-column flex-xl-row text-start text-xl-start">
+            <div className="mb-4 mb-xl-0">
+              <div className="fs-4 fw-bold text-white">
+                ¡ASEGURA EL FUTURO DE TU HIJO HOY! <br></br>Matricúlate ahora y forma parte de nuestra comunidad educativa.
+              </div>
+              <Link className="btn btn-xl m-2 fs-6 mt-4" id="buttonSec" to="/matriculas">
+                Matrículas aquí <i className="fa-solid fa-chevron-right"></i>
+              </Link>
+            </div>
+            {/* Call to action*/}
+            <div className="subscription ms-xl-4">
+              <div className="text-white-50 mb-3">
+                Suscríbete para estar al día con nuestras noticias.
+              </div>
+              <form id="subscriptionForm" action="https://formsubmit.co/colegiovirtualalianza.adm@gmail.com" method="POST">
+                <div className="input-group mb-2">
+                  <input
+                    className="form-control fs-6"
+                    type="email"
+                    name='email'
+                    id="email-subscription"
+                    placeholder="Ingresa tu email"
+                    aria-label="Email address..."
+                    aria-describedby="button-newsletter"
+                    data-sb-validations="required,email"
+                    autoComplete='off'
+                  />
+                  <button
+                    className="btn btn-outline-light"
+                    id="button-newsletter"
+                    type="submit"
+                  >
+                    Suscríbete!
+                  </button>
+                </div>
+                <input type="hidden" name="_next" value="https://colegiovirtualalianza.vercel.app/" />
+                <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_subject" value="Sé parte de la familia CVA" />
+                <input type="hidden" name="_autoresponse" value="Agradecemos tu interés en Colegio Virtual Alianza. Nos comunicaremos contigo lo antes posible. ¡Que tengas un excelente día!" />
+                <input type="hidden" name="_cc" value="superprofevirtual.adm@gmail.com" />
+              </form>
+              <div className="privacity text-white-50">
+                Nos preocupamos por la privacidad y nunca compartiremos tus datos.
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       {/* Blog preview section*/}
@@ -387,58 +440,7 @@ const Home = () => {
           </aside> */}
         </div>
       </section>
-      {/* Admission section */}
-      <section className="testimonial" id="admission" style={{ backgroundImage: `url(${admision})` }}>
-        <div className="container px-4 px-lg-5 my-5 text-black">
-          <h1 className="text-start mb-3" style={{ color: "#ff8800" }}>Admisión 2025</h1>
-          <div className="d-flex align-items-center justify-content-between flex-column flex-xl-row text-start text-xl-start">
-            <div className="mb-4 mb-xl-0">
-              <div className="fs-4 fw-bold text-white">
-                ¡ASEGURA EL FUTURO DE TU HIJO HOY! <br></br>Matricúlate ahora y forma parte de nuestra comunidad educativa.
-              </div>
-              <Link className="btn btn-xl m-2 fs-6 mt-4" id="buttonSec" to="/matriculas">
-                Matrículas aquí <i className="fa-solid fa-chevron-right"></i>
-              </Link>
-            </div>
-            {/* Call to action*/}
-            <div className="subscription ms-xl-4">
-              <div className="text-white-50 mb-3">
-                Suscríbete para estar al día con nuestras noticias.
-              </div>
-              <form id="subscriptionForm" action="https://formsubmit.co/colegiovirtualalianza.adm@gmail.com" method="POST">
-                <div className="input-group mb-2">
-                  <input
-                    className="form-control fs-6"
-                    type="email"
-                    name='email'
-                    id="email-subscription"
-                    placeholder="Ingresa tu email"
-                    aria-label="Email address..."
-                    aria-describedby="button-newsletter"
-                    data-sb-validations="required,email"
-                    autoComplete='off'
-                  />
-                  <button
-                    className="btn btn-outline-light"
-                    id="button-newsletter"
-                    type="submit"
-                  >
-                    Suscríbete!
-                  </button>
-                </div>
-                <input type="hidden" name="_next" value="https://colegiovirtualalianza.vercel.app/" />
-                <input type="hidden" name="_template" value="table" />
-                <input type="hidden" name="_subject" value="Sé parte de la familia CVA" />
-                <input type="hidden" name="_autoresponse" value="Agradecemos tu interés en Colegio Virtual Alianza. Nos comunicaremos contigo lo antes posible. ¡Que tengas un excelente día!" />
-                <input type="hidden" name="_cc" value="superprofevirtual.adm@gmail.com" />
-              </form>
-              <div className="privacity text-white-50">
-                Nos preocupamos por la privacidad y nunca compartiremos tus datos.
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
     </main>
   </>
 }
