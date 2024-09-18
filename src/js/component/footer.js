@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import metroLogo from "../../img/metroLogo.png";
-import logoDark from "../../img/logo-cva-dark.png"
+import logoDark from "../../img/Logos-cva/logo-t-dark.png"
 
 const Footer = () => {
     return (
