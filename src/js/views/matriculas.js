@@ -13,12 +13,12 @@ const Matriculas = () => {
             <div className="col-md-12 col-lg-11 col-xl-10">
               <div className="text-center my-2">
                 <h1 className="site-heading fw-bolder mb-1">
-                <span>Admisión </span> <span style={{ color: "#ff6600", fontWeight:"bold" }}> 2025</span>
+                  <span>Admisión </span> <span style={{ color: "#ff6600", fontWeight: "bold" }}> 2025</span>
                 </h1>
                 <p className="lead-header mb-5">
-               <strong>Modalidad de estudio b-learning: </strong>clases virtuales con una duración de 1 hora pedagógica. Y a la vez, se contemplan talleres presenciales con que el alumno puede complementar su formación.
-               <br></br>
-               <strong>Horario recomendado: de 09:00 a 14:00 hrs.</strong>
+                  <strong>Modalidad de estudio b-learning: </strong>clases virtuales con una duración de 1 hora pedagógica. Y a la vez, se contemplan talleres presenciales con que el alumno puede complementar su formación.
+                  <br></br>
+                  <strong>Horario recomendado: de 09:00 a 14:00 hrs.</strong>
                 </p>
               </div>
             </div>
@@ -29,13 +29,13 @@ const Matriculas = () => {
       <section className="bg-light py-1 mb-5">
         <div className="container px-5 px-lg-1 my-5">
           <div className="text-center mb-5">
-            <h1 className="fw-bolder" style={{color:"#0e408f"}}>Aranceles</h1>
+            <h1 className="fw-bolder" style={{ color: "#0e408f" }}>Aranceles</h1>
             <p className="lead fw-normal text-muted mb-0">
-              Desde enseñanza pre-básica a básica completa 
+              Desde enseñanza pre-básica a básica completa
             </p>
             <p className="lead fw-normal text-black mb-1">
-                  Para comenzar un NUEVO año, con un NUEVA jornada de estudios! 
-                </p>
+              Para comenzar un NUEVO año, con un NUEVA jornada de estudios!
+            </p>
           </div>
           <div className="row gx-5 justify-content-center py-4 rounded-4" id="cardPricing">
             {/* Pricing card matrícula*/}
@@ -43,10 +43,11 @@ const Matriculas = () => {
               <div className="card mb-5 mb-xl-0">
                 <div className="card-body p-4">
                   <div className="text-uppercase fw-bold">
+                  <i className="bi bi-bookmark-star-fill text-success" />
                     Matrícula
                   </div>
                   <div className="mb-4">
-                    <span className="display-4 fw-bold" style={{color:"#ff8800"}}>$55.000</span>
+                    <span className="display-4 fw-bold" style={{ color: "#ff8800" }}>$55.000</span>
                     <span className="text-muted">/ Anual</span>
                   </div>
                   <ul className="list-unstyled mb-4">
@@ -97,10 +98,10 @@ const Matriculas = () => {
                 <div className="card-body p-4">
                   <div className="text-uppercase fw-bold">
                     <i className="bi bi-star-fill text-warning" />
-                     Mensualidad 
+                    Mensualidad
                   </div>
                   <div className="mb-4">
-                    <span className="display-4 fw-bold" style={{color:"#ff8800"}}>$79.000</span>
+                    <span className="display-4 fw-bold" style={{ color: "#ff8800" }}>$79.000</span>
                     <span className="text-muted">/ 10 cuotas</span>
                   </div>
                   <ul className="list-unstyled mb-4">
@@ -110,11 +111,11 @@ const Matriculas = () => {
                     </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                      Pago anual con 10% descuento
+                      Accede al <strong>10% de descuento</strong> por pago anual
                     </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                     10 alumnos máximo por nivel
+                      10 alumnos máximo por nivel
                     </li>
                     {/* <li className="mb-2">
                       <i className="bi bi-check text-primary" />
@@ -137,11 +138,11 @@ const Matriculas = () => {
                       Monthly status reports
                     </li> */}
                   </ul>
-                  <div className="d-grid">
+                  {/* <div className="d-grid">
                     <NavLink className="btn btn-xl" id="buttonSec" to="#!">
                       Matricular
                     </NavLink>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -150,20 +151,22 @@ const Matriculas = () => {
               <div className="card">
                 <div className="card-body p-4">
                   <div className="text-uppercase fw-bold">
+                  <i className="bi bi-file-music-fill text-info" />
                     Talleres presenciales
                   </div>
                   <div className="mb-4">
-                    <span className="display-4 fw-bold" style={{color:"#ff8800"}}>$9.000</span>
-                    <span className="text-muted">/ mensual</span>
+                    <span className="text-muted">desde </span>
+                    <span className="display-4 fw-bold" style={{ color: "#ff8800" }}>$9.000</span>
                   </div>
                   <ul className="list-unstyled mb-4">
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                      <strong>Valor por taller</strong>
+                      <strong>Valor mensual por taller</strong>
                     </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                      Música, deporte, inglés, entre otros                    </li>
+                      Música, deporte, inglés, entre otros
+                    </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
                       Horario: entre 12:00 y 14:00 hrs
@@ -186,11 +189,11 @@ const Matriculas = () => {
                       
                     </li> */}
                   </ul>
-                  <div className="d-grid">
+                  {/* <div className="d-grid">
                     <NavLink className="btn btn-xl" to="#!">
                       Elegir
                     </NavLink>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
