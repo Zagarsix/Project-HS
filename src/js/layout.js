@@ -12,6 +12,8 @@ import Matriculas from "./views/matriculas";
 import Blog from "./views/blog";
 import Contacto from "./views/contacto";
 import NotFound from "./views/NotFound";
+import TermsAndConds from "./views/terminosycondiciones";
+import PrivacyPolicy from "./views/politicadeprivacidad";
 
 //create your first component
 const Layout = () => {
@@ -40,6 +42,12 @@ const Layout = () => {
 					</Route>
 					<Route exact path={"/blog"}>
 						<Blog />
+					</Route>
+					<Route exact path={"/politicadeprivacidad"}>
+						<PrivacyPolicy />
+					</Route>
+					<Route exact path={"/terminosycondiciones"}>
+						<TermsAndConds />
 					</Route>
 					<Route component={NotFound} />
 				</Switch>
