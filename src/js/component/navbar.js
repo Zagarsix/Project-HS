@@ -45,7 +45,7 @@ const Navbar = ({ onMenuToggle }) => {
             <nav className="navbar navbar-expand-lg navbar-light" id="mainNav">
                 <div className="container px-4 px-lg-5">
                     <NavLink className="navbar-brand" to="/" onClick={handleLogoClick}>
-                        <img className="logoBrand mx-3" src={logoHS} alt="logo-brand" width="240" height="100" />
+                        <img className="logoBrand mx-3" src={logoHS} alt="logo-brand" width="192" height="80" />
                     </NavLink>
                     <button
                         className="navbar-toggler"
@@ -98,7 +98,7 @@ const Navbar = ({ onMenuToggle }) => {
                                 {/* <a className="nav-link px-lg-3 py-3 py-lg-4" onClick={handleNavCollapse}>
                                     <button className='btn btn-xl'><a className='text-white' target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/@colegio_virtual_alianza">AULA VIRTUAL</a></button>
                                 </a> */}
-                                <a className="btn px-lg-2 py-3 py-lg-4" id="buttonAula" onClick={handleLogoClick} target="_blank" rel='noopener noreferrer' href="/">Aula Virtual</a>
+                                <a className="btn px-lg-2 py-3 py-lg-4" id="buttonAula" onClick={handleLogoClick} rel='noopener noreferrer' href="#!">Aula Virtual</a>
                             </li>
                         </ul>
                     </div>
