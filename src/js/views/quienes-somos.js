@@ -9,8 +9,6 @@ import dany from "../../img/team/DanyP.png";
 import claudio from "../../img/team/Claudio.png";
 import mitzi from "../../img/team/Mitzi.png";
 import solange from "../../img/team/Solange.png";
-import sandra from "../../img/team/Sandra.png";
-import michelle from "../../img/team/Michelle.png";
 import sahian from "../../img/team/Sayita.png";
 import daniC from "../../img/team/DaniC.png";
 
@@ -22,12 +20,12 @@ const QuienesSomos = () => {
                 <div className="container position-relative px-5 px-lg-3">
                     <div className="row gx-4 gx-lg-5 justify-content-around">
                         <div className="col-md-12 col-lg-11 col-xl-10">
-                            <div className="text-center my-2">
+                            <div className="text-start my-2">
                                 <h1 className="site-heading fw-bolder mb-1">
                                     <span>¿Quiénes</span> <span style={{ color: "#ff6600" }}> somos?</span>
                                 </h1>
                                 <p className="lead-header mb-5">
-                                    <strong>Colegio Virtual Alianza</strong> surge como la solución <strong>profesionales especialistas en educación online</strong>, capacitados para brindar un aprendizaje interactivo y efectivo a través de <strong>plataformas digitales</strong>, garantizando una educación de calidad, acorde a las necesidades del mundo moderno y en un entorno que fomenta tanto el conocimiento como el crecimiento personal.
+                                    <strong>Colegio Virtual Alianza</strong> nace como una plataforma educacional diseñada para apoyar a las familias que educan a sus hijos en casa. Con sede en Santiago, nos dedicamos a brindar una formación académica sólida desde los niveles de <strong> prekinder hasta educación básica.</strong> <br></br>Nuestro nombre se inspira en <strong>la Alianza (pacto, acuerdo)</strong> que hizo Dios con el hombre según <span className='fst-italic'>Isaías 59:21</span>, simbolizando nuestro compromiso con una educación que integra principios cristianos y excelencia académica.
                                 </p>
                             </div>
                         </div>
@@ -69,7 +67,7 @@ const QuienesSomos = () => {
                         </div>
                         <div className="col-lg-6">
                             <h2 className="fw-bolder" style={{ color: "#0e408f" }}>Desarrollo <span style={{ color: "#3dfffb", background: "rgb(0, 0, 90, 0.5)", borderRadius: "5rem", padding: "5px" }}>&amp; más allá</span></h2>
-                            <p className="lead fw-normal text-muted mb-0">Nuestro compromiso es ofrecer un entorno educativo <strong>flexible y personalizado </strong>que se adapte a las necesidades individuales de cada estudiante, promoviendo el desarrollo integral y el amor por el aprendizaje. <br></br>Contemplando los niveles <strong>desde enseñanza pre-básica a media</strong>, a través de una plataforma <strong>online y talleres presenciales.</strong>
+                            <p className="lead fw-normal text-muted mb-0">Nuestro compromiso es ofrecer un entorno educativo <strong>flexible y personalizado </strong>que se adapte a las necesidades individuales de cada estudiante, promoviendo el desarrollo integral y el amor por el aprendizaje. <br></br>Contemplando los niveles <strong>desde enseñanza pre-básica a básica general</strong>, a través de una plataforma <strong>online y talleres presenciales.</strong>
                             </p>
                         </div>
                     </div>
@@ -129,7 +127,7 @@ const QuienesSomos = () => {
                                     alt="Claudio Candia riendo"
                                 />
                                 <h5 className="fw-bolder">Claudio Candia</h5>
-                                <div className="fst-italic text-muted">Webmaster, desarrollador &amp; diseñador</div>
+                                <div className="fst-italic text-muted">Administrador</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -140,7 +138,7 @@ const QuienesSomos = () => {
                                     alt="Mitzi"
                                 />
                                 <h5 className="fw-bolder">Mitzi Gardel</h5>
-                                <div className="fst-italic text-muted">Psicopedagoga</div>
+                                <div className="fst-italic text-muted">Psicopedagoga, encargada programa N.E.E.</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -151,29 +149,7 @@ const QuienesSomos = () => {
                                     alt="Solange González riendo"
                                 />
                                 <h5 className="fw-bolder">Solange González</h5>
-                                <div className="fst-italic text-muted">Jefa de Operaciones</div>
-                            </div>
-                        </div>
-                        <div className="col mb-5 mb-xl-5">
-                            <div className="text-center">
-                                <img
-                                    className="img-fluid rounded-circle mb-2 px-2"
-                                    src={sandra}
-                                    alt="Sandra Panguinao riendo"
-                                />
-                                <h5 className="fw-bolder">Sandra Panguinao</h5>
-                                <div className="fst-italic text-muted">Jefa de talleres</div>
-                            </div>
-                        </div>
-                        <div className="col mb-5 mb-xl-5">
-                            <div className="text-center">
-                                <img
-                                    className="img-fluid rounded-circle mb-2 px-2"
-                                    src={michelle}
-                                    alt="Michelle Zapata riendo"
-                                />
-                                <h5 className="fw-bolder">Michelle Zapata</h5>
-                                <div className="fst-italic text-muted">Jefa Unidad de Apoyo N.E.E.</div>
+                                <div className="fst-italic text-muted">Encargada gestión corporativa</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
