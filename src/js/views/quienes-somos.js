@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import homeBG from "../../img/bg-section/lapices-bg.jpg";
 import logoVyM from "../../img/logo-v-m.jpg";
@@ -14,7 +14,7 @@ import michelle from "../../img/team/Michelle.png";
 import sahian from "../../img/team/Sayita.png";
 import daniC from "../../img/team/DaniC.png";
 
-const Nosotros = () => {
+const QuienesSomos = () => {
     return <>
         <main className="flex-shrink-0">
             {/* Header*/}
@@ -27,11 +27,8 @@ const Nosotros = () => {
                                     <span>¿Quiénes</span> <span style={{ color: "#ff6600" }}> somos?</span>
                                 </h1>
                                 <p className="lead-header mb-5">
-                                    <strong>Colegio Virtual Alianza</strong> está conformado por un equipo de <strong>profesionales especialistas en educación online</strong>, capacitados para brindar un aprendizaje interactivo y efectivo a través de <strong>plataformas digitales</strong>, garantizando una educación de calidad, acorde a las necesidades del mundo moderno y en un entorno que fomenta tanto el conocimiento como el crecimiento personal.
+                                    <strong>Colegio Virtual Alianza</strong> surge como la solución <strong>profesionales especialistas en educación online</strong>, capacitados para brindar un aprendizaje interactivo y efectivo a través de <strong>plataformas digitales</strong>, garantizando una educación de calidad, acorde a las necesidades del mundo moderno y en un entorno que fomenta tanto el conocimiento como el crecimiento personal.
                                 </p>
-                                {/* <NavLink className="btn btn-xl py-2 my-2" to="#scroll-target" style={{ background: "#131c96" }}>
-                                    Lee nuestra historia
-                                </NavLink> */}
                             </div>
                         </div>
                     </div>
@@ -106,7 +103,7 @@ const Nosotros = () => {
             <section className="py-5 bg-light">
                 <div className="container px-5 my-5">
                     <div className="text-center">
-                        <h1 className="fw-bolder" style={{ color: "#0e408f" }}>Nuestro equipo</h1>
+                        <h1 className="fw-bolder" style={{ color: "#0e408f" }}>Equipo Administrativo</h1>
                         <p className="lead fw-normal text-muted mb-5">
                             Dedicados a la calidad &amp; el éxito
                         </p>
@@ -202,10 +199,15 @@ const Nosotros = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='justify-content-end'>
+                        <Link className="btn btn-xl m-2" to="/equipo-academico">
+                            Conoce a tus profesores <i className="fa-solid fa-arrow-right"></i>
+                        </Link>
+                    </div>
                 </div>
             </section>
         </main>
     </>
 }
 
-export default Nosotros;
+export default QuienesSomos;
