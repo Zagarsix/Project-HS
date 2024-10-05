@@ -7,7 +7,8 @@ import ButtonWame from "./component/buttonWame";
 import ScrollToTopButton from "./component/buttonScrollToTop";
 
 import Home from "./views/home";
-import Nosotros from "./views/nosotros";
+import QuienesSomos from "./views/quienes-somos";
+import EquipoA from "./views/equipo-academico";
 import Matriculas from "./views/matriculas";
 import Blog from "./views/blog";
 import Contacto from "./views/contacto";
@@ -26,13 +27,16 @@ const Layout = () => {
 	return (
 		<div className={isMenuOpen ? 'menu-open' : ''}>
 			<BrowserRouter>
-				<Navbar onMenuToggle={handleMenuToggle}/>
+				<Navbar onMenuToggle={handleMenuToggle} />
 				<Switch>
 					<Route exact path={"/"} >
 						<Home />
 					</Route>
-					<Route exact path={"/nosotros"} >
-						<Nosotros />
+					<Route exact path={"/quienes-somos"} >
+						<QuienesSomos />
+					</Route>
+					<Route exact path={"/equipo-academico"} >
+						<EquipoA />
 					</Route>
 					<Route exact path={"/contacto"} >
 						<Contacto />
@@ -51,8 +55,8 @@ const Layout = () => {
 					</Route>
 					<Route component={NotFound} />
 				</Switch>
-				<ButtonWame/>
-				<ScrollToTopButton/>
+				<ButtonWame />
+				<ScrollToTopButton />
 				<Footer />
 			</BrowserRouter>
 		</div>

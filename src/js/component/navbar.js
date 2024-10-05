@@ -74,10 +74,30 @@ const Navbar = ({ onMenuToggle }) => {
                                     Inicio
                                 </NavLink>
                             </li> */}
-                            <li className="nav-item">
-                                <NavLink className="nav-link px-lg-2 py-3 py-lg-4" to="/nosotros" onClick={handleNavCollapse}>
+                            <li className="nav-item dropdown">
+                                <NavLink className="nav-link dropdown-toggle px-lg-2 py-3 py-lg-4" to="#"
+                                    id="navbarDropdownNosotros"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
                                     Nosotros
                                 </NavLink>
+                                <ul
+                                    className="dropdown-menu dropdown-menu-end"
+                                    aria-labelledby="navbarDropdownNosotros"
+                                >
+                                    <li>
+                                        <NavLink className="dropdown-item" to="/quienes-somos" onClick={handleNavCollapse}>
+                                            ¿Quiénes somos?
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink className="dropdown-item" to="/equipo-academico" onClick={handleNavCollapse}>
+                                            Equipo Acádemico
+                                        </NavLink>
+                                    </li>
+                                </ul>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link px-lg-2 py-3 py-lg-4" to="/matriculas" onClick={handleNavCollapse}>
