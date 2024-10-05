@@ -7,6 +7,7 @@ import claudio from "../../img/team/Claudio.png";
 import mitzi from "../../img/team/Mitzi.png";
 import sandra from "../../img/team/Sandra.png";
 import michelle from "../../img/team/Michelle.png";
+import camila from "../../img/team/Camila.png";
 
 const EquipoA = () => {
     return <>
@@ -16,7 +17,7 @@ const EquipoA = () => {
                 <div className="container position-relative px-5 px-lg-3">
                     <div className="row gx-4 gx-lg-5 justify-content-around">
                         <div className="col-md-12 col-lg-11 col-xl-10">
-                            <div className="text-center my-2">
+                            <div className="text-start my-2">
                                 <h1 className="site-heading fw-bolder mb-1">
                                     <span>Equipo</span> <span style={{ color: "#ff6600" }}> Académico</span>
                                 </h1>
@@ -41,24 +42,13 @@ const EquipoA = () => {
                         <div className="col mb-5 mb-xl-5">
                             <img
                                 className="img-fluid rounded-circle mb-2 px-2"
-                                src={dany}
-                                alt="Dany Pacheco riendo"
+                                src={camila}
+                                alt="Camila Zamorano riendo"
                             />
                             <div className="text-center">
 
-                                <h5 className="fw-bolder">Daniela Pacheco</h5>
-                                <div className="fst-italic text-muted">Coordinadora General</div>
-                            </div>
-                        </div>
-                        <div className="col mb-5 mb-xl-5">
-                            <div className="text-center">
-                                <img
-                                    className="img-fluid rounded-circle mb-2 px-2"
-                                    src={claudio}
-                                    alt="Claudio Candia riendo"
-                                />
-                                <h5 className="fw-bolder">Claudio Candia</h5>
-                                <div className="fst-italic text-muted">Webmaster, desarrollador &amp; diseñador</div>
+                                <h5 className="fw-bolder">Camila Zamorano</h5>
+                                <div className="fst-italic text-muted">Pre-kinder y Kinder</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -69,7 +59,33 @@ const EquipoA = () => {
                                     alt="Mitzi"
                                 />
                                 <h5 className="fw-bolder">Mitzi Gardel</h5>
-                                <div className="fst-italic text-muted">Psicopedagoga</div>
+                                <div className="fst-italic text-muted">Lenguaje e Historia</div>
+                                <div className="fst-italic text-muted">1° a 4° básico</div>
+                            </div>
+                        </div>
+                        <div className="col mb-5 mb-xl-5">
+                            <img
+                                className="img-fluid rounded-circle mb-2 px-2"
+                                src={dany}
+                                alt="Dany Pacheco riendo"
+                            />
+                            <div className="text-center">
+
+                                <h5 className="fw-bolder">Daniela Pacheco</h5>
+                                <div className="fst-italic text-muted">Ciencias (Física y Biología)</div>
+                                <div className="fst-italic text-muted">4° a 8° básico</div>
+                            </div>
+                        </div>
+                        <div className="col mb-5 mb-xl-5">
+                            <div className="text-center">
+                                <img
+                                    className="img-fluid rounded-circle mb-2 px-2"
+                                    src={claudio}
+                                    alt="Claudio Candia riendo"
+                                />
+                                <h5 className="fw-bolder">Claudio Candia</h5>
+                                <div className="fst-italic text-muted">Matemáticas y Ciencias (Química)</div>
+                                <div className="fst-italic text-muted">4° a 8° básico</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -80,7 +96,7 @@ const EquipoA = () => {
                                     alt="Sandra Panguinao riendo"
                                 />
                                 <h5 className="fw-bolder">Sandra Panguinao</h5>
-                                <div className="fst-italic text-muted">Jefa de talleres</div>
+                                <div className="fst-italic text-muted">Taller de música</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -91,7 +107,7 @@ const EquipoA = () => {
                                     alt="Michelle Zapata riendo"
                                 />
                                 <h5 className="fw-bolder">Michelle Zapata</h5>
-                                <div className="fst-italic text-muted">Jefa Unidad de Apoyo N.E.E.</div>
+                                <div className="fst-italic text-muted">Taller de Valores Cristianos</div>
                             </div>
                         </div>
                     </div>
