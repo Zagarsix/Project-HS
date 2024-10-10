@@ -17,7 +17,7 @@ const QuienesSomos = () => {
         <main className="flex-shrink-0">
             {/* Header*/}
             <header className="masthead" style={{ backgroundImage: `url(${homeBG})` }}>
-                <div className="container position-relative px-5 px-lg-3">
+                <div className="container position-relative px-4 px-lg-3">
                     <div className="row gx-4 gx-lg-5 justify-content-around">
                         <div className="col-md-12 col-lg-11 col-xl-10">
                             <div className="text-start my-2">
@@ -138,7 +138,7 @@ const QuienesSomos = () => {
                                     alt="Mitzi"
                                 />
                                 <h5 className="fw-bolder">Mitzi Gardel</h5>
-                                <div className="fst-italic text-muted">Psicopedagoga, encargada programa N.E.E.</div>
+                                <div className="fst-italic text-muted">Psicopedagoga, encargada programa NEE</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -160,7 +160,7 @@ const QuienesSomos = () => {
                                     alt="Sahian candia riendo"
                                 />
                                 <h5 className="fw-bolder">Sahian Candia</h5>
-                                <div className="fst-italic text-muted">Encargada Redes Sociales</div>
+                                <div className="fst-italic text-muted">Encargada de RR.SS.</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
