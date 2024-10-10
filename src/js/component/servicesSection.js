@@ -29,8 +29,8 @@ const FlexCards = () => {
     {
       id: 2,
       image: s2,
-      title: "Clases de Inglés",
-      description: "Tu camino al inglés empieza aquí. Desde 1° básico."
+      title: "Taller de Idiomas",
+      description: "Tu camino al inglés empieza aquí."
     },
     {
       id: 3,
@@ -41,8 +41,8 @@ const FlexCards = () => {
     {
       id: 4,
       image: s4,
-      title: "Apoyo N.E.E.",
-      description: "Atención a niños con Necesidades Educativas Especiales transitorias y permanentes."
+      title: "Apoyo NEE",
+      description: "Atención a niños con Necesidades Educativas Especiales."
     },
     {
       id: 5,
@@ -137,8 +137,8 @@ export default FlexCards;
 //             <div className='row'>
 //               <div className='icon'>4</div>
 //               <div className='description'>
-//                 <h4> Apoyo N.E.E.</h4>
-//                 <p>Atención a niños con Necesidades Educativas Especiales transitorias y permanentes.</p>
+//                 <h4> Apoyo NEE</h4>
+//                 <p>Atención a niños con Necesidades Educativas Especiales.</p>
 //               </div>
 //             </div>
 //           </label>
