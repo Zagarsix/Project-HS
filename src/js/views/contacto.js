@@ -9,7 +9,7 @@ const Contacto = () => {
     <main className="flex-shrink-0">
       {/* Header*/}
       <header className="masthead" style={{ backgroundImage: `url(${contact})` }}>
-        <div className="container position-relative px-5 px-lg-3">
+        <div className="container position-relative px-4 px-lg-3">
           <div className="row gx-4 gx-lg-5 justify-content-around">
             <div className="col-md-12 col-lg-11 col-xl-10">
               <div className="text-center my-2">
