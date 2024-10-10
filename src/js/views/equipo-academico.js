@@ -14,7 +14,7 @@ const EquipoA = () => {
         <main className="flex-shrink-0">
             {/* Header*/}
             <header className="masthead" style={{ backgroundImage: `url(${homeBG})` }}>
-                <div className="container position-relative px-5 px-lg-3">
+                <div className="container position-relative px-4 px-lg-3">
                     <div className="row gx-4 gx-lg-5 justify-content-around">
                         <div className="col-md-12 col-lg-11 col-xl-10">
                             <div className="text-start my-2">
@@ -48,7 +48,7 @@ const EquipoA = () => {
                             <div className="text-center">
 
                                 <h5 className="fw-bolder">Camila Zamorano</h5>
-                                <div className="fst-italic text-muted">Pre-kinder y Kinder</div>
+                                <div className="fst-italic text-muted">Educadora Pre-básica</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -59,8 +59,8 @@ const EquipoA = () => {
                                     alt="Mitzi"
                                 />
                                 <h5 className="fw-bolder">Mitzi Gardel</h5>
-                                <div className="fst-italic text-muted">Lenguaje e Historia</div>
-                                <div className="fst-italic text-muted">1° a 4° básico</div>
+                                <div className="fst-italic text-muted">Profesora de Historia</div>
+                                <div className="fst-italic text-muted">5° a 8° básico</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -72,8 +72,8 @@ const EquipoA = () => {
                             <div className="text-center">
 
                                 <h5 className="fw-bolder">Daniela Pacheco</h5>
-                                <div className="fst-italic text-muted">Ciencias (Física y Biología)</div>
-                                <div className="fst-italic text-muted">4° a 8° básico</div>
+                                <div className="fst-italic text-muted">Profesora de Ciencias (Física y Biología)</div>
+                                <div className="fst-italic text-muted">5° a 8° básico</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -84,8 +84,8 @@ const EquipoA = () => {
                                     alt="Claudio Candia riendo"
                                 />
                                 <h5 className="fw-bolder">Claudio Candia</h5>
-                                <div className="fst-italic text-muted">Matemáticas y Ciencias (Química)</div>
-                                <div className="fst-italic text-muted">4° a 8° básico</div>
+                                <div className="fst-italic text-muted">Profesor de Matemáticas y Ciencias (Química)</div>
+                                <div className="fst-italic text-muted">5° a 8° básico</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -96,7 +96,7 @@ const EquipoA = () => {
                                     alt="Sandra Panguinao riendo"
                                 />
                                 <h5 className="fw-bolder">Sandra Panguinao</h5>
-                                <div className="fst-italic text-muted">Taller de música</div>
+                                <div className="fst-italic text-muted">Encargada de talleres y Profesora de piano inicial</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
@@ -107,7 +107,7 @@ const EquipoA = () => {
                                     alt="Michelle Zapata riendo"
                                 />
                                 <h5 className="fw-bolder">Michelle Zapata</h5>
-                                <div className="fst-italic text-muted">Taller de Valores Cristianos</div>
+                                <div className="fst-italic text-muted">Profesora de valores cristianos</div>
                             </div>
                         </div>
                     </div>
