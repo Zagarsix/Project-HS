@@ -10,8 +10,10 @@ import FlexCards from '../component/servicesSection';
 import parents2 from "../../img/blog/parents-and-children2.jpg";
 import children from "../../img/blog/modalidad-hs.jpg";
 import family1 from "../../img/blog/family1.jpg";
+import admision from "../../img/bg-section/home-bg.jpg";
 import temporal from "../../img/team/DanyP.png";
-import admision from "../../img/bg-section/home-bg.jpg"
+import andres from "../../img/testimonials/dad1.jpg"; 
+import evelyn from "../../img/testimonials/mom2.jpg"; 
 
 const Home = () => {
   return <>
@@ -37,11 +39,11 @@ const Home = () => {
         </div>
       </header>
       {/* About*/}
-      <section className="content-section bg-light py-1 py-lg-4 mb-5" id="about">
+      <section className="content-section bg-light py-5 py-lg-4 mb-5" id="about">
         <div className="container px-4 px-lg-5 text-center">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-lg-10">
-              <h2>Bienvenidos a <span style={{ color: "#ff8800" }}>Colegio Virtual</span><span style={{ fontWeight: "bolder", color: "#0e408f" }}> Alianza:</span> el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
+              <h2>Bienvenidos a <span style={{ color: "#ff8800" }}>Colegio Virtual</span><span style={{ fontWeight: "bolder", color: "#0e408f" }}> Alianza:</span> ¡el lugar perfecto para que tus hijos den sus próximos pasos!</h2>
               <p className="lead mb-2">
                 Experimenta esta nueva modalidad de estudio <strong>b-learning:</strong> clases online y talleres presenciales. No los dejes sin su&nbsp;
                 <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/matriculas">matrícula!</Link>
@@ -269,7 +271,7 @@ const Home = () => {
                 />
                 <div className="card-body p-4">
                   <div className="badge bg-gradient rounded-pill mb-2">
-                    News
+                    Noticias
                   </div>
                   <Link
                     className="text-decoration-none link-dark stretched-link"
@@ -293,9 +295,9 @@ const Home = () => {
                         alt="..."
                       />
                       <div className="small">
-                        <div className="fw-bold">Kelly Rowan</div>
+                        <div className="fw-bold">Daniela Pacheco</div>
                         <div className="text-muted">
-                          March 12, 2022 · 6 min read
+                          21 de Marzo, 2024 <br></br> 6 min de lectura
                         </div>
                       </div>
                     </div>
@@ -312,7 +314,7 @@ const Home = () => {
                 />
                 <div className="card-body p-4">
                   <div className="badge bg-gradient rounded-pill mb-2">
-                    Media
+                    Reviews
                   </div>
                   <Link
                     className="text-decoration-none link-dark stretched-link"
@@ -331,15 +333,15 @@ const Home = () => {
                     <div className="d-flex align-items-center">
                       <img
                         className="rounded-circle me-3"
-                        src={temporal}
+                        src={andres}
                         width="40"
                         height="40"
                         alt="..."
                       />
                       <div className="small">
-                        <div className="fw-bold">Josiah Barclay</div>
+                        <div className="fw-bold">Andrés García</div>
                         <div className="text-muted">
-                          March 23, 2022 · 4 min read
+                          10 de Junio, 2024 <br></br> 4 min de lectura
                         </div>
                       </div>
                     </div>
@@ -356,7 +358,7 @@ const Home = () => {
                 />
                 <div className="card-body p-4">
                   <div className="badge bg-gradient rounded-pill mb-2">
-                    News
+                    Noticias
                   </div>
                   <Link
                     className="text-decoration-none link-dark stretched-link"
@@ -376,7 +378,7 @@ const Home = () => {
                     <div className="d-flex align-items-center">
                       <img
                         className="rounded-circle me-3"
-                        src={temporal}
+                        src={evelyn}
                         width="40"
                         height="40"
                         alt="..."
@@ -384,7 +386,7 @@ const Home = () => {
                       <div className="small">
                         <div className="fw-bold">Evelyn Martinez</div>
                         <div className="text-muted">
-                          April 2, 2022 · 10 min read
+                          12 de Agosto, 2024 <br></br> 8 min de lectura
                         </div>
                       </div>
                     </div>
@@ -440,7 +442,6 @@ const Home = () => {
           </aside> */}
         </div>
       </section>
-
     </main>
   </>
 }
