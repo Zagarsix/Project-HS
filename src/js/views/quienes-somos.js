@@ -10,7 +10,6 @@ import claudio from "../../img/team/Claudio.png";
 import mitzi from "../../img/team/Mitzi.png";
 import solange from "../../img/team/Solange.png";
 import sahian from "../../img/team/Sayita.png";
-import daniC from "../../img/team/DaniC.png";
 
 const QuienesSomos = () => {
     return <>
@@ -145,17 +144,6 @@ const QuienesSomos = () => {
                             <div className="text-center">
                                 <img
                                     className="img-fluid rounded-circle mb-2 px-2"
-                                    src={solange}
-                                    alt="Solange González riendo"
-                                />
-                                <h5 className="fw-bolder">Solange González</h5>
-                                <div className="fst-italic text-muted">Encargada gestión corporativa</div>
-                            </div>
-                        </div>
-                        <div className="col mb-5 mb-xl-5">
-                            <div className="text-center">
-                                <img
-                                    className="img-fluid rounded-circle mb-2 px-2"
                                     src={sahian}
                                     alt="Sahian candia riendo"
                                 />
@@ -167,11 +155,11 @@ const QuienesSomos = () => {
                             <div className="text-center">
                                 <img
                                     className="img-fluid rounded-circle mb-2 px-2"
-                                    src={daniC}
-                                    alt="Dani Córdova riendo"
+                                    src={solange}
+                                    alt="Solange González riendo"
                                 />
-                                <h5 className="fw-bolder">Daniela Córdova</h5>
-                                <div className="fst-italic text-muted">Asistente administrativo</div>
+                                <h5 className="fw-bolder">Solange González</h5>
+                                <div className="fst-italic text-muted">Encargada gestión corporativa</div>
                             </div>
                         </div>
                     </div>
