@@ -51,7 +51,7 @@ const Home = () => {
               <Link className="btn btn-xl m-2" to="/contacto">
                 Contáctanos!
               </Link>
-              <Link className="btn btn-xl m-2" id="buttonSec" to="/nosotros">
+              <Link className="btn btn-xl m-2" id="buttonSec" to="/quienes-somos">
                 Conoce de nosotros <i className="fa-solid fa-chevron-right"></i>
               </Link>
             </div>
