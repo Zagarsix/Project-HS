@@ -3264,11 +3264,14 @@ textarea.form-control.is-invalid {
   font-size: 1.2rem;
   text-decoration: none;
   text-transform: none !important;
+  box-shadow: 0.4rem 0.4rem 1rem rgba(0, 0, 0, 0.6);
 }
 
 #buttonAula:hover {
   background: #ff8800 !important;
   color: white !important;
+  border-color: #FF8800 !important;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(255 146 0/ 0.5);
 }
 
 .btn-check+.btn:hover {
