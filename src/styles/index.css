@@ -12459,9 +12459,10 @@ blockquote {
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link {
   font-size: 1.1rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  margin-right: 0.5rem;
+  text-transform: capitalize;
 }
 
 @media (min-width: 992px) {
@@ -12483,7 +12484,7 @@ blockquote {
   #mainNav .navbar-nav>li.nav-item>a.nav-link {
     color: white;
     background: transparent;
-    text-shadow: 0 0 0.2em #ff6600;
+    text-shadow: 0 0 0.8em #ff6600;
     border-radius: 5rem;
   }
 
