@@ -1,6 +1,9 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import matricula from "../../img/bg-section/home-bg.jpg"
+import form from "../../img/form-and-meeting.png";
+import pay from "../../img/pay-tuition.png";
+import welcomeEmail from "../../img/confirm-email.png";
 
 const Matriculas = () => {
   return <>
@@ -43,7 +46,7 @@ const Matriculas = () => {
               <div className="card mb-5 mb-xl-0">
                 <div className="card-body p-4">
                   <div className="text-uppercase fw-bold">
-                  <i className="bi bi-bookmark-star-fill text-success" />
+                    <i className="bi bi-bookmark-star-fill text-success" />
                     Matrícula
                   </div>
                   <div className="mb-4">
@@ -151,7 +154,7 @@ const Matriculas = () => {
               <div className="card">
                 <div className="card-body p-4">
                   <div className="text-uppercase fw-bold">
-                  <i className="bi bi-file-music-fill text-info" />
+                    <i className="bi bi-file-music-fill text-info" />
                     Talleres presenciales
                   </div>
                   <div className="mb-4">
@@ -196,6 +199,73 @@ const Matriculas = () => {
                   </div> */}
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Pasos para matricular*/}
+      <section className="bg-light py-1 mb-5">
+        <div className="container px-5 px-lg-1 my-1">
+          <h1 className="fw-bolder mb-5" style={{ color: "#0e408f" }}>¿Cómo matricular a tu hijo en CVA?</h1>
+          {/* Paso 1*/}
+          <div className="row gx-5 mb-5">
+            <div className="col-lg-7 text-start py-lg-3 mb-lg-5">
+              <span className="text-uppercase fw-normal mb-0" style={{ color: "#3dfffb", background: "#0e408f", borderRadius: ".5rem", padding: ".6rem" }}>
+                Paso 1:
+              </span>
+              <p className="fw-normal text-muted mb-1">
+                Debes llenar el formulario de admisión, en el cual podrás agendar una reunión vía zoom, para entregarte información detallada.
+              </p>
+              <a className="btn btn-xl m-2" id="buttonSec" target='_blank' rel='noopener noreferrer' href="https://forms.gle/B22vLW8RmatW14RB8">Formulario de admisión <i className="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <div className="col-lg-5 mb-5 text-center">
+              <img
+                className="img-fluid"
+                width="200"
+                height="200"
+                src={form}
+                alt="ilustración de formulario"
+              />
+            </div>
+          </div>
+          {/* Paso 2*/}
+          <div className="row gx-5 mt-5 mb-5">
+            <div className="col-lg-5 mb-5 text-center">
+              <img
+                className="img-fluid"
+                width="200"
+                height="200"
+                src={pay}
+                alt="ilustración de pago"
+              />
+            </div>
+            <div className="col-lg-7 text-start py-3 mb-5">
+              <span className="text-uppercase fw-normal mb-0" style={{ color: "#0e408f", background: "#ff8800", borderRadius: ".5rem", padding: ".6rem" }}>
+                Paso 2:
+              </span>
+              <p className="fw-normal text-muted mb-1">
+                Inscripción y formalización de la matrícula (pago en efectivo ó transferencia bancaria).
+              </p>
+            </div>
+          </div>
+          {/* Paso 3*/}
+          <div className="row gx-5 mt-5 mb-5">
+            <div className="col-lg-7 text-start py-3 mb-5">
+              <span className="text-uppercase fw-normal mb-0" style={{ color: "#3dfffb", background: "#0e408f", borderRadius: ".5rem", padding: ".6rem" }}>
+                Paso 3:
+              </span>
+              <p className="fw-normal text-muted mb-1">
+                Recibirás un correo de bienvenida, junto con el acceso al Aula Virtual.
+              </p>
+            </div>
+            <div className="col-lg-5 mb-5 text-center">
+              <img
+                className="img-fluid"
+                width="200"
+                height="200"
+                src={welcomeEmail}
+                alt="ilustración de correo de bienvenida"
+              />
             </div>
           </div>
         </div>
