@@ -43,7 +43,10 @@ const QuienesSomos = () => {
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder" style={{ color: "#0e408f", borderRadius: "5rem" }}><span >Visión </span><span style={{ color: "#3dfffb", background: "rgb(0, 0, 90, 0.5)", borderRadius: "5rem", padding: "5px" }}> &amp; Misión</span></h2>
+                            <h2 className="fw-bolder" >
+                                <span style={{ color: "#3dfffb", background: "#0e408f", borderRadius: "5rem", padding: "5px" }}>Visión </span>
+                                <span style={{ color: "#ff8800", padding: "5px" }}> &amp; Misión</span>
+                            </h2>
                             <div className="lead fw-normal text-muted mb-0">
                                 <p><strong>Visión: </strong>Ser reconocidos como un referente en educación a distancia, destacándonos por la excelencia académica, la innovación pedagógica y el compromiso con el desarrollo integral de nuestros estudiantes. Aspiramos a formar individuos críticos, creativos y con valores sólidos, preparados para enfrentar los desafíos del mundo contemporáneo.</p>
                                 <p><strong>Misión: </strong>Entregar una educación integral y personalizada para niños y jóvenes, bajo valores, principios y conceptos cristianos; fomentando un aprendizaje activo, participativo y significativo. Nos comprometemos a acompañar a nuestros estudiantes en su proceso de aprendizaje, respetando sus ritmos y estilos, y promoviendo el desarrollo de sus capacidades y talentos.
@@ -65,7 +68,10 @@ const QuienesSomos = () => {
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder" style={{ color: "#0e408f" }}>Desarrollo <span style={{ color: "#3dfffb", background: "rgb(0, 0, 90, 0.5)", borderRadius: "5rem", padding: "5px" }}>&amp; más allá</span></h2>
+                            <h2 className="fw-bolder">
+                                <span style={{ color: "#3dfffb", background: "#0e408f", borderRadius: "5rem", padding: "5px" }}>Desarrollo</span>
+                                <span style={{ color: "#ff8800", padding: "5px" }}>&amp; más allá</span>
+                            </h2>
                             <p className="lead fw-normal text-muted mb-0">Nuestro compromiso es ofrecer un entorno educativo <strong>flexible y personalizado </strong>que se adapte a las necesidades individuales de cada estudiante, promoviendo el desarrollo integral y el amor por el aprendizaje. <br></br>Contemplando los niveles <strong>desde enseñanza pre-básica a básica general</strong>, a través de una plataforma <strong>online y talleres presenciales.</strong>
                             </p>
                         </div>
@@ -84,7 +90,10 @@ const QuienesSomos = () => {
                             />
                         </div>
                         <div className="col-lg-6">
-                            <h2 className="fw-bolder" style={{ color: "#0e408f", borderRadius: "5rem" }}><span >Nuestros </span><span style={{ color: "#3dfffb", background: "rgb(0, 0, 90, 0.5)", borderRadius: "5rem", padding: "5px" }}> Valores</span></h2>
+                            <h2 className="fw-bolder">
+                                <span style={{ color: "#3dfffb", background: "#0e408f", borderRadius: "5rem", padding: "5px" }}>Nuestros</span>
+                                <span style={{ color: "#ff8800", padding: "5px" }}>Valores</span>
+                            </h2>
                             <div className="lead fw-normal text-muted mb-0">
                                 <p><strong>Excelencia Académica: </strong>Nos esforzamos por ofrecer una educación de alta calidad, basada en programas académicos rigurosos y actualizados.</p>
                                 <p><strong>Innovación Pedagógica: </strong>Implementamos metodologías de enseñanza innovadoras que fomentan el pensamiento crítico y creativo.</p>
