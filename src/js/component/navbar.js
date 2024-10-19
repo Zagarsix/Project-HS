@@ -75,7 +75,7 @@ const Navbar = ({ onMenuToggle }) => {
                                 </NavLink>
                             </li> */}
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-link dropdown-toggle px-lg-2 py-3 py-lg-4" to="#"
+                                <NavLink className="nav-link dropdown-toggle px-lg-2 py-2 py-lg-4" to="#"
                                     id="navbarDropdownNosotros"
                                     role="button"
                                     data-bs-toggle="dropdown"
@@ -100,17 +100,22 @@ const Navbar = ({ onMenuToggle }) => {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link px-lg-2 py-3 py-lg-4" to="/matriculas" onClick={handleNavCollapse}>
+                                <NavLink className="nav-link px-lg-2 py-2 py-lg-4" to="/matriculas" onClick={handleNavCollapse}>
                                     Matrículas
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link px-lg-2 py-3 py-lg-4" to="/blog" onClick={handleNavCollapse}>
+                                <NavLink className="nav-link px-lg-2 py-2 py-lg-4" to="/blog" onClick={handleNavCollapse}>
                                     Soporte
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link px-lg-2 py-3 py-lg-4" to="/contacto" onClick={handleNavCollapse}>
+                                <NavLink className="nav-link px-lg-2 py-2 py-lg-4" to="/blog" onClick={handleNavCollapse}>
+                                    Blog
+                                </NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink className="nav-link px-lg-2 py-2 py-lg-4 pb-5" to="/contacto" onClick={handleNavCollapse}>
                                     Contacto
                                 </NavLink>
                             </li>
