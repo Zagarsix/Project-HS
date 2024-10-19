@@ -204,7 +204,7 @@ const Matriculas = () => {
         </div>
       </section>
       {/* Pasos para matricular*/}
-      <section className="bg-light py-1 mb-5">
+      <section className="bg-light py-3 mt-4 mb-5">
         <div className="container px-5 px-lg-1 my-1">
           <h1 className="fw-bolder mb-5" style={{ color: "#0e408f" }}>¿Cómo matricular a tu hijo en CVA?</h1>
           {/* Paso 1*/}
@@ -230,7 +230,7 @@ const Matriculas = () => {
           </div>
           {/* Paso 2*/}
           <div className="row gx-5 mt-5 mb-5">
-            <div className="col-lg-5 mb-5 text-center">
+            <div className="col-lg-5 mb-5 text-center order-last order-lg-first">
               <img
                 className="img-fluid"
                 width="200"
@@ -244,7 +244,7 @@ const Matriculas = () => {
                 Paso 2:
               </span>
               <p className="fw-normal text-muted mb-1">
-                Inscripción y formalización de la matrícula (pago en efectivo ó transferencia bancaria).
+                Inscripción y formalización de la matrícula (pago en efectivo ó transferencia bancaria) según las instrucciones dadas por el área administrativa.
               </p>
             </div>
           </div>
@@ -255,7 +255,7 @@ const Matriculas = () => {
                 Paso 3:
               </span>
               <p className="fw-normal text-muted mb-1">
-                Recibirás un correo de bienvenida, junto con el acceso al Aula Virtual.
+                Recibirás un correo de bienvenida. Posteriormente, en febrero del 2025, recibirás un correo con el acceso al Aula Virtual (usuario y contraseña).
               </p>
             </div>
             <div className="col-lg-5 mb-5 text-center">
