@@ -8,7 +8,6 @@ import welcomeEmail from "../../img/confirm-email.png";
 const Matriculas = () => {
   return <>
     <main className="flex-shrink-0">
-      {/* Pricing section*/}
       {/* Header*/}
       <header className="masthead" style={{ backgroundImage: `url(${matricula})` }}>
         <div className="container position-relative px-4 px-lg-3">
@@ -30,14 +29,14 @@ const Matriculas = () => {
       </header>
       {/* Pricing section*/}
       <section className="bg-light py-1 mb-5">
-        <div className="container px-5 px-lg-1 my-5">
+        <div className="container px-5 my-5">
           <div className="text-center mb-5">
             <h1 className="fw-bolder" style={{ color: "#0e408f" }}>Aranceles</h1>
             <p className="lead fw-normal text-muted mb-0">
               Desde enseñanza pre-básica a básica completa
             </p>
             <p className="lead fw-normal text-black mb-1">
-              Para comenzar un NUEVO año, con un NUEVA jornada de estudios!
+              ¡Para comenzar un NUEVO año, con una NUEVA jornada de estudios!
             </p>
           </div>
           <div className="row gx-5 justify-content-center py-4 rounded-4" id="cardPricing">
@@ -205,11 +204,11 @@ const Matriculas = () => {
       </section>
       {/* Pasos para matricular*/}
       <section className="bg-light py-3 mt-4 mb-5">
-        <div className="container px-5 px-lg-1 my-1">
+        <div className="container px-5 my-5">
           <h1 className="fw-bolder mb-5" style={{ color: "#0e408f" }}>¿Cómo matricular a tu hijo en CVA?</h1>
           {/* Paso 1*/}
           <div className="row gx-5 mb-5">
-            <div className="col-lg-7 text-start py-lg-3 mb-lg-5">
+            <div className="col-lg-7 text-start py-3 mb-5">
               <span className="text-uppercase fw-normal mb-0" style={{ color: "#3dfffb", background: "#0e408f", borderRadius: ".5rem", padding: ".6rem" }}>
                 Paso 1:
               </span>
