@@ -8,6 +8,7 @@ import valores from "../../img/logo-valores.jpg";
 import dany from "../../img/team/DanyP.png";
 import claudio from "../../img/team/Claudio.png";
 import mitzi from "../../img/team/Mitzi.png";
+import nicole from "../../img/team/Nicole.png"
 import solange from "../../img/team/Solange.png";
 import sahian from "../../img/team/Sayita.png";
 
@@ -143,10 +144,21 @@ const QuienesSomos = () => {
                                 <img
                                     className="img-fluid rounded-circle mb-2 px-2"
                                     src={mitzi}
-                                    alt="Mitzi"
+                                    alt="Mitzi Gardel"
                                 />
                                 <h5 className="fw-bolder">Mitzi Gardel</h5>
                                 <div className="fst-italic text-muted">Psicopedagoga, encargada programa NEE</div>
+                            </div>
+                        </div>
+                        <div className="col mb-5 mb-xl-5">
+                            <div className="text-center">
+                                <img
+                                    className="img-fluid rounded-circle mb-2 px-2"
+                                    src={nicole}
+                                    alt="Nicole Jorquera"
+                                />
+                                <h5 className="fw-bolder">Nicole Jorquera</h5>
+                                <div className="fst-italic text-muted">Coordinadora Académica</div>
                             </div>
                         </div>
                         <div className="col mb-5 mb-xl-5">
