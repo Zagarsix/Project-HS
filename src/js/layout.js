@@ -10,6 +10,7 @@ import Home from "./views/home";
 import QuienesSomos from "./views/quienes-somos";
 import EquipoA from "./views/equipo-academico";
 import Matriculas from "./views/matriculas";
+import Ayuda from "./views/centro-de-ayuda";
 import Blog from "./views/blog";
 import Contacto from "./views/contacto";
 import NotFound from "./views/NotFound";
@@ -43,6 +44,9 @@ const Layout = () => {
 					</Route>
 					<Route exact path={"/matriculas"} >
 						<Matriculas />
+					</Route>
+					<Route exact path={"/centro-de-ayuda"}>
+						<Ayuda />
 					</Route>
 					<Route exact path={"/blog"}>
 						<Blog />

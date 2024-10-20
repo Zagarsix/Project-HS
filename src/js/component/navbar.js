@@ -105,8 +105,8 @@ const Navbar = ({ onMenuToggle }) => {
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link px-lg-2 py-2 py-lg-4" to="/blog" onClick={handleNavCollapse}>
-                                    Soporte
+                                <NavLink className="nav-link px-lg-2 py-2 py-lg-4" to="/centro-de-ayuda" onClick={handleNavCollapse}>
+                                    Centro de Ayuda
                                 </NavLink>
                             </li>
                             <li className="nav-item">
