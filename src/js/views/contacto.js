@@ -178,7 +178,7 @@ const Contacto = () => {
               <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                 <i className="bi bi-question-circle px-1 mx-1" />
               </div>
-              <div className="h5">Centro de apoyo</div>
+              <div className="h5">Centro de ayuda</div>
               <p className="text-muted mb-0">
                 Explora la sección de preguntas frecuentes y encuentra la solución a tus dudas.
                 <Link className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/blog"> Leer más <i className="fa-solid fa-arrow-up-right-from-square"></i></Link>
