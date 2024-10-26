@@ -41,8 +41,8 @@ const FlexCards = () => {
     {
       id: 4,
       image: s4,
-      title: "Apoyo NEE",
-      description: "Atención a niños con Necesidades Educativas Especiales."
+      title: "A.I.E",
+      description: "Área de integración educativa para niños con Necesidades Educativas Especiales."
     },
     {
       id: 5,
