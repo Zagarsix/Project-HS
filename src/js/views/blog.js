@@ -1,29 +1,29 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import mapa from "../../img/old-logos/blog-bg.jpg";
+import mapa from "../../img/bg-section/blog3.jpg";
 import officedesk from "../../img/Office-Desk.png"
 
 const Blog = () => {
     return <>
-        {/* Header*/}
-        <header className="masthead" style={{ backgroundImage: `url(${mapa})` }}>
-            <div className="container position-relative px-4 px-lg-3">
-                <div className="row gx-4 gx-lg-5 justify-content-around">
-                    <div className="col-md-12 col-lg-11 col-xl-10">
-                        <div className="text-center my-2">
-                            <h1 className="site-heading fw-bolder mb-1">
-                                <span>Blog</span> <span style={{ color: "#ff6600" }}> CVA</span>
-                            </h1>
-                            <p className="lead-header mb-5">
-                                Entérate de nuestras noticias, eventos, novedades y más.
-                            </p>
+        <main className="flex-shrink-0">
+            {/* Header*/}
+            <header className="masthead" style={{ backgroundImage: `url(${mapa})` }}>
+                <div className="container position-relative px-4 px-lg-3">
+                    <div className="row gx-4 gx-lg-5 justify-content-around">
+                        <div className="col-md-12 col-lg-11 col-xl-10">
+                            <div className="text-center my-2">
+                                <h1 className="site-heading fw-bolder mb-1">
+                                    <span>Blog</span> <span style={{ color: "#ff6600" }}> CVA</span>
+                                </h1>
+                                <p className="lead-header mb-5">
+                                    Entérate de nuestras <strong> noticias, eventos y más.</strong> También se comparten recursos, artículos y consejos relevantes para las familias, donde se abordan <strong> temas pedagógicos, metodologías educativas, consejos </strong> sobre cómo gestionar el aprendizaje en el hogar, y artículos inspirados en <strong> valores cristianos.</strong>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
-        {/* Page Content*/}
-        <main className="flex-shrink-0">
+            </header>
+            {/* Page Content*/}
             <section className="py-2" style={{ paddingBottom: "100px", marginBottom: "100px" }}>
                 <div className="container px-5 my-3">
                     <div className="text-center mb-5">
