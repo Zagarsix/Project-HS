@@ -4912,7 +4912,7 @@ fieldset:disabled .btn {
 
 .accordion {
   --bs-accordion-color: #212529;
-  --bs-accordion-bg: #fff;
+  --bs-accordion-bg: #e6f3f6;
   --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
   --bs-accordion-border-color: var(--bs-border-color);
   --bs-accordion-border-width: 1px;
@@ -4927,12 +4927,12 @@ fieldset:disabled .btn {
   --bs-accordion-btn-icon-transform: rotate(-180deg);
   --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
   --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23007891'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-  --bs-accordion-btn-focus-border-color: #80c2d0;
+  --bs-accordion-btn-focus-border-color: #0e408f;
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(0, 133, 161, 0.25);
   --bs-accordion-body-padding-x: 1rem;
   --bs-accordion-body-padding-y: 1rem;
-  --bs-accordion-active-color: #007891;
-  --bs-accordion-active-bg: #e6f3f6;
+  --bs-accordion-active-color: #3dfffb;
+  --bs-accordion-active-bg: #0e408f;
 }
 
 .accordion-button {
@@ -4941,7 +4941,8 @@ fieldset:disabled .btn {
   align-items: center;
   width: 100%;
   padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
   color: var(--bs-accordion-btn-color);
   text-align: left;
   background-color: var(--bs-accordion-btn-bg);
@@ -5012,6 +5013,7 @@ fieldset:disabled .btn {
 
 .accordion-body {
   padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+  font-size: 1rem;
 }
 
 .accordion-flush .accordion-collapse {
@@ -12837,6 +12839,7 @@ header.masthead .post-heading .meta a {
 #callToAction,
 #cardPricing,
 #contacto,
+#supportCenter,
 .feature {
   background-image: linear-gradient(75deg, #000145, #000263, #0e408f);
 }

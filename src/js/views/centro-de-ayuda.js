@@ -1,38 +1,38 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import lapices from "../../img/bg-section/rayasLapices.jpg";
+import lapices from "../../img/bg-section/blog2.jpg";
 
 const Ayuda = () => {
   return <>
-    {/* Header*/}
-    <header className="masthead" style={{ backgroundImage: `url(${lapices})` }}>
-      <div className="container position-relative px-4 px-lg-3">
-        <div className="row gx-4 gx-lg-5 justify-content-around">
-          <div className="col-md-12 col-lg-11 col-xl-10">
-            <div className="text-center my-2">
-              <h1 className="site-heading fw-bolder mb-1">
-                <span>Centro</span> <span style={{ color: "#ff6600" }}> de ayuda</span>
-              </h1>
-              <p className="lead-header mb-5">
-                Esta sección está diseñada para abordar las preocupaciones, dudas y consultas comunes de los padres y estudiantes interesados en esta modalidad educativa.
-              </p>
+    <main className="flex-shrink-0">
+      {/* Header*/}
+      <header className="masthead" style={{ backgroundImage: `url(${lapices})` }}>
+        <div className="container position-relative px-4 px-lg-3">
+          <div className="row gx-4 gx-lg-5 justify-content-around">
+            <div className="col-md-12 col-lg-11 col-xl-10">
+              <div className="text-center my-2">
+                <h1 className="site-heading fw-bolder mb-1">
+                  <span>Centro</span> <span style={{ color: "#ff6600" }}> de ayuda</span>
+                </h1>
+                <p className="lead-header mb-5">
+                  Esta sección está diseñada para abordar las <strong> preocupaciones, dudas y consultas </strong> comunes de los padres y estudiantes interesados en esta <strong> modalidad educativa.</strong>
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    {/* Page Content*/}
-    <main className="flex-shrink-0">
-      <section className="py-2" style={{paddingBottom:"100px", marginBottom:"100px"}}>
+      </header>
+      {/* Page Content*/}
+      <section className="py-2" style={{ paddingBottom: "100px", marginBottom: "100px" }}>
         <div className="container px-5 my-3">
           <div className="text-center mb-5">
             <h1 className="fw-bolder" style={{ color: "#0e408f" }}>Alianza responde</h1>
             <p className="lead fw-normal text-muted mb-0" >¿Cómo te podemos ayudar?</p>
           </div>
           <div className="row gx-5">
-            <div className="col-xl-8">
+            <div className="col-xl-8 rounded-4 py-5 px-4 px-md-5" id="supportCenter">
               {/* FAQ Accordion 1*/}
-              <h3 className="fw-bolder mb-3">Preguntas frecuentes de Homeschool</h3>
+              <h3 className="fw-bolder mb-3" style={{ color: "#ff8800" }}>Preguntas frecuentes de Homeschool</h3>
               <div className="accordion mb-5" id="accordionExample1">
                 <div className="accordion-item">
                   <h3 className="accordion-header" id="headingOne">
@@ -54,7 +54,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample1"
                   >
                     <div className="accordion-body">
-                      <strong>El homeschooling, o educación en casa, </strong>
+                      El homeschooling, o educación en casa,
                       es una alternativa a la educación tradicional en la que los estudiantes aprenden en el entorno del hogar bajo la supervisión y guía de sus padres o tutores, siguiendo un plan educativo personalizado.
                     </div>
                   </div>
@@ -130,7 +130,7 @@ const Ayuda = () => {
                   >
                     <div className="accordion-body">
                       <strong> Sí, organizamos actividades grupales, </strong>
-                     excursiones y eventos sociales para que los estudiantes puedan interactuar y desarrollar habilidades sociales. También fomentamos la participación en actividades comunitarias y deportivas.
+                      excursiones y eventos sociales para que los estudiantes puedan interactuar y desarrollar habilidades sociales. También fomentamos la participación en actividades comunitarias y deportivas.
                     </div>
                   </div>
                 </div>
@@ -155,7 +155,7 @@ const Ayuda = () => {
                   >
                     <div className="accordion-body">
                       <strong>Proporcionamos recursos educativos, </strong>
-                       guías y asesoramiento continuo para los padres. Nuestro equipo de docentes está disponible para responder preguntas, ofrecer orientación y apoyar en la implementación del plan de estudios.
+                      guías y asesoramiento continuo para los padres. Nuestro equipo de docentes está disponible para responder preguntas, ofrecer orientación y apoyar en la implementación del plan de estudios.
                     </div>
                   </div>
                 </div>
@@ -180,7 +180,7 @@ const Ayuda = () => {
                   >
                     <div className="accordion-body">
                       <strong>Utilizamos una combinación de evaluaciones </strong>
-                       formativas y sumativas, trabajos de curso, proyectos y exámenes para evaluar el progreso de los estudiantes. También ofrecemos informes periódicos y reuniones de progreso con los padres.
+                      formativas y sumativas, trabajos de curso, proyectos y exámenes para evaluar el progreso de los estudiantes. También ofrecemos informes periódicos y reuniones de progreso con los padres.
                     </div>
                   </div>
                 </div>
@@ -205,7 +205,7 @@ const Ayuda = () => {
                   >
                     <div className="accordion-body">
                       <strong>Nuestros programas </strong>
-                       están diseñados para ser compatibles con el sistema educativo tradicional, lo que permite una transición fluida si el estudiante decide reintegrarse en una escuela convencional. Proporcionamos toda la documentación necesaria para facilitar este proceso.
+                      están diseñados para ser compatibles con el sistema educativo tradicional, lo que permite una transición fluida si el estudiante decide reintegrarse en una escuela convencional. Proporcionamos toda la documentación necesaria para facilitar este proceso.
                     </div>
                   </div>
                 </div>
@@ -230,7 +230,7 @@ const Ayuda = () => {
                   >
                     <div className="accordion-body">
                       <strong>El proceso de inscripción </strong>
-                     incluye una entrevista inicial, la revisión de documentos académicos y la formalización de la matrícula. Los padres pueden contactarnos para obtener más información y comenzar el proceso.
+                      incluye una entrevista inicial, la revisión de documentos académicos y la formalización de la matrícula. Los padres pueden contactarnos para obtener más información y comenzar el proceso.
                     </div>
                   </div>
                 </div>
@@ -260,7 +260,7 @@ const Ayuda = () => {
                 </div>
               </div>
               {/* FAQ Accordion 2*/}
-              <h3 className="fw-bolder mb-3">Plan Lector</h3>
+              <h3 className="fw-bolder mb-3" style={{ color: "#ff8800" }}>Plan Lector</h3>
               <div className="accordion mb-5" id="accordionExample2">
                 <div className="accordion-item">
                   <h3 className="accordion-header" id="headingOne">
@@ -308,7 +308,7 @@ const Ayuda = () => {
                   >
                     <div className="accordion-body">
                       <strong>Los libros son seleccionados </strong>
-                       por un equipo de especialistas en educación y literatura, teniendo en cuenta la edad, intereses y nivel de comprensión de los estudiantes. También se consideran las recomendaciones del Ministerio de Educación y otros organismos educativos.
+                      por un equipo de especialistas en educación y literatura, teniendo en cuenta la edad, intereses y nivel de comprensión de los estudiantes. También se consideran las recomendaciones del Ministerio de Educación y otros organismos educativos.
                     </div>
                   </div>
                 </div>
@@ -339,7 +339,7 @@ const Ayuda = () => {
                 </div>
               </div>
               {/* FAQ Accordion 3*/}
-              <h3 className="fw-bolder mb-3">Apoyo Psicopedagógico</h3>
+              <h3 className="fw-bolder mb-3" style={{ color: "#ff8800" }}>Apoyo Psicopedagógico</h3>
               <div className="accordion mb-5" id="accordionExample3">
                 <div className="accordion-item">
                   <h3 className="accordion-header" id="headingOne">
@@ -418,7 +418,7 @@ const Ayuda = () => {
                 </div>
               </div>
               {/* FAQ Accordion 4*/}
-              <h3 className="fw-bolder mb-3">Talleres extracurriculares</h3>
+              <h3 className="fw-bolder mb-3" style={{ color: "#ff8800" }}>Talleres extracurriculares</h3>
               <div className="accordion mb-5" id="accordionExample4">
                 <div className="accordion-item">
                   <h3 className="accordion-header" id="headingOne">
@@ -497,7 +497,7 @@ const Ayuda = () => {
                 </div>
               </div>
               {/* FAQ Accordion 5*/}
-              <h3 className="fw-bolder mb-3">Cita con coordinadora académica</h3>
+              <h3 className="fw-bolder mb-3" style={{ color: "#ff8800" }}>Cita con coordinadora académica</h3>
               <div className="accordion mb-5" id="accordionExample5">
                 <div className="accordion-item">
                   <h3 className="accordion-header" id="headingOne">
@@ -545,7 +545,7 @@ const Ayuda = () => {
                   >
                     <div className="accordion-body">
                       <strong>Puedes agendar </strong>
-                     una cita a través de nuestra plataforma online. Solo necesitas seleccionar una fecha y hora disponibles, y recibirás un enlace para la reunión virtual.
+                      una cita a través de nuestra plataforma online. Solo necesitas seleccionar una fecha y hora disponibles, y recibirás un enlace para la reunión virtual.
                     </div>
                   </div>
                 </div>
@@ -582,11 +582,11 @@ const Ayuda = () => {
                 <div className="card-body p-4 py-lg-5">
                   <div className="d-flex align-items-center justify-content-center">
                     <div className="text-center">
-                      <div className="h6 fw-bolder" style={{color:"#ff8800", fontSize:"1.2rem"}}>¿Tienes más preguntas?</div>
+                      <div className="h6 fw-bolder" style={{ color: "#ff8800", fontSize: "1.2rem" }}>¿Tienes más preguntas?</div>
                       <p className="text-muted mb-4">
                         Escríbenos a
                         <br />
-                        <a target="_blank" rel="noopener noreferrer" href="mailto:colegiovirtualalianza.adm@gmail.com" style={{fontSize:"1rem"}}>colegiovirtualalianza.adm@gmail.com</a>
+                        <a target="_blank" rel="noopener noreferrer" href="mailto:colegiovirtualalianza.adm@gmail.com" style={{ fontSize: "1rem" }}>colegiovirtualalianza.adm@gmail.com</a>
                       </p>
                       <div className="h6 fw-bolder">Síguenos</div>
                       <a className='px-2' target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=61562958972239&mibextid=ZbWKwL">
