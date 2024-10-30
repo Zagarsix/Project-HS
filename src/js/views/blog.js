@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import mapa from "../../img/bg-section/blog3.jpg";
+import mapa from "../../img/bg-section/blog4.jpeg";
 import officedesk from "../../img/Office-Desk.png"
 
 const Blog = () => {
