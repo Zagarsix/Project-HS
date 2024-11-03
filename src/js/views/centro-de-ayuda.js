@@ -54,8 +54,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample1"
                   >
                     <div className="accordion-body">
-                      El homeschooling, o educación en casa,
-                      es una alternativa a la educación tradicional en la que los estudiantes aprenden en el entorno del hogar bajo la supervisión y guía de sus padres o tutores, siguiendo un plan educativo personalizado.
+                      El homeschooling, o educación en casa, es una alternativa a la educación tradicional en la que los estudiantes aprenden en el entorno del hogar bajo la supervisión y guía de sus padres o tutores, siguiendo un plan educativo personalizado.
                     </div>
                   </div>
                 </div>
@@ -79,8 +78,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample1"
                   >
                     <div className="accordion-body">
-                      <strong>En Colegio Virtual Alianza, </strong>
-                      seguimos estrictamente el currículo y las directrices establecidas por el Ministerio de Educación. Además, nuestros planes de estudio están diseñados para cubrir todos los contenidos esenciales y preparan a los estudiantes para evaluaciones oficiales.
+                      En Colegio Virtual Alianza, seguimos estrictamente el currículo y las directrices establecidas por el Ministerio de Educación. Además, nuestros planes de estudio están diseñados para cubrir todos los contenidos esenciales y preparan a los estudiantes para evaluaciones oficiales.
                     </div>
                   </div>
                 </div>
@@ -104,8 +102,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample1"
                   >
                     <div className="accordion-body">
-                      <strong>El homeschooling ofrece varias ventajas, </strong>
-                      incluyendo una carga horaria más flexible, permitiendo a los estudiantes tener más tiempo para actividades familiares, recreativas, deportivas y artísticas. Esta modalidad también permite una atención más personalizada y un ambiente de aprendizaje adaptado a las necesidades individuales de cada estudiante.
+                      El homeschooling ofrece varias ventajas, incluyendo una carga horaria más flexible, permitiendo a los estudiantes tener más tiempo para actividades familiares, recreativas, deportivas y artísticas. Esta modalidad también permite una atención más personalizada y un ambiente de aprendizaje adaptado a las necesidades individuales de cada estudiante.
                     </div>
                   </div>
                 </div>
@@ -129,8 +126,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample1"
                   >
                     <div className="accordion-body">
-                      <strong> Sí, organizamos actividades grupales, </strong>
-                      excursiones y eventos sociales para que los estudiantes puedan interactuar y desarrollar habilidades sociales. También fomentamos la participación en actividades comunitarias y deportivas.
+                      Sí, organizamos actividades grupales, excursiones y eventos sociales para que los estudiantes puedan interactuar y desarrollar habilidades sociales. También fomentamos la participación en actividades comunitarias y deportivas.
                     </div>
                   </div>
                 </div>
@@ -154,8 +150,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample1"
                   >
                     <div className="accordion-body">
-                      <strong>Proporcionamos recursos educativos, </strong>
-                      guías y asesoramiento continuo para los padres. Nuestro equipo de docentes está disponible para responder preguntas, ofrecer orientación y apoyar en la implementación del plan de estudios.
+                      Proporcionamos recursos educativos, guías y asesoramiento continuo para los padres. Nuestro equipo de docentes está disponible para responder preguntas, ofrecer orientación y apoyar en la implementación del plan de estudios.
                     </div>
                   </div>
                 </div>
@@ -179,8 +174,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample1"
                   >
                     <div className="accordion-body">
-                      <strong>Utilizamos una combinación de evaluaciones </strong>
-                      formativas y sumativas, trabajos de curso, proyectos y exámenes para evaluar el progreso de los estudiantes. También ofrecemos informes periódicos y reuniones de progreso con los padres.
+                      Utilizamos una combinación de evaluaciones formativas y sumativas, trabajos de curso, proyectos y exámenes para evaluar el progreso de los estudiantes. También ofrecemos informes periódicos y reuniones de progreso con los padres.
                     </div>
                   </div>
                 </div>
@@ -204,8 +198,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample1"
                   >
                     <div className="accordion-body">
-                      <strong>Nuestros programas </strong>
-                      están diseñados para ser compatibles con el sistema educativo tradicional, lo que permite una transición fluida si el estudiante decide reintegrarse en una escuela convencional. Proporcionamos toda la documentación necesaria para facilitar este proceso.
+                      Nuestros programas están diseñados para ser compatibles con el sistema educativo tradicional, lo que permite una transición fluida si el estudiante decide reintegrarse en una escuela convencional. Proporcionamos toda la documentación necesaria para facilitar este proceso.
                     </div>
                   </div>
                 </div>
@@ -229,8 +222,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample1"
                   >
                     <div className="accordion-body">
-                      <strong>El proceso de inscripción </strong>
-                      incluye una entrevista inicial, la revisión de documentos académicos y la formalización de la matrícula. Los padres pueden contactarnos para obtener más información y comenzar el proceso.
+                      El proceso de inscripción incluye una entrevista inicial, la revisión de documentos académicos y la formalización de la <NavLink className='link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' to="/matriculas">matrícula.</NavLink> Los padres pueden contactarnos para obtener más información y comenzar el proceso.
                     </div>
                   </div>
                 </div>
@@ -254,7 +246,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample1"
                   >
                     <div className="accordion-body">
-                      Sí, ofrecemos programas adaptados y <strong>apoyo especializado para estudiantes con necesidades educativas especiales.</strong> Nuestro objetivo es proporcionar un entorno inclusivo y accesible para todos los estudiantes.
+                      Sí, ofrecemos programas adaptados y apoyo especializado para estudiantes con necesidades educativas especiales. Nuestro objetivo es proporcionar un entorno de integración y accesible para todos los estudiantes.
                     </div>
                   </div>
                 </div>
@@ -282,8 +274,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample2"
                   >
                     <div className="accordion-body">
-                      <strong>Es un programa integral</strong>
-                      diseñado para fomentar el hábito de la lectura y mejorar la comprensión lectora de nuestros estudiantes. Está compuesto por una selección de libros recomendados para cada nivel educativo, alineados con los objetivos curriculares del Ministerio de Educación.
+                      Es un programa integral diseñado para fomentar el hábito de la lectura y mejorar la comprensión lectora de nuestros estudiantes. Está compuesto por una selección de libros recomendados para cada nivel educativo, alineados con los principios de CVA.
                     </div>
                   </div>
                 </div>
@@ -307,8 +298,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample2"
                   >
                     <div className="accordion-body">
-                      <strong>Los libros son seleccionados </strong>
-                      por un equipo de especialistas en educación y literatura, teniendo en cuenta la edad, intereses y nivel de comprensión de los estudiantes. También se consideran las recomendaciones del Ministerio de Educación y otros organismos educativos.
+                      Los libros son seleccionados por un equipo de especialistas en educación y literatura, teniendo en cuenta la edad, intereses y nivel de comprensión de los estudiantes.
                     </div>
                   </div>
                 </div>
@@ -332,8 +322,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample2"
                   >
                     <div className="accordion-body">
-                      <strong>Los estudiantes reciben </strong>
-                      una guía detallada con las lecturas recomendadas y actividades complementarias para realizar en casa. Además, se organizan sesiones virtuales para discutir los libros y realizar actividades de comprensión lectora.
+                      Los estudiantes reciben una guía detallada con las lecturas recomendadas y actividades complementarias para realizar en casa. Además, se organizan sesiones virtuales para discutir los libros y realizar actividades de comprensión lectora.
                     </div>
                   </div>
                 </div>
@@ -351,7 +340,7 @@ const Ayuda = () => {
                       aria-expanded="true"
                       aria-controls="collapse1"
                     >
-                      1. ¿En Alianza ofrecemos apoyo psicopedagógico?
+                      1. ¿En Alianza se ofrece apoyo psicopedagógico?
                     </button>
                   </h3>
                   <div
@@ -361,8 +350,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample3"
                   >
                     <div className="accordion-body">
-                      <strong>Sí, contamos con un equipo </strong>
-                      de psicopedagogos que brindan apoyo personalizado a los estudiantes que lo necesiten. Este servicio está disponible tanto para los alumnos con dificultades de aprendizaje como para aquellos que deseen potenciar sus habilidades.
+                      Sí, contamos con un equipo psicopedagógico que brinda apoyo personalizado a los estudiantes que lo necesiten. Este servicio está disponible tanto para los alumnos con dificultades de aprendizaje como para aquellos que deseen potenciar sus habilidades.
                     </div>
                   </div>
                 </div>
@@ -386,8 +374,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample3"
                   >
                     <div className="accordion-body">
-                      <strong>Los padres pueden </strong>
-                      solicitar una evaluación psicopedagógica a través de nuestra plataforma online. Luego de la evaluación inicial, se diseñará un plan de apoyo personalizado y se programarán sesiones de seguimiento.
+                      Los padres pueden solicitar una evaluación a través de nuestra página web, en sección Contacto; ó también, pueden agendar una evaluación vía whatsapp. Luego de la evaluación inicial, se diseñará un plan de apoyo personalizado y se programarán sesiones de seguimiento (las sesiones tienen un costo adicional).
                     </div>
                   </div>
                 </div>
@@ -411,8 +398,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample3"
                   >
                     <div className="accordion-body">
-                      <strong>Las sesiones pueden </strong>
-                      ser virtuales o presenciales, dependiendo de la necesidad y disponibilidad de las familias. Nuestro objetivo es brindar la mayor flexibilidad posible para adaptarnos a las circunstancias de cada estudiante.
+                      Las sesiones pueden ser virtuales o presenciales, dependiendo de la necesidad y disponibilidad de las familias. Nuestro objetivo es brindar la mayor flexibilidad posible para adaptarnos a las circunstancias de cada estudiante.
                     </div>
                   </div>
                 </div>
@@ -440,8 +426,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample4"
                   >
                     <div className="accordion-body">
-                      <strong>Ofrecemos una variedad </strong>
-                      de talleres extracurriculares que incluyen actividades deportivas, artísticas, tecnológicas y de desarrollo personal. Estos talleres están diseñados para complementar la formación académica y fomentar el desarrollo integral de los estudiantes.
+                      Ofrecemos una variedad de talleres extracurriculares que incluyen actividades deportivas, artísticas, tecnológicas y de desarrollo personal. Estos talleres están diseñados para complementar la formación académica y fomentar el desarrollo integral de los estudiantes.
                     </div>
                   </div>
                 </div>
@@ -465,8 +450,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample4"
                   >
                     <div className="accordion-body">
-                      <strong>Aunque la mayoría de nuestras actividades </strong>
-                      educativas son virtuales, los talleres extracurriculares se realizan de manera presencial para promover la interacción social y el aprendizaje práctico.
+                      Aunque la mayoría de nuestras actividades educativas son virtuales, los talleres extracurriculares se realizan de manera presencial para promover la interacción social y el aprendizaje práctico.
                     </div>
                   </div>
                 </div>
@@ -490,8 +474,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample4"
                   >
                     <div className="accordion-body">
-                      <strong>La inscripción se realiza </strong>
-                      a través de nuestra plataforma online, donde podrás encontrar la lista de talleres disponibles, horarios y requisitos. También ofrecemos orientación personalizada para ayudarte a elegir las actividades más adecuadas para tu hijo.
+                      La inscripción se realiza a través de la página web, agendando una reunión virtual, donde se entregará información detallada de los talleres disponibles, horarios y requisitos. También ofrecemos orientación personalizada para ayudarte a elegir las actividades más adecuadas para tu hijo.
                     </div>
                   </div>
                 </div>
@@ -519,8 +502,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample5"
                   >
                     <div className="accordion-body">
-                      <strong>Sí, ofrecemos la posibilidad </strong>
-                      de agendar citas con la coordinadora académica vía online. Esta es una excelente oportunidad para discutir el progreso académico de tu hijo, resolver dudas y recibir orientación personalizada.
+                      Sí, ofrecemos la posibilidad de agendar citas con la coordinadora académica vía online. Esta es una excelente oportunidad para discutir el progreso académico de tu hijo, resolver dudas y recibir orientación personalizada.
                     </div>
                   </div>
                 </div>
@@ -544,8 +526,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample5"
                   >
                     <div className="accordion-body">
-                      <strong>Puedes agendar </strong>
-                      una cita a través de nuestra plataforma online. Solo necesitas seleccionar una fecha y hora disponibles, y recibirás un enlace para la reunión virtual.
+                      Puedes agendar una cita a través de nuestra página web, sección Contacto. Solo necesitas indicar una fecha y hora disponibles, y recibirás un enlace para la reunión virtual.
                     </div>
                   </div>
                 </div>
@@ -569,8 +550,7 @@ const Ayuda = () => {
                     data-bs-parent="#accordionExample5"
                   >
                     <div className="accordion-body">
-                      <strong>Durante la cita, </strong>
-                      puedes discutir el rendimiento académico de tu hijo, estrategias de estudio, adaptación a la modalidad de Homeschool, y cualquier otra preocupación o consulta que puedas tener sobre su educación.
+                      Durante la cita, puedes discutir el rendimiento académico de tu hijo, estrategias de estudio, adaptación a la modalidad de Homeschool, y cualquier otra preocupación o consulta que puedas tener sobre su educación.
                     </div>
                   </div>
                 </div>

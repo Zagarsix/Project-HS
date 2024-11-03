@@ -4942,7 +4942,7 @@ fieldset:disabled .btn {
   width: 100%;
   padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--bs-accordion-btn-color);
   text-align: left;
   background-color: var(--bs-accordion-btn-bg);
@@ -5014,6 +5014,7 @@ fieldset:disabled .btn {
 .accordion-body {
   padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
   font-size: 1rem;
+  background-color: #cfeff7;
 }
 
 .accordion-flush .accordion-collapse {
@@ -12582,7 +12583,7 @@ header.masthead .site-heading {
   z-index: 3;
   color: #0e408f;
   font-weight: 600;
-  text-shadow: 0 0 0.2em #0e408f;
+  text-shadow: 0 0 0.6em #0e408f;
   box-shadow: 0 0 0 red;
   /* -webkit-text-stroke: 0.5px black; */
 }
