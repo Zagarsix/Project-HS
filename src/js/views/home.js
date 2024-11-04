@@ -12,8 +12,8 @@ import children from "../../img/blog/modalidad-hs.jpg";
 import family1 from "../../img/blog/family1.jpg";
 import admision from "../../img/bg-section/home-bg.jpg";
 import temporal from "../../img/team/DanyP.png";
-import andres from "../../img/testimonials/dad1.jpg"; 
-import evelyn from "../../img/testimonials/mom2.jpg"; 
+import andres from "../../img/testimonials/dad1.jpg";
+import evelyn from "../../img/testimonials/mom2.jpg";
 
 const Home = () => {
   return <>
@@ -262,8 +262,9 @@ const Home = () => {
             </div>
           </div>
           <div className="row gx-5">
-            {/*1*/}<div className="col-lg-4 mb-5">
-              <div className="card h-100 shadow border-1">
+            {/*1*/}
+            <div className="col-lg-4 mb-5">
+              <div className="card h-100 rounded-4">
                 <img
                   className="card-img-top"
                   src={parents2}
@@ -277,11 +278,11 @@ const Home = () => {
                     className="text-decoration-none link-dark stretched-link"
                     to="#!"
                   >
-                    <h5 className="card-title mb-3">¿Porqué elegir educar en casa?</h5>
+                    <h5 className="card-title mb-3">¿Se puede educar en casa en Chile?</h5>
                   </Link>
                   <p className="card-text mb-0">
-                    Some quick example text to build on the card title and make up
-                    the bulk of the card's content.
+                    No es obligatorio escolarizar estudiantes en establecimientos educativos tradicionales o
+                    reconocidos por el Estado...
                   </p>
                 </div>
                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
@@ -295,7 +296,7 @@ const Home = () => {
                         alt="..."
                       />
                       <div className="small">
-                        <div className="fw-bold">Daniela Pacheco</div>
+                        <div className="fw-semibold">Daniela Pacheco</div>
                         <div className="text-muted">
                           21 de Marzo, 2024 <br></br> 6 min de lectura
                         </div>
@@ -305,8 +306,9 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/*2*/}<div className="col-lg-4 mb-5">
-              <div className="card h-100 shadow border-1">
+            {/*2*/}
+            <div className="col-lg-4 mb-5">
+              <div className="card h-100 rounded-4">
                 <img
                   className="card-img-top"
                   src={children}
@@ -320,12 +322,10 @@ const Home = () => {
                     className="text-decoration-none link-dark stretched-link"
                     to="#!"
                   >
-                    <h5 className="card-title mb-3">¿Qué es la modalidad Homeschooling?</h5>
+                    <h5 className="card-title mb-3">Educación virtual como agente transformador</h5>
                   </Link>
                   <p className="card-text mb-0">
-                    This text is Link bit longer to illustrate the adaptive height of
-                    each card. Some quick example text to build on the card title
-                    and make up the bulk of the card's content.
+                    La educación virtual es un elemento que permite desarrollar el proceso de enseñanza y aprendizaje a través...
                   </p>
                 </div>
                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
@@ -339,7 +339,7 @@ const Home = () => {
                         alt="..."
                       />
                       <div className="small">
-                        <div className="fw-bold">Andrés García</div>
+                        <div className="fw-semibold">Andrés García</div>
                         <div className="text-muted">
                           10 de Junio, 2024 <br></br> 4 min de lectura
                         </div>
@@ -349,8 +349,9 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            {/*3*/}<div className="col-lg-4 mb-5">
-              <div className="card h-100 shadow border-1">
+            {/*3*/}
+            <div className="col-lg-4 mb-5">
+              <div className="card h-100 rounded-4">
                 <img
                   className="card-img-top"
                   src={family1}
@@ -365,12 +366,12 @@ const Home = () => {
                     to="#!"
                   >
                     <h5 className="card-title mb-3">
-                      La educación en Chile: ¿tradicional ó virtual?
+                      Iniciando HomeSchool- Guía para padres
                     </h5>
                   </Link>
                   <p className="card-text mb-0">
-                    Some more quick example text to build on the card title and
-                    make up the bulk of the card's content.
+                    Educar en casa te permite liberar a niños y niñas de los vicios y efectos nocivos del sistema de
+                    escolarización, basado en...
                   </p>
                 </div>
                 <div className="card-footer p-4 pt-0 bg-transparent border-top-0">
@@ -384,7 +385,7 @@ const Home = () => {
                         alt="..."
                       />
                       <div className="small">
-                        <div className="fw-bold">Evelyn Martinez</div>
+                        <div className="fw-semibold">Evelyn Martínez</div>
                         <div className="text-muted">
                           12 de Agosto, 2024 <br></br> 8 min de lectura
                         </div>
@@ -395,6 +396,9 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <Link className="btn btn-xl m-2" to="/blog">
+            Leer más <i className="fa-solid fa-angles-right"></i>
+          </Link>
           {/* Call to action*/}
           {/* <aside className="rounded-4 p-4 p-sm-5 mt-4" id="callToAction">
             <div className="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
