@@ -557,8 +557,8 @@ const Ayuda = () => {
               </div>
             </div>
             {/* Social media*/}
-            <div className="col-xl-4">
-              <div className="card border-0 bg-light mt-xl-5">
+            <div className="col-xl-4 mt-4">
+              <div className="card border-0 bg-light mt-xl-5 rounded-4">
                 <div className="card-body p-4 py-lg-5">
                   <div className="d-flex align-items-center justify-content-center">
                     <div className="text-center">
