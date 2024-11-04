@@ -167,7 +167,7 @@ const Matriculas = () => {
                     </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                      Música, deporte, inglés, entre otros
+                      Música (piano inicial), acondicionamiento físico, inglés y cocina entretenida.
                     </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
