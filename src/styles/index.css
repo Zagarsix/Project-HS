@@ -4794,6 +4794,16 @@ fieldset:disabled .btn {
   background-color: var(--bs-card-bg);
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  filter: brightness(115%);
+  color: #3dfffb;
+  transform: translateY(-3%);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
 }
 
 .card>hr {
@@ -4887,6 +4897,7 @@ fieldset:disabled .btn {
 .card-img-top,
 .card-img-bottom {
   width: 100%;
+  filter: brightness(75%);
 }
 
 .card-group>.card {
@@ -7512,7 +7523,7 @@ fieldset:disabled .btn {
 
 .link-dark:hover,
 .link-dark:focus {
-  color: #1a1e21 !important;
+  color: #ff8800 !important;
 }
 
 .ratio {
@@ -12574,7 +12585,7 @@ header.masthead:before {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  opacity: .7;
+  opacity: .6;
 }
 
 header.masthead .page-heading,
@@ -12841,7 +12852,8 @@ header.masthead .post-heading .meta a {
 #cardPricing,
 #contacto,
 #supportCenter,
-.feature {
+.feature,
+.card:hover {
   background-image: linear-gradient(75deg, #000145, #000263, #0e408f);
 }
 
@@ -12894,7 +12906,7 @@ header.masthead .post-heading .meta a {
 
 /* Footer */
 .footer {
-  padding: .1rem 1rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   color: white;
   background-color: #000145;
   border-top: solid 3px #0e408f;
