@@ -276,9 +276,9 @@ const Home = () => {
                   </div>
                   <Link
                     className="text-decoration-none link-dark stretched-link"
-                    to="#!"
+                    to="/blog1-en-chile-se-puede-educar-en-casa"
                   >
-                    <h5 className="card-title mb-3">¿Se puede educar en casa en Chile?</h5>
+                    <h5 className="card-title mb-3">¿En Chile se puede educar en casa?</h5>
                   </Link>
                   <p className="card-text mb-0">
                     No es obligatorio escolarizar estudiantes en establecimientos educativos tradicionales o
@@ -396,9 +396,11 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <Link className="btn btn-xl m-2" to="/blog">
-            Leer más <i className="fa-solid fa-angles-right"></i>
-          </Link>
+          <div className="col-lg-12 text-end">
+            <Link className="btn btn-xl mt-2" to="/blog">
+              Leer más <i className="fa-solid fa-angles-right"></i>
+            </Link>
+          </div>
           {/* Call to action*/}
           {/* <aside className="rounded-4 p-4 p-sm-5 mt-4" id="callToAction">
             <div className="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
