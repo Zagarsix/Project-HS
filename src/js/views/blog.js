@@ -91,7 +91,7 @@ const Blog = () => {
                                     </div>
                                     <Link
                                         className="text-decoration-none link-dark stretched-link"
-                                        to="#!"
+                                        to="/blog2-educacion-virtual-como-agente-tranformador"
                                     >
                                         <h5 className="card-title mb-1">Educación virtual como agente transformador</h5>
                                     </Link>
@@ -112,7 +112,7 @@ const Blog = () => {
                                             <div className="small" style={{ fontSize: ".9rem" }}>
                                                 <div className="small fw-semibold">Andrés García</div>
                                                 <div className="small text-muted">
-                                                    10 de Junio, 2024 <br></br> 4 min de lectura
+                                                    10 de Junio, 2024 <br></br> 7 min de lectura
                                                 </div>
                                             </div>
                                         </div>
