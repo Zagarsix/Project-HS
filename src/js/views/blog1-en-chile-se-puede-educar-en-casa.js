@@ -81,17 +81,17 @@ const Blog1 = () => {
                                     gratuito con tal objeto, destinado a asegurar el acceso a ellas de toda la población. En el caso de la
                                     educación media este sistema, en conformidad a la ley, se extenderá hasta cumplir los 21 años de
                                     edad.<br></br>
-                                    Corresponderá al Estado, asimismo, fomentar el desarrollo de la educación en todos sus niveles;
+                                    Corresponderá al Estado, así mismo, fomentar el desarrollo de la educación en todos sus niveles;
                                     estimular la investigación científica y tecnológica, la creación artística y la protección e incremento del patrimonio cultural de la Nación. Es deber de la comunidad contribuir al desarrollo y perfeccionamiento de la educación.
                                 </p>
                                 <p><strong> 11º.- La libertad de enseñanza incluye el derecho de abrir, organizar y mantener establecimientos educacionales.</strong> <br></br>
-                                    La libertad de enseñanza no tiene otras limitaciones que las impuestas por la moral, las buenas costumbres, el orden público y la seguridad nacional.La enseñanza reconocida oficialmente no podrá orientarse a propagar tendencia político partidista alguna.
+                                    La libertad de enseñanza no tiene otras limitaciones que las impuestas por la moral, las buenas costumbres, el orden público y la seguridad nacional. La enseñanza reconocida oficialmente no podrá orientarse a propagar tendencia político partidista alguna.
                                     Los padres tienen el derecho de escoger el establecimiento de enseñanza para sus hijos.
                                     Una ley orgánica constitucional establecerá los requisitos mínimos que deberán exigirse en cada
                                     uno de los niveles de la enseñanza básica y media y señalará las normas objetivas, de general
                                     aplicación, que permitan al Estado velar por su cumplimiento. Dicha ley, del mismo modo,
                                     establecerá los requisitos para el reconocimiento oficial de los establecimientos educacionales de
-                                    todo nivel.<br></br>
+                                    todo nivel.<br></br><br></br>
                                     <span className='fw-semibold'>En Chile la escolarización en casa no está normada como tal. Sin embargo, es legalmente posible y factible educar en casa o en establecimientos no reconocidos por el Estado y obtener las certificaciones de Enseñanza Básica y Enseñanza Media mediante exámenes de validación.
                                     </span>
                                 </p>
