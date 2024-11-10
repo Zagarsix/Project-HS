@@ -91,7 +91,7 @@ const Blog = () => {
                                     </div>
                                     <Link
                                         className="text-decoration-none link-dark stretched-link"
-                                        to="/blog2-educacion-virtual-como-agente-tranformador"
+                                        to="/blog2-educacion-virtual-como-agente-transformador"
                                     >
                                         <h5 className="card-title mb-1">Educación virtual como agente transformador</h5>
                                     </Link>
