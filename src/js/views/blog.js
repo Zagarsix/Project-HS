@@ -134,7 +134,7 @@ const Blog = () => {
                                     </div>
                                     <Link
                                         className="text-decoration-none link-dark stretched-link"
-                                        to="#!"
+                                        to="/blog3-iniciando-homeschool-guia-para-padres"
                                     >
                                         <h5 className="card-title mb-1">Iniciando HomeSchool- Guía para padres</h5>
                                     </Link>
@@ -156,7 +156,7 @@ const Blog = () => {
                                             <div className="small" style={{ fontSize: ".9rem" }}>
                                                 <div className="small fw-semibold">Evelyn Martínez</div>
                                                 <div className="small text-muted">
-                                                    12 de agosto, 2024 <br></br> 8 min de lectura
+                                                    12 de agosto, 2024 <br></br> 6 min de lectura
                                                 </div>
                                             </div>
                                         </div>

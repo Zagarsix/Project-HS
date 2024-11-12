@@ -363,7 +363,7 @@ const Home = () => {
                   </div>
                   <Link
                     className="text-decoration-none link-dark stretched-link"
-                    to="#!"
+                    to="/blog3-iniciando-homeschool-guia-para-padres"
                   >
                     <h5 className="card-title mb-3">
                       Iniciando HomeSchool- Guía para padres
@@ -387,7 +387,7 @@ const Home = () => {
                       <div className="small">
                         <div className="fw-semibold">Evelyn Martínez</div>
                         <div className="text-muted">
-                          12 de Agosto, 2024 <br></br> 8 min de lectura
+                          12 de Agosto, 2024 <br></br> 6 min de lectura
                         </div>
                       </div>
                     </div>
