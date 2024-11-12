@@ -58,7 +58,7 @@ const Blog1 = () => {
                             />
                         </div>
                         <div className="col-lg-7">
-                            <div className="lead fw-normal mt-5 mb-0">
+                            <div className="lead-blog fw-normal mt-5 mb-0">
                                 <p><strong>¿Pero la educación básica y media no era obligatoria? </strong> <br></br>
                                     No es obligatorio escolarizar estudiantes en establecimientos educativos tradicionales o
                                     reconocidos por el Estado. La ley chilena no precisa el sentido que se da a la frase “educación
@@ -70,7 +70,7 @@ const Blog1 = () => {
                             </div>
                         </div>
                         <div className="col-lg-12">
-                            <div className="lead fw-normal mt-1 mb-0">
+                            <div className="lead-blog fw-normal mt-1 mb-0">
                                 <p><strong>El Artículo 10 y 11 de la Constitución Chilena,</strong> indican que no hay obligación explícita de los padres a escolarizar a sus hijos en establecimientos educativos con reconocimiento oficial:</p>
                                 <p><strong>10º.- El derecho a la educación. </strong><br></br> La educación tiene por objeto el pleno desarrollo de la persona en las distintas etapas de su vida. Los padres tienen el derecho preferente y el deber de educar a sus hijos. Corresponderá al Estado otorgar especial protección al ejercicio de este derecho.<br></br>
                                     Para el Estado es obligatorio promover la educación parvularia, para lo que financiará un sistema

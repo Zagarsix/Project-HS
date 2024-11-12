@@ -58,14 +58,14 @@ const Blog2 = () => {
                             />
                         </div>
                         <div className="col-lg-7">
-                            <div className="lead fw-normal mt-5 mb-0">
+                            <div className="lead-blog fw-normal mt-5 mb-0">
                                 <p><strong>Introducción </strong> <br></br>
                                     La educación virtual es un elemento que permite desarrollar el proceso de enseñanza y aprendizaje a través de la implementación de las tecnologías de información y comunicación (TIC's), así se puede llevar a cabo la labor educativa desde cualquier lugar sin necesidad de encontrarse de forma presencial con el maestro o docente. Esta permite adquirir habilidades y conocimientos a un ritmo propio y no de forma colectiva, en un tiempo propio predeterminado por el estudiante y no limitado a un horario, esta metodología convierte, en la mayoría de los casos, al estudiante en autodidacta.
                                 </p>
                             </div>
                         </div>
                         <div className="col-lg-12">
-                            <div className="lead fw-normal mt-1 mb-0">
+                            <div className="lead-blog fw-normal mt-1 mb-0">
                                 <p>Se llamará educación virtual a un sistema abierto que es guiado por el usuario, en esta se promueve el intercambio de ideas y conocimiento a través de diferentes espacios con la guía y apoyo de un facilitador que será el docente que dirige la actividad educativa. Por ser un sistema de enseñanza no presencial comprende diversas actividades y tareas que no se visualizan en las clases tradicionales, tal es el caso del rol activo del estudiante para la construcción de significados y la resolución de problemas en casos reales, construcción de mapas mentales y organizadores gráficos y el intercambio de ideas para comprender los objetivos de las asignaturas.</p>
                                 <p>En los procesos de aprendizaje, la interacción social es muy importando debido a que la mayoría de lo que aprendemos proviene del contacto con otras personas, por ende, en la educación virtual es fundamental el uso de chat, video llamadas, videoconferencias, foros como herramientas de comunicación sincrónica y el correo electrónico, plataformas digitales y mensajes como herramientas de comunicación asincrónica. La base en este proceso de aprendizaje es el trabajo colaborativo y el trabajo grupal, donde se da el intercambio de experiencias para la resolución de problemas.</p>
                                 <p>Soluciones de productividad que brindan a los maestros más tiempo para trabajar con los estudiantes y permiten a las escuelas desempeñarse con mayor eficacia. Portales seguros que amplíen la jornada escolar, mejoren la comunicación entre la escuela y el hogar y de oportunidad a los padres de familia a convertirse en colaboradores activos Tecnologías de colaboración que ayuden a los maestros a reducir el aislamiento y ampliar sus conocimientos tomando parte en comunidades de preparación profesional.</p>

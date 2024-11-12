@@ -559,6 +559,10 @@ progress {
   border-radius: 1rem;
 }
 
+.lead-blog {
+text-align: justify;
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
