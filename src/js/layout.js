@@ -14,6 +14,7 @@ import Ayuda from "./views/centro-de-ayuda";
 import Blog from "./views/blog";
 import Blog1 from "./views/blog1-en-chile-se-puede-educar-en-casa";
 import Blog2 from "./views/blog2-educacion-virtual-como-agente-transformador";
+import Blog3 from "./views/blog3-iniciando-homeschool-guia-para-padres";
 import Contacto from "./views/contacto";
 import NotFound from "./views/NotFound";
 import TermsAndConds from "./views/terminosycondiciones";
@@ -58,6 +59,9 @@ const Layout = () => {
 					</Route>
 					<Route exact path={"/blog2-educacion-virtual-como-agente-transformador"}>
 						<Blog2 />
+					</Route>
+					<Route exact path={"/blog3-iniciando-homeschool-guia-para-padres"}>
+						<Blog3 />
 					</Route>
 					<Route exact path={"/politicadeprivacidad"}>
 						<PrivacyPolicy />
