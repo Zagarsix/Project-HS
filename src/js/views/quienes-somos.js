@@ -25,7 +25,7 @@ const QuienesSomos = () => {
                                     <span>¿Quiénes</span> <span style={{ color: "#ff6600" }}> somos?</span>
                                 </h1>
                                 <p className="lead-header mb-5">
-                                    <strong>Colegio Virtual Alianza</strong> nace como una plataforma educacional diseñada para apoyar a las familias que educan a sus hijos en casa. Con sede en Santiago, nos dedicamos a brindar una formación académica sólida desde los niveles de <strong> prekinder hasta educación básica.</strong> <br></br>Nuestro nombre se inspira en <strong>la Alianza (pacto, acuerdo)</strong> que hizo Dios con el hombre según <span className='fst-italic'>Isaías 59:21</span>, simbolizando nuestro compromiso con una educación que integra principios cristianos y excelencia académica.
+                                    <strong>Colegio Virtual Alianza</strong> nace como una plataforma educativa diseñada para apoyar a las familias que educan a sus hijos en casa. Con sede en Santiago, nos dedicamos a brindar una formación académica sólida desde <strong> enseñanza pre-básica hasta enseñanza media.</strong> <br></br>Nuestro nombre se inspira en <strong>la Alianza (pacto, acuerdo)</strong> que hizo Dios con el hombre según <span className='fst-italic'>Isaías 59:21</span>, simbolizando nuestro compromiso con una educación que integra principios cristianos y excelencia académica.
                                 </p>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ const QuienesSomos = () => {
                                 <span style={{ color: "#3dfffb", background: "#0e408f", borderRadius: "5rem", padding: "5px" }}>Desarrollo</span>
                                 <span style={{ color: "#ff8800", padding: "5px" }}>&amp; más allá</span>
                             </h2>
-                            <p className="lead fw-normal text-muted mb-0">Nuestro compromiso es ofrecer un entorno educativo <strong>flexible y personalizado </strong>que se adapte a las necesidades individuales de cada estudiante, promoviendo el desarrollo integral y el amor por el aprendizaje. <br></br>Contemplando los niveles <strong>desde enseñanza pre-básica a básica general</strong>, a través de una plataforma <strong>online y talleres presenciales.</strong>
+                            <p className="lead fw-normal text-muted mb-0">Nuestro compromiso es ofrecer un entorno educativo <strong>flexible y personalizado </strong>que se adapte a las necesidades individuales de cada estudiante, promoviendo el desarrollo integral y el amor por el aprendizaje. <br></br>Contemplando los niveles <strong>desde enseñanza pre-básica a enseñanza media</strong>, a través de una plataforma <strong>online y talleres presenciales y virtuales.</strong>
                             </p>
                         </div>
                     </div>
