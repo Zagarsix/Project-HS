@@ -17,8 +17,8 @@ import Blog2 from "./views/blog2-educacion-virtual-como-agente-transformador";
 import Blog3 from "./views/blog3-iniciando-homeschool-guia-para-padres";
 import Contacto from "./views/contacto";
 import NotFound from "./views/NotFound";
-import TermsAndConds from "./views/terminosycondiciones";
-import PrivacyPolicy from "./views/politicadeprivacidad";
+import TermsAndConds from "./views/terminos-y-condiciones";
+import PrivacyPolicy from "./views/politica-de-privacidad";
 
 //create your first component
 const Layout = () => {
@@ -63,10 +63,10 @@ const Layout = () => {
 					<Route exact path={"/blog3-iniciando-homeschool-guia-para-padres"}>
 						<Blog3 />
 					</Route>
-					<Route exact path={"/politicadeprivacidad"}>
+					<Route exact path={"/politica-de-privacidad"}>
 						<PrivacyPolicy />
 					</Route>
-					<Route exact path={"/terminosycondiciones"}>
+					<Route exact path={"/terminos-y-condiciones"}>
 						<TermsAndConds />
 					</Route>
 					<Route component={NotFound} />

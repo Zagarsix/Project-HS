@@ -20,11 +20,11 @@ const Footer = () => {
                         <p>Metro Pedro de Valdivia</p>
                         <a className='text-white' target="_blank" rel="noopener noreferrer" href="mailto:colegiovirtualalianza.adm@gmail.com"><strong>Correo:</strong> <span>colegiovirtualalianza.adm@gmail.com</span></a>
                         <p><a className='text-white' target='_blank' rel='noopener noreferrer' href='tel:+56928484497'><strong>Teléfono:</strong><span> +569 28484497</span></a></p>
-                        <NavLink className="link-light small" to="/politicadeprivacidad">
+                        <NavLink className="link-light small" to="/politica-de-privacidad">
                             Política de Privacidad
                         </NavLink>
                         <span className="text-white mx-1">·</span>
-                        <NavLink className="link-light small" to="/terminosycondiciones">
+                        <NavLink className="link-light small" to="/terminos-y-condiciones">
                             Términos y condiciones
                         </NavLink>
                     </div>

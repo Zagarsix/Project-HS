@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
                 <span style={{ color: "#0e408f" }}>Política de </span> <span style={{ color: "#ff8800" }}>Privacidad</span>
             </h1>
             <div className='row justify-content-center'>
-                <div className="py-3 px-4 px-md-2 mb-3 col-md-9 col-lg-8 col-xl-9">
+                <div className="lead-norm py-3 px-4 px-md-2 mb-3 col-md-9 col-lg-8 col-xl-9">
                     <ol>
                         <li>
                             <h2 className="h5 m-3"> <strong>Introducción</strong></h2>
