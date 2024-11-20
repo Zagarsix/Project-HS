@@ -18,7 +18,7 @@ const Matriculas = () => {
                   <span>Admisión </span> <span style={{ color: "#ff6600", fontWeight: "bold" }}> 2025</span>
                 </h1>
                 <p className="lead-header mb-5">
-                  <strong>Modalidad de estudio b-learning: </strong>clases virtuales con una duración de 1 hora pedagógica. Y a la vez, se contemplan talleres presenciales con que el alumno puede complementar su formación.
+                  <strong>Modalidad de estudio b-learning: </strong>clases virtuales con una duración de 1 hora pedagógica. Y a la vez, se contemplan talleres presenciales y virtuales con que el alumno puede complementar su formación.
                   <br></br>
                   <strong>Horario recomendado: de 09:00 a 14:00 hrs.</strong>
                 </p>
@@ -33,7 +33,7 @@ const Matriculas = () => {
           <div className="text-center mb-5">
             <h2 className="fw-bolder fs-1" style={{ color: "#0e408f" }}>Aranceles</h2>
             <p className="lead fw-normal text-muted mb-0">
-              Desde enseñanza pre-básica a básica completa
+              Desde enseñanza pre-básica a enseñanza media
             </p>
             <p className="lead fw-normal text-black mb-1">
               ¡Para comenzar un NUEVO año, con una NUEVA jornada de estudios!
@@ -55,6 +55,10 @@ const Matriculas = () => {
                   <ul className="list-unstyled mb-4">
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
+                      <strong>Enseñanza media $65.000</strong>
+                    </li>
+                    <li className="mb-2">
+                      <i className="bi bi-check text-primary" />
                       <strong>En caso de desistir, 50% reembolsable</strong>
                     </li>
                     <li className="mb-2">
@@ -65,26 +69,6 @@ const Matriculas = () => {
                       <i className="bi bi-check text-primary" />
                       Accede al descuento por <strong>matrícula familiar</strong>
                     </li>
-                    {/* <li className="mb-2">
-                      <i className="bi bi-check text-primary" />
-                      Acceso a retroalimentación
-                    </li>
-                    <li className="mb-2 text-muted">
-                      <i className="bi bi-x" />
-                      Mentorías 1 a 1
-                    </li>
-                    <li className="mb-2 text-muted">
-                      <i className="bi bi-x" />
-                      Lorem ipsum
-                    </li>
-                    <li className="mb-2 text-muted">
-                      <i className="bi bi-x" />
-                      Free linked domain
-                    </li>
-                    <li className="text-muted">
-                      <i className="bi bi-x" />
-                      Monthly status reports
-                    </li> */}
                   </ul>
                   <div className="d-grid">
                     <NavLink className="btn btn-xl" to="/Contacto">
@@ -109,6 +93,10 @@ const Matriculas = () => {
                   <ul className="list-unstyled mb-4">
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
+                      <strong>Enseñanza media $89.000/ 10 cuotas</strong>
+                    </li>
+                    <li className="mb-2">
+                      <i className="bi bi-check text-primary" />
                       <strong>De marzo a diciembre</strong>
                     </li>
                     <li className="mb-2">
@@ -117,34 +105,14 @@ const Matriculas = () => {
                     </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                      10 alumnos máximo por nivel
+                      <strong>10 alumnos máximo</strong> por nivel
                     </li>
-                    {/* <li className="mb-2">
-                      <i className="bi bi-check text-primary" />
-                      Community access
-                    </li>
-                    <li className="mb-2">
-                      <i className="bi bi-check text-primary" />
-                      Unlimited private projects
-                    </li>
-                    <li className="mb-2">
-                      <i className="bi bi-check text-primary" />
-                      Dedicated support
-                    </li>
-                    <li className="mb-2">
-                      <i className="bi bi-check text-primary" />
-                      Free linked domain
-                    </li>
-                    <li className="text-muted">
-                      <i className="bi bi-x" />
-                      Monthly status reports
-                    </li> */}
                   </ul>
-                  {/* <div className="d-grid">
+                  <div className="d-grid">
                     <NavLink className="btn btn-xl" id="buttonSec" to="#!">
-                      Matricular
+                      Realizar pago <i className="fa-solid fa-arrow-right"></i>
                     </NavLink>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -167,35 +135,18 @@ const Matriculas = () => {
                     </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                      Música (piano inicial), acondicionamiento físico, inglés y cocina entretenida.
+                      Cocina entretenida, Acondicionamiento físico, Música (piano inicial) e Inglés (idiomas).
                     </li>
                     <li className="mb-2">
                       <i className="bi bi-check text-primary" />
-                      Horario: entre 12:00 y 14:00 hrs
+                      Horario: entre 12:30 y 14:00 hrs
                     </li>
-                    {/* <li className="mb-2">
-                      <i className="bi bi-check text-primary" />
-                      Community access
-                    </li>
-                    <li className="mb-2">
-                      <i className="bi bi-check text-primary" />
-                      Unlimited private
-                    </li>
-                    <li className="mb-2">
-                      <i className="bi bi-check text-primary" />
-                      Dedicated support
-                    </li>
-                    <li className="mb-2">
-                      <i className="bi bi-check text-primary" />
-                      <strong>Unlimited access</strong>
-                      
-                    </li> */}
                   </ul>
-                  {/* <div className="d-grid">
-                    <NavLink className="btn btn-xl" to="#!">
-                      Elegir
+                  <div className="d-grid">
+                    <NavLink className="btn btn-xl" id="buttonSec" to="/centro-de-ayuda">
+                      Conocer más <i className="fa-solid fa-angles-right"></i>
                     </NavLink>
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
@@ -270,8 +221,6 @@ const Matriculas = () => {
         </div>
       </section>
     </main>
-    {/* Bootstrap core JS*/}
-    {/* Core theme JS*/}
   </>
 
 }
