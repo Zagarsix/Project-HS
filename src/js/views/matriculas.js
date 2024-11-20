@@ -31,7 +31,7 @@ const Matriculas = () => {
       <section className="bg-light py-1 mb-5">
         <div className="container px-5 my-5">
           <div className="text-center mb-5">
-            <h1 className="fw-bolder" style={{ color: "#0e408f" }}>Aranceles</h1>
+            <h2 className="fw-bolder fs-1" style={{ color: "#0e408f" }}>Aranceles</h2>
             <p className="lead fw-normal text-muted mb-0">
               Desde enseñanza pre-básica a básica completa
             </p>
@@ -205,7 +205,7 @@ const Matriculas = () => {
       {/* Pasos para matricular*/}
       <section className="bg-light py-3 mt-4 mb-5">
         <div className="container px-5 my-5">
-          <h1 className="fw-bolder mb-5" style={{ color: "#0e408f" }}>¿Cómo matricular a tu hijo en CVA?</h1>
+          <h2 className="fw-bolder fs-1 mb-5" style={{ color: "#0e408f" }}>¿Cómo matricular a tu hijo en CVA?</h2>
           {/* Paso 1*/}
           <div className="row gx-5 mb-5">
             <div className="col-lg-7 text-start py-3 mb-5">

@@ -35,7 +35,7 @@ const Contacto = () => {
                 <div className="feature bg-primary bg-gradient text-white rounded-3 mb-3">
                   {/* <i className="bi bi-envelope" /> */}
                 </div>
-                <h1 className="fw-bolder" style={{ color: "#ff8800" }}>Contáctanos</h1>
+                <h2 className="fw-bolder fs-1" style={{ color: "#ff8800" }}>Contáctanos</h2>
                 <p className="lead fw-normal text-muted mb-0">Nos encantaría ayudarte</p>
               </div>
               <div className="row gx-5 justify-content-start">

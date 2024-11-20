@@ -26,7 +26,7 @@ const Ayuda = () => {
       <section className="py-2" style={{ paddingBottom: "100px", marginBottom: "100px" }}>
         <div className="container px-5 my-3">
           <div className="text-center mb-5">
-            <h1 className="fw-bolder" style={{ color: "#0e408f" }}>Alianza responde</h1>
+            <h2 className="fw-bolder fs-1" style={{ color: "#0e408f" }}>Alianza responde</h2>
             <p className="lead fw-normal text-muted mb-0" >¿Cómo te podemos ayudar?</p>
           </div>
           <div className="row gx-5">

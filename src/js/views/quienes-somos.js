@@ -110,7 +110,7 @@ const QuienesSomos = () => {
             <section className="py-5 bg-light">
                 <div className="container px-5 my-5">
                     <div className="text-center">
-                        <h1 className="fw-bolder" style={{ color: "#0e408f" }}>Equipo Administrativo</h1>
+                        <h2 className="fw-bolder fs-1" style={{ color: "#0e408f" }}>Equipo Administrativo</h2>
                         <p className="lead fw-normal text-muted mb-5">
                             Dedicados a la calidad &amp; el éxito
                         </p>

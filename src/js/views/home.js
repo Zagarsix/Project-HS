@@ -25,13 +25,13 @@ const Home = () => {
           <div className="row gx-4 gx-lg-5 justify-content-start">
             <div className="col-md-12 col-lg-12 col-xl-10">
               <div className="site-heading">
-                <h1 id="specialName" style={{ fontWeight: "bolder", color: "white" }}>Educación &nbsp;</h1>
-                <h2 className="subtittle" style={{ color: "white", fontWeight: "bold", fontStyle: "italic" }}>
+                <h1 id="specialName" style={{ fontWeight: "bolder", color: "white" }}>Educación &nbsp;</h1><br></br>
+                <h1 className="subtittle" style={{ color: "white", fontWeight: "bold", fontStyle: "italic" }}>
                   <Typewriter
                     words={['online', 'cristiana', 'personalizada', 'flexible', 'innovadora', 'de calidad']}
                     loop cursor delaySpeed={1500} typeSpeed={100} deleteSpeed={50}
                     cursorStyle='!'
-                  /></h2>
+                  /></h1>
                 <span className="subheading col-12">«...Yo hago un pacto con ustedes y les prometo que mi Espíritu y las enseñanzas que les he dado, no se apartarán jamás de ustedes ni de sus hijos...»<br />- Isaías 59:21 </span>
               </div>
             </div>
@@ -191,7 +191,7 @@ const Home = () => {
       {/* Testimonial section*/}
       {/* <section className="testimonial" id="testimonial" style={{ backgroundImage: `url(${family})` }}>
         <div className="container px-4 px-lg-5 my-5 text-black">
-          <h1 className="text-center mb-5" style={{ color: "#ff8800" }}>Testimonios</h1>
+          <h2 className="text-center mb-5" style={{ color: "#ff8800" }}>Testimonios</h2>
           <TestimonialCarousel />
         </div>
       </section> */}
@@ -199,7 +199,7 @@ const Home = () => {
       {/* Admission section */}
       <section className="testimonial" id="admission" style={{ backgroundImage: `url(${admision})` }}>
         <div className="container px-4 px-lg-5 my-5 text-black">
-          <h1 className="text-start mb-3" style={{ color: "#ff8800" }}>Admisión 2025</h1>
+          <h2 className="text-start fs-1 mb-3" style={{ color: "#ff8800" }}>Admisión 2025</h2>
           <div className="d-flex align-items-center justify-content-between flex-column flex-xl-row text-start text-xl-start">
             <div className="mb-4 mb-xl-0">
               <div className="fs-4 fw-bold text-white">
