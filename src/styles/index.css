@@ -559,7 +559,7 @@ progress {
   border-radius: 1rem;
 }
 
-.lead-blog {
+.lead-blog, .lead-norm {
 text-align: justify;
 }
 
