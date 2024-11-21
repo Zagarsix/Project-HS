@@ -12683,7 +12683,7 @@ header.masthead .post-heading .meta a {
   }
 
   .subtittle {
-    font-size: 2.6rem;
+    font-size: 2.5rem !important;
     margin-left: 3rem;
   }
 

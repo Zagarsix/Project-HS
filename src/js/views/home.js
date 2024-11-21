@@ -25,8 +25,8 @@ const Home = () => {
           <div className="row gx-4 gx-lg-5 justify-content-start">
             <div className="col-md-12 col-lg-12 col-xl-10">
               <div className="site-heading">
-                <h1 id="specialName" style={{ fontWeight: "bolder", color: "white" }}>Educación &nbsp;</h1><br></br>
-                <h1 className="subtittle" style={{ color: "white", fontWeight: "bold", fontStyle: "italic" }}>
+                <h1 style={{ fontWeight: "bolder", color: "white" }}>Educación &nbsp;</h1><br></br>
+                <h1 className="subtittle" id="specialName" style={{ color: "white", fontWeight: "bold", fontStyle: "italic" }}>
                   <Typewriter
                     words={['online', 'cristiana', 'personalizada', 'flexible', 'innovadora', 'de calidad']}
                     loop cursor delaySpeed={1500} typeSpeed={100} deleteSpeed={50}
