@@ -100,7 +100,7 @@ const Blog3 = () => {
                                     <li><span className='fw-semibold fst-italic'> COMUNICATIVOS:</span> Mantener un diálogo abierto y efectivo con los hijos, siendo capaces de explicar conceptos claramente y escuchar activamente sus necesidades y dudas.</li>
                                     <li><span className='fw-semibold fst-italic'> PERSEVERANTES:</span> Mantener la constancia y determinación en el proceso educativo, incluso cuando surjan dificultades o desafíos, sin rendirse ante los obstáculos.</li>
                                     <li><span className='fw-semibold fst-italic'> ORGANIZADOS:</span> Habilidad para estructurar el tiempo, materiales y actividades de manera eficiente, manteniendo un ambiente de aprendizaje ordenado y productivo.</li>
-                                    <li><span className='fw-semibold fst-italic'> BUSCAR FOTALEZAS:</span> Capacidad de identificar y potenciar las habilidades naturales y talentos tanto de los padres como de los hijos, aprovechándolas en el proceso educativo.</li>
+                                    <li><span className='fw-semibold fst-italic'> BUSCAR FORTALEZAS:</span> Capacidad de identificar y potenciar las habilidades naturales y talentos tanto de los padres como de los hijos, aprovechándolas en el proceso educativo.</li>
                                     <li><span className='fw-semibold fst-italic'> SABIOS PARA ESTABLECER RUTINAS:</span>  Habilidad para crear y mantener horarios y hábitos de estudio consistentes pero flexibles, que se adapten a las necesidades de la familia y promuevan un aprendizaje efectivo.</li>
                                 </ol>
                             </div>
