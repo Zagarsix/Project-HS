@@ -1,5 +1,6 @@
 # 📘 Project HS
-
+---
+## For "Colegio Virtual Alianza"
 ## 📌 Overview
 Web platform designed with a client-server architecture to manage and display structured information.
 
